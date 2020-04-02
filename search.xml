@@ -12,9 +12,9 @@
     <title>테스트 입니다.</title>
     <url>/2020/04/01/test/</url>
     <content><![CDATA[<p>여기에 쓰면 글이 반영되는지 확인중입니다. </p>
-<h3 id="경로"><a href="#경로" class="headerlink" title="경로"></a>경로</h3><p>$ source/_posts/</p>
-<h3 id="파일"><a href="#파일" class="headerlink" title="파일"></a>파일</h3><p>파일명.md</p>
-]]></content>
+<h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post<br>$ source/_posts/</p>
+<h3 id="파일-이름"><a href="#파일-이름" class="headerlink" title="파일 이름"></a>파일 이름</h3><p>파일명.md</p>
+<h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3>]]></content>
   </entry>
   <entry>
     <title>안녕하세요 :)</title>
