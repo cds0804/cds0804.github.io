@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>안녕하세요</title>
+    <title>Pandas</title>
+    <url>/2020/04/02/Pandas/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>테스트 입니다.</title>
+    <url>/2020/04/01/test/</url>
+    <content><![CDATA[<p>여기에 쓰면 글이 반영되는지 확인중입니다. </p>
+<h3 id="경로"><a href="#경로" class="headerlink" title="경로"></a>경로</h3><p>$ source/_posts/</p>
+<h3 id="파일"><a href="#파일" class="headerlink" title="파일"></a>파일</h3><p>파일명.md</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>안녕하세요 :)</title>
     <url>/2020/02/26/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
