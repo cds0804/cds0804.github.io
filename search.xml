@@ -4,6 +4,12 @@
     <title>spark</title>
     <url>/2020/04/07/spark/</url>
     <content><![CDATA[<h3 id="패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다"><a href="#패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다" class="headerlink" title="패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다."></a>패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다.</h3><h3 id="조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다"><a href="#조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다" class="headerlink" title="조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다."></a>조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다.</h3><h3 id="환경설정"><a href="#환경설정" class="headerlink" title="환경설정"></a>환경설정</h3>]]></content>
+      <categories>
+        <category>spark</category>
+      </categories>
+      <tags>
+        <tag>spark</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo에 글을 쓰고 사이트에 반영하기입니다.</title>
@@ -29,6 +35,14 @@
     <title>python</title>
     <url>/2020/04/05/python-0/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>coding</tag>
+        <tag>programming</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo_deploy_contents</title>
@@ -58,12 +72,16 @@
         <tag>github</tag>
         <tag>github.io</tag>
         <tag>hexo</tag>
+        <tag>theme</tag>
       </tags>
   </entry>
   <entry>
     <title>webcrawling</title>
     <url>/2020/04/03/webcrawling/</url>
     <content><![CDATA[<h3 id="테스트입니다"><a href="#테스트입니다" class="headerlink" title="테스트입니다."></a>테스트입니다.</h3>]]></content>
+      <categories>
+        <category>crawling</category>
+      </categories>
       <tags>
         <tag>web</tag>
         <tag>webcrawling</tag>
@@ -76,6 +94,15 @@
 <li>출처: <a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf">https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf</a></li>
 </ul>
 <h3 id="판다스-치트시트-판다스-활용시-발암-예방을-위한-엑기스-모음집"><a href="#판다스-치트시트-판다스-활용시-발암-예방을-위한-엑기스-모음집" class="headerlink" title="판다스 치트시트 : 판다스 활용시 발암 예방을 위한 엑기스 모음집"></a>판다스 치트시트 : 판다스 활용시 발암 예방을 위한 엑기스 모음집</h3>]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>pandas</tag>
+        <tag>coding</tag>
+        <tag>data science</tag>
+      </tags>
   </entry>
   <entry>
     <title>안녕하세요 !!</title>
