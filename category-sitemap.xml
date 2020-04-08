@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/project/</loc>
+        <lastmod>2020-04-08T05:53:16.026Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/hexo/</loc>
+        <lastmod>2020-04-08T05:41:01.661Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/spark/</loc>
         <lastmod>2020-04-08T05:39:11.647Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -22,21 +36,7 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/project/</loc>
-        <lastmod>2020-04-08T05:35:59.035Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/categories/crawling/</loc>
-        <lastmod>2020-04-08T05:13:18.629Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/hexo/</loc>
         <lastmod>2020-04-08T05:13:18.629Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
