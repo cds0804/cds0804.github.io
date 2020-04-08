@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>1인분만 하자!</title>
+  
+  <subtitle>tech blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://cds0804.github/"/>
+  <updated>2020-04-08T02:23:43.798Z</updated>
+  <id>https://cds0804.github/</id>
+  
+  <author>
+    <name>David Cho</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spark</title>
+    <link href="https://cds0804.github/2020/04/07/spark/"/>
+    <id>https://cds0804.github/2020/04/07/spark/</id>
+    <published>2020-04-07T08:32:01.000Z</published>
+    <updated>2020-04-08T02:23:43.798Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다"><a href="#패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다" class="headerlink" title="패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다."></a>패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다.</h3><h3 id="조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다"><a href="#조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다" class="headerlink" title="조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다."></a>조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다.</h3><h3 id="환경설정"><a href="#환경설정" class="headerlink" title="환경설정"></a>환경설정</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다&quot;&gt;&lt;a href=&quot;#패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-
+      
+    
+    </summary>
+    
+    
+      <category term="spark" scheme="https://cds0804.github/categories/spark/"/>
+    
+    
+      <category term="spark" scheme="https://cds0804.github/tags/spark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo에 글을 쓰고 사이트에 반영하기입니다.</title>
+    <link href="https://cds0804.github/2020/04/05/Hexo%20deploy%20contents/"/>
+    <id>https://cds0804.github/2020/04/05/Hexo%20deploy%20contents/</id>
+    <published>2020-04-05T04:09:09.249Z</published>
+    <updated>2020-04-07T01:33:38.964Z</updated>
+    
+    <content type="html"><![CDATA[<p>※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. </p><p>헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.<br>그래서 여기에 쓰면 글이 반영되는지 확인중입니다.<br>그리고 여기에 글을 쓰면 반영되는지 확인했습니다. </p><p>그럼, 내가 쓴 글이 블로그에 어떻게 올라가는지 제가 아는 내용을 최대한 자세히 설명 드리겠습니다 :)</p><ol><li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li></ol><h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. &lt;/p&gt;
+&lt;p&gt;헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.&lt;br&gt;그래서 여기에 쓰면 글이 반영되는지 확
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python</title>
+    <link href="https://cds0804.github/2020/04/05/python-0/"/>
+    <id>https://cds0804.github/2020/04/05/python-0/</id>
+    <published>2020-04-05T04:03:20.000Z</published>
+    <updated>2020-04-08T02:23:43.808Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://cds0804.github/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://cds0804.github/tags/python/"/>
+    
+      <category term="coding" scheme="https://cds0804.github/tags/coding/"/>
+    
+      <category term="programming" scheme="https://cds0804.github/tags/programming/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo_deploy_contents</title>
+    <link href="https://cds0804.github/2020/04/03/Hexo-deploy-contents/"/>
+    <id>https://cds0804.github/2020/04/03/Hexo-deploy-contents/</id>
+    <published>2020-04-03T09:55:27.000Z</published>
+    <updated>2020-04-08T02:20:56.946Z</updated>
+    
+    <content type="html"><![CDATA[<p>※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. </p><p>헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.<br>그래서 여기에 쓰면 글이 반영되는지 확인중입니다.<br>그리고 여기에 글을 쓰면 반영되는지 확인했습니다. </p><p>그럼, 내가 쓴 글이 블로그에 어떻게 올라가는지 제가 아는 내용을 최대한 자세히 설명 드리겠습니다 :)</p><ol><li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li></ol><h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. &lt;/p&gt;
+&lt;p&gt;헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.&lt;br&gt;그래서 여기에 쓰면 글이 반영되는지 확
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://cds0804.github/categories/hexo/"/>
+    
+    
+      <category term="블로그" scheme="https://cds0804.github/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
+    
+      <category term="next" scheme="https://cds0804.github/tags/next/"/>
+    
+      <category term="github" scheme="https://cds0804.github/tags/github/"/>
+    
+      <category term="github.io" scheme="https://cds0804.github/tags/github-io/"/>
+    
+      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
+    
+      <category term="theme" scheme="https://cds0804.github/tags/theme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>webcrawling</title>
+    <link href="https://cds0804.github/2020/04/03/webcrawling/"/>
+    <id>https://cds0804.github/2020/04/03/webcrawling/</id>
+    <published>2020-04-03T09:49:21.000Z</published>
+    <updated>2020-04-08T02:23:43.798Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="테스트입니다"><a href="#테스트입니다" class="headerlink" title="테스트입니다."></a>테스트입니다.</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;테스트입니다&quot;&gt;&lt;a href=&quot;#테스트입니다&quot; class=&quot;headerlink&quot; title=&quot;테스트입니다.&quot;&gt;&lt;/a&gt;테스트입니다.&lt;/h3&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="crawling" scheme="https://cds0804.github/categories/crawling/"/>
+    
+    
+      <category term="web" scheme="https://cds0804.github/tags/web/"/>
+    
+      <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>판다스(pandas) cheet sheet</title>
+    <link href="https://cds0804.github/2020/04/03/Pandas/"/>
+    <id>https://cds0804.github/2020/04/03/Pandas/</id>
+    <published>2020-04-03T07:45:43.466Z</published>
+    <updated>2020-04-08T02:23:38.698Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>출처: <a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf">https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf</a></li></ul><h3 id="판다스-치트시트-판다스-활용시-발암-예방을-위한-엑기스-모음집"><a href="#판다스-치트시트-판다스-활용시-발암-예방을-위한-엑기스-모음집" class="headerlink" title="판다스 치트시트 : 판다스 활용시 발암 예방을 위한 엑기스 모음집"></a>판다스 치트시트 : 판다스 활용시 발암 예방을 위한 엑기스 모음집</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;출처: &lt;a href=&quot;https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf&quot;&gt;https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://cds0804.github/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://cds0804.github/tags/python/"/>
+    
+      <category term="pandas" scheme="https://cds0804.github/tags/pandas/"/>
+    
+      <category term="coding" scheme="https://cds0804.github/tags/coding/"/>
+    
+      <category term="data science" scheme="https://cds0804.github/tags/data-science/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>안녕하세요 !!</title>
+    <link href="https://cds0804.github/2020/04/02/hello-world/"/>
+    <id>https://cds0804.github/2020/04/02/hello-world/</id>
+    <published>2020-04-02T04:31:44.334Z</published>
+    <updated>2020-04-06T01:21:51.811Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
