@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-08T06:11:51.128Z</updated>
+  <updated>2020-04-08T06:47:20.904Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://cds0804.github/2020/04/08/Linear_Regression/"/>
     <id>https://cds0804.github/2020/04/08/Linear_Regression/</id>
     <published>2020-04-08T05:30:49.000Z</published>
-    <updated>2020-04-08T06:11:51.128Z</updated>
+    <updated>2020-04-08T06:47:20.904Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="선형회귀분석-순서"><a href="#선형회귀분석-순서" class="headerlink" title="선형회귀분석 순서"></a>선형회귀분석 순서</h1><ol><li>주제 선정하기</li></ol><ul><li>개인적으로 가장 중요하다고 생각되는 부분입니다. </li><li>자료가 있는 상황이라면 자료를 하나씩 정리하는 것도 필요하다고 생각합니다. </li></ul><ol start="2"><li>데이터 수집</li></ol><ul><li>주제를 선정하였다면 예측하고 싶은 내용 혹은 결과에 대해 영향을 미치고 필요하다고 생각되는 데이터를 모아야 합니다. </li><li>데이터를 수집하는 방법은 설문조사, 크롤링 등이 있으며, 데이터가 제한된 상황이 있을 수 있습니다. (즉, 주어진 데이터로만 분석해야 하는 상황)</li></ul><ol start="3"><li>EDA 진행하기</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="선형회귀분석-순서"><a href="#선형회귀분석-순서" class="headerlink" title="선형회귀분석 순서"></a>선형회귀분석 순서</h1><ol><li>주제 선정하기</li></ol><ul><li>개인적으로 가장 중요하다고 생각되는 부분입니다. </li><li>자료가 있는 상황이라면 자료를 하나씩 정리하는 것도 필요하다고 생각합니다. </li></ul><ol start="2"><li>데이터 수집</li></ol><ul><li>주제를 선정하였다면 예측하고 싶은 내용 혹은 결과에 대해 영향을 미치고 필요하다고 생각되는 데이터를 모아야 합니다. </li><li>데이터를 수집하는 방법은 설문조사, 크롤링 등이 있으며, 데이터가 제한된 상황이 있을 수 있습니다. (즉, 주어진 데이터로만 분석해야 하는 상황)</li></ul><ol start="3"><li>EDA 진행하기</li></ol><h2 id="추후-업데이트-진행예정"><a href="#추후-업데이트-진행예정" class="headerlink" title="추후 업데이트 진행예정"></a>추후 업데이트 진행예정</h2>]]></content>
     
     <summary type="html">
     
