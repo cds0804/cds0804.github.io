@@ -8,8 +8,24 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/03/Hexo-deploy-contents/</loc>
+        <lastmod>2020-04-08T05:13:18.629Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/03/webcrawling/</loc>
+        <lastmod>2020-04-08T05:13:18.629Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/05/python-0/</loc>
-        <lastmod>2020-04-08T02:23:43.808Z</lastmod>
+        <lastmod>2020-04-08T05:13:18.628Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -24,24 +40,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/03/webcrawling/</loc>
-        <lastmod>2020-04-08T02:23:43.798Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://cds0804.github/2020/04/03/Pandas/</loc>
         <lastmod>2020-04-08T02:23:38.698Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/03/Hexo-deploy-contents/</loc>
-        <lastmod>2020-04-08T02:20:56.946Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
