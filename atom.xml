@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>1인분만 하자!</title>
+  <title>목표는 1인분!</title>
   
-  <subtitle>tech blog</subtitle>
+  <subtitle>공부중</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-08T02:23:43.798Z</updated>
+  <updated>2020-04-08T05:33:00.535Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linear Regression</title>
+    <link href="https://cds0804.github/2020/04/08/Regression/"/>
+    <id>https://cds0804.github/2020/04/08/Regression/</id>
+    <published>2020-04-08T05:30:49.000Z</published>
+    <updated>2020-04-08T05:33:00.535Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="선형회귀분석"><a href="#선형회귀분석" class="headerlink" title="선형회귀분석"></a>선형회귀분석</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;선형회귀분석&quot;&gt;&lt;a href=&quot;#선형회귀분석&quot; class=&quot;headerlink&quot; title=&quot;선형회귀분석&quot;&gt;&lt;/a&gt;선형회귀분석&lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>spark</title>
