@@ -8,6 +8,30 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/07/spark/</loc>
+        <lastmod>2020-04-08T05:39:11.647Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/05/Hexo%20deploy%20contents/</loc>
+        <lastmod>2020-04-08T05:39:11.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/05/python-0/</loc>
+        <lastmod>2020-04-08T05:39:11.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/08/Linear_Regression/</loc>
         <lastmod>2020-04-08T05:35:59.035Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -32,32 +56,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/05/python-0/</loc>
-        <lastmod>2020-04-08T05:13:18.628Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/07/spark/</loc>
-        <lastmod>2020-04-08T02:23:43.798Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://cds0804.github/2020/04/03/Pandas/</loc>
         <lastmod>2020-04-08T02:23:38.698Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/05/Hexo%20deploy%20contents/</loc>
-        <lastmod>2020-04-07T01:33:38.964Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
