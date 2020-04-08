@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-08T05:33:00.535Z</updated>
+  <updated>2020-04-08T05:35:59.035Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Linear Regression</title>
-    <link href="https://cds0804.github/2020/04/08/Regression/"/>
-    <id>https://cds0804.github/2020/04/08/Regression/</id>
+    <link href="https://cds0804.github/2020/04/08/Linear_Regression/"/>
+    <id>https://cds0804.github/2020/04/08/Linear_Regression/</id>
     <published>2020-04-08T05:30:49.000Z</published>
-    <updated>2020-04-08T05:33:00.535Z</updated>
+    <updated>2020-04-08T05:35:59.035Z</updated>
     
     <content type="html"><![CDATA[<h1 id="선형회귀분석"><a href="#선형회귀분석" class="headerlink" title="선형회귀분석"></a>선형회귀분석</h1>]]></content>
     
@@ -35,6 +35,12 @@
     </summary>
     
     
+      <category term="project" scheme="https://cds0804.github/categories/project/"/>
+    
+    
+      <category term="linear regression" scheme="https://cds0804.github/tags/linear-regression/"/>
+    
+      <category term="선형회귀분석" scheme="https://cds0804.github/tags/%EC%84%A0%ED%98%95%ED%9A%8C%EA%B7%80%EB%B6%84%EC%84%9D/"/>
     
   </entry>
   

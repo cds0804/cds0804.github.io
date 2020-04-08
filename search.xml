@@ -2,8 +2,15 @@
 <search>
   <entry>
     <title>Linear Regression</title>
-    <url>/2020/04/08/Regression/</url>
+    <url>/2020/04/08/Linear_Regression/</url>
     <content><![CDATA[<h1 id="선형회귀분석"><a href="#선형회귀분석" class="headerlink" title="선형회귀분석"></a>선형회귀분석</h1>]]></content>
+      <categories>
+        <category>project</category>
+      </categories>
+      <tags>
+        <tag>linear regression</tag>
+        <tag>선형회귀분석</tag>
+      </tags>
   </entry>
   <entry>
     <title>spark</title>

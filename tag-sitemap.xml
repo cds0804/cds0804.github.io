@@ -3,6 +3,20 @@
 
 
     <url>
+        <loc>https://cds0804.github/tags/%25EC%2584%25A0%25ED%2598%2595%25ED%259A%258C%25EA%25B7%2580%25EB%25B6%2584%25EC%2584%259D/</loc>
+        <lastmod>2020-04-08T05:35:59.035Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/linear-regression/</loc>
+        <lastmod>2020-04-08T05:35:59.035Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/tags/webcrawling/</loc>
         <lastmod>2020-04-08T05:13:18.629Z</lastmod>
         <changefreq>weekly</changefreq>
