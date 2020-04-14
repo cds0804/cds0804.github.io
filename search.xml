@@ -1,6 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test</title>
+    <url>/2020/04/14/test/</url>
+    <content><![CDATA[<h1 id="테스트-페이지입니다"><a href="#테스트-페이지입니다" class="headerlink" title="테스트 페이지입니다."></a>테스트 페이지입니다.</h1><h1 id="why-dosen’t-work-disqus"><a href="#why-dosen’t-work-disqus" class="headerlink" title="why dosen’t work disqus?"></a>why dosen’t work disqus?</h1>]]></content>
+  </entry>
+  <entry>
+    <title>machine_learning</title>
+    <url>/2020/04/14/Machine_Learning/</url>
+    <content><![CDATA[<h1 id="머신러닝-요약"><a href="#머신러닝-요약" class="headerlink" title="머신러닝 요약"></a>머신러닝 요약</h1><ul>
+<li>기계가 </li>
+<li>주어진 데이터틀 통해 </li>
+<li>규칙을 찾는 것</li>
+</ul>
+]]></content>
+      <categories>
+        <category>ML</category>
+      </categories>
+      <tags>
+        <tag>Machine Learnig</tag>
+        <tag>machine learning</tag>
+        <tag>머신러닝</tag>
+        <tag>ML</tag>
+        <tag>ml</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cross_validation</title>
+    <url>/2020/04/09/cross-validation/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>STAR</title>
+    <url>/2020/04/09/STAR/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Agile</title>
+    <url>/2020/04/08/Agile/</url>
+    <content><![CDATA[<h3 id="Agile-애자일-방법론-요약"><a href="#Agile-애자일-방법론-요약" class="headerlink" title="Agile(애자일) 방법론 요약"></a>Agile(애자일) 방법론 요약</h3><p>출처 : <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560">https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560</a></p>
+<ul>
+<li>작업 계획을 짧은 단위로 세우고</li>
+<li>시제품을 만들어 나가는 사이클을 반복</li>
+<li>고객의 요구 변화에 유연하고도 신속하게 대응하는 개발 방법론 </li>
+</ul>
+<p>요즘 에자일, 에자일 기법에 대해 2번 이상 듣기도 하고 기업에서도 에자일 기법으로 프로세스를 진행한다고 하니 무엇인지에 대한 개념도 알아보고 내 삶에 적용 시키기도 해볼 겸해서 간단하게 기록하려합니다. </p>
+<p>우선, 애자일 방법이란 ?<br>기업경영 및 소프트웨어 등의 개발을 고객중심으로 진행하는 방법론</p>
+<p>애자일방식의 조직운영</p>
+<ol>
+<li>고객중심</li>
+<li>아웃풋 중심</li>
+<li>유연하고도 민첩한 대응력</li>
+<li>자율성과 권한을 가진 조직 운영</li>
+</ol>
+<h3 id="에자일-개발-선언문"><a href="#에자일-개발-선언문" class="headerlink" title="에자일 개발 선언문"></a>에자일 개발 선언문</h3><ul>
+<li><a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>concept</category>
+      </categories>
+      <tags>
+        <tag>concept</tag>
+        <tag>agile</tag>
+        <tag>Agile</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>EDA</title>
+    <url>/2020/04/08/EDA/</url>
+    <content><![CDATA[<h3 id="탐색적-데이터-분석"><a href="#탐색적-데이터-분석" class="headerlink" title="탐색적 데이터 분석"></a>탐색적 데이터 분석</h3><h3 id="EDA-Exploratory-Data-Analysis"><a href="#EDA-Exploratory-Data-Analysis" class="headerlink" title="EDA(Exploratory Data Analysis)"></a>EDA(Exploratory Data Analysis)</h3><h4 id="들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-요점-정리를-해봤습니다"><a href="#들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-요점-정리를-해봤습니다" class="headerlink" title="들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 요점 정리를 해봤습니다."></a>들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 요점 정리를 해봤습니다.</h4><ul>
+<li>데이터 분석의 목적을 정한다. </li>
+<li>EDA를 위해 데이터를 분행하여 확인한다. </li>
+<li>객관적인 도메인 지식을 참고한다.</li>
+</ul>
+<p>보통 제가 본 바로는 데이터를 요리의 재료로 흔히들 비교 합니다.<br>김치란 재료를 어떻게 사용하느냐에 따라 김치전도 될 수 있고, 김치찌개도 될 수 있으며, 김치 볶음밥도 될 수 있듯이 말이죠. </p>
+<p>데이터도 분석가가 어떤 알고리즘을 사용하여 분석하느냐에 따라 결과가 달라질 수 있기 때문이라고 생각합니다. </p>
+<p>그럼 탐색적 데이터 분석은 어떻게 해야 하는 것일까요? </p>
+<p>먼저, EDA를 하기전 해야 할 것이 있습니다. 바로, 어떤 요리를 만들지 정하는 것입니다. 즉, 목적을 정하는 것입니다. 예측, 추천, 분석 등을 정해야 합니다. 삼천포로 빠질 수 있기 때문입니다. 삼천포는 우선 하던 일을 마무리 한 후에 하시면 정신건강에 도움이 될 거라 확신합니다. </p>
+<ol>
+<li>데이터 분석의 목적과 목표가 정해졌다면, 가지고 있는 데이터 혹은 가져올 전처리되지 않은 데이터를 어떻게 활용하여 원하는 목표를 달성할 것인지 데이터를 알아봐야겠죠? </li>
+<li>개인적으로는 객관적이고 정량적(定量的)으로 증명할 수 있는 도메인 지식을 가지고 있으면 분석하는데 유용하게 사용될 것 같습니다. </li>
+<li>분석에 도움이 안될 것 같은 데이터들은 제외시키고, null 값(정보가 없는 데이터)은 어떻게 처리 할지도 생각해 봐야 합니다. </li>
+</ol>
+<p>또 다시 요리에 비교를 해보면, 재료가 될 김치에 어떤 액젓이 들어갔는지, 고추가루는 국산인지, 고추가루의 크기는 어느 정도인지, 색깔은 밝은지 어두운지 등등 낱낱히 파헤치는 작업이 EDA 작업이라고 생각하시면 될 것 같습니다. </p>
+]]></content>
+      <categories>
+        <category>concept</category>
+      </categories>
+      <tags>
+        <tag>concept</tag>
+        <tag>eda</tag>
+        <tag>EDA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>sql</title>
+    <url>/2020/04/08/sql/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>data analysis</title>
+    <url>/2020/04/08/data_analysis/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>data science</tag>
+        <tag>data analysis</tag>
+        <tag>big data</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linear Regression</title>
     <url>/2020/04/08/Linear_Regression/</url>
     <content><![CDATA[<h1 id="선형회귀분석-순서"><a href="#선형회귀분석-순서" class="headerlink" title="선형회귀분석 순서"></a>선형회귀분석 순서</h1><ol>
@@ -41,7 +150,7 @@
       </tags>
   </entry>
   <entry>
-    <title>본인의 Hexo 블로그에 게시글 올리기.</title>
+    <title>Hexo 블로그에 게시글 올리기</title>
     <url>/2020/04/05/Hexo%20deploy%20contents/</url>
     <content><![CDATA[<p>※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. </p>
 <p>헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.<br>그래서 여기에 쓰면 글이 반영되는지 확인중입니다.<br>그리고 여기에 글을 쓰면 반영되는지 확인했습니다. </p>
@@ -66,7 +175,43 @@
   <entry>
     <title>python</title>
     <url>/2020/04/05/python-0/</url>
-    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+    <content><![CDATA[<h1 id="파이썬-마크다운-문법-사용법-3줄-요약"><a href="#파이썬-마크다운-문법-사용법-3줄-요약" class="headerlink" title="파이썬 마크다운 문법 사용법 3줄 요약"></a>파이썬 마크다운 문법 사용법 3줄 요약</h1><ul>
+<li></li>
+</ul>
+<p><strong>python</strong> is really <em>cool</em></p>
+<ul>
+<li>python<ul>
+<li>pandas<ul>
+<li>depth1</li>
+<li>depth2</li>
+</ul>
+</li>
+<li>numpy</li>
+</ul>
+</li>
+<li>java</li>
+<li>c++</li>
+<li>golang</li>
+</ul>
+<ol>
+<li>python</li>
+<li>java</li>
+<li>c++</li>
+</ol>
+<blockquote>
+<p>파이썬은 재밌다.</p>
+</blockquote>
+<p>y = 3x</p>
+<blockquote>
+<p>$y = 3x$</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">10</span></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a &#x3D; 10</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.python.org/">https://www.python.org/</a></p>
+<p><a href="https://www.python.org/">파이썬 공식 페이지</a></p>
+]]></content>
       <categories>
         <category>python</category>
       </categories>

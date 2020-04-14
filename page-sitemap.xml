@@ -9,21 +9,21 @@
     
     <url>
         <loc>https://cds0804.github/all-categories/</loc>
-        <lastmod>2020-04-08T01:35:28.360Z</lastmod>
+        <lastmod>2020-04-08T01:35:28.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>https://cds0804.github/all-tags/</loc>
-        <lastmod>2020-04-08T01:35:25.510Z</lastmod>
+        <lastmod>2020-04-08T01:35:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>https://cds0804.github/all-archives/</loc>
-        <lastmod>2020-04-08T01:35:16.455Z</lastmod>
+        <lastmod>2020-04-08T01:35:16.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

@@ -8,16 +8,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/08/Linear_Regression/</loc>
-        <lastmod>2020-04-08T06:47:20.904Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/07/spark/</loc>
-        <lastmod>2020-04-08T06:16:10.454Z</lastmod>
+        <loc>https://cds0804.github/2020/04/14/test/</loc>
+        <lastmod>2020-04-14T05:27:58.327Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +17,7 @@
 
     <url>
         <loc>https://cds0804.github/2020/04/05/Hexo%20deploy%20contents/</loc>
-        <lastmod>2020-04-08T05:41:01.661Z</lastmod>
+        <lastmod>2020-04-14T05:08:58.172Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,7 +25,79 @@
 
     <url>
         <loc>https://cds0804.github/2020/04/05/python-0/</loc>
-        <lastmod>2020-04-08T05:39:11.633Z</lastmod>
+        <lastmod>2020-04-14T03:18:12.574Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/14/Machine_Learning/</loc>
+        <lastmod>2020-04-14T03:18:12.573Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/08/Agile/</loc>
+        <lastmod>2020-04-11T09:19:23.644Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/09/cross-validation/</loc>
+        <lastmod>2020-04-09T04:35:26.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/09/STAR/</loc>
+        <lastmod>2020-04-08T15:43:56.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/08/EDA/</loc>
+        <lastmod>2020-04-08T15:37:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/08/sql/</loc>
+        <lastmod>2020-04-08T07:41:56.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/08/data_analysis/</loc>
+        <lastmod>2020-04-08T07:19:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/08/Linear_Regression/</loc>
+        <lastmod>2020-04-08T06:47:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/07/spark/</loc>
+        <lastmod>2020-04-08T06:16:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -41,7 +105,7 @@
 
     <url>
         <loc>https://cds0804.github/2020/04/03/Hexo-deploy-contents/</loc>
-        <lastmod>2020-04-08T05:13:18.629Z</lastmod>
+        <lastmod>2020-04-08T05:13:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -49,7 +113,7 @@
 
     <url>
         <loc>https://cds0804.github/2020/04/03/webcrawling/</loc>
-        <lastmod>2020-04-08T05:13:18.629Z</lastmod>
+        <lastmod>2020-04-08T05:13:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -57,7 +121,7 @@
 
     <url>
         <loc>https://cds0804.github/2020/04/03/Pandas/</loc>
-        <lastmod>2020-04-08T02:23:38.698Z</lastmod>
+        <lastmod>2020-04-08T02:23:38.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -65,7 +129,7 @@
 
     <url>
         <loc>https://cds0804.github/2020/04/02/hello-world/</loc>
-        <lastmod>2020-04-06T01:21:51.811Z</lastmod>
+        <lastmod>2020-04-06T01:21:51.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

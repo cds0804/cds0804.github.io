@@ -8,36 +8,50 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/project/</loc>
-        <lastmod>2020-04-08T06:47:20.904Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/spark/</loc>
-        <lastmod>2020-04-08T06:16:10.454Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/categories/hexo/</loc>
-        <lastmod>2020-04-08T05:41:01.661Z</lastmod>
+        <lastmod>2020-04-14T05:08:58.172Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/python/</loc>
-        <lastmod>2020-04-08T05:39:11.633Z</lastmod>
+        <lastmod>2020-04-14T03:18:12.574Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/ML/</loc>
+        <lastmod>2020-04-14T03:18:12.573Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/concept/</loc>
+        <lastmod>2020-04-11T09:19:23.644Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/project/</loc>
+        <lastmod>2020-04-08T06:47:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/spark/</loc>
+        <lastmod>2020-04-08T06:16:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/crawling/</loc>
-        <lastmod>2020-04-08T05:13:18.629Z</lastmod>
+        <lastmod>2020-04-08T05:13:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
