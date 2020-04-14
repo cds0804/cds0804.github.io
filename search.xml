@@ -9,9 +9,18 @@
     <title>machine_learning</title>
     <url>/2020/04/14/Machine_Learning/</url>
     <content><![CDATA[<h1 id="머신러닝-요약"><a href="#머신러닝-요약" class="headerlink" title="머신러닝 요약"></a>머신러닝 요약</h1><ul>
-<li>기계가 </li>
-<li>주어진 데이터틀 통해 </li>
-<li>규칙을 찾는 것</li>
+<li><p>기계가 </p>
+</li>
+<li><p>주어진 데이터틀 통해 </p>
+</li>
+<li><p>규칙을 찾는 것</p>
+</li>
+<li><p>데이터를 </p>
+</li>
+<li><p>기계에게 주고</p>
+</li>
+<li><p>규칙을 찾는 것</p>
+</li>
 </ul>
 ]]></content>
       <categories>
@@ -28,17 +37,33 @@
   <entry>
     <title>cross_validation</title>
     <url>/2020/04/09/cross-validation/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1>]]></content>
+      <categories>
+        <category>math</category>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>anova</tag>
+        <tag>cv</tag>
+        <tag>cross validation</tag>
+      </tags>
   </entry>
   <entry>
     <title>STAR</title>
     <url>/2020/04/09/STAR/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="자기소개-STAR-기법"><a href="#자기소개-STAR-기법" class="headerlink" title="자기소개 STAR 기법"></a>자기소개 STAR 기법</h1>]]></content>
+      <categories>
+        <category>spark</category>
+      </categories>
+      <tags>
+        <tag>STAR기법</tag>
+        <tag>자기소개</tag>
+      </tags>
   </entry>
   <entry>
     <title>Agile</title>
     <url>/2020/04/08/Agile/</url>
-    <content><![CDATA[<h3 id="Agile-애자일-방법론-요약"><a href="#Agile-애자일-방법론-요약" class="headerlink" title="Agile(애자일) 방법론 요약"></a>Agile(애자일) 방법론 요약</h3><p>출처 : <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560">https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560</a></p>
+    <content><![CDATA[<h3 id="바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약"><a href="#바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약" class="headerlink" title="바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약"></a>바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약</h3><p>출처 : <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560">https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560</a></p>
 <ul>
 <li>작업 계획을 짧은 단위로 세우고</li>
 <li>시제품을 만들어 나가는 사이클을 반복</li>
@@ -56,6 +81,7 @@
 <h3 id="에자일-개발-선언문"><a href="#에자일-개발-선언문" class="headerlink" title="에자일 개발 선언문"></a>에자일 개발 선언문</h3><ul>
 <li><a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a></li>
 </ul>
+<p>애자일 방법은 급변화하고 진화하고 있는 환경에 효과적으로 대응할 수 있는 방법이라고 생각됩니다. </p>
 ]]></content>
       <categories>
         <category>concept</category>
@@ -98,14 +124,24 @@
     <title>sql</title>
     <url>/2020/04/08/sql/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>spark</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+      </tags>
   </entry>
   <entry>
     <title>data analysis</title>
     <url>/2020/04/08/data_analysis/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>Data Analysis</category>
+        <category>Data Sciences</category>
+      </categories>
       <tags>
-        <tag>data science</tag>
         <tag>data analysis</tag>
+        <tag>data science</tag>
         <tag>big data</tag>
       </tags>
   </entry>
@@ -141,7 +177,7 @@
   <entry>
     <title>spark</title>
     <url>/2020/04/07/spark/</url>
-    <content><![CDATA[<h3 id="패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다"><a href="#패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다" class="headerlink" title="패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다."></a>패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다.</h3><h3 id="조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다"><a href="#조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다" class="headerlink" title="조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다."></a>조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다.</h3><h3 id="우선-환경설정에-대해-알아보겠습니다"><a href="#우선-환경설정에-대해-알아보겠습니다" class="headerlink" title="우선 환경설정에 대해 알아보겠습니다."></a>우선 환경설정에 대해 알아보겠습니다.</h3><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
+    <content><![CDATA[<h3 id="패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다"><a href="#패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다" class="headerlink" title="패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다."></a>패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다.</h3><h3 id="조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다"><a href="#조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다" class="headerlink" title="조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다."></a>조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다.</h3><h3 id="우선-환경설정에-대해-알아보겠습니다"><a href="#우선-환경설정에-대해-알아보겠습니다" class="headerlink" title="우선 환경설정에 대해 알아보겠습니다."></a>우선 환경설정에 대해 알아보겠습니다.</h3><h3 id="개념을-잡으려-노력중입니다"><a href="#개념을-잡으려-노력중입니다" class="headerlink" title="개념을 잡으려 노력중입니다."></a>개념을 잡으려 노력중입니다.</h3>]]></content>
       <categories>
         <category>spark</category>
       </categories>
@@ -231,7 +267,7 @@
 <li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li>
 </ol>
 <h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>zsh shell</span></figcaption><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure>
 
 <h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p>
 <p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p>
@@ -275,10 +311,10 @@
         <category>python</category>
       </categories>
       <tags>
+        <tag>data science</tag>
         <tag>python</tag>
         <tag>pandas</tag>
         <tag>coding</tag>
-        <tag>data science</tag>
       </tags>
   </entry>
   <entry>
