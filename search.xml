@@ -55,6 +55,7 @@
 ]]></content>
       <categories>
         <category>terminal</category>
+        <category>command</category>
       </categories>
       <tags>
         <tag>terminal command</tag>
@@ -88,6 +89,7 @@
 ]]></content>
       <categories>
         <category>ML</category>
+        <category>concept</category>
       </categories>
       <tags>
         <tag>Machine Learnig</tag>
@@ -130,7 +132,8 @@
 </ul>
 <h2 id="추후-작성-예정입니다"><a href="#추후-작성-예정입니다" class="headerlink" title="추후 작성 예정입니다."></a>추후 작성 예정입니다.</h2>]]></content>
       <categories>
-        <category>spark</category>
+        <category>concept</category>
+        <category>star</category>
       </categories>
       <tags>
         <tag>STAR기법</tag>
@@ -163,6 +166,7 @@
 ]]></content>
       <categories>
         <category>concept</category>
+        <category>agile</category>
       </categories>
       <tags>
         <tag>concept</tag>
@@ -191,6 +195,7 @@
 ]]></content>
       <categories>
         <category>concept</category>
+        <category>EDA</category>
       </categories>
       <tags>
         <tag>concept</tag>
@@ -204,6 +209,7 @@
     <content><![CDATA[]]></content>
       <categories>
         <category>spark</category>
+        <category>sql</category>
       </categories>
       <tags>
         <tag>sql</tag>
@@ -212,10 +218,10 @@
   <entry>
     <title>data analysis</title>
     <url>/2020/04/08/data_analysis/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="데이터-분석에-대하여-알아보겠습니다"><a href="#데이터-분석에-대하여-알아보겠습니다" class="headerlink" title="데이터 분석에 대하여 알아보겠습니다."></a>데이터 분석에 대하여 알아보겠습니다.</h1>]]></content>
       <categories>
-        <category>Data Analysis</category>
         <category>Data Sciences</category>
+        <category>Data Analysis</category>
       </categories>
       <tags>
         <tag>data science</tag>
@@ -258,6 +264,7 @@
     <content><![CDATA[<h3 id="패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다"><a href="#패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다" class="headerlink" title="패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다."></a>패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다.</h3><h3 id="조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다"><a href="#조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다" class="headerlink" title="조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다."></a>조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다.</h3><h3 id="우선-환경설정에-대해-알아보겠습니다"><a href="#우선-환경설정에-대해-알아보겠습니다" class="headerlink" title="우선 환경설정에 대해 알아보겠습니다."></a>우선 환경설정에 대해 알아보겠습니다.</h3><h3 id="개념을-잡으려-노력중입니다"><a href="#개념을-잡으려-노력중입니다" class="headerlink" title="개념을 잡으려 노력중입니다."></a>개념을 잡으려 노력중입니다.</h3>]]></content>
       <categories>
         <category>spark</category>
+        <category>concept</category>
       </categories>
       <tags>
         <tag>spark</tag>
@@ -265,7 +272,7 @@
   </entry>
   <entry>
     <title>Hexo 블로그 만들기</title>
-    <url>/2020/04/05/Hexo%20deploy%20contents/</url>
+    <url>/2020/04/05/Hexo%20create/</url>
     <content><![CDATA[<p>안녕하세요!<br>hexo 블로그 만드는 방법입니다. </p>
 <p>hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. </p>
 <ol>
@@ -306,7 +313,7 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>blog</tag>
+        <tag>create</tag>
       </tags>
   </entry>
   <entry>
@@ -380,6 +387,7 @@
 <h3 id="터미널-창으로-가셔서-표시-다음을-따라-치세요"><a href="#터미널-창으로-가셔서-표시-다음을-따라-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 다음을 따라 치세요."></a>터미널 창으로 가셔서 $ 표시 다음을 따라 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
       <categories>
         <category>hexo</category>
+        <category>post</category>
       </categories>
       <tags>
         <tag>hexo</tag>
