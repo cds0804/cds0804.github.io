@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/15/terminal-basic-command/</loc>
+        <lastmod>2020-04-15T13:55:16.849Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/15/hadoop/</loc>
         <lastmod>2020-04-15T04:10:13.607Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -42,14 +50,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/07/spark/</loc>
         <lastmod>2020-04-15T03:55:14.977Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/15/terminal-basic-command/</loc>
-        <lastmod>2020-04-15T03:54:46.565Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
