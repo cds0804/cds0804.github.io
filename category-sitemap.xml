@@ -9,20 +9,62 @@
 
     <url>
         <loc>https://cds0804.github/categories/spark/</loc>
-        <lastmod>2020-04-14T15:11:41.766Z</lastmod>
+        <lastmod>2020-04-15T03:24:08.285Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/ML/</loc>
-        <lastmod>2020-04-14T15:11:41.766Z</lastmod>
+        <loc>https://cds0804.github/categories/hexo/</loc>
+        <lastmod>2020-04-15T03:24:08.281Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/math/python/linear-regression/</loc>
+        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/math/python/</loc>
+        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/git/</loc>
+        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/math/</loc>
+        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/concept/</loc>
+        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/terminal/</loc>
+        <lastmod>2020-04-15T03:23:52.689Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/ML/</loc>
         <lastmod>2020-04-14T15:11:41.766Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -36,29 +78,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/math/python/</loc>
-        <lastmod>2020-04-14T15:11:41.744Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/categories/Data-Analysis/</loc>
         <lastmod>2020-04-14T15:11:41.744Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/math/</loc>
-        <lastmod>2020-04-14T15:11:41.744Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/hexo/</loc>
-        <lastmod>2020-04-14T15:11:35.489Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-14T05:27:58.327Z</updated>
+  <updated>2020-04-15T03:24:08.263Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git</title>
+    <link href="https://cds0804.github/2020/04/15/git/"/>
+    <id>https://cds0804.github/2020/04/15/git/</id>
+    <published>2020-04-14T16:35:24.000Z</published>
+    <updated>2020-04-15T03:24:08.263Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git에-대해-작성할-예정입니다"><a href="#git에-대해-작성할-예정입니다" class="headerlink" title="git에 대해 작성할 예정입니다."></a>git에 대해 작성할 예정입니다.</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;git에-대해-작성할-예정입니다&quot;&gt;&lt;a href=&quot;#git에-대해-작성할-예정입니다&quot; class=&quot;headerlink&quot; title=&quot;git에 대해 작성할 예정입니다.&quot;&gt;&lt;/a&gt;git에 대해 작성할 예정입니다.&lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="git" scheme="https://cds0804.github/categories/git/"/>
+    
+    
+      <category term="github" scheme="https://cds0804.github/tags/github/"/>
+    
+      <category term="git" scheme="https://cds0804.github/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>terminal_basic_command</title>
+    <link href="https://cds0804.github/2020/04/15/terminal-basic-command/"/>
+    <id>https://cds0804.github/2020/04/15/terminal-basic-command/</id>
+    <published>2020-04-14T16:07:32.000Z</published>
+    <updated>2020-04-15T03:23:52.689Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Mac-Terminal-basic-command"><a href="#Mac-Terminal-basic-command" class="headerlink" title="Mac Terminal basic command"></a>Mac Terminal basic command</h1><ul><li>zsh : 2020 mac 기본 터미널</li><li>iTrem : 현재 사용하고 있는 터미널</li><li>oh my zsh : 터미널 설정 오픈소스<br>출처 : <a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a> </li></ul><h3 id="현재위치-파악-및-폴더-이동하기"><a href="#현재위치-파악-및-폴더-이동하기" class="headerlink" title="현재위치 파악 및 폴더 이동하기"></a>현재위치 파악 및 폴더 이동하기</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. $ <span class="built_in">pwd</span> </span><br><span class="line">2. $ ll</span><br><span class="line">3. $ ls</span><br><span class="line">4. $ <span class="built_in">cd</span> Documents</span><br><span class="line">5. $ <span class="built_in">cd</span> ..</span><br><span class="line">6. $ <span class="built_in">cd</span> Music/Music</span><br><span class="line">7. $ <span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure><ol><li>pwd : 현재 위치의 절대 경로</li><li>ll : 폴더 </li><li>ls : </li><li>cd Documents : </li><li>cd .. : </li><li>cd Music/Music : </li><li>cd ~ : </li></ol><h3 id="폴더-파일-생성-및-삭제-명령어"><a href="#폴더-파일-생성-및-삭제-명령어" class="headerlink" title="폴더, 파일 생성 및 삭제 명령어"></a>폴더, 파일 생성 및 삭제 명령어</h3><h3 id="참고사항-15번-표시가-없는-esc는-esc를-입력하라는-것이-아닌-esc키를-누르라는-의미입니다"><a href="#참고사항-15번-표시가-없는-esc는-esc를-입력하라는-것이-아닌-esc키를-누르라는-의미입니다" class="headerlink" title="참고사항 : 15번 $ 표시가 없는 esc는 esc를 입력하라는 것이 아닌 esc키를 누르라는 의미입니다."></a>참고사항 : 15번 $ 표시가 없는 esc는 esc를 입력하라는 것이 아닌 esc키를 누르라는 의미입니다.</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">8. $ mkdir <span class="built_in">test</span></span><br><span class="line">9. $ <span class="built_in">cd</span> <span class="built_in">test</span></span><br><span class="line">10.  $ touch <span class="built_in">test</span></span><br><span class="line">11. $ vi <span class="built_in">test</span> </span><br><span class="line">12. $ i</span><br><span class="line">13. $ :<span class="built_in">set</span> nu</span><br><span class="line">14. $ <span class="built_in">test</span> </span><br><span class="line">15. esc</span><br><span class="line">16. $ :wq</span><br><span class="line">17. $ rm <span class="built_in">test</span></span><br><span class="line">18. $ ll</span><br><span class="line">19. $ <span class="built_in">cd</span> ..</span><br><span class="line">20. $ rmdir <span class="built_in">test</span></span><br></pre></td></tr></table></figure><ol start="8"><li>mkdir test : </li><li>cd test : </li><li>touch test : </li><li>vi test : </li><li>i : 터미널 창 왼쪽 아래 - - INSERT - - 라고 보이며, vi editor 내부에 글자를 적을 수 있습니다. </li><li>:set nu : 에디터 내부에 라인이 설정됩니다. </li><li>test : 테스트라고 작성해봅시다! 혹은 아무글자나 작성해봅시다. </li><li>esc키를 누르면 왼쪽 아래 - - INSERT - - 가 사라집니다. </li><li>wq : 작성한 내용을 저장 후 빠져나옵니다. </li><li>rm test : test 파일을 삭제합니다. </li><li>ll : 폴더 내부에 있는 내용물을 보여줍니다. </li><li>cd .. : 상위 폴더로 이동합니다. </li><li>rmdir test : test 폴더를 삭제합니다. </li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">21. $ ls</span><br><span class="line">22. $ ll</span><br></pre></td></tr></table></figure><ol start="21"><li>ls : 현재 경로에 있는 폴더, 파일을 보여줍니다. </li><li>ll : 현재 경로에 있는 폴더, 파일을 보여줍니다.  단, ls보다 상세하게 보여줍니다. (권한, 사용자계정 등)</li></ol><h1 id="추가-업데이트-예정입니다"><a href="#추가-업데이트-예정입니다" class="headerlink" title="추가 업데이트 예정입니다."></a>추가 업데이트 예정입니다.</h1><p>오탈자 및 조언 댓글로 남겨주세요.<br>감사합니다 :)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Mac-Terminal-basic-command&quot;&gt;&lt;a href=&quot;#Mac-Terminal-basic-command&quot; class=&quot;headerlink&quot; title=&quot;Mac Terminal basic command&quot;&gt;&lt;/a&gt;Mac Term
+      
+    
+    </summary>
+    
+    
+      <category term="terminal" scheme="https://cds0804.github/categories/terminal/"/>
+    
+    
+      <category term="terminal command" scheme="https://cds0804.github/tags/terminal-command/"/>
+    
+      <category term="terminal" scheme="https://cds0804.github/tags/terminal/"/>
+    
+      <category term="mac" scheme="https://cds0804.github/tags/mac/"/>
+    
+      <category term="iTerm" scheme="https://cds0804.github/tags/iTerm/"/>
+    
+  </entry>
   
   <entry>
     <title>test</title>
@@ -81,15 +141,15 @@
     <link href="https://cds0804.github/2020/04/09/cross-validation/"/>
     <id>https://cds0804.github/2020/04/09/cross-validation/</id>
     <published>2020-04-09T04:35:26.000Z</published>
-    <updated>2020-04-14T15:11:41.744Z</updated>
+    <updated>2020-04-15T03:24:08.263Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1><p>statsmodels 사이트 : <a href="https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html">https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html</a></p><ol><li>anova 불러오기<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> statsmodels.stats.anova <span class="keyword">import</span> anova_lm</span><br></pre></td></tr></table></figure></li></ol><h1 id="추후-작성예정입니다"><a href="#추후-작성예정입니다" class="headerlink" title="추후 작성예정입니다."></a>추후 작성예정입니다.</h1>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;anova&quot;&gt;&lt;a href=&quot;#anova&quot; class=&quot;headerlink&quot; title=&quot;anova&quot;&gt;&lt;/a&gt;anova&lt;/h1&gt;
+        &lt;h1 id=&quot;anova&quot;&gt;&lt;a href=&quot;#anova&quot; class=&quot;headerlink&quot; title=&quot;anova&quot;&gt;&lt;/a&gt;anova&lt;/h1&gt;&lt;p&gt;statsmodels 사이트 : &lt;a href=&quot;https://www.statsmodels.org/sta
       
     
     </summary>
@@ -98,6 +158,8 @@
       <category term="math" scheme="https://cds0804.github/categories/math/"/>
     
       <category term="python" scheme="https://cds0804.github/categories/math/python/"/>
+    
+      <category term="linear regression" scheme="https://cds0804.github/categories/math/python/linear-regression/"/>
     
     
       <category term="anova" scheme="https://cds0804.github/tags/anova/"/>
@@ -113,15 +175,18 @@
     <link href="https://cds0804.github/2020/04/09/STAR/"/>
     <id>https://cds0804.github/2020/04/09/STAR/</id>
     <published>2020-04-08T15:43:56.000Z</published>
-    <updated>2020-04-14T15:11:41.744Z</updated>
+    <updated>2020-04-15T03:24:08.285Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="자기소개-STAR-기법"><a href="#자기소개-STAR-기법" class="headerlink" title="자기소개 STAR 기법"></a>자기소개 STAR 기법</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="자기소개-STAR-기법"><a href="#자기소개-STAR-기법" class="headerlink" title="자기소개 STAR 기법"></a>자기소개 STAR 기법</h1><ul><li>S</li><li>T</li><li>A</li><li>R</li></ul><h2 id="추후-작성-예정입니다"><a href="#추후-작성-예정입니다" class="headerlink" title="추후 작성 예정입니다."></a>추후 작성 예정입니다.</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;자기소개-STAR-기법&quot;&gt;&lt;a href=&quot;#자기소개-STAR-기법&quot; class=&quot;headerlink&quot; title=&quot;자기소개 STAR 기법&quot;&gt;&lt;/a&gt;자기소개 STAR 기법&lt;/h1&gt;
+        &lt;h1 id=&quot;자기소개-STAR-기법&quot;&gt;&lt;a href=&quot;#자기소개-STAR-기법&quot; class=&quot;headerlink&quot; title=&quot;자기소개 STAR 기법&quot;&gt;&lt;/a&gt;자기소개 STAR 기법&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;S&lt;/li&gt;
+&lt;li&gt;T&lt;/li&gt;
+&lt;li&gt;A&lt;
       
     
     </summary>
@@ -141,9 +206,9 @@
     <link href="https://cds0804.github/2020/04/08/Agile/"/>
     <id>https://cds0804.github/2020/04/08/Agile/</id>
     <published>2020-04-08T14:54:49.000Z</published>
-    <updated>2020-04-14T15:11:41.766Z</updated>
+    <updated>2020-04-15T03:24:08.263Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약"><a href="#바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약" class="headerlink" title="바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약"></a>바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약</h3><p>출처 : <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560">https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560</a></p><ul><li>작업 계획을 짧은 단위로 세우고</li><li>시제품을 만들어 나가는 사이클을 반복</li><li>고객의 요구 변화에 유연하고도 신속하게 대응하는 개발 방법론 </li></ul><p>요즘 에자일, 에자일 기법에 대해 2번 이상 듣기도 하고 기업에서도 에자일 기법으로 프로세스를 진행한다고 하니 무엇인지에 대한 개념도 알아보고 내 삶에 적용 시키기도 해볼 겸해서 간단하게 기록하려합니다. </p><p>우선, 애자일 방법이란 ?<br>기업경영 및 소프트웨어 등의 개발을 고객중심으로 진행하는 방법론</p><p>애자일방식의 조직운영</p><ol><li>고객중심</li><li>아웃풋 중심</li><li>유연하고도 민첩한 대응력</li><li>자율성과 권한을 가진 조직 운영</li></ol><h3 id="에자일-개발-선언문"><a href="#에자일-개발-선언문" class="headerlink" title="에자일 개발 선언문"></a>에자일 개발 선언문</h3><ul><li><a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a></li></ul><p>애자일 방법은 급변화하고 진화하고 있는 환경에 효과적으로 대응할 수 있는 방법이라고 생각됩니다. </p>]]></content>
+    <content type="html"><![CDATA[<h3 id="바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약"><a href="#바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약" class="headerlink" title="바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약"></a>바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약</h3><p>출처 : <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560">https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560</a></p><ul><li>작업 계획을 짧은 단위로 세우고</li><li>시제품을 만들어 나가는 사이클을 반복</li><li>고객의 요구 변화에 유연하고도 신속하게 대응하는 개발 방법론 </li></ul><p>요즘 에자일, 에자일 기법에 대해 2번 이상 듣기도 하고 기업에서도 에자일 기법으로 프로세스를 진행한다고 하니 무엇인지에 대한 개념도 알아보고 내 삶에 적용 시키기도 해볼 겸해서 간단하게 기록하려합니다. </p><p>우선, 애자일 방법이란 ?<br>기업경영 및 소프트웨어 등의 개발을 고객중심으로 진행하는 방법론</p><p>애자일방식의 조직운영</p><ol><li>고객중심</li><li>아웃풋 중심</li><li>유연하고도 민첩한 대응력</li><li>자율성과 권한을 가진 조직 운영</li></ol><h3 id="에자일-개발-선언문"><a href="#에자일-개발-선언문" class="headerlink" title="에자일 개발 선언문"></a>에자일 개발 선언문</h3><ul><li><a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a></li></ul><p>애자일 방법은 급변화하고 진화하고 있는 환경에 효과적으로 대응할 수 있는 방법이라고 생각됩니다. </p><p>피드백 댓글로 남겨주세요~!<br>감사합니다 :)</p>]]></content>
     
     <summary type="html">
     
@@ -171,9 +236,9 @@
     <link href="https://cds0804.github/2020/04/08/EDA/"/>
     <id>https://cds0804.github/2020/04/08/EDA/</id>
     <published>2020-04-08T07:43:50.000Z</published>
-    <updated>2020-04-08T15:37:10.000Z</updated>
+    <updated>2020-04-15T03:24:08.263Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="탐색적-데이터-분석"><a href="#탐색적-데이터-분석" class="headerlink" title="탐색적 데이터 분석"></a>탐색적 데이터 분석</h3><h3 id="EDA-Exploratory-Data-Analysis"><a href="#EDA-Exploratory-Data-Analysis" class="headerlink" title="EDA(Exploratory Data Analysis)"></a>EDA(Exploratory Data Analysis)</h3><h4 id="들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-요점-정리를-해봤습니다"><a href="#들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-요점-정리를-해봤습니다" class="headerlink" title="들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 요점 정리를 해봤습니다."></a>들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 요점 정리를 해봤습니다.</h4><ul><li>데이터 분석의 목적을 정한다. </li><li>EDA를 위해 데이터를 분행하여 확인한다. </li><li>객관적인 도메인 지식을 참고한다.</li></ul><p>보통 제가 본 바로는 데이터를 요리의 재료로 흔히들 비교 합니다.<br>김치란 재료를 어떻게 사용하느냐에 따라 김치전도 될 수 있고, 김치찌개도 될 수 있으며, 김치 볶음밥도 될 수 있듯이 말이죠. </p><p>데이터도 분석가가 어떤 알고리즘을 사용하여 분석하느냐에 따라 결과가 달라질 수 있기 때문이라고 생각합니다. </p><p>그럼 탐색적 데이터 분석은 어떻게 해야 하는 것일까요? </p><p>먼저, EDA를 하기전 해야 할 것이 있습니다. 바로, 어떤 요리를 만들지 정하는 것입니다. 즉, 목적을 정하는 것입니다. 예측, 추천, 분석 등을 정해야 합니다. 삼천포로 빠질 수 있기 때문입니다. 삼천포는 우선 하던 일을 마무리 한 후에 하시면 정신건강에 도움이 될 거라 확신합니다. </p><ol><li>데이터 분석의 목적과 목표가 정해졌다면, 가지고 있는 데이터 혹은 가져올 전처리되지 않은 데이터를 어떻게 활용하여 원하는 목표를 달성할 것인지 데이터를 알아봐야겠죠? </li><li>개인적으로는 객관적이고 정량적(定量的)으로 증명할 수 있는 도메인 지식을 가지고 있으면 분석하는데 유용하게 사용될 것 같습니다. </li><li>분석에 도움이 안될 것 같은 데이터들은 제외시키고, null 값(정보가 없는 데이터)은 어떻게 처리 할지도 생각해 봐야 합니다. </li></ol><p>또 다시 요리에 비교를 해보면, 재료가 될 김치에 어떤 액젓이 들어갔는지, 고추가루는 국산인지, 고추가루의 크기는 어느 정도인지, 색깔은 밝은지 어두운지 등등 낱낱히 파헤치는 작업이 EDA 작업이라고 생각하시면 될 것 같습니다. </p>]]></content>
+    <content type="html"><![CDATA[<h3 id="탐색적-데이터-분석"><a href="#탐색적-데이터-분석" class="headerlink" title="탐색적 데이터 분석"></a>탐색적 데이터 분석</h3><h3 id="EDA-Exploratory-Data-Analysis"><a href="#EDA-Exploratory-Data-Analysis" class="headerlink" title="EDA(Exploratory Data Analysis)"></a>EDA(Exploratory Data Analysis)</h3><h4 id="들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-정리-해봤습니다"><a href="#들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-정리-해봤습니다" class="headerlink" title="들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 정리 해봤습니다."></a>들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 정리 해봤습니다.</h4><ul><li>데이터 분석의 목적을 정한다. </li><li>EDA를 위해 데이터를 분행하여 확인한다. </li><li>객관적인 도메인 지식을 참고한다.</li></ul><p>보통 제가 듣기로는 데이터를 요리의 재료로 흔히들 비교 합니다.<br>김치란 재료를 어떻게 사용하느냐에 따라 김치전도 될 수 있고, 김치찌개도 될 수 있으며, 김치 볶음밥도 될 수 있듯이 말이죠. </p><p>데이터도 분석가가 어떤 알고리즘을 사용하여 분석하느냐에 따라 결과가 달라질 수 있기 때문이라고 생각합니다. </p><p>그럼 탐색적 데이터 분석은 어떻게 해야 하는 것일까요? </p><p>먼저, EDA를 하기전 해야 할 것이 있습니다. 바로, 어떤 요리를 만들지 정하는 것입니다. 즉, 목적을 정하는 것입니다. 예측, 추천, 분석 등을 정해야 합니다. 삼천포로 빠질 수 있기 때문입니다. 삼천포는 우선 하던 일을 마무리 한 후에 하시면 정신건강에 도움이 될 거라 확신합니다. </p><ol><li>데이터 분석의 목적과 목표가 정해졌다면, 가지고 있는 데이터 혹은 가져올 전처리되지 않은 데이터를 어떻게 활용하여 원하는 목표를 달성할 것인지 데이터를 알아봐야겠죠? </li><li>개인적으로는 객관적이고 정량적(定量的)으로 증명할 수 있는 도메인 지식을 가지고 있으면 분석하는데 유용하게 사용될 것 같습니다. </li><li>분석에 도움이 안될 것 같은 데이터들은 제외시키고, null 값(정보가 없는 데이터)은 어떻게 처리 할지도 생각해 봐야 합니다. </li></ol><p>또 다시 요리에 비교를 해보면, 재료가 될 김치에 어떤 액젓이 들어갔는지, 고추가루는 국산인지, 고추가루의 크기는 어느 정도인지, 색깔은 밝은지 어두운지 등등 낱낱히 파헤치는 작업이 EDA 작업이라고 생각하시면 될 것 같습니다. </p>]]></content>
     
     <summary type="html">
     
@@ -232,9 +297,9 @@
       <category term="Data Sciences" scheme="https://cds0804.github/categories/Data-Analysis/Data-Sciences/"/>
     
     
-      <category term="data analysis" scheme="https://cds0804.github/tags/data-analysis/"/>
-    
       <category term="data science" scheme="https://cds0804.github/tags/data-science/"/>
+    
+      <category term="data analysis" scheme="https://cds0804.github/tags/data-analysis/"/>
     
       <category term="big data" scheme="https://cds0804.github/tags/big-data/"/>
     
@@ -299,20 +364,22 @@
   </entry>
   
   <entry>
-    <title>Hexo 블로그에 게시글 올리기</title>
+    <title>Hexo 블로그 만들기</title>
     <link href="https://cds0804.github/2020/04/05/Hexo%20deploy%20contents/"/>
     <id>https://cds0804.github/2020/04/05/Hexo%20deploy%20contents/</id>
     <published>2020-04-05T04:09:09.000Z</published>
-    <updated>2020-04-14T05:08:58.172Z</updated>
+    <updated>2020-04-15T03:24:08.281Z</updated>
     
-    <content type="html"><![CDATA[<p>※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. </p><p>헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.<br>그래서 여기에 쓰면 글이 반영되는지 확인중입니다.<br>그리고 여기에 글을 쓰면 반영되는지 확인했습니다. </p><p>그럼, 내가 쓴 글이 블로그에 어떻게 올라가는지 제가 아는 내용을 최대한 자세히 설명 드리겠습니다 :)</p><ol><li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li></ol><h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
+    <content type="html"><![CDATA[<p>안녕하세요!<br>hexo 블로그 만드는 방법입니다. </p><p>hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. </p><ol><li>Node.js(<a href="https://nodejs.org/en/">https://nodejs.org/en/</a>)<ul><li>Should be at least Node.js 8.10, recommends 10.0 or higher</li></ul></li><li>Git(<a href="https://git-scm.com/">https://git-scm.com/</a>)<ul><li>github에서 repository를 생성해야 합니다. </li><li>참고: <a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/</a></li></ul></li></ol><p>hexo 블로그 공식 홈페이지<br><strong><a href="https://hexo.io/ko/index.html">https://hexo.io/ko/index.html</a></strong></p><p>hexo 블로그 설치하기 공식문서<br><a href="https://hexo.io/ko/docs/">https://hexo.io/ko/docs/</a></p><ol><li>터미널을 엽니다.</li><li>블로그를 만들면 폴더가 생성됩니다. 폴더를 생성하고자 하는 곳으로 가셔서 아래의 $를 제외한 명령어를 입력하세요. </li><li>띄어쓰기 대소문자 모두 그대로 입력해주세요.<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. $ npm install hexo-cli -g</span><br><span class="line">2. $ hexo init blog</span><br></pre></td></tr></table></figure></li><li>블로그를 만든 폴더로 이동합니다. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5. $ <span class="built_in">cd</span> blog</span><br><span class="line">6. $ npm install</span><br><span class="line">7.  $ hexo server</span><br></pre></td></tr></table></figure></li><li>로컬에서 hexo 블로그를 확인하실 수 있습니다. </li></ol><ol start="6"><li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li></ol><h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server-생략가능"><a href="#3-hexo-server-생략가능" class="headerlink" title="3. $ hexo server # 생략가능"></a>3. $ hexo server # 생략가능</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. &lt;/p&gt;
-&lt;p&gt;헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.&lt;br&gt;그래서 여기에 쓰면 글이 반영되는지 확
+        &lt;p&gt;안녕하세요!&lt;br&gt;hexo 블로그 만드는 방법입니다. &lt;/p&gt;
+&lt;p&gt;hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.js(&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;https://no
       
     
     </summary>
@@ -320,6 +387,10 @@
     
       <category term="hexo" scheme="https://cds0804.github/categories/hexo/"/>
     
+    
+      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
+    
+      <category term="blog" scheme="https://cds0804.github/tags/blog/"/>
     
   </entry>
   
@@ -358,9 +429,9 @@
     <link href="https://cds0804.github/2020/04/03/Hexo-deploy-contents/"/>
     <id>https://cds0804.github/2020/04/03/Hexo-deploy-contents/</id>
     <published>2020-04-03T09:55:27.000Z</published>
-    <updated>2020-04-14T15:11:35.489Z</updated>
+    <updated>2020-04-14T15:27:30.376Z</updated>
     
-    <content type="html"><![CDATA[<p>※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. </p><p>헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.<br>그래서 여기에 쓰면 글이 반영되는지 확인중입니다.<br>그리고 여기에 글을 쓰면 반영되는지 확인했습니다. </p><p>그럼, 내가 쓴 글이 블로그에 어떻게 올라가는지 제가 아는 내용을 최대한 자세히 설명 드리겠습니다 :)</p><ol><li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li></ol><h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><figcaption><span>zsh shell</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
+    <content type="html"><![CDATA[<p>※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. </p><p>헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.<br>그래서 여기에 쓰면 글이 반영되는지 확인중입니다.<br>그리고 여기에 글을 쓰면 반영되는지 확인했습니다. </p><p>그럼, 내가 쓴 글이 블로그에 어떻게 올라가는지 제가 아는 내용을 최대한 자세히 설명 드리겠습니다 :)</p><p>hexo 블로그 만들기</p><ol><li>우선 터미널을 실행합니다. 아래의  경로로 가셔서 파일을 만듭니다. </li></ol><h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-다음을-따라-치세요"><a href="#터미널-창으로-가셔서-표시-다음을-따라-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 다음을 따라 치세요."></a>터미널 창으로 가셔서 $ 표시 다음을 따라 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
     
     <summary type="html">
     
@@ -376,6 +447,8 @@
       <category term="hexo" scheme="https://cds0804.github/categories/hexo/"/>
     
     
+      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
+    
       <category term="블로그" scheme="https://cds0804.github/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
     
       <category term="next" scheme="https://cds0804.github/tags/next/"/>
@@ -383,8 +456,6 @@
       <category term="github" scheme="https://cds0804.github/tags/github/"/>
     
       <category term="github.io" scheme="https://cds0804.github/tags/github-io/"/>
-    
-      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
     
       <category term="theme" scheme="https://cds0804.github/tags/theme/"/>
     
@@ -443,13 +514,13 @@
       <category term="python" scheme="https://cds0804.github/categories/python/"/>
     
     
-      <category term="data science" scheme="https://cds0804.github/tags/data-science/"/>
-    
       <category term="python" scheme="https://cds0804.github/tags/python/"/>
     
       <category term="pandas" scheme="https://cds0804.github/tags/pandas/"/>
     
       <category term="coding" scheme="https://cds0804.github/tags/coding/"/>
+    
+      <category term="data science" scheme="https://cds0804.github/tags/data-science/"/>
     
   </entry>
   
