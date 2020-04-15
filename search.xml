@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hadoop</title>
+    <url>/2020/04/15/hadoop/</url>
+    <content><![CDATA[<h1 id="오늘은-하둡에-대해-알아보겠습니다"><a href="#오늘은-하둡에-대해-알아보겠습니다" class="headerlink" title="오늘은 하둡에 대해 알아보겠습니다."></a>오늘은 하둡에 대해 알아보겠습니다.</h1>]]></content>
+      <categories>
+        <category>spark</category>
+        <category>concept</category>
+      </categories>
+      <tags>
+        <tag>spark</tag>
+        <tag>hadoop</tag>
+        <tag>hdfs</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git</title>
     <url>/2020/04/15/git/</url>
     <content><![CDATA[<h1 id="git에-대해-작성할-예정입니다"><a href="#git에-대해-작성할-예정입니다" class="headerlink" title="git에 대해 작성할 예정입니다."></a>git에 대해 작성할 예정입니다.</h1>]]></content>

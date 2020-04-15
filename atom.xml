@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-15T03:53:54.525Z</updated>
+  <updated>2020-04-15T04:10:13.607Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hadoop</title>
+    <link href="https://cds0804.github/2020/04/15/hadoop/"/>
+    <id>https://cds0804.github/2020/04/15/hadoop/</id>
+    <published>2020-04-15T04:09:27.000Z</published>
+    <updated>2020-04-15T04:10:13.607Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="오늘은-하둡에-대해-알아보겠습니다"><a href="#오늘은-하둡에-대해-알아보겠습니다" class="headerlink" title="오늘은 하둡에 대해 알아보겠습니다."></a>오늘은 하둡에 대해 알아보겠습니다.</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;오늘은-하둡에-대해-알아보겠습니다&quot;&gt;&lt;a href=&quot;#오늘은-하둡에-대해-알아보겠습니다&quot; class=&quot;headerlink&quot; title=&quot;오늘은 하둡에 대해 알아보겠습니다.&quot;&gt;&lt;/a&gt;오늘은 하둡에 대해 알아보겠습니다.&lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="spark" scheme="https://cds0804.github/categories/spark/"/>
+    
+      <category term="concept" scheme="https://cds0804.github/categories/spark/concept/"/>
+    
+    
+      <category term="spark" scheme="https://cds0804.github/tags/spark/"/>
+    
+      <category term="hadoop" scheme="https://cds0804.github/tags/hadoop/"/>
+    
+      <category term="hdfs" scheme="https://cds0804.github/tags/hdfs/"/>
+    
+  </entry>
   
   <entry>
     <title>git</title>
