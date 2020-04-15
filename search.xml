@@ -102,17 +102,18 @@
     <url>/2020/04/09/cross-validation/</url>
     <content><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1><p>statsmodels 사이트 : <a href="https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html">https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html</a></p>
 <ol>
-<li>anova 불러오기<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> statsmodels.stats.anova <span class="keyword">import</span> anova_lm</span><br></pre></td></tr></table></figure>
+<li>python에서 anova library 불러옵니다.<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> statsmodels.stats.anova <span class="keyword">import</span> anova_lm</span><br></pre></td></tr></table></figure>
 
 </li>
 </ol>
+<h1 id="수식-예제"><a href="#수식-예제" class="headerlink" title="수식 예제"></a>수식 예제</h1><p>$ax^2+bx+c&gt;0$</p>
 <h1 id="추후-작성예정입니다"><a href="#추후-작성예정입니다" class="headerlink" title="추후 작성예정입니다."></a>추후 작성예정입니다.</h1>]]></content>
       <categories>
         <category>math</category>
-        <category>python</category>
         <category>linear regression</category>
       </categories>
       <tags>
+        <tag>python</tag>
         <tag>anova</tag>
         <tag>cv</tag>
         <tag>cross validation</tag>

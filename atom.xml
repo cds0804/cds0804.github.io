@@ -141,9 +141,9 @@
     <link href="https://cds0804.github/2020/04/09/cross-validation/"/>
     <id>https://cds0804.github/2020/04/09/cross-validation/</id>
     <published>2020-04-09T04:35:26.000Z</published>
-    <updated>2020-04-15T03:24:08.263Z</updated>
+    <updated>2020-04-15T03:39:48.534Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1><p>statsmodels 사이트 : <a href="https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html">https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html</a></p><ol><li>anova 불러오기<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> statsmodels.stats.anova <span class="keyword">import</span> anova_lm</span><br></pre></td></tr></table></figure></li></ol><h1 id="추후-작성예정입니다"><a href="#추후-작성예정입니다" class="headerlink" title="추후 작성예정입니다."></a>추후 작성예정입니다.</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1><p>statsmodels 사이트 : <a href="https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html">https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html</a></p><ol><li>python에서 anova library 불러옵니다.<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> statsmodels.stats.anova <span class="keyword">import</span> anova_lm</span><br></pre></td></tr></table></figure></li></ol><h1 id="수식-예제"><a href="#수식-예제" class="headerlink" title="수식 예제"></a>수식 예제</h1><p>$ax^2+bx+c&gt;0$</p><h1 id="추후-작성예정입니다"><a href="#추후-작성예정입니다" class="headerlink" title="추후 작성예정입니다."></a>추후 작성예정입니다.</h1>]]></content>
     
     <summary type="html">
     
@@ -157,10 +157,10 @@
     
       <category term="math" scheme="https://cds0804.github/categories/math/"/>
     
-      <category term="python" scheme="https://cds0804.github/categories/math/python/"/>
+      <category term="linear regression" scheme="https://cds0804.github/categories/math/linear-regression/"/>
     
-      <category term="linear regression" scheme="https://cds0804.github/categories/math/python/linear-regression/"/>
     
+      <category term="python" scheme="https://cds0804.github/tags/python/"/>
     
       <category term="anova" scheme="https://cds0804.github/tags/anova/"/>
     

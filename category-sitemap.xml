@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/math/linear-regression/</loc>
+        <lastmod>2020-04-15T03:39:48.534Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/math/</loc>
+        <lastmod>2020-04-15T03:39:48.534Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/spark/</loc>
         <lastmod>2020-04-15T03:24:08.285Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -22,28 +36,7 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/math/python/linear-regression/</loc>
-        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/math/python/</loc>
-        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/categories/git/</loc>
-        <lastmod>2020-04-15T03:24:08.263Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/math/</loc>
         <lastmod>2020-04-15T03:24:08.263Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
