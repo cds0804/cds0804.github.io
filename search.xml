@@ -34,10 +34,11 @@
 <li>iTrem : 현재 사용하고 있는 터미널</li>
 <li>oh my zsh : 터미널 설정 오픈소스<br>출처 : <a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a> </li>
 </ul>
-<h3 id="현재위치-파악-및-폴더-이동하기"><a href="#현재위치-파악-및-폴더-이동하기" class="headerlink" title="현재위치 파악 및 폴더 이동하기"></a>현재위치 파악 및 폴더 이동하기</h3><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">pwd</span> </span><br><span class="line">$ ll</span><br><span class="line">$ ls</span><br><span class="line">$ <span class="built_in">cd</span> Documents</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ <span class="built_in">cd</span> Music/Music</span><br><span class="line">$ <span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
+<h3 id="현재위치-파악-및-폴더-이동하기"><a href="#현재위치-파악-및-폴더-이동하기" class="headerlink" title="현재위치 파악 및 폴더 이동하기"></a>현재위치 파악 및 폴더 이동하기</h3><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">pwd</span> </span><br><span class="line">$ ll</span><br><span class="line">$ ls -al</span><br><span class="line">$ ls</span><br><span class="line">$ <span class="built_in">cd</span> Documents</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ <span class="built_in">cd</span> Music/Music</span><br><span class="line">$ <span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
 <ol>
 <li>pwd : 현재 위치의 절대 경로</li>
 <li>ll : 폴더 </li>
+<li>ls -al : 폴더 상세내용 표시</li>
 <li>ls : </li>
 <li>cd Documents : </li>
 <li>cd .. : </li>
