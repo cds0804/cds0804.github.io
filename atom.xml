@@ -552,6 +552,8 @@
       <category term="post" scheme="https://cds0804.github/categories/hexo/post/"/>
     
     
+      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
+    
       <category term="블로그" scheme="https://cds0804.github/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
     
       <category term="next" scheme="https://cds0804.github/tags/next/"/>
@@ -559,8 +561,6 @@
       <category term="github" scheme="https://cds0804.github/tags/github/"/>
     
       <category term="github.io" scheme="https://cds0804.github/tags/github-io/"/>
-    
-      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
     
       <category term="theme" scheme="https://cds0804.github/tags/theme/"/>
     
