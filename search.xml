@@ -1,6 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>webcrawling</title>
+    <url>/2020/04/21/webcrawling-robots.txt/</url>
+    <content><![CDATA[<h3 id="web-crawling-하기전에-알아둬야-할-사항"><a href="#web-crawling-하기전에-알아둬야-할-사항" class="headerlink" title="web crawling 하기전에 알아둬야 할 사항"></a>web crawling 하기전에 알아둬야 할 사항</h3><p>출처: <a href="https://gbsb.tistory.com/80">https://gbsb.tistory.com/80</a><br>출처: <a href="https://medium.com/@euncho/robots-txt-e08328c4f0fd">https://medium.com/@euncho/robots-txt-e08328c4f0fd</a><br>출처: <a href="https://support.google.com/webmasters/answer/6062596?hl=ko">https://support.google.com/webmasters/answer/6062596?hl=ko</a><br>출처: <a href="https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80">https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80</a></p>
+<p>자세한 내용은 위 사이트를 참조하세요. </p>
+<ul>
+<li>네이버의 IT내용을 크롤링할 것이라고 가정할 때 <a href="http://www.naver.com/robots.txt을">www.naver.com/robots.txt을</a> 검색하면 로봇 베제 규약에 관한 내용이 나옵니다. </li>
+</ul>
+<h3 id="robots-txt-내용-요약"><a href="#robots-txt-내용-요약" class="headerlink" title="robots.txt 내용 요약"></a>robots.txt 내용 요약</h3><ol>
+<li>모든 로봇 접근 허락<br>User-agent: *<br>Allow : /<ol start="2">
+<li>모든 로봇 접근 차단<br>User-agent: *<br>Disallow: /</li>
+<li>모든 로봇에 디렉토리 3곳 접근 차단<br>User-agent: *<br>Disallow: /cgi-bin/<br>Disallow: /tmp/<br>Disallow: /junk/</li>
+<li>모든 로봇에 특정 파일 접근 차단<br>User-agent: *<br>Disallow: /directory/file.html</li>
+<li>BadBot 로봇에 모든 파일 접근 차단<br>User-agent: BadBot<br>Disallow: /</li>
+<li>BadBot과 Googlebot에 특정 디렉토리 접근 차단<br>User-agent: BadBot<br>User-agent: Googlebot<br>Disallow: /private/</li>
+</ol>
+</li>
+</ol>
+<h1 id="참고사항-2020년-4월-21일-현재"><a href="#참고사항-2020년-4월-21일-현재" class="headerlink" title="참고사항 2020년 4월 21일 현재"></a>참고사항 2020년 4월 21일 현재</h1><ol>
+<li>네이버 로봇 규약 설정<br>출처:  <a href="https://searchadvisor.naver.com/guide/seo-basic-robots">https://searchadvisor.naver.com/guide/seo-basic-robots</a></li>
+</ol>
+<ul>
+<li><p>사이트의 루트 페이지만 수집 허용으로 설정합니다.<br>User-agent: *<br>Disallow: /<br>Allow: /$</p>
+<ul>
+<li>sitemap.xml 지정<br>User-agent: *<br>Allow: /<br>Sitemap: <a href="http://www.example.com/sitemap.xml">http://www.example.com/sitemap.xml</a></li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>다음 로봇 규약 설정</li>
+</ol>
+<ul>
+<li><p>모든 로봇의 접근 차단<br>User-agent: *<br>Disallow: /</p>
+<ol start="3">
+<li>카카오 로봇 규약 설정</li>
+</ol>
+</li>
+<li><p>모든 로봇의 접근 차단</p>
+</li>
+<li><p>See <a href="http://www.robotstxt.org/wc/norobots.html">http://www.robotstxt.org/wc/norobots.html</a> for documentation on how to use the robots.txt file</p>
+</li>
+<li><p>To ban all spiders from the entire site uncomment the next two lines:<br>User-agent: *<br>Disallow: /</p>
+</li>
+</ul>
+<p>문제가 있거나 오타가 있으면 알려주세요.<br>감사합니다 :)</p>
+]]></content>
+      <categories>
+        <category>crawling</category>
+        <category>concept</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+        <tag>web</tag>
+        <tag>webcrawling</tag>
+        <tag>get</tag>
+        <tag>post</tag>
+        <tag>randering</tag>
+        <tag>http</tag>
+        <tag>robots.txt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>webcrawling</title>
+    <url>/2020/04/21/webcrawling-3/</url>
+    <content><![CDATA[<h3 id="python의-request-모듈을-사용하여-http-request-resopnse-확인하기"><a href="#python의-request-모듈을-사용하여-http-request-resopnse-확인하기" class="headerlink" title="python의 request 모듈을 사용하여 http request/resopnse 확인하기"></a>python의 request 모듈을 사용하여 http request/resopnse 확인하기</h3>]]></content>
+      <categories>
+        <category>crawling</category>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+        <tag>web</tag>
+        <tag>webcrawling</tag>
+        <tag>get</tag>
+        <tag>post</tag>
+        <tag>randering</tag>
+        <tag>http</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test.html</title>
+    <url>/2020/04/21/test-html/</url>
+    <content><![CDATA[<html>
+    <head>
+        <title>BeautifulSoup test</title>
+    <link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml">
+</head>
+    <bocy>
+        <div id='upper' class='test'>
+            <h3 title='Good Content Title'>Contents Title</h3>
+            <p>Test contents</p>
+            <img src='https://newsimg.sedaily.com/2018/05/16/1RZJYCTROK_1.jpg'>
+        </div>
+        <div id='lower' class='test'>
+            <p>Test Test Test 1</p>
+            <p>Test Test Test 2</p>
+            <p>Test Test Test 3</p>
+        </div>
+    </body>
+</html>]]></content>
+      <categories>
+        <category>crawling</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>webcrawling</title>
+    <url>/2020/04/21/webcrawling-2/</url>
+    <content><![CDATA[<p>※ 출처 : fast campus 머신러닝 인강(변영효 강사님)</p>
+<ul>
+<li><p>일부 내용만 발췌하였고, 기본적인 개념 및 추가내용을 확인하시려면 인강 수강을 권장드립니다. </p>
+</li>
+<li><p>내용요약</p>
+</li>
+<li><ol>
+<li>웹사이트에서 원하는 정보의 태그를 파악</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>모듈을 통해 태그를 찾은 후 원하는 값을 가져옴</li>
+</ol>
+</li>
+</ul>
+<h3 id="2-HTML-Hyper-Text-Markup-Language"><a href="#2-HTML-Hyper-Text-Markup-Language" class="headerlink" title="2. HTML(Hyper Text Markup Language)"></a>2. HTML(Hyper Text Markup Language)</h3><ul>
+<li><p>웹 사이트를 생성하기 위한 언어로 문서와 문서가 링크로 연결되어 있고, 태그를 사용하는 언어</p>
+</li>
+<li><p>태그 : HTML 문서의 기본 블락</p>
+</li>
+<li><p>브라우저에 어떻게 렌더링(화면에 표시)될지 전달</p>
+</li>
+<li><p>&lt;태그명 속성1=”속성값1” 속성2=”속성값2”&gt;Value&lt;/태그명&gt;</p>
+</li>
+<li><p>&lt;태그명 속성1=”속성값1” 속성2=”속성값2”/&gt;</p>
+</li>
+<li><p>p 태그 : paragraph tag</p>
+<p>한 문단으로 표시해주는 태그</p>
+</li>
+<li><p>div 태그</p>
+<div>그룹핑을 하는 태그</div>
+</li>
+<li><p>대부분의 crawling은 태그 안에 있는 값을 추출하는 작업입니다. </p>
+</li>
+<li><p>html 기본구조</p>
+</li>
+</ul>
+<html>
+    <head>
+        <title>BeautifulSoup test</title>
+    <link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml">
+</head>
+    <bocy>
+        <div id='upper' class='test'>
+            <h3 title='Good Content Title'>Contents Title</h3>
+            <p>Test contents</p>
+            <img src='https://newsimg.sedaily.com/2018/05/16/1RZJYCTROK_1.jpg'>
+        </div>
+        <div id='lower' class='test'>
+            <p>Test Test Test 1</p>
+            <p>Test Test Test 2</p>
+            <p>Test Test Test 3</p>
+        </div>
+    </body>
+</html>
+
+]]></content>
+      <categories>
+        <category>crawling</category>
+        <category>concept</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+        <tag>web</tag>
+        <tag>webcrawling</tag>
+        <tag>get</tag>
+        <tag>post</tag>
+        <tag>randering</tag>
+        <tag>http</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>seo</title>
     <url>/2020/04/17/seo/</url>
     <content><![CDATA[<h1 id="website-seo-하기"><a href="#website-seo-하기" class="headerlink" title="website seo 하기"></a>website seo 하기</h1><h1 id="출처-https-msj0319-github-io-2020-02-14-Hexo-Blog-EA-B5-AC-EA-B8-80-EC-82-AC-EC-9D-B4-ED-8A-B8-EB-93-B1-EB-A1-9D-EB-B0-8F-EA-B2-80-EC-83-89-EC-97-94-EC-A7-84-EC-B5-9C-EC-A0-81-ED-99-94-SEO-more"><a href="#출처-https-msj0319-github-io-2020-02-14-Hexo-Blog-EA-B5-AC-EA-B8-80-EC-82-AC-EC-9D-B4-ED-8A-B8-EB-93-B1-EB-A1-9D-EB-B0-8F-EA-B2-80-EC-83-89-EC-97-94-EC-A7-84-EC-B5-9C-EC-A0-81-ED-99-94-SEO-more" class="headerlink" title="출처 : https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/#more"></a>출처 : <a href="https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/#more">https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/#more</a></h1>]]></content>
@@ -279,7 +461,13 @@
 <ol start="3">
 <li>EDA 진행하기</li>
 </ol>
-<h2 id="추후-업데이트-진행예정"><a href="#추후-업데이트-진행예정" class="headerlink" title="추후 업데이트 진행예정"></a>추후 업데이트 진행예정</h2>]]></content>
+<ul>
+<li>수집한 데이터를 회귀분석 목적에 맞게 전처리합니다. 실수형 독립변수, 카테고리형 독립변수에 대해 어떻게 처리할지 염두하여 진행해야 합니다. </li>
+</ul>
+<ol start="4">
+<li><h2 id="추후-업데이트-진행예정"><a href="#추후-업데이트-진행예정" class="headerlink" title="추후 업데이트 진행예정"></a>추후 업데이트 진행예정</h2></li>
+</ol>
+]]></content>
       <categories>
         <category>project</category>
       </categories>
@@ -430,14 +618,58 @@
   </entry>
   <entry>
     <title>webcrawling</title>
-    <url>/2020/04/03/webcrawling/</url>
-    <content><![CDATA[<h3 id="테스트입니다"><a href="#테스트입니다" class="headerlink" title="테스트입니다."></a>테스트입니다.</h3>]]></content>
+    <url>/2020/04/03/webcrawling-1/</url>
+    <content><![CDATA[<h3 id="1-개발자-도구를-활용한-웹페이지-분석"><a href="#1-개발자-도구를-활용한-웹페이지-분석" class="headerlink" title="1. 개발자 도구를 활용한 웹페이지 분석"></a>1. 개발자 도구를 활용한 웹페이지 분석</h3><ul>
+<li><p>chrome 기준 </p>
+</li>
+<li><p>웹 브라우저 : html로 작성된 내용을 user(사람들)가 보기 쉽게 랜더링 해주는 기능을 함</p>
+</li>
+<li><p>Elements 탭</p>
+</li>
+<li><p>원하는 데이터로 이동하는 기능을 사용</p>
+</li>
+<li><p>엘레먼트 탭 : 왼쪽 상단에 있음, 원하는 데이터를 클릭했을 때 어떤 테그와 어떤 속성을 가지는지 표시해주는 역할을 함</p>
+</li>
+<li><p>어떤 태그와 속성을 가지는지 먼저 파악해야 함</p>
+</li>
+<li><p>Network 탭</p>
+</li>
+<li><p>Preserve log : 체크 시, 로그가 지워지지 않고 유지됨</p>
+</li>
+<li><p>브라우저가 서버에 요청되는 모든 요청을 로그함</p>
+</li>
+<li><p>url 확인 가능</p>
+</li>
+<li><p>요청이 많은 이유 : 이미지 등은 첫번째 요청에 한번에 오지 않고, 따로 요청하여 받아옴</p>
+</li>
+<li><p>처음엔 기본적인 데이터만 넘기고, 나머지 데이터는 브라우저에서 ajax 등의 기술을 이용해서 비동기적으로 가져갈 수 있도록 함</p>
+</li>
+<li><p>HTTP(Hyper Text Transfer Protocol) : HTML 문서 등의 리소스를 전송하는 프로토콜(규약)</p>
+</li>
+<li><p>클라이언트(user가 사용하는 브라우저)가 서버에 HTTP 요청(Get, Post 등)</p>
+</li>
+<li><p>서버에서 클라이언트로 HTTP 응답을 함</p>
+</li>
+<li><p>Get 요청 : 데이터를 url에 포함하여 전달(주로 리소스 요청에 사용), 정보의 공유가능</p>
+</li>
+<li><p>Post 요청 : 데이터를 Form data에 포함하여 전달(주로 로그인에 사용)</p>
+</li>
+<li><p>rendering(렌더링) : html을 받아 사용자(사람들)이 볼 수 있도록 출력해주는 작업</p>
+</li>
+</ul>
+]]></content>
       <categories>
         <category>crawling</category>
+        <category>concept</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>get</tag>
+        <tag>post</tag>
+        <tag>randering</tag>
+        <tag>http</tag>
       </tags>
   </entry>
   <entry>

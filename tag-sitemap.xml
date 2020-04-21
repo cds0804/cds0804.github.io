@@ -3,6 +3,83 @@
 
 
     <url>
+        <loc>https://cds0804.github/tags/http/</loc>
+        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/randering/</loc>
+        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/post/</loc>
+        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/get/</loc>
+        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/webcrawling/</loc>
+        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/web/</loc>
+        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/html/</loc>
+        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/%25EC%2584%25A0%25ED%2598%2595%25ED%259A%258C%25EA%25B7%2580%25EB%25B6%2584%25EC%2584%259D/</loc>
+        <lastmod>2020-04-21T12:06:34.747Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/linear-regression/</loc>
+        <lastmod>2020-04-21T12:06:34.747Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/robots-txt/</loc>
+        <lastmod>2020-04-21T12:06:30.735Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/test/</loc>
+        <lastmod>2020-04-21T01:26:47.940Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/tags/visit/</loc>
         <lastmod>2020-04-17T17:26:09.900Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -271,34 +348,6 @@
     <url>
         <loc>https://cds0804.github/tags/coding/</loc>
         <lastmod>2020-04-14T03:18:12.574Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/%25EC%2584%25A0%25ED%2598%2595%25ED%259A%258C%25EA%25B7%2580%25EB%25B6%2584%25EC%2584%259D/</loc>
-        <lastmod>2020-04-08T06:47:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/linear-regression/</loc>
-        <lastmod>2020-04-08T06:47:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/webcrawling/</loc>
-        <lastmod>2020-04-08T05:13:18.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/web/</loc>
-        <lastmod>2020-04-08T05:13:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
