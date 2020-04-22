@@ -4,49 +4,56 @@
 
     <url>
         <loc>https://cds0804.github/tags/http/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/randering/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/post/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/get/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/webcrawling/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/web/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/html/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/robots-txt/</loc>
+        <lastmod>2020-04-22T14:19:00.860Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -61,13 +68,6 @@
     <url>
         <loc>https://cds0804.github/tags/linear-regression/</loc>
         <lastmod>2020-04-21T12:06:34.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/robots-txt/</loc>
-        <lastmod>2020-04-21T12:06:30.735Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

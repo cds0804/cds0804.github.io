@@ -8,16 +8,24 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/21/webcrawling-2/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <loc>https://cds0804.github/2020/04/21/webcrawling-3/</loc>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/21/webcrawling-3/</loc>
-        <lastmod>2020-04-21T12:06:34.763Z</lastmod>
+        <loc>https://cds0804.github/2020/04/21/webcrawling-2/</loc>
+        <lastmod>2020-04-22T14:20:42.064Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/21/webcrawling-robots.txt/</loc>
+        <lastmod>2020-04-22T14:19:00.860Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -34,14 +42,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/03/webcrawling-1/</loc>
         <lastmod>2020-04-21T12:06:34.745Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/21/webcrawling-robots.txt/</loc>
-        <lastmod>2020-04-21T12:06:30.735Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
