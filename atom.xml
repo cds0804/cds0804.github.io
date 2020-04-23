@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-22T14:19:00.860Z</updated>
+  <updated>2020-04-23T12:04:45.434Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -17,13 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>porject</title>
+    <link href="https://cds0804.github/2020/04/23/porject/"/>
+    <id>https://cds0804.github/2020/04/23/porject/</id>
+    <published>2020-04-23T12:03:21.000Z</published>
+    <updated>2020-04-23T12:04:45.434Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="EDA-project"><a href="#EDA-project" class="headerlink" title="EDA project"></a>EDA project</h4><p>아파트 가격분석 EDA </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;EDA-project&quot;&gt;&lt;a href=&quot;#EDA-project&quot; class=&quot;headerlink&quot; title=&quot;EDA project&quot;&gt;&lt;/a&gt;EDA project&lt;/h4&gt;&lt;p&gt;아파트 가격분석 EDA &lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="project" scheme="https://cds0804.github/categories/project/"/>
+    
+      <category term="EDA" scheme="https://cds0804.github/categories/project/EDA/"/>
+    
+    
+      <category term="eda" scheme="https://cds0804.github/tags/eda/"/>
+    
+      <category term="project" scheme="https://cds0804.github/tags/project/"/>
+    
+  </entry>
+  
+  <entry>
     <title>webcrawling</title>
     <link href="https://cds0804.github/2020/04/21/webcrawling-robots.txt/"/>
     <id>https://cds0804.github/2020/04/21/webcrawling-robots.txt/</id>
     <published>2020-04-21T05:55:46.000Z</published>
-    <updated>2020-04-22T14:19:00.860Z</updated>
+    <updated>2020-04-23T12:07:08.062Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="web-crawling-하기전에-알아둬야-할-사항"><a href="#web-crawling-하기전에-알아둬야-할-사항" class="headerlink" title="web crawling 하기전에 알아둬야 할 사항"></a>web crawling 하기전에 알아둬야 할 사항</h3><p>출처: <a href="https://gbsb.tistory.com/80">https://gbsb.tistory.com/80</a><br>출처: <a href="https://medium.com/@euncho/robots-txt-e08328c4f0fd">https://medium.com/@euncho/robots-txt-e08328c4f0fd</a><br>출처: <a href="https://support.google.com/webmasters/answer/6062596?hl=ko">https://support.google.com/webmasters/answer/6062596?hl=ko</a><br>출처: <a href="https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80">https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80</a></p><p>자세한 내용은 위 사이트를 참조하세요. </p><ul><li>네이버의 IT내용을 크롤링할 것이라고 가정할 때 <a href="http://www.naver.com/robots.txt을">www.naver.com/robots.txt을</a> 검색하면 로봇 베제 규약에 관한 내용이 나옵니다. </li></ul><h3 id="robots-txt-내용-요약"><a href="#robots-txt-내용-요약" class="headerlink" title="robots.txt 내용 요약"></a>robots.txt 내용 요약</h3><ol><li>모든 로봇 접근 허락<br>User-agent: *<br>Allow : /<ol start="2"><li>모든 로봇 접근 차단<br>User-agent: *<br>Disallow: /</li><li>모든 로봇에 디렉토리 3곳 접근 차단<br>User-agent: *<br>Disallow: /cgi-bin/<br>Disallow: /tmp/<br>Disallow: /junk/</li><li>모든 로봇에 특정 파일 접근 차단<br>User-agent: *<br>Disallow: /directory/file.html</li><li>BadBot 로봇에 모든 파일 접근 차단<br>User-agent: BadBot<br>Disallow: /</li><li>BadBot과 Googlebot에 특정 디렉토리 접근 차단<br>User-agent: BadBot<br>User-agent: Googlebot<br>Disallow: /private/</li></ol></li></ol><h1 id="참고사항-2020년-4월-21일-현재"><a href="#참고사항-2020년-4월-21일-현재" class="headerlink" title="참고사항 2020년 4월 21일 현재"></a>참고사항 2020년 4월 21일 현재</h1><ol><li>네이버 로봇 규약 설정<br>출처:  <a href="https://searchadvisor.naver.com/guide/seo-basic-robots">https://searchadvisor.naver.com/guide/seo-basic-robots</a></li></ol><ul><li><p>사이트의 루트 페이지만 수집 허용으로 설정합니다.<br>User-agent: *<br>Disallow: /<br>Allow: /$</p><ul><li>sitemap.xml 지정<br>User-agent: *<br>Allow: /<br>Sitemap: <a href="http://www.example.com/sitemap.xml">http://www.example.com/sitemap.xml</a></li></ul></li></ul><ol start="2"><li>다음 로봇 규약 설정</li></ol><ul><li><p>모든 로봇의 접근 차단<br>User-agent: *<br>Disallow: /</p><ol start="3"><li>카카오 로봇 규약 설정</li></ol></li><li><p>모든 로봇의 접근 차단</p></li><li><p>See <a href="http://www.robotstxt.org/wc/norobots.html">http://www.robotstxt.org/wc/norobots.html</a> for documentation on how to use the robots.txt file</p></li><li><p>To ban all spiders from the entire site uncomment the next two lines:<br>User-agent: *<br>Disallow: /</p></li></ul><p>문제가 있거나 오타가 있으면 댓글이나 메일로 알려주세요.<br>감사합니다 :)</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="web-crawling-하기전에-알아둬야-할-사항"><a href="#web-crawling-하기전에-알아둬야-할-사항" class="headerlink" title="web crawling 하기전에 알아둬야 할 사항"></a>web crawling 하기전에 알아둬야 할 사항</h3><ul><li>예를들어, 네이버 홈페이지를 크롤링한다고 하면 <a href="http://www.naver.com/robots.txt을">www.naver.com/robots.txt을</a> 브라우저 주소창에 입력하면 로봇 배제 규약에 관한 내용이 나옵니다. </li></ul><h3 id="robots-txt-내용-요약"><a href="#robots-txt-내용-요약" class="headerlink" title="robots.txt 내용 요약"></a>robots.txt 내용 요약</h3><ol><li>모든 로봇 접근 허락<br>User-agent: *<br>Allow : /<ol><li>모든 로봇 접근 차단<br>User-agent: *<br>Disallow: /</li><li>모든 로봇에 디렉토리 3곳 접근 차단<br>User-agent: *<br>Disallow: /cgi-bin/<br>Disallow: /tmp/<br>Disallow: /junk/</li><li>모든 로봇에 특정 파일 접근 차단<br>User-agent: *<br>Disallow: /directory/file.html</li><li>BadBot 로봇에 모든 파일 접근 차단<br>User-agent: BadBot<br>Disallow: /</li><li>BadBot과 Googlebot에 특정 디렉토리 접근 차단<br>User-agent: BadBot<br>User-agent: Googlebot<br>Disallow: /private/</li></ol></li></ol><h1 id="참고사항-2020년-4월-21일-현재"><a href="#참고사항-2020년-4월-21일-현재" class="headerlink" title="참고사항 2020년 4월 21일 현재"></a>참고사항 2020년 4월 21일 현재</h1><ol><li>네이버 로봇 규약 설정<br>출처:  <a href="https://searchadvisor.naver.com/guide/seo-basic-robots">https://searchadvisor.naver.com/guide/seo-basic-robots</a></li></ol><ul><li><p>사이트의 루트 페이지만 수집 허용으로 설정합니다.<br>User-agent: *<br>Disallow: /<br>Allow: /$</p><ul><li>sitemap.xml 지정<br>User-agent: *<br>Allow: /<br>Sitemap: <a href="http://www.example.com/sitemap.xml">http://www.example.com/sitemap.xml</a></li></ul></li></ul><ol><li>다음 로봇 규약 설정</li></ol><ul><li><p>모든 로봇의 접근 차단<br>User-agent: *<br>Disallow: /</p><ol><li>카카오 로봇 규약 설정</li></ol></li><li><p>모든 로봇의 접근 차단</p></li><li><p>See <a href="http://www.robotstxt.org/wc/norobots.html">http://www.robotstxt.org/wc/norobots.html</a> for documentation on how to use the robots.txt file</p></li><li><p>To ban all spiders from the entire site uncomment the next two lines:<br>User-agent: *<br>Disallow: /</p></li></ul><p>문제가 있거나 오타가 있으면 댓글이나 메일로 알려주세요.<br>감사합니다 :)</p><p>자세한 내용은 아래 사이트를 참조하세요.<br>출처: <a href="https://gbsb.tistory.com/80">https://gbsb.tistory.com/80</a><br>출처: <a href="https://medium.com/@euncho/robots-txt-e08328c4f0fd">https://medium.com/@euncho/robots-txt-e08328c4f0fd</a><br>출처: <a href="https://support.google.com/webmasters/answer/6062596?hl=ko">https://support.google.com/webmasters/answer/6062596?hl=ko</a><br>출처: <a href="https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80">https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80</a></p>]]></content>
     
     <summary type="html">
     
@@ -103,9 +134,9 @@
     <link href="https://cds0804.github/2020/04/21/test-html/"/>
     <id>https://cds0804.github/2020/04/21/test-html/</id>
     <published>2020-04-21T01:25:48.000Z</published>
-    <updated>2020-04-21T01:26:47.940Z</updated>
+    <updated>2020-04-23T12:01:23.972Z</updated>
     
-    <content type="html"><![CDATA[<html>    <head>        <title>BeautifulSoup test</title>    <link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml"></head>    <bocy>        <div id='upper' class='test'>            <h3 title='Good Content Title'>Contents Title</h3>            <p>Test contents</p>            <img src='https://newsimg.sedaily.com/2018/05/16/1RZJYCTROK_1.jpg'>        </div>        <div id='lower' class='test'>            <p>Test Test Test 1</p>            <p>Test Test Test 2</p>            <p>Test Test Test 3</p>        </div>    </body></html>]]></content>
+    <content type="html"><![CDATA[<html>    <head>        <title>BeautifulSoup test</title>    <link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml"></head>    <bocy>        <div id='upper' class='test'>            <h3 title='Good Content Title'>Contents Title</h3>            <p>Test contents</p>            <img src='https://newsimg.sedaily.com/2018/05/16/1RZJYCTROK_1.jpg'>        </div>        <div id='lower' class='test'>            <p>추후 작성할 포스트</p>            <p>1. python os</p>            <p>2. </p>        </div>    </body></html>]]></content>
     
     <summary type="html">
     
@@ -622,37 +653,6 @@
     
     
       <category term="spark" scheme="https://cds0804.github/tags/spark/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 블로그 만들기</title>
-    <link href="https://cds0804.github/2020/04/05/Hexo%20create/"/>
-    <id>https://cds0804.github/2020/04/05/Hexo%20create/</id>
-    <published>2020-04-05T04:09:09.000Z</published>
-    <updated>2020-04-15T03:51:58.808Z</updated>
-    
-    <content type="html"><![CDATA[<p>안녕하세요!<br>hexo 블로그 만드는 방법입니다. </p><p>hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. </p><ol><li>Node.js(<a href="https://nodejs.org/en/">https://nodejs.org/en/</a>)<ul><li>Should be at least Node.js 8.10, recommends 10.0 or higher</li></ul></li><li>Git(<a href="https://git-scm.com/">https://git-scm.com/</a>)<ul><li>github에서 repository를 생성해야 합니다. </li><li>참고: <a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/</a></li></ul></li></ol><p>hexo 블로그 공식 홈페이지<br><strong><a href="https://hexo.io/ko/index.html">https://hexo.io/ko/index.html</a></strong></p><p>hexo 블로그 설치하기 공식문서<br><a href="https://hexo.io/ko/docs/">https://hexo.io/ko/docs/</a></p><ol><li>터미널을 엽니다.</li><li>블로그를 만들면 폴더가 생성됩니다. 폴더를 생성하고자 하는 곳으로 가셔서 아래의 $를 제외한 명령어를 입력하세요. </li><li>띄어쓰기 대소문자 모두 그대로 입력해주세요.<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. $ npm install hexo-cli -g</span><br><span class="line">2. $ hexo init blog</span><br></pre></td></tr></table></figure></li><li>블로그를 만든 폴더로 이동합니다. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5. $ <span class="built_in">cd</span> blog</span><br><span class="line">6. $ npm install</span><br><span class="line">7.  $ hexo server</span><br></pre></td></tr></table></figure></li><li>로컬에서 hexo 블로그를 확인하실 수 있습니다. </li></ol><ol start="6"><li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li></ol><h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server-생략가능"><a href="#3-hexo-server-생략가능" class="headerlink" title="3. $ hexo server # 생략가능"></a>3. $ hexo server # 생략가능</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;안녕하세요!&lt;br&gt;hexo 블로그 만드는 방법입니다. &lt;/p&gt;
-&lt;p&gt;hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Node.js(&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;https://no
-      
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://cds0804.github/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
-    
-      <category term="create" scheme="https://cds0804.github/tags/create/"/>
     
   </entry>
   

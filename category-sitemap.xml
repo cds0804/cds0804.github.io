@@ -8,29 +8,36 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/crawling/python/</loc>
-        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
+        <loc>https://cds0804.github/categories/crawling/concept/</loc>
+        <lastmod>2020-04-23T12:07:08.062Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/crawling/</loc>
-        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
+        <lastmod>2020-04-23T12:07:08.062Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/crawling/concept/</loc>
-        <lastmod>2020-04-22T14:20:42.064Z</lastmod>
+        <loc>https://cds0804.github/categories/project/EDA/</loc>
+        <lastmod>2020-04-23T12:04:45.434Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/project/</loc>
-        <lastmod>2020-04-21T12:06:34.747Z</lastmod>
+        <lastmod>2020-04-23T12:04:45.434Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/crawling/python/</loc>
+        <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

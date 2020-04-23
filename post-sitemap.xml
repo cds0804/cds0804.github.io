@@ -8,6 +8,30 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/21/webcrawling-robots.txt/</loc>
+        <lastmod>2020-04-23T12:07:08.062Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/23/porject/</loc>
+        <lastmod>2020-04-23T12:04:45.434Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/21/test-html/</loc>
+        <lastmod>2020-04-23T12:01:23.972Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/21/webcrawling-3/</loc>
         <lastmod>2020-04-22T14:44:07.072Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,14 +48,6 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/21/webcrawling-robots.txt/</loc>
-        <lastmod>2020-04-22T14:19:00.860Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://cds0804.github/2020/04/08/Linear_Regression/</loc>
         <lastmod>2020-04-21T12:06:34.747Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -42,14 +58,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/03/webcrawling-1/</loc>
         <lastmod>2020-04-21T12:06:34.745Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/21/test-html/</loc>
-        <lastmod>2020-04-21T01:26:47.940Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
