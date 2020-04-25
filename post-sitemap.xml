@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/23/porject/</loc>
+        <lastmod>2020-04-25T13:58:24.640Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/17/seo/</loc>
         <lastmod>2020-04-25T13:45:08.194Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -34,14 +42,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/24/re/</loc>
         <lastmod>2020-04-25T06:53:19.611Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/23/porject/</loc>
-        <lastmod>2020-04-25T06:53:19.603Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
