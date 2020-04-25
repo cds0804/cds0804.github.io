@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-25T15:39:10.828Z</updated>
+  <updated>2020-04-25T15:44:16.133Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://cds0804.github/2020/04/25/Hexo-profile/"/>
     <id>https://cds0804.github/2020/04/25/Hexo-profile/</id>
     <published>2020-04-25T14:43:05.000Z</published>
-    <updated>2020-04-25T15:39:10.828Z</updated>
+    <updated>2020-04-25T15:44:16.133Z</updated>
     
-    <content type="html"><![CDATA[<p>안녕하세요, Hexo Icarus theme의 프로필 사진을 변경하는 방법에 대해 알아보겠습니다. </p><ol><li><p>아래와 같이 터미널에서 source 폴더 안에 img 폴더를 만든 후 img 폴더 안에 이미지 사진을 올리고 아래와 같이 작성하면 됩니다. </p></li><li><p>파일이름 대소문자를 구분한다고 하니 동일하게 진행하셔야 이미지가 보입니다. </p></li><li><p><strong>![문자 사이에 공간이 없어야 합니다]</strong> 즉, 대쉬를 이용해서 문자와 문자 사이에 공간을 없애야 정상적으로 작동합니다. </p></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir img</span><br></pre></td></tr></table></figure><ol><li><p>Hexo 프로필 사진 변경<br><img src="/img/hexo-icarus-profile-avata.jpg" alt="hexo-icarus-profile-avata"></p></li><li><p>Hexo 프로필 아래 twitter 아이콘 제거하기<br><img src="/img/hexo-icarus-twitter.png" alt="hexo-icarus-twitter.png"></p></li><li><p>Hexo 블로그에 이미지 올리기<br><img src="/img/hexo-icarus-image-upload.png" alt="hexo-icarus-image-upload"></p></li></ol><blockquote><p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">이카루스 테마 페이지</a></p></blockquote><hr/>]]></content>
+    <content type="html"><![CDATA[<p>안녕하세요, Hexo Icarus theme의 프로필 사진을 변경하는 방법에 대해 알아보겠습니다. </p><ol><li><p>아래와 같이 터미널에서 source 폴더 안에 img 폴더를 만든 후 img 폴더 안에 이미지 사진을 올리고 아래와 같이 작성하면 됩니다. </p></li><li><p>파일이름 대소문자를 구분한다고 하니 동일하게 진행하셔야 이미지가 보입니다. </p></li><li><p><strong>![문자 사이에 공간이 없어야 합니다]</strong> 즉, 대쉬를 이용해서 문자와 문자 사이에 공간을 없애야 정상적으로 작동합니다. </p></li><li><p>upload까지 약 3~4분 정도 소요되니 참고하시길 바랍니다.  </p></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir img</span><br></pre></td></tr></table></figure><ol><li>Hexo 프로필 사진 변경<br><img src="/img/hexo-icarus-profile-avata.jpg" alt="hexo-icarus-profile-avata"></li></ol><ol start="2"><li>Hexo 프로필 아래 twitter 아이콘 제거하기<br><img src="/img/hexo-icarus-twitter.png" alt="hexo-icarus-twitter.png"></li></ol><ol start="3"><li>Hexo 블로그에 이미지 올리기<br><img src="/img/hexo-icarus-image-upload.png" alt="img 폴더를 만들고 그 안에 이미지를 추가한다"></li></ol><blockquote><p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">이카루스 테마 페이지</a></p></blockquote><hr/>]]></content>
     
     <summary type="html">
     
@@ -228,11 +228,11 @@
       <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
     
     
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
@@ -270,11 +270,11 @@
       <category term="python" scheme="https://cds0804.github/categories/crawling/python/"/>
     
     
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
@@ -347,11 +347,11 @@
       <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
     
     
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
