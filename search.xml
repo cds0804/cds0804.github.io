@@ -15,12 +15,15 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir img</span><br></pre></td></tr></table></figure>
 
 <ol>
-<li>Hexo 프로필 사진 변경<br>![hexo-icarus-profile-avata](/img/hexo icarus profile avata.jpg)</li>
+<li><p>Hexo 프로필 사진 변경<br><img src="/img/hexo-icarus-profile-avata.jpg" alt="hexo-icarus-profile-avata"></p>
+</li>
+<li><p>Hexo 프로필 아래 twitter 아이콘 제거하기<br><img src="/img/hexo-icarus-twitter.png" alt="hexo-icarus-twitter.png"></p>
+</li>
 </ol>
 <blockquote>
 <p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">이카루스 테마 페이지</a></p>
 </blockquote>
-]]></content>
+<hr/>]]></content>
       <categories>
         <category>hexo</category>
         <category>profile</category>
