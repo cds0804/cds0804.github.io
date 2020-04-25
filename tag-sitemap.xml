@@ -3,6 +3,27 @@
 
 
     <url>
+        <loc>https://cds0804.github/tags/visit/</loc>
+        <lastmod>2020-04-25T13:44:59.003Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/icarus/</loc>
+        <lastmod>2020-04-25T13:44:59.003Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/hexo/</loc>
+        <lastmod>2020-04-25T13:44:59.003Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/tags/favicon/</loc>
         <lastmod>2020-04-25T08:18:21.122Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -124,27 +145,6 @@
     <url>
         <loc>https://cds0804.github/tags/linear-regression/</loc>
         <lastmod>2020-04-21T12:06:34.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/visit/</loc>
-        <lastmod>2020-04-17T17:26:09.900Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/icarus/</loc>
-        <lastmod>2020-04-17T17:26:09.900Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/hexo/</loc>
-        <lastmod>2020-04-17T17:26:09.900Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
