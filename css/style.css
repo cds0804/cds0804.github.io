@@ -10746,10 +10746,6 @@ article.article .article-meta {
 }
 article.article .content {
   font-size: 1.1rem;
-  line-height: 1.9mm;
-  letter-spacing: 5px;
-  color: #5d686f;
-  margin-top: 30px;
 }
 article.article .content a {
   word-wrap: break-word;
