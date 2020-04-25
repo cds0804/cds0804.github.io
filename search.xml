@@ -9,7 +9,7 @@
 </li>
 <li><p>파일이름 대소문자를 구분한다고 하니 동일하게 진행하셔야 이미지가 보입니다. </p>
 </li>
-<li><p>![문자 사이에 공간이 없어야 합니다] 즉, 대쉬를 이용해서 문자와 문자 사이에 공간을 없애야 정상적으로 작동합니다. </p>
+<li><p><strong>![문자 사이에 공간이 없어야 합니다]</strong> 즉, 대쉬를 이용해서 문자와 문자 사이에 공간을 없애야 정상적으로 작동합니다. </p>
 </li>
 </ol>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir img</span><br></pre></td></tr></table></figure>
@@ -18,7 +18,7 @@
 <li>Hexo 프로필 사진 변경<br>![hexo-icarus-profile-avata](/img/hexo icarus profile avata.jpg)</li>
 </ol>
 <blockquote>
-<p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme</a></p>
+<p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">이카루스 테마 페이지</a></p>
 </blockquote>
 ]]></content>
       <categories>
