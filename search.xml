@@ -9,11 +9,13 @@
 </li>
 <li><p>파일이름 대소문자를 구분한다고 하니 동일하게 진행하셔야 이미지가 보입니다. </p>
 </li>
+<li><p>![문자 사이에 공간이 없어야 합니다] 즉, 대쉬를 이용해서 문자와 문자 사이에 공간을 없애야 정상적으로 작동합니다. </p>
+</li>
 </ol>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir img</span><br></pre></td></tr></table></figure>
 
 <ol>
-<li>Hexo 프로필 사진 변경<br>![hexo icarus profile avata](/img/hexo icarus profile avata.png)</li>
+<li>Hexo 프로필 사진 변경<br>![hexo-icarus-profile-avata](/img/hexo icarus profile avata.png)</li>
 </ol>
 <blockquote>
 <p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme</a></p>
@@ -22,7 +24,6 @@
       <categories>
         <category>hexo</category>
         <category>profile</category>
-        <category>logo</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -967,11 +968,11 @@
         <category>post</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>블로그</tag>
         <tag>next</tag>
         <tag>github</tag>
         <tag>github.io</tag>
+        <tag>hexo</tag>
         <tag>theme</tag>
       </tags>
   </entry>
