@@ -10751,19 +10751,16 @@ article.article .content {
   line-height: 1.9mm;
   letter-spacing: -0.3px;
   color: #5d686f;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 article.article .content a {
   word-wrap: break-word;
 }
 article.article .content h1 {
   font-size: 1.95em;
-  font-weight: 600;
-  margin-top: 50px;
 }
 article.article .content h2 {
   font-size: 1.5em;
-  margin-top: 35px;
 }
 article.article .content h3 {
   font-size: 1.25em;
