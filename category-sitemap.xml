@@ -8,15 +8,71 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/project/EDA/</loc>
-        <lastmod>2020-04-25T13:58:24.640Z</lastmod>
+        <loc>https://cds0804.github/categories/hexo/profile/logo/</loc>
+        <lastmod>2020-04-25T15:01:21.545Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/hexo/profile/</loc>
+        <lastmod>2020-04-25T15:01:21.545Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/hexo/</loc>
+        <lastmod>2020-04-25T15:01:21.545Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/markdown/</loc>
+        <lastmod>2020-04-25T14:41:40.771Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/git/</loc>
+        <lastmod>2020-04-25T14:41:39.239Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/ML/concept/</loc>
+        <lastmod>2020-04-25T14:41:35.123Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/ML/</loc>
+        <lastmod>2020-04-25T14:41:35.123Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/project/LinearRegression/</loc>
+        <lastmod>2020-04-25T14:16:47.845Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/project/</loc>
-        <lastmod>2020-04-25T13:58:24.640Z</lastmod>
+        <lastmod>2020-04-25T14:16:47.845Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/project/EDA/</loc>
+        <lastmod>2020-04-25T14:13:17.527Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -120,20 +176,6 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/ML/concept/</loc>
-        <lastmod>2020-04-15T03:55:35.876Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/ML/</loc>
-        <lastmod>2020-04-15T03:55:35.876Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/categories/concept/agile/</loc>
         <lastmod>2020-04-15T03:54:27.506Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -148,13 +190,6 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/git/</loc>
-        <lastmod>2020-04-15T03:53:54.525Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/categories/Data-Sciences/Data-Analysis/</loc>
         <lastmod>2020-04-15T03:52:56.950Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -164,13 +199,6 @@
     <url>
         <loc>https://cds0804.github/categories/Data-Sciences/</loc>
         <lastmod>2020-04-15T03:52:56.950Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/hexo/</loc>
-        <lastmod>2020-04-15T03:51:58.808Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

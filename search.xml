@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo profile 변경하기</title>
+    <url>/2020/04/25/hexo%20profile/</url>
+    <content><![CDATA[<p>안녕하세요, Hexo Icarus theme의 프로필 사진을 변경하는 방법에 대해 알아보겠습니다. </p>
+<ol>
+<li><p>아래와 같이 터미널에서 source 폴더 안에 img 폴더를 만든 후 img 폴더 안에 이미지 사진을 올리고 아래와 같이 작성하면 됩니다. </p>
+</li>
+<li><p>파일이름 대소문자를 구분한다고 하니 동일하게 진행하셔야 이미지가 보입니다. </p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir img</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>Hexo 프로필 사진 변경<br>![hexo icarus profile avata](/img/hexo icarus profile avata.png)</li>
+</ol>
+<blockquote>
+<p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+        <category>profile</category>
+        <category>logo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>profile</tag>
+        <tag>logo</tag>
+        <tag>icarus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>markdown</title>
+    <url>/2020/04/25/markdown/</url>
+    <content><![CDATA[<ul>
+<li>markdown 문법</li>
+</ul>
+<blockquote>
+<p>출처: <a href="https://greeksharifa.github.io/references/2018/06/29/markdown-usage/">https://greeksharifa.github.io/references/2018/06/29/markdown-usage/</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>project-LinearRegression</title>
+    <url>/2020/04/25/project-LinearRegression/</url>
+    <content><![CDATA[<h3 id="Linear-Regression-project"><a href="#Linear-Regression-project" class="headerlink" title="Linear Regression project"></a>Linear Regression project</h3><ul>
+<li>한달동안 팀원들과 함께 한 프로젝트</li>
+<li>홍성현님, 유호원님, 배준영님 한달동안 수고 많았습니다 :)</li>
+</ul>
+<p><a href="https://nbviewer.jupyter.org/github/HowardHowonYu/usedcar_regression_project/blob/howard/howard/used_car_regression_final.ipynb">https://nbviewer.jupyter.org/github/HowardHowonYu/usedcar_regression_project/blob/howard/howard/used_car_regression_final.ipynb</a></p>
+]]></content>
+      <categories>
+        <category>project</category>
+        <category>LinearRegression</category>
+      </categories>
+      <tags>
+        <tag>project</tag>
+        <tag>LinearRegression</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>favicon</title>
     <url>/2020/04/25/favicon/</url>
     <content><![CDATA[<h1 id="favicon-출처-동물-png-from-pngtree-com"><a href="#favicon-출처-동물-png-from-pngtree-com" class="headerlink" title="favicon 출처: 동물 png from pngtree.com"></a>favicon 출처: <a href='https://pngtree.com/so/동물'>동물 png from pngtree.com</a></h1>]]></content>
@@ -196,7 +262,7 @@
   </entry>
   <entry>
     <title>porject EDA</title>
-    <url>/2020/04/23/porject/</url>
+    <url>/2020/04/23/porject-EDA/</url>
     <content><![CDATA[<h4 id="EDA-project"><a href="#EDA-project" class="headerlink" title="EDA project"></a>EDA project</h4><p>아파트 가격분석 EDA </p>
 <p>업데이트 예정</p>
 ]]></content>
@@ -494,7 +560,16 @@
   <entry>
     <title>git</title>
     <url>/2020/04/15/git/</url>
-    <content><![CDATA[<h1 id="git에-대해-작성할-예정입니다"><a href="#git에-대해-작성할-예정입니다" class="headerlink" title="git에 대해 작성할 예정입니다."></a>git에 대해 작성할 예정입니다.</h1>]]></content>
+    <content><![CDATA[<ul>
+<li>Git이란? </li>
+</ul>
+<ul>
+<li>clone</li>
+</ul>
+<ul>
+<li>프로젝트와 repository 생성<h4 id="참조-https-greeksharifa-github-io-github-2018-06-29-github-usage-02-create-project"><a href="#참조-https-greeksharifa-github-io-github-2018-06-29-github-usage-02-create-project" class="headerlink" title="참조 : https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/"></a>참조 : <a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/</a></h4></li>
+</ul>
+]]></content>
       <categories>
         <category>git</category>
       </categories>
@@ -578,6 +653,9 @@
 <li><p>규칙을 찾는 것</p>
 </li>
 </ul>
+<blockquote>
+<p>많은 양의 데이터가 필요합니다. </p>
+</blockquote>
 ]]></content>
       <categories>
         <category>ML</category>
@@ -889,11 +967,11 @@
         <category>post</category>
       </categories>
       <tags>
+        <tag>hexo</tag>
         <tag>블로그</tag>
         <tag>next</tag>
         <tag>github</tag>
         <tag>github.io</tag>
-        <tag>hexo</tag>
         <tag>theme</tag>
       </tags>
   </entry>
