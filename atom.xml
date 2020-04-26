@@ -44,40 +44,11 @@
     
       <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
     
+      <category term="icarus" scheme="https://cds0804.github/tags/icarus/"/>
+    
       <category term="profile" scheme="https://cds0804.github/tags/profile/"/>
     
       <category term="logo" scheme="https://cds0804.github/tags/logo/"/>
-    
-      <category term="icarus" scheme="https://cds0804.github/tags/icarus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown</title>
-    <link href="https://cds0804.github/2020/04/25/markdown/"/>
-    <id>https://cds0804.github/2020/04/25/markdown/</id>
-    <published>2020-04-25T14:29:17.000Z</published>
-    <updated>2020-04-25T15:10:58.026Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>markdown 문법</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;markdown 문법&lt;/li&gt;
-&lt;/ul&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="markdown" scheme="https://cds0804.github/categories/markdown/"/>
-    
-    
-      <category term="markdown" scheme="https://cds0804.github/tags/markdown/"/>
     
   </entry>
   
@@ -86,15 +57,19 @@
     <link href="https://cds0804.github/2020/04/25/project-LinearRegression/"/>
     <id>https://cds0804.github/2020/04/25/project-LinearRegression/</id>
     <published>2020-04-25T14:13:50.000Z</published>
-    <updated>2020-04-26T14:22:16.053Z</updated>
+    <updated>2020-04-26T14:52:47.938Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Linear-Regression-project"><a href="#Linear-Regression-project" class="headerlink" title="Linear Regression project"></a>Linear Regression project</h3><ul><li>한달동안 팀원들과 함께 한 프로젝트</li><li>홍성현님, 유호원님, 배준영님 한달동안 수고 많았습니다 :)</li></ul><blockquote><p><a href="https://nbviewer.jupyter.org/github/HowardHowonYu/usedcar_regression_project/blob/howard/howard/used_car_regression_final.ipynb">Linear Regression project UsedCar price</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><strong>Linear Regression project</strong></p><ul><li>한달동안 팀원들과 함께 한 프로젝트</li><li>홍성현님, 유호원님, 배준영님 한달동안 수고 많았습니다 :)</li><li>자료는 아래 깃헙에서 확인해주세요. </li></ul><blockquote><p><a href="https://nbviewer.jupyter.org/github/HowardHowonYu/usedcar_regression_project/blob/howard/howard/used_car_regression_final.ipynb">Linear Regression project UsedCar price</a></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;Linear-Regression-project&quot;&gt;&lt;a href=&quot;#Linear-Regression-project&quot; class=&quot;headerlink&quot; title=&quot;Linear Regression project&quot;&gt;&lt;/a&gt;Linear Regr
+        &lt;p&gt;&lt;strong&gt;Linear Regression project&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;한달동안 팀원들과 함께 한 프로젝트&lt;/li&gt;
+&lt;li&gt;홍성현님, 유호원님, 배준영님 한달동안 수고 많았습니다 :)&lt;/li&gt;
+&lt;li&gt;자료는 아래 깃헙
       
     
     </summary>
@@ -116,15 +91,18 @@
     <link href="https://cds0804.github/2020/04/25/favicon/"/>
     <id>https://cds0804.github/2020/04/25/favicon/</id>
     <published>2020-04-25T08:17:23.000Z</published>
-    <updated>2020-04-25T08:18:21.122Z</updated>
+    <updated>2020-04-26T14:52:47.938Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="favicon-출처-동물-png-from-pngtree-com"><a href="#favicon-출처-동물-png-from-pngtree-com" class="headerlink" title="favicon 출처: 동물 png from pngtree.com"></a>favicon 출처: <a href='https://pngtree.com/so/동물'>동물 png from pngtree.com</a></h1>]]></content>
+    <content type="html"><![CDATA[<blockquote><p><a href="'https://pngtree.com/">favicon 출처</a></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;favicon-출처-동물-png-from-pngtree-com&quot;&gt;&lt;a href=&quot;#favicon-출처-동물-png-from-pngtree-com&quot; class=&quot;headerlink&quot; title=&quot;favicon 출처: 동물 png from 
+        &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;&#39;https://pngtree.com/&quot;&gt;favicon 출처&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
       
     
     </summary>
@@ -142,9 +120,9 @@
     <link href="https://cds0804.github/2020/04/24/re/"/>
     <id>https://cds0804.github/2020/04/24/re/</id>
     <published>2020-04-24T01:23:13.000Z</published>
-    <updated>2020-04-25T06:53:19.611Z</updated>
+    <updated>2020-04-26T14:52:47.914Z</updated>
     
-    <content type="html"><![CDATA[<ul><li><p>정규표현식 </p><ul><li>regular expression</li><li>특정한 패턴과 일치하는 문자열를 ‘검색’, ‘치환’, ‘제거’ 하는 기능을 지원</li><li>정규표현식의 도움없이 패턴을 찾는 작업(Rule 기반)은 불완전 하거나, 작업의 cost가 높음</li><li>e.g) 이메일 형식 판별, 전화번호 형식 판별, 숫자로만 이루어진 문자열 등</li></ul></li><li><p><strong>raw string</strong></p><ul><li>문자열 앞에 r이 붙으면 해당 문자열이 구성된 그대로 문자열로 변환</li></ul></li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">'abcdef\n'</span> <span class="comment"># escapce 문자열</span></span><br><span class="line">print(a)</span><br><span class="line"></span><br><span class="line">b = <span class="string">r'abcdef\n'</span></span><br><span class="line">print(b)</span><br></pre></td></tr></table></figure><h4 id="기본-패턴"><a href="#기본-패턴" class="headerlink" title="기본 패턴"></a><strong>기본 패턴</strong></h4><ul><li><p>a, X, 9 등등 문자 하나하나의 character들은 정확히 해당 문자와 일치</p><ul><li>e.g) 패턴 test는 test 문자열과 일치</li><li>대소문자의 경우 기본적으로 구별하나, 구별하지 않도록 설정 가능</li></ul></li><li><p>몇몇 문자들에 대해서는 예외가 존재하는데, 이들은 틀별한 의미로 사용 됨</p><ul><li>. ^ $ * + ? { } [ ] \ | ( )</li></ul></li><li><p>. (마침표) - 어떤 한개의 character와 일치 (newline(엔터) 제외)</p></li><li><p>\w - 문자 character와 일치 [a-zA-Z0-9_]</p></li><li><p>\s - 공백문자와 일치</p></li><li><p>\t, \n, \r - tab, newline, return</p></li><li><p>\d - 숫자 character와 일치 [0-9]</p></li><li><p>^ = 시작, $ = 끝 각각 문자열의 시작과 끝을 의미</p></li><li><p>\가 붙으면 스페셜한 의미가 없어짐. 예를들어 \.는 .자체를 의미 \\는 \를 의미</p></li><li><p>자세한 내용은 링크 참조 <a href="https://docs.python.org/3/library/re.html">https://docs.python.org/3/library/re.html</a></p></li></ul><h4 id="search-method"><a href="#search-method" class="headerlink" title="search method"></a><strong>search method</strong></h4><ul><li>첫번째로 패턴을 찾으면 match 객체를 반환</li><li>패턴을 찾지 못하면 None 반환</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">m = re.search(<span class="string">r'abc'</span>, <span class="string">'123abdef'</span>)</span><br><span class="line">m</span><br><span class="line"></span><br><span class="line">m = re.search(<span class="string">r'\d\d\d\w'</span>, <span class="string">'112abcdef119'</span>)</span><br><span class="line">m</span><br><span class="line"></span><br><span class="line">m = re.search(<span class="string">r'..\w\w'</span>, <span class="string">'@#$%ABCDabcd'</span>)</span><br><span class="line">m</span><br></pre></td></tr></table></figure><h4 id="metacharacters-메타-캐릭터"><a href="#metacharacters-메타-캐릭터" class="headerlink" title="metacharacters (메타 캐릭터)"></a><strong>metacharacters (메타 캐릭터)</strong></h4><h4 id="문자들의-범위를-나타내기-위해-사용"><a href="#문자들의-범위를-나타내기-위해-사용" class="headerlink" title="[] 문자들의 범위를 나타내기 위해 사용"></a><strong>[]</strong> 문자들의 범위를 나타내기 위해 사용</h4><ul><li>[] 내부의 메타 캐릭터는 캐릭터 자체를 나타냄</li><li>e.g)</li><li>[abck] : a or b or c or k</li><li>[abc.^] : a or b or c or . or ^</li><li>[a-d]  : -와 함께 사용되면 해당 문자 사이의 범위에 속하는 문자 중 하나</li><li>[0-9]  : 모든 숫자</li><li>[a-z]  : 모든 소문자</li><li>[A-Z]  : 모든 대문자</li><li>[a-zA-Z0-9] : 모든 알파벳 문자 및 숫자</li><li>[^0-9] : ^가 맨 앞에 사용 되는 경우 해당 문자 패턴이 아닌 것과 매칭</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'[cbm]at'</span>, <span class="string">'aat'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'[0-4]haha'</span>, <span class="string">'7hahah'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'[abc.^]aron'</span>, <span class="string">'daron'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'[^abc]aron'</span>, <span class="string">'0aron'</span>)</span><br></pre></td></tr></table></figure><h4 id=""><a href="#" class="headerlink" title="\"></a><strong>\</strong></h4><ol><li>다른 문자와 함께 사용되어 특수한 의미를 지님<ul><li>\d : 숫자를          [0-9]와 동일</li><li>\D : 숫자가 아닌 문자  [^0-9]와 동일</li><li>\s : 공백 문자(띄어쓰기, 탭, 엔터 등)</li><li>\S : 공백이 아닌 문자</li><li>\w : 알파벳대소문자, 숫자 [0-9a-zA-Z]와 동일</li><li>\W : non alpha-numeric 문자 [^0-9a-zA-Z]와 동일</li></ul></li><li>메타 캐릭터가 캐릭터 자체를 표현하도록 할 경우 사용<ul><li>\. , \\</li></ul></li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'\Sand'</span>, <span class="string">'apple land banana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'\.and'</span>, <span class="string">'.and'</span>)</span><br></pre></td></tr></table></figure><h4 id="-1"><a href="#-1" class="headerlink" title="."></a><strong>.</strong></h4><ul><li>모든 문자를 의미</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'p.g'</span>, <span class="string">'pig'</span>)</span><br></pre></td></tr></table></figure><h4 id="반복패턴"><a href="#반복패턴" class="headerlink" title="반복패턴"></a><strong>반복패턴</strong></h4><ul><li>패턴 뒤에 위치하는 *, +, ?는 해당 패턴이 반복적으로 존재하는지 검사 <ul><li>‘+’ -&gt; 1번 이상의 패턴이 발생</li><li>‘*’ -&gt; 0번 이상의 패턴이 발생</li><li>‘?’ -&gt; 0 혹은 1번의 패턴이 발생</li></ul></li><li>반복을 패턴의 경우 greedy하게 검색 함, 즉 가능한 많은 부분이 매칭되도록 함<ul><li>e.g) a[bcd]*b  패턴을 abcbdccb에서 검색하는 경우<ul><li>ab, abcb, abcbdccb 전부 가능 하지만 최대한 많은 부분이 매칭된 abcbdccb가 검색된 패턴</li></ul></li></ul></li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'a[bcd]*b'</span>, <span class="string">'abcbdccb'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'b\w+a'</span>, <span class="string">'banana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'i+'</span>, <span class="string">'piigiii'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'pi+g'</span>, <span class="string">'pg'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'pi*g'</span>, <span class="string">'pg'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'https?'</span>, <span class="string">'http://www.naver.com'</span>)</span><br></pre></td></tr></table></figure><h4 id="-2"><a href="#-2" class="headerlink" title="^, $"></a><strong>^</strong>, <strong>$</strong></h4><ul><li>^  문자열의 맨 앞부터 일치하는 경우 검색</li><li>$  문자열의 맨 뒤부터 일치하는 경우 검색</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'b\w+a'</span>, <span class="string">'cabana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'^b\w+a'</span>, <span class="string">'cabana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'^b\w+a'</span>, <span class="string">'babana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'b\w+a$'</span>, <span class="string">'cabana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'b\w+a$'</span>, <span class="string">'cabanap'</span>)</span><br></pre></td></tr></table></figure><h4 id="grouping"><a href="#grouping" class="headerlink" title="grouping"></a><strong>grouping</strong></h4><ul><li>()을 사용하여 그루핑</li><li>매칭 결과를 각 그룹별로 분리 가능</li><li>패턴 명시 할 때, 각 그룹을 괄호() 안에 넣어 분리하여 사용</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">m = re.search(<span class="string">r'(\w+)@(.+)'</span>, <span class="string">'test@gmail.com'</span>)</span><br><span class="line">print(m.group(<span class="number">1</span>))</span><br><span class="line">print(m.group(<span class="number">2</span>))</span><br><span class="line">print(m.group(<span class="number">0</span>))</span><br></pre></td></tr></table></figure><h4 id="-3"><a href="#-3" class="headerlink" title="{}"></a><strong>{}</strong></h4><ul><li>*, +, ?을 사용하여 반복적인 패턴을 찾는 것이 가능하나, 반복의 횟수 제한은 불가</li><li>패턴뒤에 위치하는 중괄호{}에 숫자를 명시하면 해당 숫자 만큼의 반복인 경우에만 매칭</li><li>{4} - 4번 반복</li><li>{3,4} - 3 ~ 4번 반복</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">'pi&#123;3,5&#125;g'</span>, <span class="string">'piiiiig'</span>)</span><br></pre></td></tr></table></figure><h4 id="미니멈-매칭-non-greedy-way"><a href="#미니멈-매칭-non-greedy-way" class="headerlink" title="미니멈 매칭(non-greedy way)"></a><strong>미니멈 매칭(non-greedy way)</strong></h4><ul><li>기본적으로 *, +, ?를 사용하면 greedy(맥시멈 매칭)하게 동작함</li><li>*?, +?을 이용하여 해당 기능을 구현</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'&lt;.+&gt;'</span>, <span class="string">'&lt;html&gt;haha&lt;/html&gt;'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'&lt;.+?&gt;'</span>, <span class="string">'&lt;html&gt;haha&lt;/html&gt;'</span>)</span><br></pre></td></tr></table></figure><h4 id="-4"><a href="#-4" class="headerlink" title="{}?"></a><strong>{}?</strong></h4><ul><li>{m,n}의 경우 m번 에서 n번 반복하나 greedy하게 동작</li><li>{m,n}?로 사용하면 non-greedy하게 동작. 즉, 최소 m번만 매칭하면 만족</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'a&#123;3,5&#125;'</span>, <span class="string">'aaaaa'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'a&#123;3,5&#125;?'</span>, <span class="string">'aaaaa'</span>)</span><br></pre></td></tr></table></figure><h4 id="match"><a href="#match" class="headerlink" title="match"></a><strong>match</strong></h4><ul><li>search와 유사하나, 주어진 문자열의 시작부터 비교하여 패턴이 있는지 확인</li><li>시작부터 해당 패턴이 존재하지 않다면 None 반환</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">re.match(<span class="string">r'\d\d\d'</span>, <span class="string">'my number is 123'</span>)</span><br><span class="line"></span><br><span class="line">re.match(<span class="string">r'\d\d\d'</span>, <span class="string">'123 is my number'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'^\d\d\d'</span>, <span class="string">'123 is my number'</span>)</span><br></pre></td></tr></table></figure><h4 id="findall"><a href="#findall" class="headerlink" title="findall"></a><strong>findall</strong></h4><ul><li>search가 최초로 매칭되는 패턴만 반환한다면, findall은 매칭되는 전체의 패턴을 반환</li><li>매칭되는 모든 결과를 리스트 형태로 반환</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.findall(<span class="string">r'[\w-]+@[\w.]+'</span>, <span class="string">'test@gmail.com haha test2@gmail.com nice test test'</span>)</span><br></pre></td></tr></table></figure><h4 id="sub"><a href="#sub" class="headerlink" title="sub"></a><strong>sub</strong></h4><ul><li>주어진 문자열에서 일치하는 모든 패턴을 replace</li><li>그 결과를 문자열로 다시 반환함</li><li>두번째 인자는 특정 문자열이 될 수도 있고, 함수가 될 수 도 있음</li><li>count가 0인 경우는 전체를, 1이상이면 해당 숫자만큼 치환 됨</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.sub(<span class="string">r'[\w-]+@[\w.]+'</span>, <span class="string">'great'</span>, <span class="string">'test@gmail.com haha test2@gmail.com nice test test'</span>, count=<span class="number">1</span>)</span><br></pre></td></tr></table></figure><h4 id="compile"><a href="#compile" class="headerlink" title="compile"></a><strong>compile</strong></h4><ul><li>동일한 정규표현식을 매번 다시 쓰기 번거로움을 해결</li><li>compile로 해당표현식을 re.RegexObject 객체로 저장하여 사용가능</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">email_reg = re.compile(<span class="string">r'[\w-]+@[\w.]+'</span>)</span><br><span class="line">email_reg.search(<span class="string">'test@gmail.com haha good'</span>)</span><br><span class="line">email_reg.findall()</span><br></pre></td></tr></table></figure><h3 id="연습문제"><a href="#연습문제" class="headerlink" title="연습문제"></a>연습문제</h3><ul><li>아래 뉴스에서 이메일 주소를 추출해 보세요</li><li>다음중 올바른 (http, https) 웹페이지만 찾으시오</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="comment"># 위의 두 모듈이 없는 경우에는 pip install requests bs4 실행</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_news_content</span><span class="params">(url)</span>:</span></span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    content = response.text</span><br><span class="line"></span><br><span class="line">    soup = BeautifulSoup(content, <span class="string">'html5lib'</span>)</span><br><span class="line"></span><br><span class="line">    div = soup.find(<span class="string">'div'</span>, attrs = &#123;<span class="string">'id'</span> : <span class="string">'harmonyContainer'</span>&#125;)</span><br><span class="line">    </span><br><span class="line">    content = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> paragraph <span class="keyword">in</span> div.find_all(<span class="string">'p'</span>):</span><br><span class="line">        content += paragraph.get_text()</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">return</span> content</span><br><span class="line"></span><br><span class="line">news1 = get_news_content(<span class="string">'https://news.v.daum.net/v/20190617073049838'</span>)</span><br><span class="line">print(news1)</span><br><span class="line"></span><br><span class="line">email_reg = re.compile(<span class="string">r'[\w-]+@[\w.]+\w+'</span>)</span><br><span class="line">email_reg.search(news1)</span><br><span class="line"></span><br><span class="line">webs = [<span class="string">'http://www.test.co.kr'</span>,</span><br><span class="line">        <span class="string">'https://www.test1.com'</span>,</span><br><span class="line">        <span class="string">'http://www.test.com'</span>,</span><br><span class="line">        <span class="string">'ftp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http:://www.test.com'</span>,</span><br><span class="line">        <span class="string">'htp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http://www.google.com'</span>,</span><br><span class="line">        <span class="string">'https://www.homepage.com.'</span>]</span><br><span class="line"></span><br><span class="line">web_reg = re.compile(<span class="string">r'https?://[\w.]+\w+$'</span>)</span><br><span class="line">list(map(<span class="keyword">lambda</span> w:web_reg.search(w) != <span class="literal">None</span>, webs))</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<ul><li><p>정규표현식 </p><ul><li>regular expression</li><li>특정한 패턴과 일치하는 문자열를 ‘검색’, ‘치환’, ‘제거’ 하는 기능을 지원</li><li>정규표현식의 도움없이 패턴을 찾는 작업(Rule 기반)은 불완전 하거나, 작업의 cost가 높음</li><li>e.g) 이메일 형식 판별, 전화번호 형식 판별, 숫자로만 이루어진 문자열 등</li></ul></li><li><p><strong>raw string</strong></p><ul><li>문자열 앞에 r이 붙으면 해당 문자열이 구성된 그대로 문자열로 변환</li></ul></li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">'abcdef\n'</span> <span class="comment"># escapce 문자열</span></span><br><span class="line">print(a)</span><br><span class="line"></span><br><span class="line">b = <span class="string">r'abcdef\n'</span></span><br><span class="line">print(b)</span><br></pre></td></tr></table></figure><h4 id="기본-패턴"><a href="#기본-패턴" class="headerlink" title="기본 패턴"></a><strong>기본 패턴</strong></h4><ul><li><p>a, X, 9 등등 문자 하나하나의 character들은 정확히 해당 문자와 일치</p><ul><li>e.g) 패턴 test는 test 문자열과 일치</li><li>대소문자의 경우 기본적으로 구별하나, 구별하지 않도록 설정 가능</li></ul></li><li><p>몇몇 문자들에 대해서는 예외가 존재하는데, 이들은 틀별한 의미로 사용 됨</p><ul><li>. ^ $ * + ? { } [ ] \ | ( )</li></ul></li><li><p>. (마침표) - 어떤 한개의 character와 일치 (newline(엔터) 제외)</p></li><li><p>\w - 문자 character와 일치 [a-zA-Z0-9_]</p></li><li><p>\s - 공백문자와 일치</p></li><li><p>\t, \n, \r - tab, newline, return</p></li><li><p>\d - 숫자 character와 일치 [0-9]</p></li><li><p>^ = 시작, $ = 끝 각각 문자열의 시작과 끝을 의미</p></li><li><p>\가 붙으면 스페셜한 의미가 없어짐. 예를들어 \.는 .자체를 의미 \\는 \를 의미</p></li><li><p>자세한 내용은 링크 참조 <a href="https://docs.python.org/3/library/re.html">https://docs.python.org/3/library/re.html</a></p></li></ul><h4 id="search-method"><a href="#search-method" class="headerlink" title="search method"></a><strong>search method</strong></h4><ul><li>첫번째로 패턴을 찾으면 match 객체를 반환</li><li>패턴을 찾지 못하면 None 반환</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">m = re.search(<span class="string">r'abc'</span>, <span class="string">'123abdef'</span>)</span><br><span class="line">m</span><br><span class="line"></span><br><span class="line">m = re.search(<span class="string">r'\d\d\d\w'</span>, <span class="string">'112abcdef119'</span>)</span><br><span class="line">m</span><br><span class="line"></span><br><span class="line">m = re.search(<span class="string">r'..\w\w'</span>, <span class="string">'@#$%ABCDabcd'</span>)</span><br><span class="line">m</span><br></pre></td></tr></table></figure><h4 id="metacharacters-메타-캐릭터"><a href="#metacharacters-메타-캐릭터" class="headerlink" title="metacharacters (메타 캐릭터)"></a><strong>metacharacters (메타 캐릭터)</strong></h4><h4 id="문자들의-범위를-나타내기-위해-사용"><a href="#문자들의-범위를-나타내기-위해-사용" class="headerlink" title="[] 문자들의 범위를 나타내기 위해 사용"></a><strong>[]</strong> 문자들의 범위를 나타내기 위해 사용</h4><ul><li>[] 내부의 메타 캐릭터는 캐릭터 자체를 나타냄</li><li>e.g)</li><li>[abck] : a or b or c or k</li><li>[abc.^] : a or b or c or . or ^</li><li>[a-d]  : -와 함께 사용되면 해당 문자 사이의 범위에 속하는 문자 중 하나</li><li>[0-9]  : 모든 숫자</li><li>[a-z]  : 모든 소문자</li><li>[A-Z]  : 모든 대문자</li><li>[a-zA-Z0-9] : 모든 알파벳 문자 및 숫자</li><li>[^0-9] : ^가 맨 앞에 사용 되는 경우 해당 문자 패턴이 아닌 것과 매칭</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'[cbm]at'</span>, <span class="string">'aat'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'[0-4]haha'</span>, <span class="string">'7hahah'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'[abc.^]aron'</span>, <span class="string">'daron'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'[^abc]aron'</span>, <span class="string">'0aron'</span>)</span><br></pre></td></tr></table></figure><h4 id=""><a href="#" class="headerlink" title="\"></a><strong>\</strong></h4><ol><li>다른 문자와 함께 사용되어 특수한 의미를 지님<ul><li>\d : 숫자를          [0-9]와 동일</li><li>\D : 숫자가 아닌 문자  [^0-9]와 동일</li><li>\s : 공백 문자(띄어쓰기, 탭, 엔터 등)</li><li>\S : 공백이 아닌 문자</li><li>\w : 알파벳대소문자, 숫자 [0-9a-zA-Z]와 동일</li><li>\W : non alpha-numeric 문자 [^0-9a-zA-Z]와 동일</li></ul></li><li>메타 캐릭터가 캐릭터 자체를 표현하도록 할 경우 사용<ul><li>\. , \\</li></ul></li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'\Sand'</span>, <span class="string">'apple land banana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'\.and'</span>, <span class="string">'.and'</span>)</span><br></pre></td></tr></table></figure><h4 id="-1"><a href="#-1" class="headerlink" title="."></a><strong>.</strong></h4><ul><li>모든 문자를 의미</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'p.g'</span>, <span class="string">'pig'</span>)</span><br></pre></td></tr></table></figure><h4 id="반복패턴"><a href="#반복패턴" class="headerlink" title="반복패턴"></a><strong>반복패턴</strong></h4><ul><li>패턴 뒤에 위치하는 *, +, ?는 해당 패턴이 반복적으로 존재하는지 검사 <ul><li>‘+’ -&gt; 1번 이상의 패턴이 발생</li><li>‘*’ -&gt; 0번 이상의 패턴이 발생</li><li>‘?’ -&gt; 0 혹은 1번의 패턴이 발생</li></ul></li><li>반복을 패턴의 경우 greedy하게 검색 함, 즉 가능한 많은 부분이 매칭되도록 함<ul><li>e.g) a[bcd]*b  패턴을 abcbdccb에서 검색하는 경우<ul><li>ab, abcb, abcbdccb 전부 가능 하지만 최대한 많은 부분이 매칭된 abcbdccb가 검색된 패턴</li></ul></li></ul></li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'a[bcd]*b'</span>, <span class="string">'abcbdccb'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'b\w+a'</span>, <span class="string">'banana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'i+'</span>, <span class="string">'piigiii'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'pi+g'</span>, <span class="string">'pg'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'pi*g'</span>, <span class="string">'pg'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'https?'</span>, <span class="string">'http://www.naver.com'</span>)</span><br></pre></td></tr></table></figure><h4 id="-2"><a href="#-2" class="headerlink" title="^, $"></a><strong>^</strong>, <strong>$</strong></h4><ul><li>^  문자열의 맨 앞부터 일치하는 경우 검색</li><li>$  문자열의 맨 뒤부터 일치하는 경우 검색</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'b\w+a'</span>, <span class="string">'cabana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'^b\w+a'</span>, <span class="string">'cabana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'^b\w+a'</span>, <span class="string">'babana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'b\w+a$'</span>, <span class="string">'cabana'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'b\w+a$'</span>, <span class="string">'cabanap'</span>)</span><br></pre></td></tr></table></figure><h4 id="grouping"><a href="#grouping" class="headerlink" title="grouping"></a><strong>grouping</strong></h4><ul><li>()을 사용하여 그루핑</li><li>매칭 결과를 각 그룹별로 분리 가능</li><li>패턴 명시 할 때, 각 그룹을 괄호() 안에 넣어 분리하여 사용</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">m = re.search(<span class="string">r'(\w+)@(.+)'</span>, <span class="string">'test@gmail.com'</span>)</span><br><span class="line">print(m.group(<span class="number">1</span>))</span><br><span class="line">print(m.group(<span class="number">2</span>))</span><br><span class="line">print(m.group(<span class="number">0</span>))</span><br></pre></td></tr></table></figure><h4 id="-3"><a href="#-3" class="headerlink" title="{}"></a><strong>{}</strong></h4><ul><li>*, +, ?을 사용하여 반복적인 패턴을 찾는 것이 가능하나, 반복의 횟수 제한은 불가</li><li>패턴뒤에 위치하는 중괄호{}에 숫자를 명시하면 해당 숫자 만큼의 반복인 경우에만 매칭</li><li>{4} - 4번 반복</li><li>{3,4} - 3 ~ 4번 반복</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">'pi&#123;3,5&#125;g'</span>, <span class="string">'piiiiig'</span>)</span><br></pre></td></tr></table></figure><h4 id="미니멈-매칭-non-greedy-way"><a href="#미니멈-매칭-non-greedy-way" class="headerlink" title="미니멈 매칭(non-greedy way)"></a><strong>미니멈 매칭(non-greedy way)</strong></h4><ul><li>기본적으로 *, +, ?를 사용하면 greedy(맥시멈 매칭)하게 동작함</li><li>*?, +?을 이용하여 해당 기능을 구현</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'&lt;.+&gt;'</span>, <span class="string">'&lt;html&gt;haha&lt;/html&gt;'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'&lt;.+?&gt;'</span>, <span class="string">'&lt;html&gt;haha&lt;/html&gt;'</span>)</span><br></pre></td></tr></table></figure><h4 id="-4"><a href="#-4" class="headerlink" title="{}?"></a><strong>{}?</strong></h4><ul><li>{m,n}의 경우 m번 에서 n번 반복하나 greedy하게 동작</li><li>{m,n}?로 사용하면 non-greedy하게 동작. 즉, 최소 m번만 매칭하면 만족</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">re.search(<span class="string">r'a&#123;3,5&#125;'</span>, <span class="string">'aaaaa'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'a&#123;3,5&#125;?'</span>, <span class="string">'aaaaa'</span>)</span><br></pre></td></tr></table></figure><h4 id="match"><a href="#match" class="headerlink" title="match"></a><strong>match</strong></h4><ul><li>search와 유사하나, 주어진 문자열의 시작부터 비교하여 패턴이 있는지 확인</li><li>시작부터 해당 패턴이 존재하지 않다면 None 반환</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">re.match(<span class="string">r'\d\d\d'</span>, <span class="string">'my number is 123'</span>)</span><br><span class="line"></span><br><span class="line">re.match(<span class="string">r'\d\d\d'</span>, <span class="string">'123 is my number'</span>)</span><br><span class="line"></span><br><span class="line">re.search(<span class="string">r'^\d\d\d'</span>, <span class="string">'123 is my number'</span>)</span><br></pre></td></tr></table></figure><h4 id="findall"><a href="#findall" class="headerlink" title="findall"></a><strong>findall</strong></h4><ul><li>search가 최초로 매칭되는 패턴만 반환한다면, findall은 매칭되는 전체의 패턴을 반환</li><li>매칭되는 모든 결과를 리스트 형태로 반환</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.findall(<span class="string">r'[\w-]+@[\w.]+'</span>, <span class="string">'test@gmail.com haha test2@gmail.com nice test test'</span>)</span><br></pre></td></tr></table></figure><h4 id="sub"><a href="#sub" class="headerlink" title="sub"></a><strong>sub</strong></h4><ul><li>주어진 문자열에서 일치하는 모든 패턴을 replace</li><li>그 결과를 문자열로 다시 반환함</li><li>두번째 인자는 특정 문자열이 될 수도 있고, 함수가 될 수 도 있음</li><li>count가 0인 경우는 전체를, 1이상이면 해당 숫자만큼 치환 됨</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">re.sub(<span class="string">r'[\w-]+@[\w.]+'</span>, <span class="string">'great'</span>, <span class="string">'test@gmail.com haha test2@gmail.com nice test test'</span>, count=<span class="number">1</span>)</span><br></pre></td></tr></table></figure><h4 id="compile"><a href="#compile" class="headerlink" title="compile"></a><strong>compile</strong></h4><ul><li>동일한 정규표현식을 매번 다시 쓰기 번거로움을 해결</li><li>compile로 해당표현식을 re.RegexObject 객체로 저장하여 사용가능</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">email_reg = re.compile(<span class="string">r'[\w-]+@[\w.]+'</span>)</span><br><span class="line">email_reg.search(<span class="string">'test@gmail.com haha good'</span>)</span><br><span class="line">email_reg.findall()</span><br></pre></td></tr></table></figure><h3 id="연습문제"><a href="#연습문제" class="headerlink" title="연습문제"></a>연습문제</h3><ul><li>아래 뉴스에서 이메일 주소를 추출해 보세요</li><li>다음중 올바른 (http, https) 웹페이지만 찾으시오</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line">&gt; 위의 두 모듈이 없는 경우에는 pip install requests bs4 실행</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_news_content</span><span class="params">(url)</span>:</span></span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    content = response.text</span><br><span class="line"></span><br><span class="line">    soup = BeautifulSoup(content, <span class="string">'html5lib'</span>)</span><br><span class="line"></span><br><span class="line">    div = soup.find(<span class="string">'div'</span>, attrs = &#123;<span class="string">'id'</span> : <span class="string">'harmonyContainer'</span>&#125;)</span><br><span class="line">    </span><br><span class="line">    content = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> paragraph <span class="keyword">in</span> div.find_all(<span class="string">'p'</span>):</span><br><span class="line">        content += paragraph.get_text()</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">return</span> content</span><br><span class="line"></span><br><span class="line">news1 = get_news_content(<span class="string">'https://news.v.daum.net/v/20190617073049838'</span>)</span><br><span class="line">print(news1)</span><br><span class="line"></span><br><span class="line">email_reg = re.compile(<span class="string">r'[\w-]+@[\w.]+\w+'</span>)</span><br><span class="line">email_reg.search(news1)</span><br><span class="line"></span><br><span class="line">webs = [<span class="string">'http://www.test.co.kr'</span>,</span><br><span class="line">        <span class="string">'https://www.test1.com'</span>,</span><br><span class="line">        <span class="string">'http://www.test.com'</span>,</span><br><span class="line">        <span class="string">'ftp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http:://www.test.com'</span>,</span><br><span class="line">        <span class="string">'htp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http://www.google.com'</span>,</span><br><span class="line">        <span class="string">'https://www.homepage.com.'</span>]</span><br><span class="line"></span><br><span class="line">web_reg = re.compile(<span class="string">r'https?://[\w.]+\w+$'</span>)</span><br><span class="line">list(map(<span class="keyword">lambda</span> w:web_reg.search(w) != <span class="literal">None</span>, webs))</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -177,17 +155,22 @@
     <link href="https://cds0804.github/2020/04/23/porject-EDA/"/>
     <id>https://cds0804.github/2020/04/23/porject-EDA/</id>
     <published>2020-04-23T12:03:21.000Z</published>
-    <updated>2020-04-26T14:16:34.104Z</updated>
+    <updated>2020-04-26T14:52:47.913Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="EDA-project"><a href="#EDA-project" class="headerlink" title="EDA project"></a>EDA project</h4><p>아파트 가격분석 EDA </p><blockquote><p><a href="https://github.com/cds0804/project-1-EDA/blob/master/EDA%20project%20Analysis%20APT%20price_20200219.ipynb">EDA project Analysis APT price</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><strong>EDA project</strong></p><ul><li>처음으로 진행했던 프로젝트</li><li>아파트 가격분석 EDA </li><li>자세한 내용은 아래 깃헙을 참고해주세요. </li></ul><blockquote><p><a href="https://github.com/cds0804/project-1-EDA/blob/master/EDA%20project%20Analysis%20APT%20price_20200219.ipynb">EDA project Analysis APT price</a></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;EDA-project&quot;&gt;&lt;a href=&quot;#EDA-project&quot; class=&quot;headerlink&quot; title=&quot;EDA project&quot;&gt;&lt;/a&gt;EDA project&lt;/h4&gt;&lt;p&gt;아파트 가격분석 EDA &lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;EDA project&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;처음으로 진행했던 프로젝트&lt;/li&gt;
+&lt;li&gt;아파트 가격분석 EDA &lt;/li&gt;
+&lt;li&gt;자세한 내용은 아래 깃헙을 참고해주세요. &lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;
+
       
     
     </summary>
@@ -198,9 +181,9 @@
       <category term="EDA" scheme="https://cds0804.github/categories/project/EDA/"/>
     
     
-      <category term="eda" scheme="https://cds0804.github/tags/eda/"/>
-    
       <category term="project" scheme="https://cds0804.github/tags/project/"/>
+    
+      <category term="eda" scheme="https://cds0804.github/tags/eda/"/>
     
   </entry>
   
@@ -209,7 +192,7 @@
     <link href="https://cds0804.github/2020/04/21/webcrawling-robots.txt/"/>
     <id>https://cds0804.github/2020/04/21/webcrawling-robots.txt/</id>
     <published>2020-04-21T05:55:46.000Z</published>
-    <updated>2020-04-23T12:07:08.062Z</updated>
+    <updated>2020-04-26T14:52:45.557Z</updated>
     
     <content type="html"><![CDATA[<h3 id="web-crawling-하기전에-알아둬야-할-사항"><a href="#web-crawling-하기전에-알아둬야-할-사항" class="headerlink" title="web crawling 하기전에 알아둬야 할 사항"></a>web crawling 하기전에 알아둬야 할 사항</h3><ul><li>예를들어, 네이버 홈페이지를 크롤링한다고 하면 <a href="http://www.naver.com/robots.txt을">www.naver.com/robots.txt을</a> 브라우저 주소창에 입력하면 로봇 배제 규약에 관한 내용이 나옵니다. </li></ul><h3 id="robots-txt-내용-요약"><a href="#robots-txt-내용-요약" class="headerlink" title="robots.txt 내용 요약"></a>robots.txt 내용 요약</h3><ol><li>모든 로봇 접근 허락<br>User-agent: *<br>Allow : /<ol><li>모든 로봇 접근 차단<br>User-agent: *<br>Disallow: /</li><li>모든 로봇에 디렉토리 3곳 접근 차단<br>User-agent: *<br>Disallow: /cgi-bin/<br>Disallow: /tmp/<br>Disallow: /junk/</li><li>모든 로봇에 특정 파일 접근 차단<br>User-agent: *<br>Disallow: /directory/file.html</li><li>BadBot 로봇에 모든 파일 접근 차단<br>User-agent: BadBot<br>Disallow: /</li><li>BadBot과 Googlebot에 특정 디렉토리 접근 차단<br>User-agent: BadBot<br>User-agent: Googlebot<br>Disallow: /private/</li></ol></li></ol><h1 id="참고사항-2020년-4월-21일-현재"><a href="#참고사항-2020년-4월-21일-현재" class="headerlink" title="참고사항 2020년 4월 21일 현재"></a>참고사항 2020년 4월 21일 현재</h1><ol><li>네이버 로봇 규약 설정<br>출처:  <a href="https://searchadvisor.naver.com/guide/seo-basic-robots">https://searchadvisor.naver.com/guide/seo-basic-robots</a></li></ol><ul><li><p>사이트의 루트 페이지만 수집 허용으로 설정합니다.<br>User-agent: *<br>Disallow: /<br>Allow: /$</p><ul><li>sitemap.xml 지정<br>User-agent: *<br>Allow: /<br>Sitemap: <a href="http://www.example.com/sitemap.xml">http://www.example.com/sitemap.xml</a></li></ul></li></ul><ol><li>다음 로봇 규약 설정</li></ol><ul><li><p>모든 로봇의 접근 차단<br>User-agent: *<br>Disallow: /</p><ol><li>카카오 로봇 규약 설정</li></ol></li><li><p>모든 로봇의 접근 차단</p></li><li><p>See <a href="http://www.robotstxt.org/wc/norobots.html">http://www.robotstxt.org/wc/norobots.html</a> for documentation on how to use the robots.txt file</p></li><li><p>To ban all spiders from the entire site uncomment the next two lines:<br>User-agent: *<br>Disallow: /</p></li></ul><p>문제가 있거나 오타가 있으면 댓글이나 메일로 알려주세요.<br>감사합니다 :)</p><p>자세한 내용은 아래 사이트를 참조하세요.<br>출처: <a href="https://gbsb.tistory.com/80">https://gbsb.tistory.com/80</a><br>출처: <a href="https://medium.com/@euncho/robots-txt-e08328c4f0fd">https://medium.com/@euncho/robots-txt-e08328c4f0fd</a><br>출처: <a href="https://support.google.com/webmasters/answer/6062596?hl=ko">https://support.google.com/webmasters/answer/6062596?hl=ko</a><br>출처: <a href="https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80">https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80</a></p>]]></content>
     
@@ -228,11 +211,11 @@
       <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
     
     
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
@@ -270,11 +253,11 @@
       <category term="python" scheme="https://cds0804.github/categories/crawling/python/"/>
     
     
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
@@ -347,11 +330,11 @@
       <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
     
     
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
@@ -364,43 +347,21 @@
   </entry>
   
   <entry>
-    <title>seo</title>
-    <link href="https://cds0804.github/2020/04/17/seo/"/>
-    <id>https://cds0804.github/2020/04/17/seo/</id>
-    <published>2020-04-17T04:41:43.000Z</published>
-    <updated>2020-04-25T15:07:56.245Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="website-seo-하기"><a href="#website-seo-하기" class="headerlink" title="website seo 하기"></a>website seo 하기</h4><blockquote><p>출처 : <a href="https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/#more">https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/#more</a></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;website-seo-하기&quot;&gt;&lt;a href=&quot;#website-seo-하기&quot; class=&quot;headerlink&quot; title=&quot;website seo 하기&quot;&gt;&lt;/a&gt;website seo 하기&lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;출처 : &lt;a h
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>visited_count</title>
     <link href="https://cds0804.github/2020/04/17/Hexo-visited-count/"/>
     <id>https://cds0804.github/2020/04/17/Hexo-visited-count/</id>
     <published>2020-04-17T04:38:00.000Z</published>
-    <updated>2020-04-25T15:11:47.020Z</updated>
+    <updated>2020-04-26T14:44:19.148Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="블로그-방문자-수-설정하기"><a href="#블로그-방문자-수-설정하기" class="headerlink" title="블로그 방문자 수 설정하기"></a>블로그 방문자 수 설정하기</h4><blockquote><p>참조 : <a href="https://msj0319.github.io/2020/02/15/Hexo-Blog-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EB%B0%8F-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%B9%B4%EC%9A%B4%ED%8C%85-%EA%B8%B0%EB%8A%A5-%EB%84%A3%EA%B8%B0/">https://msj0319.github.io/2020/02/15/Hexo-Blog-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EB%B0%8F-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%B9%B4%EC%9A%B4%ED%8C%85-%EA%B8%B0%EB%8A%A5-%EB%84%A3%EA%B8%B0/</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><strong>블로그 방문자 수 설정하기</strong></p><blockquote><p><a href="https://msj0319.github.io/2020/02/15/Hexo-Blog-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EB%B0%8F-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%B9%B4%EC%9A%B4%ED%8C%85-%EA%B8%B0%EB%8A%A5-%EB%84%A3%EA%B8%B0/">참조 사이트</a></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;블로그-방문자-수-설정하기&quot;&gt;&lt;a href=&quot;#블로그-방문자-수-설정하기&quot; class=&quot;headerlink&quot; title=&quot;블로그 방문자 수 설정하기&quot;&gt;&lt;/a&gt;블로그 방문자 수 설정하기&lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;참조 : &lt;a h
+        &lt;p&gt;&lt;strong&gt;블로그 방문자 수 설정하기&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://msj0319.github.io/2020/02/15/Hexo-Blog-%EB%B8%94%EB%A1%9C%EA%B7%B8-%
       
     
     </summary>
@@ -416,249 +377,23 @@
   </entry>
   
   <entry>
-    <title>hadoop</title>
-    <link href="https://cds0804.github/2020/04/15/hadoop/"/>
-    <id>https://cds0804.github/2020/04/15/hadoop/</id>
-    <published>2020-04-15T04:09:27.000Z</published>
-    <updated>2020-04-15T04:10:13.607Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="오늘은-하둡에-대해-알아보겠습니다"><a href="#오늘은-하둡에-대해-알아보겠습니다" class="headerlink" title="오늘은 하둡에 대해 알아보겠습니다."></a>오늘은 하둡에 대해 알아보겠습니다.</h1>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;오늘은-하둡에-대해-알아보겠습니다&quot;&gt;&lt;a href=&quot;#오늘은-하둡에-대해-알아보겠습니다&quot; class=&quot;headerlink&quot; title=&quot;오늘은 하둡에 대해 알아보겠습니다.&quot;&gt;&lt;/a&gt;오늘은 하둡에 대해 알아보겠습니다.&lt;/h1&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="spark" scheme="https://cds0804.github/categories/spark/"/>
-    
-      <category term="concept" scheme="https://cds0804.github/categories/spark/concept/"/>
-    
-    
-      <category term="spark" scheme="https://cds0804.github/tags/spark/"/>
-    
-      <category term="hadoop" scheme="https://cds0804.github/tags/hadoop/"/>
-    
-      <category term="hdfs" scheme="https://cds0804.github/tags/hdfs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git</title>
-    <link href="https://cds0804.github/2020/04/15/git/"/>
-    <id>https://cds0804.github/2020/04/15/git/</id>
-    <published>2020-04-14T16:35:24.000Z</published>
-    <updated>2020-04-25T14:41:39.239Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>Git이란? </li></ul><ul><li>clone</li></ul><ul><li>프로젝트와 repository 생성<h4 id="참조-https-greeksharifa-github-io-github-2018-06-29-github-usage-02-create-project"><a href="#참조-https-greeksharifa-github-io-github-2018-06-29-github-usage-02-create-project" class="headerlink" title="참조 : https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/"></a>참조 : <a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/</a></h4></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;Git이란? &lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;clone&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;프로젝트와 repository 생성&lt;h4 id=&quot;참조-https-greeksharifa-github-io-github-2018-06-29-
-      
-    
-    </summary>
-    
-    
-      <category term="git" scheme="https://cds0804.github/categories/git/"/>
-    
-    
-      <category term="github" scheme="https://cds0804.github/tags/github/"/>
-    
-      <category term="git" scheme="https://cds0804.github/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>terminal_basic_command</title>
-    <link href="https://cds0804.github/2020/04/15/terminal-basic-command/"/>
-    <id>https://cds0804.github/2020/04/15/terminal-basic-command/</id>
-    <published>2020-04-14T16:07:32.000Z</published>
-    <updated>2020-04-17T04:34:34.333Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Mac-Terminal-basic-command"><a href="#Mac-Terminal-basic-command" class="headerlink" title="Mac Terminal basic command"></a>Mac Terminal basic command</h1><ul><li>zsh : 2020 mac 기본 터미널</li><li>iTrem : 현재 사용하고 있는 터미널</li><li>oh my zsh : 터미널 설정 오픈소스<br>출처 : <a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a> </li></ul><h3 id="현재위치-파악-및-폴더-이동하기"><a href="#현재위치-파악-및-폴더-이동하기" class="headerlink" title="현재위치 파악 및 폴더 이동하기"></a>현재위치 파악 및 폴더 이동하기</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">pwd</span> </span><br><span class="line">$ ll</span><br><span class="line">$ ls -al</span><br><span class="line">$ ls</span><br><span class="line">$ <span class="built_in">cd</span> Documents</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ <span class="built_in">cd</span> Music/Music</span><br><span class="line">$ <span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure><ol><li>pwd : 현재 위치의 절대 경로</li><li>ll : 폴더 </li><li>ls -al : 폴더 상세내용 표시</li><li>ls : </li><li>cd Documents : </li><li>cd .. : </li><li>cd Music/Music : </li><li>cd ~ : </li></ol><h3 id="폴더-파일-생성-및-삭제-명령어"><a href="#폴더-파일-생성-및-삭제-명령어" class="headerlink" title="폴더, 파일 생성 및 삭제 명령어"></a>폴더, 파일 생성 및 삭제 명령어</h3><h3 id="참고사항-15번-표시가-없는-esc는-esc를-입력하라는-것이-아닌-esc키를-누르라는-의미입니다"><a href="#참고사항-15번-표시가-없는-esc는-esc를-입력하라는-것이-아닌-esc키를-누르라는-의미입니다" class="headerlink" title="참고사항 : 15번 $ 표시가 없는 esc는 esc를 입력하라는 것이 아닌 esc키를 누르라는 의미입니다."></a>참고사항 : 15번 $ 표시가 없는 esc는 esc를 입력하라는 것이 아닌 esc키를 누르라는 의미입니다.</h3><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir <span class="built_in">test</span></span><br><span class="line">$ <span class="built_in">cd</span> <span class="built_in">test</span></span><br><span class="line">$ touch <span class="built_in">test</span></span><br><span class="line">$ vi <span class="built_in">test</span> </span><br><span class="line">$ i</span><br><span class="line">$ :<span class="built_in">set</span> nu</span><br><span class="line">$ <span class="built_in">test</span> </span><br><span class="line">esc</span><br><span class="line">$ :wq</span><br><span class="line">$ rm <span class="built_in">test</span></span><br><span class="line">$ ll</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ rmdir <span class="built_in">test</span></span><br></pre></td></tr></table></figure><ol><li>mkdir test : </li><li>cd test : </li><li>touch test : </li><li>vi test : </li><li>i : 터미널 창 왼쪽 아래 - - INSERT - - 라고 보이며, vi editor 내부에 글자를 적을 수 있습니다. </li><li>:set nu : 에디터 내부에 라인이 설정됩니다. </li><li>test : 테스트라고 작성해봅시다! 혹은 아무글자나 작성해봅시다. </li><li>esc키를 누르면 왼쪽 아래 - - INSERT - - 가 사라집니다. </li><li>wq : 작성한 내용을 저장 후 빠져나옵니다. </li><li>rm test : test 파일을 삭제합니다. </li><li>ll : 폴더 내부에 있는 내용물을 보여줍니다. </li><li>cd .. : 상위 폴더로 이동합니다. </li><li>rmdir test : test 폴더를 삭제합니다. </li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ls</span><br><span class="line">$ ll</span><br></pre></td></tr></table></figure><ol><li>ls : 현재 경로에 있는 폴더, 파일을 보여줍니다. </li><li>ll : 현재 경로에 있는 폴더, 파일을 보여줍니다.  단, ls보다 상세하게 보여줍니다. (권한, 사용자계정 등)</li></ol><h1 id="추가-업데이트-예정입니다"><a href="#추가-업데이트-예정입니다" class="headerlink" title="추가 업데이트 예정입니다."></a>추가 업데이트 예정입니다.</h1><p>오탈자 및 조언 댓글로 남겨주세요.<br>감사합니다 :)</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Mac-Terminal-basic-command&quot;&gt;&lt;a href=&quot;#Mac-Terminal-basic-command&quot; class=&quot;headerlink&quot; title=&quot;Mac Terminal basic command&quot;&gt;&lt;/a&gt;Mac Term
-      
-    
-    </summary>
-    
-    
-      <category term="terminal" scheme="https://cds0804.github/categories/terminal/"/>
-    
-      <category term="command" scheme="https://cds0804.github/categories/terminal/command/"/>
-    
-    
-      <category term="terminal command" scheme="https://cds0804.github/tags/terminal-command/"/>
-    
-      <category term="terminal" scheme="https://cds0804.github/tags/terminal/"/>
-    
-      <category term="mac" scheme="https://cds0804.github/tags/mac/"/>
-    
-      <category term="iTerm" scheme="https://cds0804.github/tags/iTerm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://cds0804.github/2020/04/14/test/"/>
-    <id>https://cds0804.github/2020/04/14/test/</id>
-    <published>2020-04-14T04:59:31.000Z</published>
-    <updated>2020-04-14T05:27:58.327Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="테스트-페이지입니다"><a href="#테스트-페이지입니다" class="headerlink" title="테스트 페이지입니다."></a>테스트 페이지입니다.</h1><h1 id="why-dosen’t-work-disqus"><a href="#why-dosen’t-work-disqus" class="headerlink" title="why dosen’t work disqus?"></a>why dosen’t work disqus?</h1>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;테스트-페이지입니다&quot;&gt;&lt;a href=&quot;#테스트-페이지입니다&quot; class=&quot;headerlink&quot; title=&quot;테스트 페이지입니다.&quot;&gt;&lt;/a&gt;테스트 페이지입니다.&lt;/h1&gt;&lt;h1 id=&quot;why-dosen’t-work-disqus&quot;&gt;&lt;a hre
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>machine_learning</title>
-    <link href="https://cds0804.github/2020/04/14/Machine_Learning/"/>
-    <id>https://cds0804.github/2020/04/14/Machine_Learning/</id>
-    <published>2020-04-13T16:57:56.000Z</published>
-    <updated>2020-04-25T14:41:35.123Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="머신러닝-요약"><a href="#머신러닝-요약" class="headerlink" title="머신러닝 요약"></a>머신러닝 요약</h1><ul><li><p>기계가 </p></li><li><p>주어진 데이터틀 통해 </p></li><li><p>규칙을 찾는 것</p></li><li><p>데이터를 </p></li><li><p>기계에게 주고</p></li><li><p>규칙을 찾는 것</p></li></ul><blockquote><p>많은 양의 데이터가 필요합니다. </p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;머신러닝-요약&quot;&gt;&lt;a href=&quot;#머신러닝-요약&quot; class=&quot;headerlink&quot; title=&quot;머신러닝 요약&quot;&gt;&lt;/a&gt;머신러닝 요약&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;기계가 &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;주어진 데이터틀 통해 &lt;/p&gt;
-&lt;/
-      
-    
-    </summary>
-    
-    
-      <category term="ML" scheme="https://cds0804.github/categories/ML/"/>
-    
-      <category term="concept" scheme="https://cds0804.github/categories/ML/concept/"/>
-    
-    
-      <category term="Machine Learnig" scheme="https://cds0804.github/tags/Machine-Learnig/"/>
-    
-      <category term="machine learning" scheme="https://cds0804.github/tags/machine-learning/"/>
-    
-      <category term="머신러닝" scheme="https://cds0804.github/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/"/>
-    
-      <category term="ML" scheme="https://cds0804.github/tags/ML/"/>
-    
-      <category term="ml" scheme="https://cds0804.github/tags/ml/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cross_validation</title>
-    <link href="https://cds0804.github/2020/04/09/cross-validation/"/>
-    <id>https://cds0804.github/2020/04/09/cross-validation/</id>
-    <published>2020-04-09T04:35:26.000Z</published>
-    <updated>2020-04-15T03:39:48.534Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1><p>statsmodels 사이트 : <a href="https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html">https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html</a></p><ol><li>python에서 anova library 불러옵니다.<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> statsmodels.stats.anova <span class="keyword">import</span> anova_lm</span><br></pre></td></tr></table></figure></li></ol><h1 id="수식-예제"><a href="#수식-예제" class="headerlink" title="수식 예제"></a>수식 예제</h1><p>$ax^2+bx+c&gt;0$</p><h1 id="추후-작성예정입니다"><a href="#추후-작성예정입니다" class="headerlink" title="추후 작성예정입니다."></a>추후 작성예정입니다.</h1>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;anova&quot;&gt;&lt;a href=&quot;#anova&quot; class=&quot;headerlink&quot; title=&quot;anova&quot;&gt;&lt;/a&gt;anova&lt;/h1&gt;&lt;p&gt;statsmodels 사이트 : &lt;a href=&quot;https://www.statsmodels.org/sta
-      
-    
-    </summary>
-    
-    
-      <category term="math" scheme="https://cds0804.github/categories/math/"/>
-    
-      <category term="linear regression" scheme="https://cds0804.github/categories/math/linear-regression/"/>
-    
-    
-      <category term="python" scheme="https://cds0804.github/tags/python/"/>
-    
-      <category term="anova" scheme="https://cds0804.github/tags/anova/"/>
-    
-      <category term="cv" scheme="https://cds0804.github/tags/cv/"/>
-    
-      <category term="cross validation" scheme="https://cds0804.github/tags/cross-validation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STAR</title>
-    <link href="https://cds0804.github/2020/04/09/STAR/"/>
-    <id>https://cds0804.github/2020/04/09/STAR/</id>
-    <published>2020-04-08T15:43:56.000Z</published>
-    <updated>2020-04-15T03:57:51.904Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="자기소개-STAR-기법"><a href="#자기소개-STAR-기법" class="headerlink" title="자기소개 STAR 기법"></a>자기소개 STAR 기법</h1><ul><li>S</li><li>T</li><li>A</li><li>R</li></ul><h2 id="추후-작성-예정입니다"><a href="#추후-작성-예정입니다" class="headerlink" title="추후 작성 예정입니다."></a>추후 작성 예정입니다.</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;자기소개-STAR-기법&quot;&gt;&lt;a href=&quot;#자기소개-STAR-기법&quot; class=&quot;headerlink&quot; title=&quot;자기소개 STAR 기법&quot;&gt;&lt;/a&gt;자기소개 STAR 기법&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;S&lt;/li&gt;
-&lt;li&gt;T&lt;/li&gt;
-&lt;li&gt;A&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="concept" scheme="https://cds0804.github/categories/concept/"/>
-    
-      <category term="star" scheme="https://cds0804.github/categories/concept/star/"/>
-    
-    
-      <category term="STAR기법" scheme="https://cds0804.github/tags/STAR%EA%B8%B0%EB%B2%95/"/>
-    
-      <category term="자기소개" scheme="https://cds0804.github/tags/%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Agile</title>
     <link href="https://cds0804.github/2020/04/08/Agile/"/>
     <id>https://cds0804.github/2020/04/08/Agile/</id>
     <published>2020-04-08T14:54:49.000Z</published>
-    <updated>2020-04-15T03:54:27.506Z</updated>
+    <updated>2020-04-26T14:26:53.536Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약"><a href="#바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약" class="headerlink" title="바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약"></a>바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약</h3><p>출처 : <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560">https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560</a></p><ul><li>작업 계획을 짧은 단위로 세우고</li><li>시제품을 만들어 나가는 사이클을 반복</li><li>고객의 요구 변화에 유연하고도 신속하게 대응하는 개발 방법론 </li></ul><p>요즘 에자일, 에자일 기법에 대해 2번 이상 듣기도 하고 기업에서도 에자일 기법으로 프로세스를 진행한다고 하니 무엇인지에 대한 개념도 알아보고 내 삶에 적용 시키기도 해볼 겸해서 간단하게 기록하려합니다. </p><p>우선, 애자일 방법이란 ?<br>기업경영 및 소프트웨어 등의 개발을 고객중심으로 진행하는 방법론</p><p>애자일방식의 조직운영</p><ol><li>고객중심</li><li>아웃풋 중심</li><li>유연하고도 민첩한 대응력</li><li>자율성과 권한을 가진 조직 운영</li></ol><h3 id="에자일-개발-선언문"><a href="#에자일-개발-선언문" class="headerlink" title="에자일 개발 선언문"></a>에자일 개발 선언문</h3><ul><li><a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a></li></ul><p>애자일 방법은 급변화하고 진화하고 있는 환경에 효과적으로 대응할 수 있는 방법이라고 생각됩니다. </p><p>피드백 댓글로 남겨주세요~!<br>감사합니다 :)</p>]]></content>
+    <content type="html"><![CDATA[<p><strong>Agile(애자일) 방법론 3줄 요약</strong></p><ul><li>작업 계획을 짧은 단위로 세우고</li><li>시제품을 만들어 나가는 사이클을 반복</li><li>고객의 요구 변화에 유연하고도 신속하게 대응하는 개발 방법론 <blockquote><p><a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&memberNo=36647560">자료출처</a></p></blockquote></li></ul><p>요즘 에자일, 에자일 기법에 대해 2번 이상 듣기도 하고 기업에서도 에자일 기법으로 프로세스를 진행한다고 하니 무엇인지에 대한 개념도 알아보고 내 삶에 적용 시키기도 해볼 겸해서 간단하게 기록하려합니다. </p><p>우선, 애자일 방법이란 ?<br>기업경영 및 소프트웨어 등의 개발을 고객중심으로 진행하는 방법론</p><p>애자일방식의 조직운영</p><ol><li>고객중심</li><li>아웃풋 중심</li><li>유연하고도 민첩한 대응력</li><li>자율성과 권한을 가진 조직 운영</li></ol><blockquote><p><a href="http://agilemanifesto.org/">에자일 개발 선언문</a></p></blockquote><p>애자일 방법은 급변화하고 진화하고 있는 환경에 효과적으로 대응할 수 있는 방법이라고 생각됩니다. </p><p>피드백 댓글로 남겨주세요~!<br>감사합니다 :)</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약&quot;&gt;&lt;a href=&quot;#바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약&quot; class=&quot;headerlink&quot; title=&quot;바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약&quot;&gt;&lt;/
+        &lt;p&gt;&lt;strong&gt;Agile(애자일) 방법론 3줄 요약&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;작업 계획을 짧은 단위로 세우고&lt;/li&gt;
+&lt;li&gt;시제품을 만들어 나가는 사이클을 반복&lt;/li&gt;
+&lt;li&gt;고객의 요구 변화에 유연하고도 신속하게 대응하는 개발
       
     
     </summary>
@@ -674,6 +409,128 @@
       <category term="agile" scheme="https://cds0804.github/tags/agile/"/>
     
       <category term="Agile" scheme="https://cds0804.github/tags/Agile/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 블로그 만들기</title>
+    <link href="https://cds0804.github/2020/04/05/Hexo%20create/"/>
+    <id>https://cds0804.github/2020/04/05/Hexo%20create/</id>
+    <published>2020-04-05T04:09:09.000Z</published>
+    <updated>2020-04-26T14:37:46.750Z</updated>
+    
+    <content type="html"><![CDATA[<p>안녕하세요!<br>hexo 블로그 만드는 방법입니다. </p><p>hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. </p><ol><li><a href="https://nodejs.org/en/">Node.js</a><ul><li>Should be at least Node.js 8.10, recommends 10.0 or higher</li></ul></li><li><a href="https://git-scm.com/">Git</a><ul><li>github에서 repository를 생성해야 합니다. <blockquote><p><a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">참고 사이트</a></p></blockquote></li></ul></li></ol><blockquote><p><a href="https://hexo.io/ko/index.html">hexo 블로그 공식 홈페이지</a></p></blockquote><blockquote><p><a href="https://hexo.io/ko/docs/">hexo 블로그 설치하기 공식문서</a></p></blockquote><ol><li><p>터미널을 엽니다.</p></li><li><p>블로그를 만들면 폴더가 생성됩니다. 폴더를 생성하고자 하는 곳으로 가셔서 아래의 $를 제외한 명령어를 입력하세요. </p></li><li><p>띄어쓰기 대소문자 모두 그대로 입력해주세요.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. $ npm install hexo-cli -g</span><br><span class="line">2. $ hexo init blog</span><br></pre></td></tr></table></figure></li><li><p>블로그를 만든 폴더로 이동합니다. </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5. $ <span class="built_in">cd</span> blog</span><br><span class="line">6. $ npm install</span><br><span class="line">7.  $ hexo server</span><br></pre></td></tr></table></figure></li><li><p>로컬에서 hexo 블로그를 확인하실 수 있습니다. </p></li><li><p>아래 터미널의 경로로 가셔서 파일을 만듭니다. </p></li></ol><p><strong>터미널에서의 경로</strong></p><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure><p>** 파일 이름(본인이 원하는 이름을 적으시면 됩니다.)**</p><p>파일명.md</p><p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성해주세요.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;#&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure><blockquote><p><a href="https://cds0804.github.io/2020/04/05/markdown-0/">마크다운 문법</a></p></blockquote><p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p><p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p><h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo server <span class="comment"># 생략가능, 로컬영역에서 확인</span></span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><blockquote><p>추가적인 내용은 지속적으로 편집하도록 하겠습니다. </p></blockquote><blockquote><p>최대한 자세히 쓰려고 노력중입니다.<br>여러가지 의견 감사히 받겠습니다.<br>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다. </p><blockquote><p>댓글기능을 추가하였습니다. </p></blockquote></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;안녕하세요!&lt;br&gt;hexo 블로그 만드는 방법입니다. &lt;/p&gt;
+&lt;p&gt;hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt;&lt;ul&gt;
+&lt;l
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://cds0804.github/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
+    
+      <category term="create" scheme="https://cds0804.github/tags/create/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown 문법에 대하여</title>
+    <link href="https://cds0804.github/2020/04/05/markdown-0/"/>
+    <id>https://cds0804.github/2020/04/05/markdown-0/</id>
+    <published>2020-04-05T04:03:20.000Z</published>
+    <updated>2020-04-26T14:52:47.914Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>markdown 문법 사용법</strong></p><blockquote><p><a href="https://greeksharifa.github.io/references/2018/06/29/markdown-usage/">출처</a></p></blockquote><p><strong>python</strong> is really <em>cool</em></p><ul><li>python<ul><li>pandas<ul><li>depth1</li><li>depth2</li></ul></li><li>numpy</li></ul></li><li>java</li><li>c++</li><li>golang</li></ul><ol><li>python</li><li>java</li><li>c++</li></ol><blockquote><p>파이썬은 재밌다.</p></blockquote><p>y = 3x</p><blockquote><p>$y = 3x$</p></blockquote><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">10</span></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; 10</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><blockquote><p><a href="https://www.python.org/">파이썬 공식 페이지</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;markdown 문법 사용법&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://greeksharifa.github.io/references/2018/06/29/markdown-usage/&quot;&gt;출처&lt;/a
+      
+    
+    </summary>
+    
+    
+      <category term="markdown" scheme="https://cds0804.github/categories/markdown/"/>
+    
+    
+      <category term="markdown" scheme="https://cds0804.github/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>webcrawling</title>
+    <link href="https://cds0804.github/2020/04/03/webcrawling-1/"/>
+    <id>https://cds0804.github/2020/04/03/webcrawling-1/</id>
+    <published>2020-04-03T09:49:21.000Z</published>
+    <updated>2020-04-25T15:11:01.072Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-개발자-도구를-활용한-웹페이지-분석"><a href="#1-개발자-도구를-활용한-웹페이지-분석" class="headerlink" title="1. 개발자 도구를 활용한 웹페이지 분석"></a>1. 개발자 도구를 활용한 웹페이지 분석</h3><ul><li><p>chrome 기준 </p></li><li><p>웹 브라우저 : html로 작성된 내용을 user(사람들)가 보기 쉽게 랜더링 해주는 기능을 함</p></li><li><p>Elements 탭</p></li><li><p>원하는 데이터로 이동하는 기능을 사용</p></li><li><p>엘레먼트 탭 : 왼쪽 상단에 있음, 원하는 데이터를 클릭했을 때 어떤 테그와 어떤 속성을 가지는지 표시해주는 역할을 함</p></li><li><p>어떤 태그와 속성을 가지는지 먼저 파악해야 함</p></li><li><p>Network 탭</p></li><li><p>Preserve log : 체크 시, 로그가 지워지지 않고 유지됨</p></li><li><p>브라우저가 서버에 요청되는 모든 요청을 로그함</p></li><li><p>url 확인 가능</p></li><li><p>요청이 많은 이유 : 이미지 등은 첫번째 요청에 한번에 오지 않고, 따로 요청하여 받아옴</p></li><li><p>처음엔 기본적인 데이터만 넘기고, 나머지 데이터는 브라우저에서 ajax 등의 기술을 이용해서 비동기적으로 가져갈 수 있도록 함</p></li><li><p>HTTP(Hyper Text Transfer Protocol) : HTML 문서 등의 리소스를 전송하는 프로토콜(규약)</p></li><li><p>클라이언트(user가 사용하는 브라우저)가 서버에 HTTP 요청(Get, Post 등)</p></li><li><p>서버에서 클라이언트로 HTTP 응답을 함</p></li><li><p>Get 요청 : 데이터를 url에 포함하여 전달(주로 리소스 요청에 사용), 정보의 공유가능</p></li><li><p>Post 요청 : 데이터를 Form data에 포함하여 전달(주로 로그인에 사용)</p></li><li><p>rendering(렌더링) : html을 받아 사용자(사람들)이 볼 수 있도록 출력해주는 작업</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;1-개발자-도구를-활용한-웹페이지-분석&quot;&gt;&lt;a href=&quot;#1-개발자-도구를-활용한-웹페이지-분석&quot; class=&quot;headerlink&quot; title=&quot;1. 개발자 도구를 활용한 웹페이지 분석&quot;&gt;&lt;/a&gt;1. 개발자 도구를 활용한 웹페이지 분석
+      
+    
+    </summary>
+    
+    
+      <category term="crawling" scheme="https://cds0804.github/categories/crawling/"/>
+    
+      <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
+    
+    
+      <category term="web" scheme="https://cds0804.github/tags/web/"/>
+    
+      <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
+    
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
+    
+      <category term="get" scheme="https://cds0804.github/tags/get/"/>
+    
+      <category term="post" scheme="https://cds0804.github/tags/post/"/>
+    
+      <category term="randering" scheme="https://cds0804.github/tags/randering/"/>
+    
+      <category term="http" scheme="https://cds0804.github/tags/http/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>안녕하세요 !!</title>
+    <link href="https://cds0804.github/2020/04/02/hello-world/"/>
+    <id>https://cds0804.github/2020/04/02/hello-world/</id>
+    <published>2020-04-02T04:31:44.000Z</published>
+    <updated>2020-04-06T01:21:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for
+      
+    
+    </summary>
+    
+    
     
   </entry>
   

@@ -4,28 +4,154 @@
 
     <url>
         <loc>https://cds0804.github/tags/LinearRegression/</loc>
-        <lastmod>2020-04-26T14:22:16.053Z</lastmod>
+        <lastmod>2020-04-26T14:52:47.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/project/</loc>
-        <lastmod>2020-04-26T14:22:16.053Z</lastmod>
+        <lastmod>2020-04-26T14:52:47.938Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/favicon/</loc>
+        <lastmod>2020-04-26T14:52:47.938Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/re/</loc>
+        <lastmod>2020-04-26T14:52:47.914Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/python/</loc>
+        <lastmod>2020-04-26T14:52:47.914Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/markdown/</loc>
+        <lastmod>2020-04-26T14:52:47.914Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/eda/</loc>
-        <lastmod>2020-04-26T14:16:34.104Z</lastmod>
+        <lastmod>2020-04-26T14:52:47.913Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/robots-txt/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/http/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/randering/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/post/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/get/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/html/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/webcrawling/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/web/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/visit/</loc>
+        <lastmod>2020-04-26T14:44:19.148Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/icarus/</loc>
-        <lastmod>2020-04-25T15:44:16.133Z</lastmod>
+        <lastmod>2020-04-26T14:44:19.148Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/hexo/</loc>
+        <lastmod>2020-04-26T14:44:19.148Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/create/</loc>
+        <lastmod>2020-04-26T14:37:46.750Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/Agile/</loc>
+        <lastmod>2020-04-26T14:26:53.536Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/agile/</loc>
+        <lastmod>2020-04-26T14:26:53.536Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/concept/</loc>
+        <lastmod>2020-04-26T14:26:53.536Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -45,358 +171,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/tags/hexo/</loc>
-        <lastmod>2020-04-25T15:44:16.133Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/visit/</loc>
-        <lastmod>2020-04-25T15:11:47.020Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/http/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/randering/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/post/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/get/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/webcrawling/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/web/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/html/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/markdown/</loc>
-        <lastmod>2020-04-25T15:10:58.026Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/git/</loc>
-        <lastmod>2020-04-25T14:41:39.239Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/github/</loc>
-        <lastmod>2020-04-25T14:41:39.239Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/ml/</loc>
-        <lastmod>2020-04-25T14:41:35.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/ML/</loc>
-        <lastmod>2020-04-25T14:41:35.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/%25EB%25A8%25B8%25EC%258B%25A0%25EB%259F%25AC%25EB%258B%259D/</loc>
-        <lastmod>2020-04-25T14:41:35.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/machine-learning/</loc>
-        <lastmod>2020-04-25T14:41:35.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/Machine-Learnig/</loc>
-        <lastmod>2020-04-25T14:41:35.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/favicon/</loc>
-        <lastmod>2020-04-25T08:18:21.122Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/re/</loc>
-        <lastmod>2020-04-25T06:53:19.611Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/python/</loc>
-        <lastmod>2020-04-25T06:53:19.611Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/tags/test/</loc>
         <lastmod>2020-04-23T12:08:50.147Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/robots-txt/</loc>
-        <lastmod>2020-04-23T12:07:08.062Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/%25EC%2584%25A0%25ED%2598%2595%25ED%259A%258C%25EA%25B7%2580%25EB%25B6%2584%25EC%2584%259D/</loc>
-        <lastmod>2020-04-21T12:06:34.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/linear-regression/</loc>
-        <lastmod>2020-04-21T12:06:34.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/iTerm/</loc>
-        <lastmod>2020-04-17T04:34:34.333Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/mac/</loc>
-        <lastmod>2020-04-17T04:34:34.333Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/terminal/</loc>
-        <lastmod>2020-04-17T04:34:34.333Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/terminal-command/</loc>
-        <lastmod>2020-04-17T04:34:34.333Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/hdfs/</loc>
-        <lastmod>2020-04-15T04:10:13.607Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/hadoop/</loc>
-        <lastmod>2020-04-15T04:10:13.607Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/spark/</loc>
-        <lastmod>2020-04-15T04:10:13.607Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/%25EC%259E%2590%25EA%25B8%25B0%25EC%2586%258C%25EA%25B0%259C/</loc>
-        <lastmod>2020-04-15T03:57:51.904Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/STAR%25EA%25B8%25B0%25EB%25B2%2595/</loc>
-        <lastmod>2020-04-15T03:57:51.904Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/sql/</loc>
-        <lastmod>2020-04-15T03:57:33.522Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/Agile/</loc>
-        <lastmod>2020-04-15T03:54:27.506Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/agile/</loc>
-        <lastmod>2020-04-15T03:54:27.506Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/concept/</loc>
-        <lastmod>2020-04-15T03:54:27.506Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/EDA/</loc>
-        <lastmod>2020-04-15T03:54:17.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/big-data/</loc>
-        <lastmod>2020-04-15T03:52:56.950Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/data-analysis/</loc>
-        <lastmod>2020-04-15T03:52:56.950Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/data-science/</loc>
-        <lastmod>2020-04-15T03:52:56.950Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/create/</loc>
-        <lastmod>2020-04-15T03:51:58.808Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/theme/</loc>
-        <lastmod>2020-04-15T03:51:27.632Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/github-io/</loc>
-        <lastmod>2020-04-15T03:51:27.632Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/next/</loc>
-        <lastmod>2020-04-15T03:51:27.632Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/%25EB%25B8%2594%25EB%25A1%259C%25EA%25B7%25B8/</loc>
-        <lastmod>2020-04-15T03:51:27.632Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/cross-validation/</loc>
-        <lastmod>2020-04-15T03:39:48.534Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/cv/</loc>
-        <lastmod>2020-04-15T03:39:48.534Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/anova/</loc>
-        <lastmod>2020-04-15T03:39:48.534Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/coding/</loc>
-        <lastmod>2020-04-08T02:23:38.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/pandas/</loc>
-        <lastmod>2020-04-08T02:23:38.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -35,31 +35,19 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+        <tag>icarus</tag>
         <tag>profile</tag>
         <tag>logo</tag>
-        <tag>icarus</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>markdown</title>
-    <url>/2020/04/25/markdown/</url>
-    <content><![CDATA[<ul>
-<li>markdown 문법</li>
-</ul>
-]]></content>
-      <categories>
-        <category>markdown</category>
-      </categories>
-      <tags>
-        <tag>markdown</tag>
       </tags>
   </entry>
   <entry>
     <title>project-LinearRegression</title>
     <url>/2020/04/25/project-LinearRegression/</url>
-    <content><![CDATA[<h3 id="Linear-Regression-project"><a href="#Linear-Regression-project" class="headerlink" title="Linear Regression project"></a>Linear Regression project</h3><ul>
+    <content><![CDATA[<p><strong>Linear Regression project</strong></p>
+<ul>
 <li>한달동안 팀원들과 함께 한 프로젝트</li>
 <li>홍성현님, 유호원님, 배준영님 한달동안 수고 많았습니다 :)</li>
+<li>자료는 아래 깃헙에서 확인해주세요. </li>
 </ul>
 <blockquote>
 <p><a href="https://nbviewer.jupyter.org/github/HowardHowonYu/usedcar_regression_project/blob/howard/howard/used_car_regression_final.ipynb">Linear Regression project UsedCar price</a></p>
@@ -77,7 +65,10 @@
   <entry>
     <title>favicon</title>
     <url>/2020/04/25/favicon/</url>
-    <content><![CDATA[<h1 id="favicon-출처-동물-png-from-pngtree-com"><a href="#favicon-출처-동물-png-from-pngtree-com" class="headerlink" title="favicon 출처: 동물 png from pngtree.com"></a>favicon 출처: <a href='https://pngtree.com/so/동물'>동물 png from pngtree.com</a></h1>]]></content>
+    <content><![CDATA[<blockquote>
+<p><a href="'https://pngtree.com/">favicon 출처</a></p>
+</blockquote>
+]]></content>
       <categories>
         <category>favicon</category>
       </categories>
@@ -256,7 +247,7 @@
 <li>아래 뉴스에서 이메일 주소를 추출해 보세요</li>
 <li>다음중 올바른 (http, https) 웹페이지만 찾으시오</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="comment"># 위의 두 모듈이 없는 경우에는 pip install requests bs4 실행</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_news_content</span><span class="params">(url)</span>:</span></span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    content = response.text</span><br><span class="line"></span><br><span class="line">    soup = BeautifulSoup(content, <span class="string">'html5lib'</span>)</span><br><span class="line"></span><br><span class="line">    div = soup.find(<span class="string">'div'</span>, attrs = &#123;<span class="string">'id'</span> : <span class="string">'harmonyContainer'</span>&#125;)</span><br><span class="line">    </span><br><span class="line">    content = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> paragraph <span class="keyword">in</span> div.find_all(<span class="string">'p'</span>):</span><br><span class="line">        content += paragraph.get_text()</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">return</span> content</span><br><span class="line"></span><br><span class="line">news1 = get_news_content(<span class="string">'https://news.v.daum.net/v/20190617073049838'</span>)</span><br><span class="line">print(news1)</span><br><span class="line"></span><br><span class="line">email_reg = re.compile(<span class="string">r'[\w-]+@[\w.]+\w+'</span>)</span><br><span class="line">email_reg.search(news1)</span><br><span class="line"></span><br><span class="line">webs = [<span class="string">'http://www.test.co.kr'</span>,</span><br><span class="line">        <span class="string">'https://www.test1.com'</span>,</span><br><span class="line">        <span class="string">'http://www.test.com'</span>,</span><br><span class="line">        <span class="string">'ftp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http:://www.test.com'</span>,</span><br><span class="line">        <span class="string">'htp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http://www.google.com'</span>,</span><br><span class="line">        <span class="string">'https://www.homepage.com.'</span>]</span><br><span class="line"></span><br><span class="line">web_reg = re.compile(<span class="string">r'https?://[\w.]+\w+$'</span>)</span><br><span class="line">list(map(<span class="keyword">lambda</span> w:web_reg.search(w) != <span class="literal">None</span>, webs))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line">&gt; 위의 두 모듈이 없는 경우에는 pip install requests bs4 실행</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_news_content</span><span class="params">(url)</span>:</span></span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    content = response.text</span><br><span class="line"></span><br><span class="line">    soup = BeautifulSoup(content, <span class="string">'html5lib'</span>)</span><br><span class="line"></span><br><span class="line">    div = soup.find(<span class="string">'div'</span>, attrs = &#123;<span class="string">'id'</span> : <span class="string">'harmonyContainer'</span>&#125;)</span><br><span class="line">    </span><br><span class="line">    content = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> paragraph <span class="keyword">in</span> div.find_all(<span class="string">'p'</span>):</span><br><span class="line">        content += paragraph.get_text()</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">return</span> content</span><br><span class="line"></span><br><span class="line">news1 = get_news_content(<span class="string">'https://news.v.daum.net/v/20190617073049838'</span>)</span><br><span class="line">print(news1)</span><br><span class="line"></span><br><span class="line">email_reg = re.compile(<span class="string">r'[\w-]+@[\w.]+\w+'</span>)</span><br><span class="line">email_reg.search(news1)</span><br><span class="line"></span><br><span class="line">webs = [<span class="string">'http://www.test.co.kr'</span>,</span><br><span class="line">        <span class="string">'https://www.test1.com'</span>,</span><br><span class="line">        <span class="string">'http://www.test.com'</span>,</span><br><span class="line">        <span class="string">'ftp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http:://www.test.com'</span>,</span><br><span class="line">        <span class="string">'htp://www.test.com'</span>,</span><br><span class="line">        <span class="string">'http://www.google.com'</span>,</span><br><span class="line">        <span class="string">'https://www.homepage.com.'</span>]</span><br><span class="line"></span><br><span class="line">web_reg = re.compile(<span class="string">r'https?://[\w.]+\w+$'</span>)</span><br><span class="line">list(map(<span class="keyword">lambda</span> w:web_reg.search(w) != <span class="literal">None</span>, webs))</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -271,7 +262,12 @@
   <entry>
     <title>porject EDA</title>
     <url>/2020/04/23/porject-EDA/</url>
-    <content><![CDATA[<h4 id="EDA-project"><a href="#EDA-project" class="headerlink" title="EDA project"></a>EDA project</h4><p>아파트 가격분석 EDA </p>
+    <content><![CDATA[<p><strong>EDA project</strong></p>
+<ul>
+<li>처음으로 진행했던 프로젝트</li>
+<li>아파트 가격분석 EDA </li>
+<li>자세한 내용은 아래 깃헙을 참고해주세요. </li>
+</ul>
 <blockquote>
 <p><a href="https://github.com/cds0804/project-1-EDA/blob/master/EDA%20project%20Analysis%20APT%20price_20200219.ipynb">EDA project Analysis APT price</a></p>
 </blockquote>
@@ -281,8 +277,8 @@
         <category>EDA</category>
       </categories>
       <tags>
-        <tag>eda</tag>
         <tag>project</tag>
+        <tag>eda</tag>
       </tags>
   </entry>
   <entry>
@@ -335,9 +331,9 @@
         <category>concept</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -425,9 +421,9 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -529,9 +525,9 @@
         <category>concept</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -539,18 +535,11 @@
       </tags>
   </entry>
   <entry>
-    <title>seo</title>
-    <url>/2020/04/17/seo/</url>
-    <content><![CDATA[<h4 id="website-seo-하기"><a href="#website-seo-하기" class="headerlink" title="website seo 하기"></a>website seo 하기</h4><blockquote>
-<p>출처 : <a href="https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/#more">https://msj0319.github.io/2020/02/14/Hexo-Blog-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-SEO/#more</a></p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>visited_count</title>
     <url>/2020/04/17/Hexo-visited-count/</url>
-    <content><![CDATA[<h4 id="블로그-방문자-수-설정하기"><a href="#블로그-방문자-수-설정하기" class="headerlink" title="블로그 방문자 수 설정하기"></a>블로그 방문자 수 설정하기</h4><blockquote>
-<p>참조 : <a href="https://msj0319.github.io/2020/02/15/Hexo-Blog-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EB%B0%8F-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%B9%B4%EC%9A%B4%ED%8C%85-%EA%B8%B0%EB%8A%A5-%EB%84%A3%EA%B8%B0/">https://msj0319.github.io/2020/02/15/Hexo-Blog-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EB%B0%8F-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%B9%B4%EC%9A%B4%ED%8C%85-%EA%B8%B0%EB%8A%A5-%EB%84%A3%EA%B8%B0/</a></p>
+    <content><![CDATA[<p><strong>블로그 방문자 수 설정하기</strong></p>
+<blockquote>
+<p><a href="https://msj0319.github.io/2020/02/15/Hexo-Blog-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EB%B0%8F-%EC%A1%B0%ED%9A%8C%EC%88%98-%EC%B9%B4%EC%9A%B4%ED%8C%85-%EA%B8%B0%EB%8A%A5-%EB%84%A3%EA%B8%B0/">참조 사이트</a></p>
 </blockquote>
 ]]></content>
       <tags>
@@ -560,180 +549,16 @@
       </tags>
   </entry>
   <entry>
-    <title>hadoop</title>
-    <url>/2020/04/15/hadoop/</url>
-    <content><![CDATA[<h1 id="오늘은-하둡에-대해-알아보겠습니다"><a href="#오늘은-하둡에-대해-알아보겠습니다" class="headerlink" title="오늘은 하둡에 대해 알아보겠습니다."></a>오늘은 하둡에 대해 알아보겠습니다.</h1>]]></content>
-      <categories>
-        <category>spark</category>
-        <category>concept</category>
-      </categories>
-      <tags>
-        <tag>spark</tag>
-        <tag>hadoop</tag>
-        <tag>hdfs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git</title>
-    <url>/2020/04/15/git/</url>
-    <content><![CDATA[<ul>
-<li>Git이란? </li>
-</ul>
-<ul>
-<li>clone</li>
-</ul>
-<ul>
-<li>프로젝트와 repository 생성<h4 id="참조-https-greeksharifa-github-io-github-2018-06-29-github-usage-02-create-project"><a href="#참조-https-greeksharifa-github-io-github-2018-06-29-github-usage-02-create-project" class="headerlink" title="참조 : https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/"></a>참조 : <a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/</a></h4></li>
-</ul>
-]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>terminal_basic_command</title>
-    <url>/2020/04/15/terminal-basic-command/</url>
-    <content><![CDATA[<h1 id="Mac-Terminal-basic-command"><a href="#Mac-Terminal-basic-command" class="headerlink" title="Mac Terminal basic command"></a>Mac Terminal basic command</h1><ul>
-<li>zsh : 2020 mac 기본 터미널</li>
-<li>iTrem : 현재 사용하고 있는 터미널</li>
-<li>oh my zsh : 터미널 설정 오픈소스<br>출처 : <a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a> </li>
-</ul>
-<h3 id="현재위치-파악-및-폴더-이동하기"><a href="#현재위치-파악-및-폴더-이동하기" class="headerlink" title="현재위치 파악 및 폴더 이동하기"></a>현재위치 파악 및 폴더 이동하기</h3><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">pwd</span> </span><br><span class="line">$ ll</span><br><span class="line">$ ls -al</span><br><span class="line">$ ls</span><br><span class="line">$ <span class="built_in">cd</span> Documents</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ <span class="built_in">cd</span> Music/Music</span><br><span class="line">$ <span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
-<ol>
-<li>pwd : 현재 위치의 절대 경로</li>
-<li>ll : 폴더 </li>
-<li>ls -al : 폴더 상세내용 표시</li>
-<li>ls : </li>
-<li>cd Documents : </li>
-<li>cd .. : </li>
-<li>cd Music/Music : </li>
-<li>cd ~ : </li>
-</ol>
-<h3 id="폴더-파일-생성-및-삭제-명령어"><a href="#폴더-파일-생성-및-삭제-명령어" class="headerlink" title="폴더, 파일 생성 및 삭제 명령어"></a>폴더, 파일 생성 및 삭제 명령어</h3><h3 id="참고사항-15번-표시가-없는-esc는-esc를-입력하라는-것이-아닌-esc키를-누르라는-의미입니다"><a href="#참고사항-15번-표시가-없는-esc는-esc를-입력하라는-것이-아닌-esc키를-누르라는-의미입니다" class="headerlink" title="참고사항 : 15번 $ 표시가 없는 esc는 esc를 입력하라는 것이 아닌 esc키를 누르라는 의미입니다."></a>참고사항 : 15번 $ 표시가 없는 esc는 esc를 입력하라는 것이 아닌 esc키를 누르라는 의미입니다.</h3><figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ mkdir <span class="built_in">test</span></span><br><span class="line">$ <span class="built_in">cd</span> <span class="built_in">test</span></span><br><span class="line">$ touch <span class="built_in">test</span></span><br><span class="line">$ vi <span class="built_in">test</span> </span><br><span class="line">$ i</span><br><span class="line">$ :<span class="built_in">set</span> nu</span><br><span class="line">$ <span class="built_in">test</span> </span><br><span class="line">esc</span><br><span class="line">$ :wq</span><br><span class="line">$ rm <span class="built_in">test</span></span><br><span class="line">$ ll</span><br><span class="line">$ <span class="built_in">cd</span> ..</span><br><span class="line">$ rmdir <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>mkdir test : </li>
-<li>cd test : </li>
-<li>touch test : </li>
-<li>vi test : </li>
-<li>i : 터미널 창 왼쪽 아래 - - INSERT - - 라고 보이며, vi editor 내부에 글자를 적을 수 있습니다. </li>
-<li>:set nu : 에디터 내부에 라인이 설정됩니다. </li>
-<li>test : 테스트라고 작성해봅시다! 혹은 아무글자나 작성해봅시다. </li>
-<li>esc키를 누르면 왼쪽 아래 - - INSERT - - 가 사라집니다. </li>
-<li>wq : 작성한 내용을 저장 후 빠져나옵니다. </li>
-<li>rm test : test 파일을 삭제합니다. </li>
-<li>ll : 폴더 내부에 있는 내용물을 보여줍니다. </li>
-<li>cd .. : 상위 폴더로 이동합니다. </li>
-<li>rmdir test : test 폴더를 삭제합니다. </li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ls</span><br><span class="line">$ ll</span><br></pre></td></tr></table></figure>
-<ol>
-<li>ls : 현재 경로에 있는 폴더, 파일을 보여줍니다. </li>
-<li>ll : 현재 경로에 있는 폴더, 파일을 보여줍니다.  단, ls보다 상세하게 보여줍니다. (권한, 사용자계정 등)</li>
-</ol>
-<h1 id="추가-업데이트-예정입니다"><a href="#추가-업데이트-예정입니다" class="headerlink" title="추가 업데이트 예정입니다."></a>추가 업데이트 예정입니다.</h1><p>오탈자 및 조언 댓글로 남겨주세요.<br>감사합니다 :)</p>
-]]></content>
-      <categories>
-        <category>terminal</category>
-        <category>command</category>
-      </categories>
-      <tags>
-        <tag>terminal command</tag>
-        <tag>terminal</tag>
-        <tag>mac</tag>
-        <tag>iTerm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/04/14/test/</url>
-    <content><![CDATA[<h1 id="테스트-페이지입니다"><a href="#테스트-페이지입니다" class="headerlink" title="테스트 페이지입니다."></a>테스트 페이지입니다.</h1><h1 id="why-dosen’t-work-disqus"><a href="#why-dosen’t-work-disqus" class="headerlink" title="why dosen’t work disqus?"></a>why dosen’t work disqus?</h1>]]></content>
-  </entry>
-  <entry>
-    <title>machine_learning</title>
-    <url>/2020/04/14/Machine_Learning/</url>
-    <content><![CDATA[<h1 id="머신러닝-요약"><a href="#머신러닝-요약" class="headerlink" title="머신러닝 요약"></a>머신러닝 요약</h1><ul>
-<li><p>기계가 </p>
-</li>
-<li><p>주어진 데이터틀 통해 </p>
-</li>
-<li><p>규칙을 찾는 것</p>
-</li>
-<li><p>데이터를 </p>
-</li>
-<li><p>기계에게 주고</p>
-</li>
-<li><p>규칙을 찾는 것</p>
-</li>
-</ul>
-<blockquote>
-<p>많은 양의 데이터가 필요합니다. </p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>ML</category>
-        <category>concept</category>
-      </categories>
-      <tags>
-        <tag>Machine Learnig</tag>
-        <tag>machine learning</tag>
-        <tag>머신러닝</tag>
-        <tag>ML</tag>
-        <tag>ml</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cross_validation</title>
-    <url>/2020/04/09/cross-validation/</url>
-    <content><![CDATA[<h1 id="anova"><a href="#anova" class="headerlink" title="anova"></a>anova</h1><p>statsmodels 사이트 : <a href="https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html">https://www.statsmodels.org/stable/examples/notebooks/generated/interactions_anova.html</a></p>
-<ol>
-<li>python에서 anova library 불러옵니다.<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> statsmodels.stats.anova <span class="keyword">import</span> anova_lm</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h1 id="수식-예제"><a href="#수식-예제" class="headerlink" title="수식 예제"></a>수식 예제</h1><p>$ax^2+bx+c&gt;0$</p>
-<h1 id="추후-작성예정입니다"><a href="#추후-작성예정입니다" class="headerlink" title="추후 작성예정입니다."></a>추후 작성예정입니다.</h1>]]></content>
-      <categories>
-        <category>math</category>
-        <category>linear regression</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>anova</tag>
-        <tag>cv</tag>
-        <tag>cross validation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STAR</title>
-    <url>/2020/04/09/STAR/</url>
-    <content><![CDATA[<h1 id="자기소개-STAR-기법"><a href="#자기소개-STAR-기법" class="headerlink" title="자기소개 STAR 기법"></a>자기소개 STAR 기법</h1><ul>
-<li>S</li>
-<li>T</li>
-<li>A</li>
-<li>R</li>
-</ul>
-<h2 id="추후-작성-예정입니다"><a href="#추후-작성-예정입니다" class="headerlink" title="추후 작성 예정입니다."></a>추후 작성 예정입니다.</h2>]]></content>
-      <categories>
-        <category>concept</category>
-        <category>star</category>
-      </categories>
-      <tags>
-        <tag>STAR기법</tag>
-        <tag>자기소개</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Agile</title>
     <url>/2020/04/08/Agile/</url>
-    <content><![CDATA[<h3 id="바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약"><a href="#바쁘신-분을-위한-Agile-애자일-방법론-3줄-요약" class="headerlink" title="바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약"></a>바쁘신 분을 위한 Agile(애자일) 방법론 3줄 요약</h3><p>출처 : <a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560">https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&amp;memberNo=36647560</a></p>
+    <content><![CDATA[<p><strong>Agile(애자일) 방법론 3줄 요약</strong></p>
 <ul>
 <li>작업 계획을 짧은 단위로 세우고</li>
 <li>시제품을 만들어 나가는 사이클을 반복</li>
-<li>고객의 요구 변화에 유연하고도 신속하게 대응하는 개발 방법론 </li>
+<li>고객의 요구 변화에 유연하고도 신속하게 대응하는 개발 방법론 <blockquote>
+<p><a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=18903174&memberNo=36647560">자료출처</a></p>
+</blockquote>
+</li>
 </ul>
 <p>요즘 에자일, 에자일 기법에 대해 2번 이상 듣기도 하고 기업에서도 에자일 기법으로 프로세스를 진행한다고 하니 무엇인지에 대한 개념도 알아보고 내 삶에 적용 시키기도 해볼 겸해서 간단하게 기록하려합니다. </p>
 <p>우선, 애자일 방법이란 ?<br>기업경영 및 소프트웨어 등의 개발을 고객중심으로 진행하는 방법론</p>
@@ -744,9 +569,9 @@
 <li>유연하고도 민첩한 대응력</li>
 <li>자율성과 권한을 가진 조직 운영</li>
 </ol>
-<h3 id="에자일-개발-선언문"><a href="#에자일-개발-선언문" class="headerlink" title="에자일 개발 선언문"></a>에자일 개발 선언문</h3><ul>
-<li><a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a></li>
-</ul>
+<blockquote>
+<p><a href="http://agilemanifesto.org/">에자일 개발 선언문</a></p>
+</blockquote>
 <p>애자일 방법은 급변화하고 진화하고 있는 환경에 효과적으로 대응할 수 있는 방법이라고 생각됩니다. </p>
 <p>피드백 댓글로 남겨주세요~!<br>감사합니다 :)</p>
 ]]></content>
@@ -761,145 +586,68 @@
       </tags>
   </entry>
   <entry>
-    <title>EDA</title>
-    <url>/2020/04/08/EDA/</url>
-    <content><![CDATA[<h3 id="탐색적-데이터-분석"><a href="#탐색적-데이터-분석" class="headerlink" title="탐색적 데이터 분석"></a>탐색적 데이터 분석</h3><h3 id="EDA-Exploratory-Data-Analysis"><a href="#EDA-Exploratory-Data-Analysis" class="headerlink" title="EDA(Exploratory Data Analysis)"></a>EDA(Exploratory Data Analysis)</h3><h4 id="들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-정리-해봤습니다"><a href="#들어가기-전에-바쁘시거나-요점만-알고싶으신-분들을-위해-정리-해봤습니다" class="headerlink" title="들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 정리 해봤습니다."></a>들어가기 전에 바쁘시거나 요점만 알고싶으신 분들을 위해 정리 해봤습니다.</h4><ul>
-<li>데이터 분석의 목적을 정한다. </li>
-<li>EDA를 위해 데이터를 분행하여 확인한다. </li>
-<li>객관적인 도메인 지식을 참고한다.</li>
-</ul>
-<p>보통 제가 듣기로는 데이터를 요리의 재료로 흔히들 비교 합니다.<br>김치란 재료를 어떻게 사용하느냐에 따라 김치전도 될 수 있고, 김치찌개도 될 수 있으며, 김치 볶음밥도 될 수 있듯이 말이죠. </p>
-<p>데이터도 분석가가 어떤 알고리즘을 사용하여 분석하느냐에 따라 결과가 달라질 수 있기 때문이라고 생각합니다. </p>
-<p>그럼 탐색적 데이터 분석은 어떻게 해야 하는 것일까요? </p>
-<p>먼저, EDA를 하기전 해야 할 것이 있습니다. 바로, 어떤 요리를 만들지 정하는 것입니다. 즉, 목적을 정하는 것입니다. 예측, 추천, 분석 등을 정해야 합니다. 삼천포로 빠질 수 있기 때문입니다. 삼천포는 우선 하던 일을 마무리 한 후에 하시면 정신건강에 도움이 될 거라 확신합니다. </p>
-<ol>
-<li>데이터 분석의 목적과 목표가 정해졌다면, 가지고 있는 데이터 혹은 가져올 전처리되지 않은 데이터를 어떻게 활용하여 원하는 목표를 달성할 것인지 데이터를 알아봐야겠죠? </li>
-<li>개인적으로는 객관적이고 정량적(定量的)으로 증명할 수 있는 도메인 지식을 가지고 있으면 분석하는데 유용하게 사용될 것 같습니다. </li>
-<li>분석에 도움이 안될 것 같은 데이터들은 제외시키고, null 값(정보가 없는 데이터)은 어떻게 처리 할지도 생각해 봐야 합니다. </li>
-</ol>
-<p>또 다시 요리에 비교를 해보면, 재료가 될 김치에 어떤 액젓이 들어갔는지, 고추가루는 국산인지, 고추가루의 크기는 어느 정도인지, 색깔은 밝은지 어두운지 등등 낱낱히 파헤치는 작업이 EDA 작업이라고 생각하시면 될 것 같습니다. </p>
-]]></content>
-      <categories>
-        <category>concept</category>
-        <category>EDA</category>
-      </categories>
-      <tags>
-        <tag>concept</tag>
-        <tag>eda</tag>
-        <tag>EDA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>sql</title>
-    <url>/2020/04/08/sql/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>spark</category>
-        <category>sql</category>
-      </categories>
-      <tags>
-        <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>data analysis</title>
-    <url>/2020/04/08/data_analysis/</url>
-    <content><![CDATA[<h1 id="데이터-분석에-대하여-알아보겠습니다"><a href="#데이터-분석에-대하여-알아보겠습니다" class="headerlink" title="데이터 분석에 대하여 알아보겠습니다."></a>데이터 분석에 대하여 알아보겠습니다.</h1>]]></content>
-      <categories>
-        <category>Data Sciences</category>
-        <category>Data Analysis</category>
-      </categories>
-      <tags>
-        <tag>data science</tag>
-        <tag>data analysis</tag>
-        <tag>big data</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linear Regression</title>
-    <url>/2020/04/08/Linear_Regression/</url>
-    <content><![CDATA[<h1 id="선형회귀분석-순서"><a href="#선형회귀분석-순서" class="headerlink" title="선형회귀분석 순서"></a>선형회귀분석 순서</h1><ol>
-<li>주제 선정하기</li>
-</ol>
-<ul>
-<li>개인적으로 가장 중요하다고 생각되는 부분입니다. </li>
-<li>자료가 있는 상황이라면 자료를 하나씩 정리하는 것도 필요하다고 생각합니다. </li>
-</ul>
-<ol start="2">
-<li>데이터 수집</li>
-</ol>
-<ul>
-<li>주제를 선정하였다면 예측하고 싶은 내용 혹은 결과에 대해 영향을 미치고 필요하다고 생각되는 데이터를 모아야 합니다. </li>
-<li>데이터를 수집하는 방법은 설문조사, 크롤링 등이 있으며, 데이터가 제한된 상황이 있을 수 있습니다. (즉, 주어진 데이터로만 분석해야 하는 상황)</li>
-</ul>
-<ol start="3">
-<li>EDA 진행하기</li>
-</ol>
-<ul>
-<li>수집한 데이터를 회귀분석 목적에 맞게 전처리합니다. 실수형 독립변수, 카테고리형 독립변수에 대해 어떻게 처리할지 염두하여 진행해야 합니다. </li>
-</ul>
-<ol start="4">
-<li><h2 id="추후-업데이트-진행예정"><a href="#추후-업데이트-진행예정" class="headerlink" title="추후 업데이트 진행예정"></a>추후 업데이트 진행예정</h2></li>
-</ol>
-]]></content>
-      <categories>
-        <category>project</category>
-      </categories>
-      <tags>
-        <tag>linear regression</tag>
-        <tag>선형회귀분석</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>spark</title>
-    <url>/2020/04/07/spark/</url>
-    <content><![CDATA[<h3 id="패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다"><a href="#패스트캠퍼스에서-spark에-대해서-배우고-있고-배웠는데도-배운-내용에-대해-이해가-되지-않는-나의-무지함에-분노하면서-스파크에-대해-정리하고자-합니다" class="headerlink" title="패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다."></a>패스트캠퍼스에서 spark에 대해서 배우고 있고, 배웠는데도 배운 내용에 대해 이해가 되지 않는 나의 무지함에 분노하면서 스파크에 대해 정리하고자 합니다.</h3><h3 id="조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다"><a href="#조언은-언제나-환영합니다-블로그-댓글-기능을-언제-활성화-할-수-있을지는-현재까지-잘-모르겠습니다" class="headerlink" title="조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다."></a>조언은 언제나 환영합니다. 블로그 댓글 기능을 언제 활성화 할 수 있을지는 현재까지 잘 모르겠습니다.</h3><h3 id="우선-환경설정에-대해-알아보겠습니다"><a href="#우선-환경설정에-대해-알아보겠습니다" class="headerlink" title="우선 환경설정에 대해 알아보겠습니다."></a>우선 환경설정에 대해 알아보겠습니다.</h3><h3 id="개념을-잡으려-노력중입니다"><a href="#개념을-잡으려-노력중입니다" class="headerlink" title="개념을 잡으려 노력중입니다."></a>개념을 잡으려 노력중입니다.</h3>]]></content>
-      <categories>
-        <category>spark</category>
-        <category>concept</category>
-      </categories>
-      <tags>
-        <tag>spark</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo 블로그 만들기</title>
     <url>/2020/04/05/Hexo%20create/</url>
     <content><![CDATA[<p>안녕하세요!<br>hexo 블로그 만드는 방법입니다. </p>
 <p>hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. </p>
 <ol>
-<li>Node.js(<a href="https://nodejs.org/en/">https://nodejs.org/en/</a>)<ul>
+<li><a href="https://nodejs.org/en/">Node.js</a><ul>
 <li>Should be at least Node.js 8.10, recommends 10.0 or higher</li>
 </ul>
 </li>
-<li>Git(<a href="https://git-scm.com/">https://git-scm.com/</a>)<ul>
-<li>github에서 repository를 생성해야 합니다. </li>
-<li>참고: <a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/</a></li>
+<li><a href="https://git-scm.com/">Git</a><ul>
+<li>github에서 repository를 생성해야 합니다. <blockquote>
+<p><a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">참고 사이트</a></p>
+</blockquote>
+</li>
 </ul>
 </li>
 </ol>
-<p>hexo 블로그 공식 홈페이지<br><strong><a href="https://hexo.io/ko/index.html">https://hexo.io/ko/index.html</a></strong></p>
-<p>hexo 블로그 설치하기 공식문서<br><a href="https://hexo.io/ko/docs/">https://hexo.io/ko/docs/</a></p>
+<blockquote>
+<p><a href="https://hexo.io/ko/index.html">hexo 블로그 공식 홈페이지</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://hexo.io/ko/docs/">hexo 블로그 설치하기 공식문서</a></p>
+</blockquote>
 <ol>
-<li>터미널을 엽니다.</li>
-<li>블로그를 만들면 폴더가 생성됩니다. 폴더를 생성하고자 하는 곳으로 가셔서 아래의 $를 제외한 명령어를 입력하세요. </li>
-<li>띄어쓰기 대소문자 모두 그대로 입력해주세요.<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1. $ npm install hexo-cli -g</span><br><span class="line">2. $ hexo init blog</span><br></pre></td></tr></table></figure></li>
-<li>블로그를 만든 폴더로 이동합니다. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">5. $ <span class="built_in">cd</span> blog</span><br><span class="line">6. $ npm install</span><br><span class="line">7.  $ hexo server</span><br></pre></td></tr></table></figure></li>
-<li>로컬에서 hexo 블로그를 확인하실 수 있습니다. </li>
+<li><p>터미널을 엽니다.</p>
+</li>
+<li><p>블로그를 만들면 폴더가 생성됩니다. 폴더를 생성하고자 하는 곳으로 가셔서 아래의 $를 제외한 명령어를 입력하세요. </p>
+</li>
+<li><p>띄어쓰기 대소문자 모두 그대로 입력해주세요.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1. $ npm install hexo-cli -g</span><br><span class="line">2. $ hexo init blog</span><br></pre></td></tr></table></figure></li>
+<li><p>블로그를 만든 폴더로 이동합니다. </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">5. $ <span class="built_in">cd</span> blog</span><br><span class="line">6. $ npm install</span><br><span class="line">7.  $ hexo server</span><br></pre></td></tr></table></figure></li>
+<li><p>로컬에서 hexo 블로그를 확인하실 수 있습니다. </p>
+</li>
+<li><p>아래 터미널의 경로로 가셔서 파일을 만듭니다. </p>
+</li>
 </ol>
-<ol start="6">
-<li>아래 터미널의 경로로 가셔서 파일을 만듭니다. </li>
-</ol>
-<h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p>
+<p><strong>터미널에서의 경로</strong></p>
+<p>본인이 만든 폴더 안의 source 폴더 안에 _post</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure>
 
-<h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p>
-<p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure>
-
+<p>** 파일 이름(본인이 원하는 이름을 적으시면 됩니다.)**</p>
+<p>파일명.md</p>
+<p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성해주세요.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;#&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><a href="https://cds0804.github.io/2020/04/05/markdown-0/">마크다운 문법</a></p>
+</blockquote>
 <p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p>
 <p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p>
-<h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server-생략가능"><a href="#3-hexo-server-생략가능" class="headerlink" title="3. $ hexo server # 생략가능"></a>3. $ hexo server # 생략가능</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
+<h3 id="터미널-창으로-가셔서-표시-뒤의-글자를-치세요"><a href="#터미널-창으로-가셔서-표시-뒤의-글자를-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요."></a>터미널 창으로 가셔서 $ 표시 뒤의 글자를 치세요.</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo server <span class="comment"># 생략가능, 로컬영역에서 확인</span></span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>추가적인 내용은 지속적으로 편집하도록 하겠습니다. </p>
+</blockquote>
+<blockquote>
+<p>최대한 자세히 쓰려고 노력중입니다.<br>여러가지 의견 감사히 받겠습니다.<br>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다. </p>
+<blockquote>
+<p>댓글기능을 추가하였습니다. </p>
+</blockquote>
+</blockquote>
+]]></content>
       <categories>
         <category>hexo</category>
       </categories>
@@ -911,8 +659,9 @@
   <entry>
     <title>markdown 문법에 대하여</title>
     <url>/2020/04/05/markdown-0/</url>
-    <content><![CDATA[<h3 id="markdown-문법-사용법"><a href="#markdown-문법-사용법" class="headerlink" title="markdown 문법 사용법"></a>markdown 문법 사용법</h3><blockquote>
-<p>출처: <a href="https://greeksharifa.github.io/references/2018/06/29/markdown-usage/">https://greeksharifa.github.io/references/2018/06/29/markdown-usage/</a></p>
+    <content><![CDATA[<p><strong>markdown 문법 사용법</strong></p>
+<blockquote>
+<p><a href="https://greeksharifa.github.io/references/2018/06/29/markdown-usage/">출처</a></p>
 </blockquote>
 <p><strong>python</strong> is really <em>cool</em></p>
 <ul>
@@ -945,47 +694,15 @@
 
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a &#x3D; 10</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
 
-<p><a href="https://www.python.org/">https://www.python.org/</a></p>
+<blockquote>
 <p><a href="https://www.python.org/">파이썬 공식 페이지</a></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>markdown</category>
       </categories>
       <tags>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo_deploy_contents</title>
-    <url>/2020/04/03/Hexo-deploy-contents/</url>
-    <content><![CDATA[<p>※ 저처럼 시작한지 얼마 되지 않으신 분들은 Visual Studio Code를 다운받아 시작하시는 것을 추천드립니다. </p>
-<p>헥소 블로그를 강사님의 도움으로 만들어 놓고 이제야 시작을 합니다.<br>그래서 여기에 쓰면 글이 반영되는지 확인중입니다.<br>그리고 여기에 글을 쓰면 반영되는지 확인했습니다. </p>
-<p>그럼, 내가 쓴 글이 블로그에 어떻게 올라가는지 제가 아는 내용을 최대한 자세히 설명 드리겠습니다 :)</p>
-<p>hexo 블로그 만들기</p>
-<ol>
-<li>우선 터미널을 실행합니다. 아래의  경로로 가셔서 파일을 만듭니다. </li>
-</ol>
-<h3 id="터미널에서의-경로"><a href="#터미널에서의-경로" class="headerlink" title="터미널에서의 경로"></a>터미널에서의 경로</h3><p>본인이 만든 폴더 안의 source 폴더 안에 _post</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">source</span>/_posts/</span><br></pre></td></tr></table></figure>
-
-<h3 id="파일-이름-본인이-원하는-이름을-적으시면-됩니다"><a href="#파일-이름-본인이-원하는-이름을-적으시면-됩니다" class="headerlink" title="파일 이름(본인이 원하는 이름을 적으시면 됩니다.)"></a>파일 이름(본인이 원하는 이름을 적으시면 됩니다.)</h3><p>파일명.md</p>
-<p>파일 안에 원하는 내용을 적는데, 맨 위에 제목은 아래처럼 작성하셔야 합니다. 현재 제가 알고 있는 바로는 그렇습니다. </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure>
-
-<p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p>
-<p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p>
-<h3 id="터미널-창으로-가셔서-표시-다음을-따라-치세요"><a href="#터미널-창으로-가셔서-표시-다음을-따라-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 다음을 따라 치세요."></a>터미널 창으로 가셔서 $ 표시 다음을 따라 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3><h3 id="최대한-자세히-쓰려고-노력중입니다"><a href="#최대한-자세히-쓰려고-노력중입니다" class="headerlink" title="최대한 자세히 쓰려고 노력중입니다."></a>최대한 자세히 쓰려고 노력중입니다.</h3><h3 id="여러가지-의견-감사히-받겠습니다"><a href="#여러가지-의견-감사히-받겠습니다" class="headerlink" title="여러가지 의견 감사히 받겠습니다."></a>여러가지 의견 감사히 받겠습니다.</h3><h3 id="댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다"><a href="#댓글을-어떻게-활성화해야-하는지-몰라-여기저기-구글링중입니다" class="headerlink" title="댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다."></a>댓글을 어떻게 활성화해야 하는지 몰라 여기저기 구글링중입니다.</h3>]]></content>
-      <categories>
-        <category>hexo</category>
-        <category>post</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>블로그</tag>
-        <tag>next</tag>
-        <tag>github</tag>
-        <tag>github.io</tag>
-        <tag>theme</tag>
       </tags>
   </entry>
   <entry>
@@ -1035,30 +752,13 @@
         <category>concept</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
         <tag>http</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>판다스(pandas) cheet sheet</title>
-    <url>/2020/04/03/Pandas/</url>
-    <content><![CDATA[<ul>
-<li>출처: <a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf">https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf</a></li>
-</ul>
-<h3 id="판다스-치트시트-판다스-활용시-발암-예방을-위한-엑기스-모음집"><a href="#판다스-치트시트-판다스-활용시-발암-예방을-위한-엑기스-모음집" class="headerlink" title="판다스 치트시트 : 판다스 활용시 발암 예방을 위한 엑기스 모음집"></a>판다스 치트시트 : 판다스 활용시 발암 예방을 위한 엑기스 모음집</h3>]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>pandas</tag>
-        <tag>coding</tag>
-        <tag>data science</tag>
       </tags>
   </entry>
   <entry>
