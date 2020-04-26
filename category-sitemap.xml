@@ -8,6 +8,13 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/hexo/</loc>
+        <lastmod>2020-04-26T14:55:11.012Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/project/LinearRegression/</loc>
         <lastmod>2020-04-26T14:52:47.938Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -66,13 +73,6 @@
     <url>
         <loc>https://cds0804.github/categories/crawling/</loc>
         <lastmod>2020-04-26T14:52:45.557Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/hexo/</loc>
-        <lastmod>2020-04-26T14:37:46.750Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

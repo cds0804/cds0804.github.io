@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/05/Hexo%20create/</loc>
+        <lastmod>2020-04-26T14:55:11.012Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/25/favicon/</loc>
         <lastmod>2020-04-26T14:52:47.938Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -58,14 +66,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/17/Hexo-visited-count/</loc>
         <lastmod>2020-04-26T14:44:19.148Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/05/Hexo%20create/</loc>
-        <lastmod>2020-04-26T14:37:46.750Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
