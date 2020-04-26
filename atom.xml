@@ -177,17 +177,17 @@
     <link href="https://cds0804.github/2020/04/23/porject-EDA/"/>
     <id>https://cds0804.github/2020/04/23/porject-EDA/</id>
     <published>2020-04-23T12:03:21.000Z</published>
-    <updated>2020-04-25T14:13:17.527Z</updated>
+    <updated>2020-04-26T14:16:34.104Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="EDA-project"><a href="#EDA-project" class="headerlink" title="EDA project"></a>EDA project</h4><p>아파트 가격분석 EDA </p><p>업데이트 예정</p>]]></content>
+    <content type="html"><![CDATA[<h4 id="EDA-project"><a href="#EDA-project" class="headerlink" title="EDA project"></a>EDA project</h4><p>아파트 가격분석 EDA </p><blockquote><p><a href="https://github.com/cds0804/project-1-EDA/blob/master/EDA%20project%20Analysis%20APT%20price_20200219.ipynb">EDA project Analysis APT price</a></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h4 id=&quot;EDA-project&quot;&gt;&lt;a href=&quot;#EDA-project&quot; class=&quot;headerlink&quot; title=&quot;EDA project&quot;&gt;&lt;/a&gt;EDA project&lt;/h4&gt;&lt;p&gt;아파트 가격분석 EDA &lt;/p&gt;
-&lt;p&gt;업데이트 예정&lt;/p&gt;
-
+&lt;blockquote&gt;
+&lt;p&gt;
       
     
     </summary>
@@ -228,11 +228,11 @@
       <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
     
     
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
+    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
-    
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
@@ -270,11 +270,11 @@
       <category term="python" scheme="https://cds0804.github/categories/crawling/python/"/>
     
     
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
+    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
-    
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     
@@ -347,11 +347,11 @@
       <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
     
     
+      <category term="html" scheme="https://cds0804.github/tags/html/"/>
+    
       <category term="web" scheme="https://cds0804.github/tags/web/"/>
     
       <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
-    
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
     
       <category term="get" scheme="https://cds0804.github/tags/get/"/>
     

@@ -270,7 +270,9 @@
     <title>porject EDA</title>
     <url>/2020/04/23/porject-EDA/</url>
     <content><![CDATA[<h4 id="EDA-project"><a href="#EDA-project" class="headerlink" title="EDA project"></a>EDA project</h4><p>아파트 가격분석 EDA </p>
-<p>업데이트 예정</p>
+<blockquote>
+<p><a href="https://github.com/cds0804/project-1-EDA/blob/master/EDA%20project%20Analysis%20APT%20price_20200219.ipynb">EDA project Analysis APT price</a></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>project</category>
@@ -331,9 +333,9 @@
         <category>concept</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -421,9 +423,9 @@
         <category>python</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -525,9 +527,9 @@
         <category>concept</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -1031,9 +1033,9 @@
         <category>concept</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>

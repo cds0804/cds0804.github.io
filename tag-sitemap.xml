@@ -3,6 +3,20 @@
 
 
     <url>
+        <loc>https://cds0804.github/tags/project/</loc>
+        <lastmod>2020-04-26T14:16:34.104Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/eda/</loc>
+        <lastmod>2020-04-26T14:16:34.104Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/tags/icarus/</loc>
         <lastmod>2020-04-25T15:44:16.133Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -66,13 +80,6 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/tags/html/</loc>
-        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/tags/webcrawling/</loc>
         <lastmod>2020-04-25T15:11:01.072Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -81,6 +88,13 @@
 
     <url>
         <loc>https://cds0804.github/tags/web/</loc>
+        <lastmod>2020-04-25T15:11:01.072Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/html/</loc>
         <lastmod>2020-04-25T15:11:01.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -145,20 +159,6 @@
     <url>
         <loc>https://cds0804.github/tags/LinearRegression/</loc>
         <lastmod>2020-04-25T14:16:47.845Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/project/</loc>
-        <lastmod>2020-04-25T14:16:47.845Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/eda/</loc>
-        <lastmod>2020-04-25T14:13:17.527Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
