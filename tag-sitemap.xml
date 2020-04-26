@@ -4,14 +4,14 @@
 
     <url>
         <loc>https://cds0804.github/tags/create/</loc>
-        <lastmod>2020-04-26T14:55:11.012Z</lastmod>
+        <lastmod>2020-04-26T14:56:39.676Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/hexo/</loc>
-        <lastmod>2020-04-26T14:55:11.012Z</lastmod>
+        <lastmod>2020-04-26T14:56:39.676Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -101,13 +101,6 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/tags/html/</loc>
-        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://cds0804.github/tags/webcrawling/</loc>
         <lastmod>2020-04-26T14:52:45.557Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -116,6 +109,13 @@
 
     <url>
         <loc>https://cds0804.github/tags/web/</loc>
+        <lastmod>2020-04-26T14:52:45.557Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/html/</loc>
         <lastmod>2020-04-26T14:52:45.557Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

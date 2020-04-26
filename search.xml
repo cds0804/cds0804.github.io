@@ -35,9 +35,9 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>icarus</tag>
         <tag>profile</tag>
         <tag>logo</tag>
+        <tag>icarus</tag>
       </tags>
   </entry>
   <entry>
@@ -331,9 +331,9 @@
         <category>concept</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -421,9 +421,9 @@
         <category>python</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -525,9 +525,9 @@
         <category>concept</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -650,6 +650,7 @@
 ]]></content>
       <categories>
         <category>hexo</category>
+        <category>create</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -752,9 +753,9 @@
         <category>concept</category>
       </categories>
       <tags>
+        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
-        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
