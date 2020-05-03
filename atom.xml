@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-04-25T15:44:16.133Z</updated>
+  <updated>2020-05-03T17:18:22.010Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cheatsheet</title>
+    <link href="https://cds0804.github/2020/04/29/cheatsheet/"/>
+    <id>https://cds0804.github/2020/04/29/cheatsheet/</id>
+    <published>2020-04-29T06:24:12.000Z</published>
+    <updated>2020-05-03T17:18:22.010Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>나만의 cheatsheet 정리</strong></p><p><strong>math</strong></p><blockquote><p><a href="https://datascienceschool.net/view-notebook/04358acdcf3347fc989c4cfc0ef6121c/">김도형의 데이터 사이언스 스쿨 - 수학편</a></p></blockquote><p><strong>pandas</strong></p><blockquote><p><a href="https://www.journaldev.com/23365/python-string-to-datetime-strptime">pandas 날짜 데이터</a><br><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf">pandas cheatsheet</a><br><a href="https://dataitgirls2.github.io/10minutes2pandas/">pandas 10분 완성</a><br><a href="https://www.kaggle.com/grroverpr/pandas-cheatsheet">kaggle pandas cheatsheet</a></p></blockquote><p><strong>seaborn</strong></p><blockquote><p><a href="https://www.interactivechaos.com/sites/default/files/data/seaborn_cheat_sheet.pdf">seaborn cheatsheet</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;나만의 cheatsheet 정리&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;math&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://datascienceschool.net/view-notebook/
+      
+    
+    </summary>
+    
+    
+      <category term="cheatsheet" scheme="https://cds0804.github/categories/cheatsheet/"/>
+    
+    
+      <category term="cheatsheet" scheme="https://cds0804.github/tags/cheatsheet/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo profile 변경하기</title>
@@ -44,11 +73,11 @@
     
       <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
     
-      <category term="icarus" scheme="https://cds0804.github/tags/icarus/"/>
-    
       <category term="profile" scheme="https://cds0804.github/tags/profile/"/>
     
       <category term="logo" scheme="https://cds0804.github/tags/logo/"/>
+    
+      <category term="icarus" scheme="https://cds0804.github/tags/icarus/"/>
     
   </entry>
   

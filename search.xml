@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>cheatsheet</title>
+    <url>/2020/04/29/cheatsheet/</url>
+    <content><![CDATA[<p><strong>나만의 cheatsheet 정리</strong></p>
+<p><strong>math</strong></p>
+<blockquote>
+<p><a href="https://datascienceschool.net/view-notebook/04358acdcf3347fc989c4cfc0ef6121c/">김도형의 데이터 사이언스 스쿨 - 수학편</a></p>
+</blockquote>
+<p><strong>pandas</strong></p>
+<blockquote>
+<p><a href="https://www.journaldev.com/23365/python-string-to-datetime-strptime">pandas 날짜 데이터</a><br><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf">pandas cheatsheet</a><br><a href="https://dataitgirls2.github.io/10minutes2pandas/">pandas 10분 완성</a><br><a href="https://www.kaggle.com/grroverpr/pandas-cheatsheet">kaggle pandas cheatsheet</a></p>
+</blockquote>
+<p><strong>seaborn</strong></p>
+<blockquote>
+<p><a href="https://www.interactivechaos.com/sites/default/files/data/seaborn_cheat_sheet.pdf">seaborn cheatsheet</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>cheatsheet</category>
+      </categories>
+      <tags>
+        <tag>cheatsheet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo profile 변경하기</title>
     <url>/2020/04/25/Hexo-profile/</url>
     <content><![CDATA[<p>안녕하세요, Hexo Icarus theme의 프로필 사진을 변경하는 방법에 대해 알아보겠습니다. </p>
@@ -35,9 +59,9 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>icarus</tag>
         <tag>profile</tag>
         <tag>logo</tag>
+        <tag>icarus</tag>
       </tags>
   </entry>
   <entry>
