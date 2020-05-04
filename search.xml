@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>adsense</title>
+    <title>Hexo icarus 테마에 adsense 추가하기</title>
     <url>/2020/05/04/Hexo-adsense/</url>
     <content><![CDATA[<p><strong>오늘은 Hexo icarus 테마에 adsense를 적용하였습니다.</strong></p>
 <ol>
@@ -92,9 +92,9 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>icarus</tag>
         <tag>profile</tag>
         <tag>logo</tag>
+        <tag>icarus</tag>
       </tags>
   </entry>
   <entry>
