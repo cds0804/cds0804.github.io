@@ -8,8 +8,16 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/05/04/Hexo-adsense/</loc>
+        <lastmod>2020-05-04T05:44:31.482Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/29/cheatsheet/</loc>
-        <lastmod>2020-05-03T17:18:22.010Z</lastmod>
+        <lastmod>2020-05-03T17:41:34.909Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -98,14 +106,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/03/webcrawling-1/</loc>
         <lastmod>2020-04-25T15:11:01.072Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/21/test-html/</loc>
-        <lastmod>2020-04-23T12:08:50.147Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

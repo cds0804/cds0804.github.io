@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>adsense</title>
+    <url>/2020/05/04/Hexo-adsense/</url>
+    <content><![CDATA[<p><strong>오늘은 Hexo icarus 테마에 adsense를 적용하였습니다.</strong></p>
+<ol>
+<li><p>아래 구글 애드센스 홈페이지에 접속합니다. </p>
+<blockquote>
+<p><a href="https://www.google.com/adsense/">구글애드센스</a></p>
+</blockquote>
+</li>
+<li><p>구글계정으로 로그인하고 애드센스를 신청합니다. </p>
+</li>
+<li><p>Hexo icarus 테마 !_config.yml에 아래와 같이 등록합니다.<br><img src="/img/hexo-icarus-adsense.png" alt="hexo-icarus-adsense.png"></p>
+</li>
+<li><p>구글 에드센스 확인버튼을 누른 후 다음과 같은 이미지가 뜨면 승인을 기다립니다.<br><img src="/img/hexo-icarus-adsense1.png" alt="hexo-icarus-adsense1"></p>
+</li>
+</ol>
+<p>수고하셨습니다!</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+        <category>adsense</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>icarus</tag>
+        <tag>adsense</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>cheatsheet</title>
     <url>/2020/04/29/cheatsheet/</url>
     <content><![CDATA[<p><strong>나만의 cheatsheet 정리</strong></p>
@@ -15,6 +44,10 @@
 <p><strong>seaborn</strong></p>
 <blockquote>
 <p><a href="https://www.interactivechaos.com/sites/default/files/data/seaborn_cheat_sheet.pdf">seaborn cheatsheet</a></p>
+</blockquote>
+<p><strong>데이터 분석가 인터뷰 용어 정리</strong></p>
+<blockquote>
+<p><a href="https://yamalab.tistory.com/78?category=711359">인터뷰 용어 정리</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -59,9 +92,9 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+        <tag>icarus</tag>
         <tag>profile</tag>
         <tag>logo</tag>
-        <tag>icarus</tag>
       </tags>
   </entry>
   <entry>
@@ -355,9 +388,9 @@
         <category>concept</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -445,42 +478,13 @@
         <category>python</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
         <tag>http</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test.html</title>
-    <url>/2020/04/21/test-html/</url>
-    <content><![CDATA[<html>
-    <head>
-        <title>BeautifulSoup test</title>
-    <link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml">
-</head>
-    <bocy>
-        <div id='upper' class='test'>
-            <h3 title='Good Content Title'>Contents Title</h3>
-            <p>Test contents</p>
-            <img src='https://newsimg.sedaily.com/2018/05/16/1RZJYCTROK_1.jpg'>
-        </div>
-        <div id='lower' class='test'>
-            <p>추후 작성할 포스트</p>
-            <p>1. python os</p>
-            <p>2. </p>
-        </div>
-    </body>
-</html>]]></content>
-      <categories>
-        <category>crawling</category>
-      </categories>
-      <tags>
-        <tag>html</tag>
-        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -549,9 +553,9 @@
         <category>concept</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
@@ -777,9 +781,9 @@
         <category>concept</category>
       </categories>
       <tags>
-        <tag>html</tag>
         <tag>web</tag>
         <tag>webcrawling</tag>
+        <tag>html</tag>
         <tag>get</tag>
         <tag>post</tag>
         <tag>randering</tag>
