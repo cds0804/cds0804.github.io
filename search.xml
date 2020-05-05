@@ -56,13 +56,13 @@
 </li>
 <li><p>git checkout master</p>
 </li>
-<li><p>git commit 을 하면 아래와 같은 그림이 나옵니다.<br><img src="/img/git_merge_bugFix_1" alt="git_merge_bugFix_1"></p>
+<li><p>git commit 을 하면 아래와 같은 그림이 나옵니다.<br><img src="/img/git_merge_bugFix_1.png" alt="git_merge_bugFix_1"></p>
 </li>
-<li><p>git merge bugFix<br><img src="/img/git_merge_bugFix_2" alt="git_merge_bugFix_2"></p>
+<li><p>git merge bugFix<br><img src="/img/git_merge_bugFix_2.png" alt="git_merge_bugFix_2"></p>
 </li>
 <li><p>git checkout bugFix</p>
 </li>
-<li><p>git merge master<br><img src="/img/git_merge_bugFix_3" alt="git_merge_bugFix_3"></p>
+<li><p>git merge master<br><img src="/img/git_merge_bugFix_3.png" alt="git_merge_bugFix_3"></p>
 </li>
 </ol>
 <p><strong>틀리거나 이상한 내용이 있으면 알려주세요, 확인 후 수정하겠습니다!</strong></p>
