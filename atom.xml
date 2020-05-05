@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-05-04T05:46:39.075Z</updated>
+  <updated>2020-05-05T07:14:24.430Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -17,23 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo icarus 테마에 adsense 추가하기</title>
-    <link href="https://cds0804.github/2020/05/04/Hexo-adsense/"/>
-    <id>https://cds0804.github/2020/05/04/Hexo-adsense/</id>
-    <published>2020-05-03T17:07:04.000Z</published>
-    <updated>2020-05-04T05:46:39.075Z</updated>
+    <title>git</title>
+    <link href="https://cds0804.github/2020/05/05/git-2/"/>
+    <id>https://cds0804.github/2020/05/05/git-2/</id>
+    <published>2020-05-05T07:07:17.000Z</published>
+    <updated>2020-05-05T07:14:24.430Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>오늘은 Hexo icarus 테마에 adsense를 적용하였습니다.</strong></p><ol><li><p>아래 구글 애드센스 홈페이지에 접속합니다. </p><blockquote><p><a href="https://www.google.com/adsense/">구글애드센스</a></p></blockquote></li><li><p>구글계정으로 로그인하고 애드센스를 신청합니다. </p></li><li><p>Hexo icarus 테마 !_config.yml에 아래와 같이 등록합니다.<br><img src="/img/hexo-icarus-adsense.png" alt="hexo-icarus-adsense.png"></p></li><li><p>구글 에드센스 확인버튼을 누른 후 다음과 같은 이미지가 뜨면 승인을 기다립니다.<br><img src="/img/hexo-icarus-adsense1.png" alt="hexo-icarus-adsense1"></p></li></ol><p>수고하셨습니다!</p>]]></content>
+    <content type="html"><![CDATA[<p><strong>git 2번째 내용 : sourcetree 만들기 및 커밋 주의사항</strong></p><p>Source Tree 설치<br><a href="https://www.sourcetreeapp.com/">소스트리 다운로드</a><br><strong>주의사항</strong></p><ol><li>아틀라시안에 가입해야 합니다. </li><li>bitbucket 등의 설정은 skip합니다. </li></ol><p><strong>소스트리를 설치한 후 저장소 클론</strong><br>github에 만들어진 README.md 등의 파일이 내 컴퓨터 문서폴더 안으로 복사됩니다.<br>이 때, 내 컴퓨터 문서폴더 안에 저장소이름의 폴더가 생성됩니다. </p><p><strong>작업 후 스테이지에 파일 추가</strong><br>만들어진 폴더를 열고 에디터 등을 이용해서 hello.html을 만들어 봅시다.<br>저장위치는 Documents/hello-world/가 됩니다. </p><p><strong>커밋 주의사항</strong></p><ol><li>반드시 한 번에 하나의 논리적인 작업만을 커밋합니다. </li><li>커밋 메세지를 잘 적어야 합니다.<br>특히 커밋 메세지는 미래의 여러분과 다른 개발자를 위해서 꼼꼼히 적어야 합니다. </li></ol><p><strong>커밋 메세지 작성법</strong></p><ol><li>첫 줄에 간단하지만 명확하게 내용을 씁니다. </li><li>한줄 비웁니다. </li><li>자세한 내용을 적습니다. </li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;strong&gt;오늘은 Hexo icarus 테마에 adsense를 적용하였습니다.&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;git 2번째 내용 : sourcetree 만들기 및 커밋 주의사항&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Source Tree 설치&lt;br&gt;&lt;a href=&quot;https://www.sourcetreeapp.com/&quot;&gt;소스트리 다운로드&lt;/a&gt;&lt;br
+      
+    
+    </summary>
+    
+    
+      <category term="git" scheme="https://cds0804.github/categories/git/"/>
+    
+    
+      <category term="git" scheme="https://cds0804.github/tags/git/"/>
+    
+      <category term="github" scheme="https://cds0804.github/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo icarus 테마에 adsense 추가하기</title>
+    <link href="https://cds0804.github/2020/05/04/Hexo-adsense/"/>
+    <id>https://cds0804.github/2020/05/04/Hexo-adsense/</id>
+    <published>2020-05-03T17:07:04.000Z</published>
+    <updated>2020-05-04T05:48:01.355Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>오늘은 Hexo icarus 테마에 adsense를 적용하는 것을 공유하려 합니다.</strong></p><ol><li><p>아래 구글 애드센스 홈페이지에 접속합니다. </p><blockquote><p><a href="https://www.google.com/adsense/">구글애드센스</a></p></blockquote></li><li><p>구글계정으로 로그인하고 애드센스를 신청합니다. </p></li><li><p>Hexo icarus 테마 !_config.yml에 아래와 같이 등록합니다.<br><img src="/img/hexo-icarus-adsense.png" alt="hexo-icarus-adsense.png"></p></li><li><p>구글 에드센스 확인버튼을 누른 후 다음과 같은 이미지가 뜨면 승인을 기다립니다.<br><img src="/img/hexo-icarus-adsense1.png" alt="hexo-icarus-adsense1"></p></li></ol><p>수고하셨습니다!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;오늘은 Hexo icarus 테마에 adsense를 적용하는 것을 공유하려 합니다.&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;아래 구글 애드센스 홈페이지에 접속합니다. &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.
+&lt;p&gt;&lt;a href=&quot;htt
       
     
     </summary>
@@ -156,15 +185,16 @@
     <link href="https://cds0804.github/2020/04/25/favicon/"/>
     <id>https://cds0804.github/2020/04/25/favicon/</id>
     <published>2020-04-25T08:17:23.000Z</published>
-    <updated>2020-04-26T14:52:47.938Z</updated>
+    <updated>2020-05-04T05:50:05.753Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p><a href="'https://pngtree.com/">favicon 출처</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><strong>favicon</strong></p><blockquote><p><a href="'https://pngtree.com/">favicon 출처</a></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;blockquote&gt;
+        &lt;p&gt;&lt;strong&gt;favicon&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;&#39;https://pngtree.com/&quot;&gt;favicon 출처&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -407,6 +437,36 @@
       <category term="icarus" scheme="https://cds0804.github/tags/icarus/"/>
     
       <category term="visit" scheme="https://cds0804.github/tags/visit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git</title>
+    <link href="https://cds0804.github/2020/04/15/git-1/"/>
+    <id>https://cds0804.github/2020/04/15/git-1/</id>
+    <published>2020-04-14T16:35:24.000Z</published>
+    <updated>2020-05-05T07:17:58.867Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>git 1번째 내용 : 아래 인프런 무료강의를 시청한 후 작성하였습니다.</strong></p><blockquote><p><a href="https://www.inflearn.com/course/git-and-github/lecture/14171">인프런 무료강좌 git과 github</a></p></blockquote><ul><li>Git이란?<br>형상 관리 시스템(version control system)의 한 종류입니다.<br>주로 개발자들이 프로그램과 관련된 파일들을 저장하는데 사용합니다.<br>게임의 세이브 포인트와 유사한데, 언제든지 저장 시점으로 되돌아 갈 수 있습니다. </li></ul><p><strong>절차</strong></p><ol><li>github 가입</li><li>github 저장소 생성</li><li>github 저장소 클론</li><li>내 컴퓨터의 내 문서 아래에 생성된 프로젝트 디렉토리에서 파일 생성 및 작업 완료</li><li>커밋할 파일들 선택해서 스테이지에 올리기(add)</li><li>커밋하기(commit)</li><li>푸시하기(push)</li><li>github.com/내아이디/내프로젝트 링크를 통해서 정상적으로 업로드 되어있는지 확인</li></ol><p><strong>3가지 기본 개념</strong></p><ol><li>커밋(commit)<br>게임의 세이브에 해당하는 행동입니다.<br>언제든지 커밋한 시점으로 돌아갈 수 있습니다.<br>저장을 원하는 파일들을 묶어서 커밋 명령을 수행하면 됩니다. </li><li>스테이지에 올린다(add)<br>커밋전에 저장을 원하는 파일들을 묶는 일입니다.<br>스테이지에 파일을 올리는 작업, 이를 간단히 줄여서 add라고 합니다. </li><li>github에 업로드(push)<br>커밋을 하면 현재 작업 내용의 세이브 데이터가 내 컴퓨터에 저장됩니다.<br>github에 업로드하면 게임의 원격 저장과 비슷한 일을 합니다.<br>다른 사람과 공유할 수 있고, 내 컴퓨터의 데이터가 날아가도 안전하게 다시 복구할 수 있습니다.<br>github에 업로드 하는걸 git에서는 “push”라고 합니다. </li></ol><p><strong>직접 해 보기</strong><br>github.com 가입<br><a href="http://github.com/join을">http://github.com/join을</a> 통해 깃헙 가입을 합니다.<br><strong>주의사항</strong></p><ol><li>github은 아이디 노출도가 높습니다.<br>개발자스러운 아이디를 신중하게 정합니다. </li><li>가입 후 이메일 인증을 해야 가입이 완료됩니다. </li></ol><p><strong>참고사항</strong><br>github의 캐릭터는 옥토캣입니다.<br>개발자들 사이에서 인기가 매우 높다고 합니다.<br><a href="https://octodex.github.com/">옥토캣 이미지</a></p><p><strong>저장소 생성</strong><br>가입 후 저장소를 하나 만듭니다. </p><ol><li>Repository name 입력합니다. </li><li>Description을 적습니다. </li><li>Public으로 공개 설정합니다. </li><li>initialize this repository with a README 박스를 체크합니다. </li><li>Create repository, 초록색 new repository 버튼을 눌러서 저장소를 만듭니다.</li></ol><ul><li><p>저장소 주소를 메모장 등에 저장해 놓습니다. </p></li><li><p>저장소 주소의 규칙 : <a href="https://github.com/내아이디/저장소이름">https://github.com/내아이디/저장소이름</a> 입니다. </p></li><li><p>프로젝트와 repository 생성</p><blockquote><p><a href="https://greeksharifa.github.io/github/2018/06/29/github-usage-02-create-project/">참고 사이트</a></p></blockquote></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;git 1번째 내용 : 아래 인프런 무료강의를 시청한 후 작성하였습니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.inflearn.com/course/git-and-github/lec
+      
+    
+    </summary>
+    
+    
+      <category term="git" scheme="https://cds0804.github/categories/git/"/>
+    
+    
+      <category term="git" scheme="https://cds0804.github/tags/git/"/>
+    
+      <category term="github" scheme="https://cds0804.github/tags/github/"/>
     
   </entry>
   

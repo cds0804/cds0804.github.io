@@ -8,15 +8,29 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/git/</loc>
+        <lastmod>2020-05-05T07:17:58.867Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/favicon/</loc>
+        <lastmod>2020-05-04T05:50:05.753Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/hexo/adsense/</loc>
-        <lastmod>2020-05-04T05:46:39.075Z</lastmod>
+        <lastmod>2020-05-04T05:48:01.355Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/hexo/</loc>
-        <lastmod>2020-05-04T05:46:39.075Z</lastmod>
+        <lastmod>2020-05-04T05:48:01.355Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -44,13 +58,6 @@
 
     <url>
         <loc>https://cds0804.github/categories/project/</loc>
-        <lastmod>2020-04-26T14:52:47.938Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/favicon/</loc>
         <lastmod>2020-04-26T14:52:47.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
