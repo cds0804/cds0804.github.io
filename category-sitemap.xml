@@ -8,8 +8,36 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/git/concept/</loc>
+        <lastmod>2020-05-05T11:45:35.324Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/git/branch/</loc>
+        <lastmod>2020-05-05T11:45:35.324Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/git/</loc>
-        <lastmod>2020-05-05T07:17:58.867Z</lastmod>
+        <lastmod>2020-05-05T11:45:35.324Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/git/sourcetree/</loc>
+        <lastmod>2020-05-05T11:45:35.323Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/cheatsheet/</loc>
+        <lastmod>2020-05-05T08:05:40.516Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -31,13 +59,6 @@
     <url>
         <loc>https://cds0804.github/categories/hexo/</loc>
         <lastmod>2020-05-04T05:48:01.355Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/cheatsheet/</loc>
-        <lastmod>2020-05-03T17:41:34.909Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

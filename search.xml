@@ -1,9 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>git</title>
-    <url>/2020/05/05/git-2/</url>
-    <content><![CDATA[<p><strong>git 2번째 내용 : sourcetree 만들기 및 커밋 주의사항</strong></p>
+    <title>git branch, git checkout, git merge</title>
+    <url>/2020/05/05/git-branch/</url>
+    <content><![CDATA[<p><strong>git 3번째 내용 git branch</strong></p>
+<blockquote>
+<p><a href="https://www.inflearn.com/course/git-and-github/lecture/14171">인프런 무료강좌 git과 github</a></p>
+</blockquote>
+<p><strong>병합하기 1</strong></p>
+<ul>
+<li>헤드 브랜치에 변경사항이 없고</li>
+<li>병합 대상 브랜치가 헤드로부터 시작된 경우</li>
+<li>아주 쉽게 병합 가능 = Fast-forward</li>
+</ul>
+<p><strong>병합하기 2</strong></p>
+<ul>
+<li>헤드 브랜치에 추가적인 커밋이 생기는 경우</li>
+<li>진짜 변합이 필요합니다. </li>
+<li>충돌이 나면 충돌난 부분을 확인한 후 해결하면 됩니다. </li>
+</ul>
+<p><strong>soucetree에서 git branch</strong></p>
+<ul>
+<li>branch : 기존 내용을 유지한 체 새로운 내용을 추가하고 싶을 때 사용합니다. </li>
+<li>checkout : 특정 브랜치(혹은 커밋)으로 돌아가고 싶을 때 사용합니다. </li>
+<li>sourcetree의 checkout : 브랜치 이름을 더블 클릭하여 체크아웃합니다. </li>
+<li>master : 고객에게 전달해야 하는 내용이 들어있습니다. </li>
+<li>branch : 개발을 진행하는 내용이 들어있습니다. </li>
+<li>merge : 하나의 브랜치를 현재 브랜치와 합치는 거을 병합(merge)라고 합니다. </li>
+<li>head branch : 현재 작업중인 브랜치</li>
+</ul>
+<p><a href="https://learngitbranching.js.org/?locale=ko">learn_git_branch</a></p>
+<p><strong>git에서 bugFix라는 branch 만들기</strong></p>
+<ol>
+<li><p>터미널 명령어 : git branch 새로만들 브랜치 이름 </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git branch bugFix</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>git checkout bugFix 라는 명령어로 bugFix branch로 이동할 수 있습니다. </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout bugFix</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>2-1. git checkout master 를 입력하면 master로 돌아갑니다. </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout master</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>Merge : 브랜치와 병합하기</li>
+</ol>
+<ul>
+<li>각 브랜치에서 독립된 커밋이 하나씩 있을 경우, 이 경우는 지금까지 작업한 내용이 나뉘어 담겨있다는 뜻입니다. 이럴 때 두 브랜치를 합칠(merge) 수 있습니다. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git merge bugFix</span><br></pre></td></tr></table></figure></li>
+</ul>
+<ol>
+<li><p>git branch bugFix </p>
+</li>
+<li><p>git commit</p>
+</li>
+<li><p>git checkout master</p>
+</li>
+<li><p>git commit 을 하면 아래와 같은 그림이 나옵니다.<br><img src="/img/git_merge_bugFix_1" alt="git_merge_bugFix_1"></p>
+</li>
+<li><p>git merge bugFix<br><img src="/img/git_merge_bugFix_2" alt="git_merge_bugFix_2"></p>
+</li>
+<li><p>git checkout bugFix</p>
+</li>
+<li><p>git merge master<br><img src="/img/git_merge_bugFix_3" alt="git_merge_bugFix_3"></p>
+</li>
+</ol>
+<p><strong>틀리거나 이상한 내용이 있으면 알려주세요, 확인 후 수정하겠습니다!</strong></p>
+]]></content>
+      <categories>
+        <category>git</category>
+        <category>branch</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>github</tag>
+        <tag>branch</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git clone과 sourceTree</title>
+    <url>/2020/05/05/git_clone&amp;sourceTree/</url>
+    <content><![CDATA[<p><strong>git 2번째 내용 : sourcetree 만들기 및 commit 주의사항</strong></p>
+<blockquote>
+<p><a href="https://www.inflearn.com/course/git-and-github/lecture/14171">인프런 무료강좌 git과 github</a></p>
+</blockquote>
 <p>Source Tree 설치<br><a href="https://www.sourcetreeapp.com/">소스트리 다운로드</a><br><strong>주의사항</strong></p>
 <ol>
 <li>아틀라시안에 가입해야 합니다. </li>
@@ -22,13 +102,21 @@
 <li>한줄 비웁니다. </li>
 <li>자세한 내용을 적습니다. </li>
 </ol>
+<p><strong>checkout을 이용해서 저장하지 않은 변경 내용 취소하기</strong></p>
+<ul>
+<li>checkout을 이용하면 마지막 커밋으로 되돌아갈 수 있습니다. </li>
+<li>sourceTree의 코드뭉치 버리기 기능을 사용하면 변경사항을 되돌릴 수 있습니다. </li>
+<li>commit 전 내용을 돌릴 수 있습니다. </li>
+</ul>
 ]]></content>
       <categories>
         <category>git</category>
+        <category>sourcetree</category>
       </categories>
       <tags>
         <tag>git</tag>
         <tag>github</tag>
+        <tag>sourcetree</tag>
       </tags>
   </entry>
   <entry>
@@ -80,6 +168,10 @@
 <blockquote>
 <p><a href="https://yamalab.tistory.com/78?category=711359">인터뷰 용어 정리</a></p>
 </blockquote>
+<p><strong>git 내용 정리</strong></p>
+<blockquote>
+<p><a href="https://www.inflearn.com/course/git-and-github/lecture/14171">인프런 무료강좌 git과 github</a><br><a href="https://learngitbranching.js.org/?locale=ko">learning_git</a></p>
+</blockquote>
 ]]></content>
       <categories>
         <category>cheatsheet</category>
@@ -123,9 +215,9 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+        <tag>icarus</tag>
         <tag>profile</tag>
         <tag>logo</tag>
-        <tag>icarus</tag>
       </tags>
   </entry>
   <entry>
@@ -609,8 +701,8 @@
       </tags>
   </entry>
   <entry>
-    <title>git</title>
-    <url>/2020/04/15/git-1/</url>
+    <title>git 기본 개념 및 계정 만들기</title>
+    <url>/2020/04/15/git_ceate/</url>
     <content><![CDATA[<p><strong>git 1번째 내용 : 아래 인프런 무료강의를 시청한 후 작성하였습니다.</strong></p>
 <blockquote>
 <p><a href="https://www.inflearn.com/course/git-and-github/lecture/14171">인프런 무료강좌 git과 github</a></p>
@@ -663,6 +755,7 @@
 ]]></content>
       <categories>
         <category>git</category>
+        <category>concept</category>
       </categories>
       <tags>
         <tag>git</tag>
