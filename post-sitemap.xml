@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/05/09/python_jupyter_notebook/</loc>
+        <lastmod>2020-05-09T16:52:20.622Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/05/09/python_basic_syntax/</loc>
+        <lastmod>2020-05-09T16:52:17.157Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/05/08/AWS%20server_tmux/</loc>
         <lastmod>2020-05-09T14:54:30.899Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -18,14 +34,6 @@
     <url>
         <loc>https://cds0804.github/2020/05/08/AWS_server_mysql_query/</loc>
         <lastmod>2020-05-09T14:54:30.898Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/05/09/python%20jupyter%20notebook/</loc>
-        <lastmod>2020-05-09T14:48:21.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -104,7 +112,7 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/24/re/</loc>
+        <loc>https://cds0804.github/2020/04/05/markdown-0/</loc>
         <lastmod>2020-04-26T14:52:47.914Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -112,7 +120,7 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/05/markdown-0/</loc>
+        <loc>https://cds0804.github/2020/04/24/re/</loc>
         <lastmod>2020-04-26T14:52:47.914Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
