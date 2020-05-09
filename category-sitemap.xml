@@ -8,15 +8,43 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/python/jupyter-netebook/</loc>
+        <lastmod>2020-05-09T14:48:21.325Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/</loc>
+        <lastmod>2020-05-09T14:48:21.325Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/terminal/command/</loc>
+        <lastmod>2020-05-08T07:39:17.223Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/terminal/</loc>
+        <lastmod>2020-05-08T07:39:17.223Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/project/LinearRegression/</loc>
-        <lastmod>2020-05-07T17:29:03.279Z</lastmod>
+        <lastmod>2020-05-07T17:34:24.837Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/project/</loc>
-        <lastmod>2020-05-07T17:29:03.279Z</lastmod>
+        <lastmod>2020-05-07T17:34:24.837Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -86,13 +114,6 @@
 
     <url>
         <loc>https://cds0804.github/categories/python/re/</loc>
-        <lastmod>2020-04-26T14:52:47.914Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/</loc>
         <lastmod>2020-04-26T14:52:47.914Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
