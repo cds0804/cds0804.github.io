@@ -54,6 +54,72 @@
   </entry>
   
   <entry>
+    <title>mysql</title>
+    <link href="https://cds0804.github/2020/05/08/AWS_server_mysql_query/"/>
+    <id>https://cds0804.github/2020/05/08/AWS_server_mysql_query/</id>
+    <published>2020-05-08T09:12:12.000Z</published>
+    <updated>2020-05-09T14:54:30.898Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><h1 id="Server-Database-Table"><a href="#Server-Database-Table" class="headerlink" title="Server - Database - Table"></a>Server - Database - Table</h1></li><li><h1 id="1-데이터-베이스-보기"><a href="#1-데이터-베이스-보기" class="headerlink" title="1. 데이터 베이스 보기"></a>1. 데이터 베이스 보기</h1>SHOW DATABASES;</li><li><h1 id="생성"><a href="#생성" class="headerlink" title="생성"></a>생성</h1>CREATE DATABASE test;</li><li><h1 id="선택"><a href="#선택" class="headerlink" title="선택"></a>선택</h1>USE test</li><li><h1 id="현재-확인"><a href="#현재-확인" class="headerlink" title="현재 확인"></a>현재 확인</h1>SELECT DATABASE()</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;h1 id=&quot;Server-Database-Table&quot;&gt;&lt;a href=&quot;#Server-Database-Table&quot; class=&quot;headerlink&quot; title=&quot;Server - Database - Table&quot;&gt;&lt;/a&gt;Server - D
+      
+    
+    </summary>
+    
+    
+      <category term="AWS" scheme="https://cds0804.github/categories/AWS/"/>
+    
+      <category term="mysql" scheme="https://cds0804.github/categories/AWS/mysql/"/>
+    
+      <category term="query" scheme="https://cds0804.github/categories/AWS/mysql/query/"/>
+    
+    
+      <category term="AWS" scheme="https://cds0804.github/tags/AWS/"/>
+    
+      <category term="mysql" scheme="https://cds0804.github/tags/mysql/"/>
+    
+      <category term="query" scheme="https://cds0804.github/tags/query/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tmux</title>
+    <link href="https://cds0804.github/2020/05/08/AWS%20server_tmux/"/>
+    <id>https://cds0804.github/2020/05/08/AWS%20server_tmux/</id>
+    <published>2020-05-08T07:45:02.000Z</published>
+    <updated>2020-05-09T14:54:30.899Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>tmux(터미널 멀티플렉서) 실행, session name : dss</strong></p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tmux new -s dss</span><br></pre></td></tr></table></figure><ul><li>새로운 세션을 dss란 이름으로 만든다는 뜻</li></ul><p><strong>세션 종료</strong></p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">exit</span></span><br></pre></td></tr></table></figure><p><strong>세션 목록보기</strong></p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tmux ls</span><br></pre></td></tr></table></figure><p><strong>세션 접속</strong></p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tmux attach -t dss</span><br></pre></td></tr></table></figure><p><strong>윈도우 생성</strong></p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  ctrl + b, c</span><br></pre></td></tr></table></figure><p><strong>윈도우 이동</strong></p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$   ctrl + b, 0-9</span><br></pre></td></tr></table></figure><p><strong>윈도우 종료</strong></p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$   ctrl + b, &amp;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;tmux(터미널 멀티플렉서) 실행, session name : dss&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight zsh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=
+      
+    
+    </summary>
+    
+    
+      <category term="terminal" scheme="https://cds0804.github/categories/terminal/"/>
+    
+      <category term="tmux" scheme="https://cds0804.github/categories/terminal/tmux/"/>
+    
+    
+      <category term="terminal" scheme="https://cds0804.github/tags/terminal/"/>
+    
+      <category term="tmux" scheme="https://cds0804.github/tags/tmux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git branch, git checkout, git merge</title>
     <link href="https://cds0804.github/2020/05/05/git-branch/"/>
     <id>https://cds0804.github/2020/05/05/git-branch/</id>
@@ -576,9 +642,9 @@
       <category term="command" scheme="https://cds0804.github/categories/terminal/command/"/>
     
     
-      <category term="terminal command" scheme="https://cds0804.github/tags/terminal-command/"/>
-    
       <category term="terminal" scheme="https://cds0804.github/tags/terminal/"/>
+    
+      <category term="terminal command" scheme="https://cds0804.github/tags/terminal-command/"/>
     
       <category term="mac" scheme="https://cds0804.github/tags/mac/"/>
     
@@ -653,74 +719,6 @@
       <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
     
       <category term="create" scheme="https://cds0804.github/tags/create/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown 문법에 대하여</title>
-    <link href="https://cds0804.github/2020/04/05/markdown-0/"/>
-    <id>https://cds0804.github/2020/04/05/markdown-0/</id>
-    <published>2020-04-05T04:03:20.000Z</published>
-    <updated>2020-04-26T14:52:47.914Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>markdown 문법 사용법</strong></p><blockquote><p><a href="https://greeksharifa.github.io/references/2018/06/29/markdown-usage/">출처</a></p></blockquote><p><strong>python</strong> is really <em>cool</em></p><ul><li>python<ul><li>pandas<ul><li>depth1</li><li>depth2</li></ul></li><li>numpy</li></ul></li><li>java</li><li>c++</li><li>golang</li></ul><ol><li>python</li><li>java</li><li>c++</li></ol><blockquote><p>파이썬은 재밌다.</p></blockquote><p>y = 3x</p><blockquote><p>$y = 3x$</p></blockquote><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">10</span></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; 10</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><blockquote><p><a href="https://www.python.org/">파이썬 공식 페이지</a></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;markdown 문법 사용법&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://greeksharifa.github.io/references/2018/06/29/markdown-usage/&quot;&gt;출처&lt;/a
-      
-    
-    </summary>
-    
-    
-      <category term="markdown" scheme="https://cds0804.github/categories/markdown/"/>
-    
-    
-      <category term="markdown" scheme="https://cds0804.github/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>webcrawling</title>
-    <link href="https://cds0804.github/2020/04/03/webcrawling-1/"/>
-    <id>https://cds0804.github/2020/04/03/webcrawling-1/</id>
-    <published>2020-04-03T09:49:21.000Z</published>
-    <updated>2020-04-25T15:11:01.072Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1-개발자-도구를-활용한-웹페이지-분석"><a href="#1-개발자-도구를-활용한-웹페이지-분석" class="headerlink" title="1. 개발자 도구를 활용한 웹페이지 분석"></a>1. 개발자 도구를 활용한 웹페이지 분석</h3><ul><li><p>chrome 기준 </p></li><li><p>웹 브라우저 : html로 작성된 내용을 user(사람들)가 보기 쉽게 랜더링 해주는 기능을 함</p></li><li><p>Elements 탭</p></li><li><p>원하는 데이터로 이동하는 기능을 사용</p></li><li><p>엘레먼트 탭 : 왼쪽 상단에 있음, 원하는 데이터를 클릭했을 때 어떤 테그와 어떤 속성을 가지는지 표시해주는 역할을 함</p></li><li><p>어떤 태그와 속성을 가지는지 먼저 파악해야 함</p></li><li><p>Network 탭</p></li><li><p>Preserve log : 체크 시, 로그가 지워지지 않고 유지됨</p></li><li><p>브라우저가 서버에 요청되는 모든 요청을 로그함</p></li><li><p>url 확인 가능</p></li><li><p>요청이 많은 이유 : 이미지 등은 첫번째 요청에 한번에 오지 않고, 따로 요청하여 받아옴</p></li><li><p>처음엔 기본적인 데이터만 넘기고, 나머지 데이터는 브라우저에서 ajax 등의 기술을 이용해서 비동기적으로 가져갈 수 있도록 함</p></li><li><p>HTTP(Hyper Text Transfer Protocol) : HTML 문서 등의 리소스를 전송하는 프로토콜(규약)</p></li><li><p>클라이언트(user가 사용하는 브라우저)가 서버에 HTTP 요청(Get, Post 등)</p></li><li><p>서버에서 클라이언트로 HTTP 응답을 함</p></li><li><p>Get 요청 : 데이터를 url에 포함하여 전달(주로 리소스 요청에 사용), 정보의 공유가능</p></li><li><p>Post 요청 : 데이터를 Form data에 포함하여 전달(주로 로그인에 사용)</p></li><li><p>rendering(렌더링) : html을 받아 사용자(사람들)이 볼 수 있도록 출력해주는 작업</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;1-개발자-도구를-활용한-웹페이지-분석&quot;&gt;&lt;a href=&quot;#1-개발자-도구를-활용한-웹페이지-분석&quot; class=&quot;headerlink&quot; title=&quot;1. 개발자 도구를 활용한 웹페이지 분석&quot;&gt;&lt;/a&gt;1. 개발자 도구를 활용한 웹페이지 분석
-      
-    
-    </summary>
-    
-    
-      <category term="crawling" scheme="https://cds0804.github/categories/crawling/"/>
-    
-      <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
-    
-    
-      <category term="web" scheme="https://cds0804.github/tags/web/"/>
-    
-      <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
-    
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
-      <category term="get" scheme="https://cds0804.github/tags/get/"/>
-    
-      <category term="post" scheme="https://cds0804.github/tags/post/"/>
-    
-      <category term="randering" scheme="https://cds0804.github/tags/randering/"/>
-    
-      <category term="http" scheme="https://cds0804.github/tags/http/"/>
     
   </entry>
   

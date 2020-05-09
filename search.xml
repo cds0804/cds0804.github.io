@@ -81,6 +81,64 @@
       </tags>
   </entry>
   <entry>
+    <title>mysql</title>
+    <url>/2020/05/08/AWS_server_mysql_query/</url>
+    <content><![CDATA[<ul>
+<li><h1 id="Server-Database-Table"><a href="#Server-Database-Table" class="headerlink" title="Server - Database - Table"></a>Server - Database - Table</h1></li>
+<li><h1 id="1-데이터-베이스-보기"><a href="#1-데이터-베이스-보기" class="headerlink" title="1. 데이터 베이스 보기"></a>1. 데이터 베이스 보기</h1>SHOW DATABASES;</li>
+<li><h1 id="생성"><a href="#생성" class="headerlink" title="생성"></a>생성</h1>CREATE DATABASE test;</li>
+<li><h1 id="선택"><a href="#선택" class="headerlink" title="선택"></a>선택</h1>USE test</li>
+<li><h1 id="현재-확인"><a href="#현재-확인" class="headerlink" title="현재 확인"></a>현재 확인</h1>SELECT DATABASE()</li>
+</ul>
+]]></content>
+      <categories>
+        <category>AWS</category>
+        <category>mysql</category>
+        <category>query</category>
+      </categories>
+      <tags>
+        <tag>AWS</tag>
+        <tag>mysql</tag>
+        <tag>query</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>tmux</title>
+    <url>/2020/05/08/AWS%20server_tmux/</url>
+    <content><![CDATA[<p><strong>tmux(터미널 멀티플렉서) 실행, session name : dss</strong></p>
+<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ tmux new -s dss</span><br></pre></td></tr></table></figure>
+<ul>
+<li>새로운 세션을 dss란 이름으로 만든다는 뜻</li>
+</ul>
+<p><strong>세션 종료</strong></p>
+<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>세션 목록보기</strong></p>
+<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ tmux ls</span><br></pre></td></tr></table></figure>
+
+<p><strong>세션 접속</strong></p>
+<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$ tmux attach -t dss</span><br></pre></td></tr></table></figure>
+
+<p><strong>윈도우 생성</strong></p>
+<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$  ctrl + b, c</span><br></pre></td></tr></table></figure>
+
+<p><strong>윈도우 이동</strong></p>
+<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$   ctrl + b, 0-9</span><br></pre></td></tr></table></figure>
+
+<p><strong>윈도우 종료</strong></p>
+<figure class="highlight zsh"><table><tr><td class="code"><pre><span class="line">$   ctrl + b, &amp;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>terminal</category>
+        <category>tmux</category>
+      </categories>
+      <tags>
+        <tag>terminal</tag>
+        <tag>tmux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git branch, git checkout, git merge</title>
     <url>/2020/05/05/git-branch/</url>
     <content><![CDATA[<p><strong>git 3번째 내용 git branch</strong></p>
@@ -1148,8 +1206,8 @@
         <category>command</category>
       </categories>
       <tags>
-        <tag>terminal command</tag>
         <tag>terminal</tag>
+        <tag>terminal command</tag>
         <tag>mac</tag>
         <tag>iTerm</tag>
       </tags>

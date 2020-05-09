@@ -8,6 +8,41 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/terminal/tmux/</loc>
+        <lastmod>2020-05-09T14:54:30.899Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/terminal/</loc>
+        <lastmod>2020-05-09T14:54:30.899Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/AWS/mysql/query/</loc>
+        <lastmod>2020-05-09T14:54:30.898Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/AWS/mysql/</loc>
+        <lastmod>2020-05-09T14:54:30.898Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/AWS/</loc>
+        <lastmod>2020-05-09T14:54:30.898Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/python/jupyter-netebook/</loc>
         <lastmod>2020-05-09T14:48:21.325Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -23,13 +58,6 @@
 
     <url>
         <loc>https://cds0804.github/categories/terminal/command/</loc>
-        <lastmod>2020-05-08T07:39:17.223Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/terminal/</loc>
         <lastmod>2020-05-08T07:39:17.223Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
