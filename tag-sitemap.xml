@@ -3,22 +3,29 @@
 
 
     <url>
-        <loc>https://cds0804.github/tags/loop/</loc>
-        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/codition/</loc>
-        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
+        <loc>https://cds0804.github/tags/function/</loc>
+        <lastmod>2020-05-10T14:21:34.094Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/python/</loc>
-        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
+        <lastmod>2020-05-10T14:21:34.094Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/loop/</loc>
+        <lastmod>2020-05-10T05:02:41.034Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/codition/</loc>
+        <lastmod>2020-05-10T05:02:41.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -8,8 +8,16 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/05/10/python_function/</loc>
+        <lastmod>2020-05-10T14:21:34.094Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/05/10/python_condition_loop/</loc>
-        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
+        <lastmod>2020-05-10T05:02:41.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
