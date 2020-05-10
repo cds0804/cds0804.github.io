@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/05/09/python_jupyter_notebook/</loc>
-        <lastmod>2020-05-09T16:52:20.622Z</lastmod>
+        <loc>https://cds0804.github/2020/05/10/python_condition_loop/</loc>
+        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,15 @@
 
     <url>
         <loc>https://cds0804.github/2020/05/09/python_basic_syntax/</loc>
-        <lastmod>2020-05-09T16:52:17.157Z</lastmod>
+        <lastmod>2020-05-10T01:31:01.733Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/05/09/python_jupyter_notebook/</loc>
+        <lastmod>2020-05-09T16:52:20.622Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

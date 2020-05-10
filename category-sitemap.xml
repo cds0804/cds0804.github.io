@@ -8,22 +8,36 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/python/jupyter-netebook/</loc>
-        <lastmod>2020-05-09T16:52:20.622Z</lastmod>
+        <loc>https://cds0804.github/categories/python/condition/loop/</loc>
+        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/condition/</loc>
+        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/python/</loc>
-        <lastmod>2020-05-09T16:52:20.622Z</lastmod>
+        <lastmod>2020-05-10T04:59:44.825Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/python/basic-syntax/</loc>
-        <lastmod>2020-05-09T16:52:17.157Z</lastmod>
+        <lastmod>2020-05-10T01:31:01.733Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/jupyter-netebook/</loc>
+        <lastmod>2020-05-09T16:52:20.622Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
