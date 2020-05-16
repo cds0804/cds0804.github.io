@@ -1,78 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>python class</title>
-    <url>/2020/05/10/python_class/</url>
-    <content><![CDATA[<p><strong>class</strong></p>
-<ul>
-<li>변수와 함수를 묶어 놓은 개념</li>
-<li>사용방법<ul>
-<li>변수와 함수가 들어있는 클래스를 선언</li>
-<li>클래스를 객체로 만들어서 클래스 안에 선언된 변수와 함수를 사용</li>
-<li>첫번째 파라미터로 self를 사용</li>
-</ul>
-</li>
-</ul>
-<p><strong>1. 클래스의 선언</strong></p>
-<ul>
-<li>기본 클래스의 사용<ul>
-<li>클래스 선언 -&gt; 객체로 만듬 -&gt; 객체에 함수를 호출<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Calculator</span>:</span></span><br><span class="line">    <span class="comment"># 총 4개의 변수 : num1, num2, plus, minus</span></span><br><span class="line">    num1 = <span class="number">1</span></span><br><span class="line">    num2 = <span class="number">2</span></span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">plus</span><span class="params">(self)</span>:</span> <span class="comment"># 첫번째 파라미터로 self를 사용한다. </span></span><br><span class="line">        <span class="keyword">return</span> self.num1 + self.num2 <span class="comment"># calc.num1 + calc.num2라는 의미</span></span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">minus</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> self.num1 - self.num2 <span class="comment"># calc.num1 - calc.num2라는 의미</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 클래스의 사용</span></span><br><span class="line">calc = Calculator() <span class="comment"># 객체 선언, 함수의 사용법과 같음</span></span><br><span class="line">calc</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">calc.num1, calc.num2, calc.plus(), calc.minus()</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># self의 의미 : 객체 자신</span></span><br><span class="line">calc2 = Calculator()</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">calc2.num1 = <span class="number">10</span></span><br><span class="line">calc2.plus()</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>2. 객체지향</strong></p>
-<ul>
-<li>실제 세계를 코드에 반영해서 개발하는 방법</li>
-<li>여러명의 개발자가 코드를 효율적으로 작성해서 프로젝트를 완성시키기 위한 방법</li>
-<li>설계도 작성(class) -&gt; 실제 물건(object)</li>
-<li>사용자 정의 데이터 타입</li>
-</ul>
-<p><strong>3. 생성자</strong></p>
-<ul>
-<li>클래스가 객체로 생성될 때 실행되는 함수</li>
-<li>변수(재료)를 추가할 때 사용됩니다. </li>
-<li>생성자 함수<ul>
-<li>클래스가 객체로 만들어질 때 객체에 선언되는 변수를 설정하는 방법</li>
-<li>객체가 생성이 될 때 생성자 함수가 자동으로 실행되며, 에러 발생 시 객체로 만들 수 없습니다. </li>
-</ul>
-</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Calculator</span>:</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 생성자 함수 : __init_</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, num1, num2=<span class="number">10</span>)</span>:</span> <span class="comment"># default parameter 사용가능</span></span><br><span class="line">        self.num1 = num1</span><br><span class="line">        self.num2 = num2</span><br><span class="line">        </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">plus</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> self.num1 + self.num2</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">minus</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> self.num1 - self.num2</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">clac1 = Calculator(<span class="number">3</span>, <span class="number">4</span>)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">clac1.plus()</span><br></pre></td></tr></table></figure>
-<p><strong>join()</strong></p>
-<ul>
-<li>리스트로 되어있는 데이터를 특정 문자열을 구분자로 사용해서 하나의 문장으로 만들어주는 함수<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ls = [<span class="string">'python'</span>, <span class="string">'is'</span>, <span class="string">'good'</span>]</span><br><span class="line"><span class="string">" "</span>.join(ls)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># pandas dataframe</span></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line">df = pd.DataFrame([ <span class="comment"># DataFrame : class</span></span><br><span class="line">    &#123;<span class="string">"name"</span>: <span class="string">"jin"</span>, <span class="string">"age"</span>: <span class="number">20</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>: <span class="string">"andy"</span>, <span class="string">"age"</span>: <span class="number">21</span>&#125;,</span><br><span class="line">])</span><br><span class="line">df</span><br></pre></td></tr></table></figure></li>
-</ul>
-<p><strong>id, pw 카운트 함수, 1. zip함수를 이용하는 방법</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ls = [<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>]</span><br><span class="line">print(list(range(len(ls))))</span><br><span class="line">print(list(zip(range(len(ls)), ls)))</span><br><span class="line"><span class="keyword">for</span> idx, data <span class="keyword">in</span> list(zip(range(len(ls)), ls)):</span><br><span class="line">    print(idx, data)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">user_datas = [</span><br><span class="line">    &#123;<span class="string">'user'</span>: <span class="string">'test'</span>, <span class="string">'pw'</span>: <span class="string">'1234'</span>, <span class="string">'count'</span>: <span class="number">0</span>&#125;,</span><br><span class="line">    &#123;<span class="string">'user'</span>: <span class="string">'python'</span>, <span class="string">'pw'</span>: <span class="string">'5678'</span>, <span class="string">'count'</span>: <span class="number">0</span>&#125;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># user_data를 입력받아서 아이디와 패스워드를 체크하는 데코레이터 함수를 코드로 작성하세요. </span></span><br><span class="line"><span class="comment"># 로그인 될 때마다 count를 1씩 증가</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">need_login</span><span class="params">(func)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kwargs)</span>:</span> <span class="comment"># inner function 만듬</span></span><br><span class="line">        <span class="comment"># 아아디 패스워드 입력</span></span><br><span class="line">        user, pw = tuple(input(<span class="string">"insert user pw : "</span>).split(<span class="string">' '</span>)) <span class="comment"># user와 pw 나눈 후 tuple로 변환</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 존재하는 아이디와 패스워드 확인</span></span><br><span class="line">        <span class="keyword">for</span> idx, user_data <span class="keyword">in</span> zip(range(len(user_datas)), user_datas): <span class="comment"># 카운트하기 위해 몇 번째 데이터인지 확인필요       </span></span><br><span class="line">            <span class="keyword">if</span> (user_data[<span class="string">'user'</span>] == user) <span class="keyword">and</span> (user_data[<span class="string">'pw'</span>] == pw):</span><br><span class="line">                user_datas[idx][<span class="string">'count'</span>] += <span class="number">1</span> <span class="comment"># 유저 데이터의 인덱스에서 카운트를 1씩 증가 시킴          </span></span><br><span class="line">                <span class="comment"># 함수 실행</span></span><br><span class="line">                <span class="keyword">return</span> func(*args, **kwargs) <span class="comment"># wrapper 함수 종료, 결과값 출력          </span></span><br><span class="line">        <span class="keyword">return</span> <span class="string">"wrong login data!"</span></span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@need_login</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">plus</span><span class="params">(num1, num2)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> num1 + num2</span><br><span class="line"></span><br><span class="line">plus(<span class="number">1</span>, <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">user_datas</span><br></pre></td></tr></table></figure>
-<p><strong>2. enumerate함수를 이용하는 방법</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list(enumerate(user_datas))</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># user_data를 입력받아서 아이디와 패스워드를 체크하는 데코레이터 함수를 코드로 작성하세요. </span><br><span class="line"># 로그인 될 때마다 count를 1씩 증가</span><br><span class="line">def need_login(func):</span><br><span class="line">    def wrapper(*args, **kwargs): # inner function 만듬</span><br><span class="line">        # 아아디 패스워드 입력</span><br><span class="line">        user, pw &#x3D; tuple(input(&quot;insert user pw : &quot;).split(&#39; &#39;)) # user와 pw 나눈 후 tuple로 변환</span><br><span class="line">        </span><br><span class="line">        # 존재하는 아이디와 패스워드 확인</span><br><span class="line">        for idx, user_data in enumerate(user_datas): # 카운트하기 위해 몇 번째 데이터인지 확인필요       </span><br><span class="line">            if (user_data[&#39;user&#39;] &#x3D;&#x3D; user) and (user_data[&#39;pw&#39;] &#x3D;&#x3D; pw):</span><br><span class="line">                user_datas[idx][&#39;count&#39;] +&#x3D; 1 # 유저 데이터의 인덱스에서 카운트를 1씩 증가 시킴          </span><br><span class="line">                # 함수 실행</span><br><span class="line">                return func(*args, **kwargs) # wrapper 함수 종료, 결과값 출력          </span><br><span class="line">        return &quot;wrong login data!&quot;</span><br><span class="line">    return wrapper</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@need_login</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">plus</span><span class="params">(num1, num2)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> num1 + num2</span><br><span class="line"></span><br><span class="line">plus(<span class="number">1</span>, <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">user_datas</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>python</category>
-        <category>class</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>class</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python function</title>
     <url>/2020/05/10/python_function/</url>
     <content><![CDATA[<p><strong>함수</strong></p>
@@ -222,7 +150,23 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">plus(<span class="number">1</span>, <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@check_password</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">lotto_func</span><span class="params">()</span>:</span></span><br><span class="line">    lotto = []</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        number = random.randint(<span class="number">1</span>, <span class="number">45</span>)</span><br><span class="line">        <span class="keyword">if</span> number <span class="keyword">not</span> <span class="keyword">in</span> lotto:</span><br><span class="line">            lotto.append(number)</span><br><span class="line">        <span class="keyword">if</span> len(lotto) &gt;= <span class="number">6</span>:</span><br><span class="line">            lotto.sort()</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">return</span> lotto</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lotto_func()</span><br></pre></td></tr></table></figure>
-]]></content>
+
+<p><strong>join()</strong></p>
+<ul>
+<li>리스트로 되어있는 데이터를 특정 문자열을 구분자로 사용해서 하나의 문장으로 만들어주는 함수<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ls = [<span class="string">'python'</span>, <span class="string">'is'</span>, <span class="string">'good'</span>]</span><br><span class="line"><span class="string">" "</span>.join(ls)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># pandas dataframe</span></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line">df = pd.DataFrame([ <span class="comment"># DataFrame : class</span></span><br><span class="line">    &#123;<span class="string">"name"</span>: <span class="string">"jin"</span>, <span class="string">"age"</span>: <span class="number">20</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>: <span class="string">"andy"</span>, <span class="string">"age"</span>: <span class="number">21</span>&#125;,</span><br><span class="line">])</span><br><span class="line">df</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p><strong>id, pw 카운트 함수, 1. zip함수를 이용하는 방법</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ls = [<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>]</span><br><span class="line">print(list(range(len(ls))))</span><br><span class="line">print(list(zip(range(len(ls)), ls)))</span><br><span class="line"><span class="keyword">for</span> idx, data <span class="keyword">in</span> list(zip(range(len(ls)), ls)):</span><br><span class="line">    print(idx, data)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">user_datas = [</span><br><span class="line">    &#123;<span class="string">'user'</span>: <span class="string">'test'</span>, <span class="string">'pw'</span>: <span class="string">'1234'</span>, <span class="string">'count'</span>: <span class="number">0</span>&#125;,</span><br><span class="line">    &#123;<span class="string">'user'</span>: <span class="string">'python'</span>, <span class="string">'pw'</span>: <span class="string">'5678'</span>, <span class="string">'count'</span>: <span class="number">0</span>&#125;,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># user_data를 입력받아서 아이디와 패스워드를 체크하는 데코레이터 함수를 코드로 작성하세요. </span></span><br><span class="line"><span class="comment"># 로그인 될 때마다 count를 1씩 증가</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">need_login</span><span class="params">(func)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kwargs)</span>:</span> <span class="comment"># inner function 만듬</span></span><br><span class="line">        <span class="comment"># 아아디 패스워드 입력</span></span><br><span class="line">        user, pw = tuple(input(<span class="string">"insert user pw : "</span>).split(<span class="string">' '</span>)) <span class="comment"># user와 pw 나눈 후 tuple로 변환</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 존재하는 아이디와 패스워드 확인</span></span><br><span class="line">        <span class="keyword">for</span> idx, user_data <span class="keyword">in</span> zip(range(len(user_datas)), user_datas): <span class="comment"># 카운트하기 위해 몇 번째 데이터인지 확인필요       </span></span><br><span class="line">            <span class="keyword">if</span> (user_data[<span class="string">'user'</span>] == user) <span class="keyword">and</span> (user_data[<span class="string">'pw'</span>] == pw):</span><br><span class="line">                user_datas[idx][<span class="string">'count'</span>] += <span class="number">1</span> <span class="comment"># 유저 데이터의 인덱스에서 카운트를 1씩 증가 시킴          </span></span><br><span class="line">                <span class="comment"># 함수 실행</span></span><br><span class="line">                <span class="keyword">return</span> func(*args, **kwargs) <span class="comment"># wrapper 함수 종료, 결과값 출력          </span></span><br><span class="line">        <span class="keyword">return</span> <span class="string">"wrong login data!"</span></span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@need_login</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">plus</span><span class="params">(num1, num2)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> num1 + num2</span><br><span class="line"></span><br><span class="line">plus(<span class="number">1</span>, <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">user_datas</span><br></pre></td></tr></table></figure>
+<p><strong>2. enumerate함수를 이용하는 방법</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">list(enumerate(user_datas))</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># user_data를 입력받아서 아이디와 패스워드를 체크하는 데코레이터 함수를 코드로 작성하세요. </span><br><span class="line"># 로그인 될 때마다 count를 1씩 증가</span><br><span class="line">def need_login(func):</span><br><span class="line">    def wrapper(*args, **kwargs): # inner function 만듬</span><br><span class="line">        # 아아디 패스워드 입력</span><br><span class="line">        user, pw &#x3D; tuple(input(&quot;insert user pw : &quot;).split(&#39; &#39;)) # user와 pw 나눈 후 tuple로 변환</span><br><span class="line">        </span><br><span class="line">        # 존재하는 아이디와 패스워드 확인</span><br><span class="line">        for idx, user_data in enumerate(user_datas): # 카운트하기 위해 몇 번째 데이터인지 확인필요       </span><br><span class="line">            if (user_data[&#39;user&#39;] &#x3D;&#x3D; user) and (user_data[&#39;pw&#39;] &#x3D;&#x3D; pw):</span><br><span class="line">                user_datas[idx][&#39;count&#39;] +&#x3D; 1 # 유저 데이터의 인덱스에서 카운트를 1씩 증가 시킴          </span><br><span class="line">                # 함수 실행</span><br><span class="line">                return func(*args, **kwargs) # wrapper 함수 종료, 결과값 출력          </span><br><span class="line">        return &quot;wrong login data!&quot;</span><br><span class="line">    return wrapper</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@need_login</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">plus</span><span class="params">(num1, num2)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> num1 + num2</span><br><span class="line"></span><br><span class="line">plus(<span class="number">1</span>, <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">user_datas</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>python</category>
         <category>function</category>
@@ -233,7 +177,7 @@
       </tags>
   </entry>
   <entry>
-    <title>python 조건문</title>
+    <title>python 조건문 (if, while, for)</title>
     <url>/2020/05/10/python_condition_loop/</url>
     <content><![CDATA[<p><strong>조건문</strong></p>
 <ul>
@@ -784,9 +728,9 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+        <tag>icarus</tag>
         <tag>profile</tag>
         <tag>logo</tag>
-        <tag>icarus</tag>
       </tags>
   </entry>
   <entry>
