@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-05-21T04:41:25.194Z</updated>
+  <updated>2020-05-21T05:37:42.070Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>numpy_indexing &amp; slicing</title>
+    <link href="https://cds0804.github/2020/05/21/python_numpy-indexing/"/>
+    <id>https://cds0804.github/2020/05/21/python_numpy-indexing/</id>
+    <published>2020-05-21T04:43:02.000Z</published>
+    <updated>2020-05-21T05:37:42.070Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>numpy indexing &amp; slicing</strong></p><ul><li><p>인덱싱</p><ul><li>파이썬 리스트와 동일한 개념으로 사용</li><li>, 를 사용하여 각 차원의 인덱스에 접근 가능</li></ul></li><li><p>1차원 벡터 인덱싱</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1차원 벡터 인덱싱</span></span><br><span class="line">x = np.arange(<span class="number">10</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 첫번째, 마지막, 4번째</span></span><br><span class="line">x[<span class="number">0</span>], x[<span class="number">-1</span>], x[<span class="number">3</span>]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 4번째 값을 100으로 변경</span></span><br><span class="line">x[<span class="number">3</span>] = <span class="number">100</span></span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure></li><li><p>2차원 행렬 인덱싱</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = np.arange(<span class="number">10</span>).reshape(<span class="number">2</span>, <span class="number">5</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 0번째 행의 2번째 열의 값 가져오기</span></span><br><span class="line">x[<span class="number">0</span>, <span class="number">2</span>]</span><br></pre></td></tr></table></figure></li><li><p>3차원 행렬 인덱싱</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 4행 3열의 행렬이 3개를 만듬</span></span><br><span class="line">x = np.arange(<span class="number">36</span>).reshape(<span class="number">3</span>, <span class="number">4</span>, <span class="number">3</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 0번째 행렬을 가져옴</span></span><br><span class="line">x[<span class="number">0</span>]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x[<span class="number">1</span>, <span class="number">2</span>]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 인덱스를 하나 명시할 때마다 차원이 하나씩 줄어듬</span></span><br><span class="line">x[<span class="number">1</span>, <span class="number">2</span>, <span class="number">1</span>]</span><br></pre></td></tr></table></figure></li></ul><p><strong>슬라이싱</strong></p><ul><li>리스트, 문자열 slicing과 동일한 개념으로 사용</li><li>, 를 사용하여 각 차원 별로 슬라이싱 가능</li><li>슬라이싱으로 해도 차원이 바뀌지 않음</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = np.arange(<span class="number">10</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x[<span class="number">1</span>:<span class="number">7</span>]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 슬라이싱을 해도 차원이 바뀌지는 않음</span></span><br><span class="line">x[:]</span><br></pre></td></tr></table></figure><ul><li>2차원 행렬 슬라이싱<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = np.arange(<span class="number">10</span>).reshape(<span class="number">2</span>, <span class="number">5</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 6, 7, 8 가져오기</span></span><br><span class="line"><span class="comment"># 모든 행 가져오기 x[:]</span></span><br><span class="line"><span class="comment"># 컬럼부분 가져오기 x[:, 1:4]</span></span><br><span class="line">x[:, <span class="number">1</span>:<span class="number">4</span>]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 모든 행의 앞의 2번째만 가져오기 </span></span><br><span class="line">x[:, :<span class="number">2</span>]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 인덱싱과 슬라이싱 혼합</span></span><br><span class="line"><span class="comment"># 0번째를 가져오고 2번째에서 자름</span></span><br><span class="line"><span class="comment"># 앞에 0을 사용하여 인덱스를 사용하여 차원이 하나 줄음</span></span><br><span class="line"><span class="comment"># 크기가 2인 벡터</span></span><br><span class="line">x[<span class="number">0</span>, :<span class="number">2</span>]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 자원을 유지하면서 위와 동일한 값 가져오기</span></span><br><span class="line">x[:<span class="number">1</span>, :<span class="number">2</span>]</span><br></pre></td></tr></table></figure></li><li>3차원 텐서 슬라이싱<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 차원을 유지하면서 0, 1, 2, 3, 4, 5가져오기</span></span><br><span class="line"><span class="comment"># x[:1]첫번째 행렬 가져오기</span></span><br><span class="line">x[:<span class="number">1</span>, :<span class="number">2</span>, :]</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 2차원 행렬에서 0, 1, 2, 3, 4, 5가져오기</span></span><br><span class="line"><span class="comment"># x[:1]첫번째 행렬 가져오기</span></span><br><span class="line">x[<span class="number">0</span>, :<span class="number">2</span>, :]</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;numpy indexing &amp;amp; slicing&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;인덱싱&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬 리스트와 동일한 개념으로 사용&lt;/li&gt;
+&lt;li&gt;, 를 사용하여 각 차원의 인덱스에 접근 가능&lt;/l
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://cds0804.github/categories/python/"/>
+    
+      <category term="numpy" scheme="https://cds0804.github/categories/python/numpy/"/>
+    
+    
+      <category term="python" scheme="https://cds0804.github/tags/python/"/>
+    
+      <category term="numpy" scheme="https://cds0804.github/tags/numpy/"/>
+    
+  </entry>
   
   <entry>
     <title>numpy 모듈을 사용하여 ndarray 데이터 생성하기</title>
@@ -671,52 +706,6 @@
       <category term="crawling" scheme="https://cds0804.github/categories/crawling/"/>
     
       <category term="python" scheme="https://cds0804.github/categories/crawling/python/"/>
-    
-    
-      <category term="web" scheme="https://cds0804.github/tags/web/"/>
-    
-      <category term="webcrawling" scheme="https://cds0804.github/tags/webcrawling/"/>
-    
-      <category term="html" scheme="https://cds0804.github/tags/html/"/>
-    
-      <category term="get" scheme="https://cds0804.github/tags/get/"/>
-    
-      <category term="post" scheme="https://cds0804.github/tags/post/"/>
-    
-      <category term="randering" scheme="https://cds0804.github/tags/randering/"/>
-    
-      <category term="http" scheme="https://cds0804.github/tags/http/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>webcrawling</title>
-    <link href="https://cds0804.github/2020/04/21/webcrawling-2/"/>
-    <id>https://cds0804.github/2020/04/21/webcrawling-2/</id>
-    <published>2020-04-21T01:02:56.000Z</published>
-    <updated>2020-04-23T12:08:27.684Z</updated>
-    
-    <content type="html"><![CDATA[<p>※ 출처 : fast campus 머신러닝 인강(변영효 강사님)</p><ul><li><p>일부 내용만 발췌하였고, 기본적인 개념 및 추가내용을 확인하시려면 인강 수강을 권장드립니다. </p></li><li><p>내용요약</p></li><li><ol><li>웹사이트에서 원하는 정보의 태그를 파악</li></ol></li><li><ol start="2"><li>모듈을 통해 태그를 찾은 후 원하는 값을 가져옴</li></ol></li></ul><h3 id="2-HTML-Hyper-Text-Markup-Language"><a href="#2-HTML-Hyper-Text-Markup-Language" class="headerlink" title="2. HTML(Hyper Text Markup Language)"></a>2. HTML(Hyper Text Markup Language)</h3><ul><li><p>웹 사이트를 생성하기 위한 언어로 문서와 문서가 링크로 연결되어 있고, 태그를 사용하는 언어</p></li><li><p>태그 : HTML 문서의 기본 블락</p></li><li><p>브라우저에 어떻게 렌더링(화면에 표시)될지 전달</p></li><li><p>&lt;태그명 속성1=”속성값1” 속성2=”속성값2”&gt;Value&lt;/태그명&gt;</p></li><li><p>&lt;태그명 속성1=”속성값1” 속성2=”속성값2”/&gt;</p></li><li><p>p 태그 : paragraph tag</p><p>한 문단으로 표시해주는 태그</p></li><li><p>div 태그</p><div>그룹핑을 하는 태그</div></li><li><p>대부분의 crawling은 태그 안에 있는 값을 추출하는 작업입니다. </p></li><li><p>html 기본구조</p></li></ul><html>    <head>        <title>BeautifulSoup test</title>    <link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml"></head>    <bocy>        <div id='upper' class='test'>            <h3 title='Good Content Title'>Contents Title</h3>            <p>Test contents</p>            <img src='https://newsimg.sedaily.com/2018/05/16/1RZJYCTROK_1.jpg'>        </div>        <div id='lower' class='test'>            <p>Test Test Test 1</p>            <p>Test Test Test 2</p>            <p>Test Test Test 3</p>        </div>    </body></html><p>웹 사이트에서 본인에게 필요한 정보를 가져오는 실습을 해보는걸 추천드립니다. </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;※ 출처 : fast campus 머신러닝 인강(변영효 강사님)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;일부 내용만 발췌하였고, 기본적인 개념 및 추가내용을 확인하시려면 인강 수강을 권장드립니다. &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;내용요약&lt;/p&gt;
-&lt;/li&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="crawling" scheme="https://cds0804.github/categories/crawling/"/>
-    
-      <category term="concept" scheme="https://cds0804.github/categories/crawling/concept/"/>
     
     
       <category term="web" scheme="https://cds0804.github/tags/web/"/>

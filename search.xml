@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>numpy_indexing &amp; slicing</title>
+    <url>/2020/05/21/python_numpy-indexing/</url>
+    <content><![CDATA[<p><strong>numpy indexing &amp; slicing</strong></p>
+<ul>
+<li><p>인덱싱</p>
+<ul>
+<li>파이썬 리스트와 동일한 개념으로 사용</li>
+<li>, 를 사용하여 각 차원의 인덱스에 접근 가능</li>
+</ul>
+</li>
+<li><p>1차원 벡터 인덱싱</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1차원 벡터 인덱싱</span></span><br><span class="line">x = np.arange(<span class="number">10</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 첫번째, 마지막, 4번째</span></span><br><span class="line">x[<span class="number">0</span>], x[<span class="number">-1</span>], x[<span class="number">3</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 4번째 값을 100으로 변경</span></span><br><span class="line">x[<span class="number">3</span>] = <span class="number">100</span></span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure></li>
+<li><p>2차원 행렬 인덱싱</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x = np.arange(<span class="number">10</span>).reshape(<span class="number">2</span>, <span class="number">5</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 0번째 행의 2번째 열의 값 가져오기</span></span><br><span class="line">x[<span class="number">0</span>, <span class="number">2</span>]</span><br></pre></td></tr></table></figure></li>
+<li><p>3차원 행렬 인덱싱</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 4행 3열의 행렬이 3개를 만듬</span></span><br><span class="line">x = np.arange(<span class="number">36</span>).reshape(<span class="number">3</span>, <span class="number">4</span>, <span class="number">3</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 0번째 행렬을 가져옴</span></span><br><span class="line">x[<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x[<span class="number">1</span>, <span class="number">2</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 인덱스를 하나 명시할 때마다 차원이 하나씩 줄어듬</span></span><br><span class="line">x[<span class="number">1</span>, <span class="number">2</span>, <span class="number">1</span>]</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>슬라이싱</strong></p>
+<ul>
+<li>리스트, 문자열 slicing과 동일한 개념으로 사용</li>
+<li>, 를 사용하여 각 차원 별로 슬라이싱 가능</li>
+<li>슬라이싱으로 해도 차원이 바뀌지 않음</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x = np.arange(<span class="number">10</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x[<span class="number">1</span>:<span class="number">7</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 슬라이싱을 해도 차원이 바뀌지는 않음</span></span><br><span class="line">x[:]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>2차원 행렬 슬라이싱<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x = np.arange(<span class="number">10</span>).reshape(<span class="number">2</span>, <span class="number">5</span>)</span><br><span class="line">print(x)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 6, 7, 8 가져오기</span></span><br><span class="line"><span class="comment"># 모든 행 가져오기 x[:]</span></span><br><span class="line"><span class="comment"># 컬럼부분 가져오기 x[:, 1:4]</span></span><br><span class="line">x[:, <span class="number">1</span>:<span class="number">4</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 모든 행의 앞의 2번째만 가져오기 </span></span><br><span class="line">x[:, :<span class="number">2</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 인덱싱과 슬라이싱 혼합</span></span><br><span class="line"><span class="comment"># 0번째를 가져오고 2번째에서 자름</span></span><br><span class="line"><span class="comment"># 앞에 0을 사용하여 인덱스를 사용하여 차원이 하나 줄음</span></span><br><span class="line"><span class="comment"># 크기가 2인 벡터</span></span><br><span class="line">x[<span class="number">0</span>, :<span class="number">2</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 자원을 유지하면서 위와 동일한 값 가져오기</span></span><br><span class="line">x[:<span class="number">1</span>, :<span class="number">2</span>]</span><br></pre></td></tr></table></figure></li>
+<li>3차원 텐서 슬라이싱<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 차원을 유지하면서 0, 1, 2, 3, 4, 5가져오기</span></span><br><span class="line"><span class="comment"># x[:1]첫번째 행렬 가져오기</span></span><br><span class="line">x[:<span class="number">1</span>, :<span class="number">2</span>, :]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 2차원 행렬에서 0, 1, 2, 3, 4, 5가져오기</span></span><br><span class="line"><span class="comment"># x[:1]첫번째 행렬 가져오기</span></span><br><span class="line">x[<span class="number">0</span>, :<span class="number">2</span>, :]</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>python</category>
+        <category>numpy</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>numpy</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>numpy 모듈을 사용하여 ndarray 데이터 생성하기</title>
     <url>/2020/05/21/python_numpy/</url>
     <content><![CDATA[<p><strong>numpy 모듈을 사용하여 ndarray 데이터 생성하기</strong></p>
