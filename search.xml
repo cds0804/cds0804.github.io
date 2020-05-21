@@ -1,6 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>numpy 모듈을 사용하여 ndarray 데이터 생성하기</title>
+    <url>/2020/05/21/python_numpy/</url>
+    <content><![CDATA[<p><strong>numpy 모듈을 사용하여 ndarray 데이터 생성하기</strong></p>
+<ul>
+<li><p>numpy(넘파이) </p>
+<ul>
+<li>수치해석용 Python 라이브러리</li>
+<li>CPython에서만 사용 가능</li>
+<li>BLAS/LAPACK 기반</li>
+<li>ndarray 다차원 행렬 자료 구조 제공</li>
+<li>내부 반복문 사용으로 빠른 행렬 연산 가능</li>
+<li>행렬 인덱싱(array indexing) 기능<blockquote>
+<p><a href="https://datascienceschool.net/view-notebook/416d733c3a734565b69fd0c8dc959edb/">데이터 사이언스 스쿨</a></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>ndarray 클래스</p>
+<ul>
+<li>다차원 행렬 자료 구조를 지원</li>
+<li>벡터화 연산(vectorized operation) 지원</li>
+</ul>
+</li>
+<li><p>Python 리스트</p>
+<ul>
+<li>여러가지 타입의 원소</li>
+<li>linked List 구현</li>
+<li>메모리 용량이 크고 속도가 느림</li>
+<li>벡터화 연산 불가</li>
+</ul>
+</li>
+<li><p>NumPy ndarray</p>
+<ul>
+<li>동일 타입의 원소</li>
+<li>contiguous memory layout</li>
+<li>메모리 최적화, 계산 속도 향상</li>
+<li>벡터화 연산 가능</li>
+</ul>
+</li>
+<li><p>행렬의 차원 및 크기는 ndim 속성과 shape 속성으로 알 수 있다. </p>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 필요 모듈 호출</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1차원 벡터</span></span><br><span class="line">x = np.array([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>])</span><br><span class="line">print(x)</span><br><span class="line"><span class="comment"># 2차원 행렬(2행 3열), 리스트안에 리스트로 만듬</span></span><br><span class="line">y = np.array([[<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>], [<span class="number">1</span>, <span class="number">2</span>, <span class="number">5</span>]])</span><br><span class="line">print(y)</span><br><span class="line"><span class="comment"># 타입 확인</span></span><br><span class="line">print(type(y))</span><br><span class="line"><span class="comment"># 차원 확인</span></span><br><span class="line">print(x.ndim, y.ndim)</span><br></pre></td></tr></table></figure>
+<p><strong>np.arange 함수로 생성하기</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 0 ~ 9까지 ndarray 생성</span></span><br><span class="line">np.arange(<span class="number">10</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1 ~ 9까지 ndarray 생성</span></span><br><span class="line">np.arange(<span class="number">1</span>, <span class="number">10</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1 ~ 9까지 2칸씩 띄어서 생성</span></span><br><span class="line">np.arange(<span class="number">1</span>, <span class="number">10</span>, <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 5 ~ 100까지 5의 배수 생성</span></span><br><span class="line">np.arange(<span class="number">5</span>, <span class="number">101</span>, <span class="number">5</span>)</span><br></pre></td></tr></table></figure>
+<p><strong>zeros, ones</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 4행 5열의 모든 원소가 1인 ndarray 생성, 튜플을 이용하여 생성</span></span><br><span class="line">np.ones((<span class="number">4</span>, <span class="number">5</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 3차원 tensor 생성</span></span><br><span class="line"><span class="comment"># 3행 4열의 행렬 2개, 대괄호가 3개 생김</span></span><br><span class="line">np.ones((<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 4차원 생성</span></span><br><span class="line"><span class="comment"># 대괄호가 4개 생김</span></span><br><span class="line">np.zeros((<span class="number">2</span>, <span class="number">3</span>, <span class="number">8</span>, <span class="number">8</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 초기화된 ndarray 생성</span></span><br><span class="line">np.empty((<span class="number">3</span>, <span class="number">4</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 7로만 이루어진 tensor 생성</span></span><br><span class="line">np.full((<span class="number">3</span>, <span class="number">4</span>), <span class="number">7</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 5행 5열의 단위 행렬 2차원</span></span><br><span class="line"><span class="comment"># 대각선의 모든 값이 1, 나머지 0</span></span><br><span class="line">np.eye(<span class="number">5</span>)</span><br></pre></td></tr></table></figure>
+<p><strong>np.linspace</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 시작, 끝, 전체 수가 3개가 되도록 나눔</span></span><br><span class="line"><span class="comment"># 원소간의 차이가 동일하게 만듬</span></span><br><span class="line">np.linspace(<span class="number">1</span>, <span class="number">10</span>, <span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 숫자 사이 간격이 동일하게</span></span><br><span class="line">np.linspace(<span class="number">1</span>, <span class="number">10</span>, <span class="number">4</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 4등분, 전체 갯수 5</span></span><br><span class="line"><span class="comment"># 그래프에서 x축에 균등하게 값을 줄 때 사용</span></span><br><span class="line">np.linspace(<span class="number">1</span>, <span class="number">10</span>, <span class="number">5</span>)</span><br></pre></td></tr></table></figure>
+<p><strong>reshape</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1 ~ 15까지 벡터 생성</span></span><br><span class="line">x = np.arange(<span class="number">1</span>, <span class="number">16</span>)</span><br><span class="line">print(x)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 1차원의 shape</span></span><br><span class="line">x.shape</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 2차원의 행렬로 형태를 바꿈, 3행 5열로 변경</span></span><br><span class="line">x.reshape(<span class="number">3</span>, <span class="number">5</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x. reshape(<span class="number">5</span>, <span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 3차원으로 바꿈, 3행 1열이 5개</span></span><br><span class="line">x.reshape(<span class="number">5</span>, <span class="number">3</span>, <span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 숫자 20개 필요하나 x안에는 15개만 있으므로 대응이 불가능하여 오류 발생</span></span><br><span class="line"><span class="comment"># reshape 하려는 숫자가 원래 존재하는 숫자와 동일한지 확인 필요</span></span><br><span class="line">x.reshape(<span class="number">5</span>, <span class="number">4</span>)</span><br></pre></td></tr></table></figure>
+<p><strong>random 서브 모듈 이용하여 ndarray 생성히기</strong></p>
+<ul>
+<li>랜덤한 값을 생성</li>
+<li>보통 train 전 초반에 무작위 값을 생성</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># rand 함수, 2행 3열의 랜덤한 값 생성</span></span><br><span class="line"><span class="comment"># 0과 1 사이의 값이 생성</span></span><br><span class="line">np.random.rand(<span class="number">2</span>, <span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1차원 벡터</span></span><br><span class="line">np.random.rand(<span class="number">10</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 3차원 tensor, 4행 2열</span></span><br><span class="line">np.random.rand(<span class="number">3</span>, <span class="number">4</span>, <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 정규분포, n: normal distribution(정규분포)</span></span><br><span class="line"><span class="comment"># 정규분포로 샘플링된 랜덤 ndarrya 생성</span></span><br><span class="line"><span class="comment"># 정규분포이므로 음수값도 생성</span></span><br><span class="line">np.random.randn(<span class="number">3</span>, <span class="number">4</span>)</span><br></pre></td></tr></table></figure>
+<p><strong>randint 함수</strong></p>
+<ul>
+<li>정수에서 샘플링할 때 사용</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 정수에서 샘플링할 때 사용</span></span><br><span class="line"><span class="comment"># 1 ~ 99, 3행 5열 2차원 행렬</span></span><br><span class="line">np.random.randint(<span class="number">1</span>, <span class="number">100</span>, size=(<span class="number">3</span>, <span class="number">5</span>, <span class="number">2</span>))</span><br></pre></td></tr></table></figure>
+<p><strong>seed 함수</strong></p>
+<ul>
+<li>랜덤한 값을 동일하게 다시 생성하고자 할 때 사용</li>
+<li>고정된 랜덤 값</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 항상 호출 전 동일한 값을 갖고 싶을 때 사용</span></span><br><span class="line">np.random.seed(<span class="number">100</span>)</span><br><span class="line">np.random.randn(<span class="number">3</span>, <span class="number">4</span>)</span><br></pre></td></tr></table></figure>
+<p><strong>choice</strong></p>
+<ul>
+<li>주어진 1차원 ndarray로부터 랜덤으로 샘플링</li>
+<li>정수가 주어진 경우, np.arange(해당숫자)로 간주</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 정수 : 100</span></span><br><span class="line"><span class="comment"># size 샘플링을 3, 4로 가져옴</span></span><br><span class="line">np.random.choice(<span class="number">100</span>, size=(<span class="number">3</span>, <span class="number">4</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 중복 허용</span></span><br><span class="line">x = np.array([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">1.5</span>, <span class="number">2.6</span>, <span class="number">4.9</span>])</span><br><span class="line">np.random.choice(x, size=(<span class="number">2</span>, <span class="number">2</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 중복 x</span></span><br><span class="line">x = np.array([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">1.5</span>, <span class="number">2.6</span>, <span class="number">4.9</span>])</span><br><span class="line">np.random.choice(x, size=(<span class="number">2</span>, <span class="number">2</span>), replace=<span class="literal">False</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 확률분포에 따른 ndarray 생성</span></span><br><span class="line"><span class="comment"># uniform : low에서 high 사이의 값을 가져옴</span></span><br><span class="line"><span class="comment"># normal 등</span></span><br><span class="line">np.random.uniform(<span class="number">1.0</span>, <span class="number">3.0</span>, size=(<span class="number">4</span>, <span class="number">5</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 정규분포</span></span><br><span class="line">np.random.normal(size=(<span class="number">3</span>, <span class="number">4</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 정규분포 : 평균, 분포, 사이즈 </span></span><br><span class="line">np.random.normal(size=(<span class="number">3</span>, <span class="number">4</span>))</span><br><span class="line"><span class="comment"># 아래와 동일</span></span><br><span class="line">np.random.randn(<span class="number">3</span>, <span class="number">4</span>)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>python</category>
+        <category>numpy</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>numpy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>machine_learning CNN</title>
+    <url>/2020/05/17/machine_learning_cnn/</url>
+    <content><![CDATA[<p><strong>C.N.N</strong></p>
+<ul>
+<li>Convolutional Neural Network </li>
+<li>이미지 공간의 정보를 유지한 상태로 학습이 가능한 모델</li>
+</ul>
+<p><strong>CNN의 주요 용어 정리</strong></p>
+<ul>
+<li><h2 id="Convolution-합성곱"><a href="#Convolution-합성곱" class="headerlink" title="Convolution(합성곱)"></a>Convolution(합성곱)</h2></li>
+<li>채널(Channel)<ul>
+<li>이미지 픽셀 1개 = 하나의 실수(scalar)</li>
+<li>컬러사진: 3차원 * 높이 150 * 길이 250 = shape(150<em>250</em>3)</li>
+<li>흑백사진: 1차원 * 높이 150 * 길이 250 = shape(150<em>250</em>3)</li>
+</ul>
+</li>
+<li>필터(Filter, kernel)<ul>
+<li>1개의 filter = 1개의 feature map</li>
+<li>convolution layer에 n개의 filter필터가 적용된다면 출력데이터는 n개의 채널을 갖습니다. </li>
+</ul>
+</li>
+<li>커널(Kernel)</li>
+<li>스트라이드(Strid)<ul>
+<li>필터가 순회하는 지정된 간격</li>
+</ul>
+</li>
+<li>패딩(Padding)<ul>
+<li>Padding을 통해서 Convolution 레이어의 출력 데이터의 사이즈를 조절하는 기능이 외에, 외각을 “0”값으로 둘러싸는 특징으로 부터 인공 신경망이 이미지의 외각을 인식하는 학습 효과도 있습니다.</li>
+</ul>
+</li>
+<li>피처 맵(Feature Map)</li>
+<li>액티베이션 맵(Activation Map)</li>
+<li>풀링(Pooling) 레이어<ul>
+<li>일반적으로 Pooing 크기와 Stride를 같은 크기로 설정하여 모든 원소가 한 번씩 처리 되도록 설정합니다.</li>
+<li>CNN에서는 주로 Max Pooling을 사용합니다.</li>
+</ul>
+</li>
+</ul>
+<p><strong>2.1 Convolution 레이어 출력 데이터 크기 산정</strong></p>
+<ul>
+<li>입력 데이터 높이: H</li>
+<li>입력 데이터 폭: W</li>
+<li>필터 높이: FH</li>
+<li>필터 폭: FW</li>
+<li>Strid 크기: S</li>
+<li>패딩 사이즈: P<br>\begin{align}<br>OutputHeight &amp; = OH = \frac{(H + 2P - FH)}{S} + 1 \<br>OutputWeight &amp; = OW = \frac{(W + 2P - FW)}{S} + 1<br>\end{align}</li>
+<li>만약 Pooling 사이즈가 (3, 3)이라면 위 식의 결과는 자연수이고 3의 배수여야 합니다. 이 조건을 만족하도록 Filter의 크기, Stride의 간격, Pooling 크기 및 패딩 크기를 조절해야 합니다.</li>
+</ul>
+<p><strong>2.2 Pooling 레이어 출력 데이터 크기 산정</strong></p>
+<ul>
+<li><p>일반적인 Pooling 사이즈는 정사각형입니다.</p>
+</li>
+<li><p>Pooling 사이즈를 Stride 같은 크기로 만들어서, 모든 요소가 한번씩 Pooling되도록 만듭니다. </p>
+</li>
+<li><p>입력 데이터의 행 크기와 열 크기는 Pooling 사이즈의 배수(나누어 떨어지는 수)여야 합니다.</p>
+</li>
+<li><p>결과적으로 Pooling 레이어의 출력 데이터의 크기는 행과 열의 크기를 Pooling 사이즈로 나눈 몫입니다.</p>
+</li>
+<li><p>Pooling 크기가 (2, 2) 라면 출력 데이터 크기는 입력 데이터의 행과 열 크기를 2로 나눈 몫입니다. pooling 크기가 (3, 3)이라면 입력데이터의 행과 크기를 3으로 나눈 몫이 됩니다.</p>
+</li>
+<li><p>CNN을 구성하면서 Filter, Stride, Padding을 조절하여 특징 추출(Feature Extraction) 부분의 입력과 출력 크기를 계산하고 맞추는 작업이 중요합니다. </p>
+</li>
+</ul>
+<blockquote>
+<p><a href="http://taewan.kim/post/cnn/">자료 출처</a></p>
+</blockquote>
+<p><strong>케라스 CNN model 중간 저장</strong></p>
+<blockquote>
+<p><a href="https://teddylee777.github.io/tensorflow/keras-%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98-vol-03">자료 출처</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>python</category>
+        <category>machine_learning</category>
+        <category>CNN</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>CNN</tag>
+        <tag>machine_learning</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python function</title>
     <url>/2020/05/10/python_function/</url>
     <content><![CDATA[<p><strong>함수</strong></p>
