@@ -8,14 +8,35 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/python/GCD/</loc>
-        <lastmod>2020-05-25T13:56:35.072Z</lastmod>
+        <loc>https://cds0804.github/categories/python/numpy/</loc>
+        <lastmod>2020-05-25T14:17:12.704Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/python/</loc>
+        <lastmod>2020-05-25T14:17:12.704Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/condition/loop/</loc>
+        <lastmod>2020-05-25T14:15:50.684Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/condition/</loc>
+        <lastmod>2020-05-25T14:15:50.684Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/GCD/</loc>
         <lastmod>2020-05-25T13:56:35.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -24,13 +45,6 @@
     <url>
         <loc>https://cds0804.github/categories/python/os/</loc>
         <lastmod>2020-05-22T01:41:21.099Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/numpy/</loc>
-        <lastmod>2020-05-21T05:37:42.070Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -45,20 +59,6 @@
     <url>
         <loc>https://cds0804.github/categories/python/machine-learning/</loc>
         <lastmod>2020-05-20T06:01:56.551Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/condition/loop/</loc>
-        <lastmod>2020-05-16T15:34:42.601Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/condition/</loc>
-        <lastmod>2020-05-16T15:34:42.601Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

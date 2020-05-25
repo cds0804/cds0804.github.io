@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/05/21/python_numpy/</loc>
+        <lastmod>2020-05-25T14:17:12.704Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/05/10/python_condition_loop/</loc>
+        <lastmod>2020-05-25T14:15:50.684Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/05/25/python-GCD/</loc>
         <lastmod>2020-05-25T13:56:35.072Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -32,14 +48,6 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/05/21/python_numpy/</loc>
-        <lastmod>2020-05-21T04:41:25.194Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://cds0804.github/2020/05/17/machine_learning_cnn/</loc>
         <lastmod>2020-05-20T06:01:56.551Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -50,14 +58,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/17/Hexo-visited-count/</loc>
         <lastmod>2020-05-16T15:36:51.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/05/10/python_condition_loop/</loc>
-        <lastmod>2020-05-16T15:34:42.601Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
