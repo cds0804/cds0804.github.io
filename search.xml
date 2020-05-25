@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>python 최대공약수(GCD)</title>
+    <url>/2020/05/25/python-GCD/</url>
+    <content><![CDATA[<p><strong>최대공약수 greatest common divisor(GCD)</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">finding_gcd</span><span class="params">(a, b)</span>:</span></span><br><span class="line">    <span class="keyword">while</span>(b != <span class="number">0</span>):</span><br><span class="line">        result = b</span><br><span class="line">        a, b = b, a % b</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test_finding_gcd</span><span class="params">()</span>:</span></span><br><span class="line">    number1 = <span class="number">21</span></span><br><span class="line">    number2 = <span class="number">12</span></span><br><span class="line">    <span class="keyword">assert</span>(finding_gcd(number1, number2) == <span class="number">3</span>)</span><br><span class="line">    print(<span class="string">"테스트 통과!"</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    test_finding_gcd()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>python</category>
+        <category>GCD</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>GCD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>os와 shutil을 이용한 file_copy</title>
     <url>/2020/05/22/python_file-copy/</url>
     <content><![CDATA[<p><strong>os와 shutil(쉘 유틸리티) 모듈을 이용하여 파일 옮기기</strong></p>
