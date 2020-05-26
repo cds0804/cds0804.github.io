@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-05-25T13:56:35.072Z</updated>
+  <updated>2020-05-26T06:23:27.492Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>python 최대공약수(GCD)</title>
-    <link href="https://cds0804.github/2020/05/25/python-GCD/"/>
-    <id>https://cds0804.github/2020/05/25/python-GCD/</id>
+    <link href="https://cds0804.github/2020/05/25/python_GCD/"/>
+    <id>https://cds0804.github/2020/05/25/python_GCD/</id>
     <published>2020-05-25T13:51:58.000Z</published>
-    <updated>2020-05-25T13:56:35.072Z</updated>
+    <updated>2020-05-26T06:23:27.492Z</updated>
     
     <content type="html"><![CDATA[<p><strong>최대공약수 greatest common divisor(GCD)</strong></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">finding_gcd</span><span class="params">(a, b)</span>:</span></span><br><span class="line">    <span class="keyword">while</span>(b != <span class="number">0</span>):</span><br><span class="line">        result = b</span><br><span class="line">        a, b = b, a % b</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test_finding_gcd</span><span class="params">()</span>:</span></span><br><span class="line">    number1 = <span class="number">21</span></span><br><span class="line">    number2 = <span class="number">12</span></span><br><span class="line">    <span class="keyword">assert</span>(finding_gcd(number1, number2) == <span class="number">3</span>)</span><br><span class="line">    print(<span class="string">"테스트 통과!"</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    test_finding_gcd()</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -338,20 +338,20 @@
   </entry>
   
   <entry>
-    <title>mysql</title>
+    <title>mysql query</title>
     <link href="https://cds0804.github/2020/05/08/AWS_server_mysql_query/"/>
     <id>https://cds0804.github/2020/05/08/AWS_server_mysql_query/</id>
     <published>2020-05-08T09:12:12.000Z</published>
-    <updated>2020-05-09T14:54:30.898Z</updated>
+    <updated>2020-05-26T06:24:30.119Z</updated>
     
-    <content type="html"><![CDATA[<ul><li><h1 id="Server-Database-Table"><a href="#Server-Database-Table" class="headerlink" title="Server - Database - Table"></a>Server - Database - Table</h1></li><li><h1 id="1-데이터-베이스-보기"><a href="#1-데이터-베이스-보기" class="headerlink" title="1. 데이터 베이스 보기"></a>1. 데이터 베이스 보기</h1>SHOW DATABASES;</li><li><h1 id="생성"><a href="#생성" class="headerlink" title="생성"></a>생성</h1>CREATE DATABASE test;</li><li><h1 id="선택"><a href="#선택" class="headerlink" title="선택"></a>선택</h1>USE test</li><li><h1 id="현재-확인"><a href="#현재-확인" class="headerlink" title="현재 확인"></a>현재 확인</h1>SELECT DATABASE()</li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li><h4 id="Server-Database-Table"><a href="#Server-Database-Table" class="headerlink" title="Server - Database - Table"></a>Server - Database - Table</h4></li><li><h4 id="1-데이터-베이스-보기"><a href="#1-데이터-베이스-보기" class="headerlink" title="1. 데이터 베이스 보기"></a>1. 데이터 베이스 보기</h4>SHOW DATABASES;</li><li><h4 id="생성"><a href="#생성" class="headerlink" title="생성"></a>생성</h4>CREATE DATABASE test;</li><li><h4 id="선택"><a href="#선택" class="headerlink" title="선택"></a>선택</h4>USE test</li><li><h4 id="현재-확인"><a href="#현재-확인" class="headerlink" title="현재 확인"></a>현재 확인</h4>SELECT DATABASE()</li></ul>]]></content>
     
     <summary type="html">
     
       
       
         &lt;ul&gt;
-&lt;li&gt;&lt;h1 id=&quot;Server-Database-Table&quot;&gt;&lt;a href=&quot;#Server-Database-Table&quot; class=&quot;headerlink&quot; title=&quot;Server - Database - Table&quot;&gt;&lt;/a&gt;Server - D
+&lt;li&gt;&lt;h4 id=&quot;Server-Database-Table&quot;&gt;&lt;a href=&quot;#Server-Database-Table&quot; class=&quot;headerlink&quot; title=&quot;Server - Database - Table&quot;&gt;&lt;/a&gt;Server - D
       
     
     </summary>

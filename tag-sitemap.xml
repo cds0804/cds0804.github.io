@@ -3,14 +3,42 @@
 
 
     <url>
-        <loc>https://cds0804.github/tags/numpy/</loc>
-        <lastmod>2020-05-25T14:17:12.704Z</lastmod>
+        <loc>https://cds0804.github/tags/query/</loc>
+        <lastmod>2020-05-26T06:24:30.119Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/mysql/</loc>
+        <lastmod>2020-05-26T06:24:30.119Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/AWS/</loc>
+        <lastmod>2020-05-26T06:24:30.119Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/GCD/</loc>
+        <lastmod>2020-05-26T06:23:27.492Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/python/</loc>
+        <lastmod>2020-05-26T06:23:27.492Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/numpy/</loc>
         <lastmod>2020-05-25T14:17:12.704Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -26,13 +54,6 @@
     <url>
         <loc>https://cds0804.github/tags/codition/</loc>
         <lastmod>2020-05-25T14:15:50.684Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/GCD/</loc>
-        <lastmod>2020-05-25T13:56:35.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -124,27 +145,6 @@
     <url>
         <loc>https://cds0804.github/tags/terminal/</loc>
         <lastmod>2020-05-09T14:54:30.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/query/</loc>
-        <lastmod>2020-05-09T14:54:30.898Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/mysql/</loc>
-        <lastmod>2020-05-09T14:54:30.898Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/AWS/</loc>
-        <lastmod>2020-05-09T14:54:30.898Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
