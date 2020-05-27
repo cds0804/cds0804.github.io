@@ -10,35 +10,19 @@
 </ul>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x, *y = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>)</span><br><span class="line">x</span><br></pre></td></tr></table></figure>
 <blockquote>
-<blockquote>
-<blockquote>
 <p>1</p>
 </blockquote>
-</blockquote>
-</blockquote>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">y</span><br></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
 <blockquote>
 <p>[2, 3, 4]</p>
 </blockquote>
-</blockquote>
-</blockquote>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">*x, y = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>)</span><br><span class="line">x</span><br></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
 <blockquote>
 <p>[1, 2, 3]</p>
 </blockquote>
-</blockquote>
-</blockquote>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">y</span><br></pre></td></tr></table></figure>
 <blockquote>
-<blockquote>
-<blockquote>
 <p>4</p>
-</blockquote>
-</blockquote>
 </blockquote>
 ]]></content>
       <categories>
