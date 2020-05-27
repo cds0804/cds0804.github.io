@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>python tuple unpacking</title>
+    <url>/2020/05/27/python_tuple_unpacking/</url>
+    <content><![CDATA[<p><strong>튜플 언패킹</strong></p>
+<ul>
+<li>파이썬에서 iterable한 객체는 sequence unpacking operator *를 사용하여 언패킹 할 수 있습니다. </li>
+<li>변수를 할당하는 문장에서 왼쪽에 두 개 이상의 변수를 사용하고 한 변수 앞에 * 연산자가 붙으면, 오른쪽 값들 중 할당되고 남은 값들이 * 연산자가 붙은 변수에 할당됩니다. </li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x, *y = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>)</span><br><span class="line">x</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">y</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">*x, y = (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>)</span><br><span class="line">x</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">y</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>python</category>
+        <category>tuple unpacking</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>tuple unpacking</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python 최대공약수(GCD)</title>
     <url>/2020/05/25/python_GCD/</url>
     <content><![CDATA[<p><strong>최대공약수 greatest common divisor(GCD)</strong></p>
