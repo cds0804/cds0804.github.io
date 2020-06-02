@@ -8,14 +8,49 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/python/tuple-unpacking/</loc>
-        <lastmod>2020-05-27T15:03:27.909Z</lastmod>
+        <loc>https://cds0804.github/categories/hexo/post/</loc>
+        <lastmod>2020-06-02T10:36:40.645Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/hexo/</loc>
+        <lastmod>2020-06-02T10:36:40.645Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/machine-learning/CNN/</loc>
+        <lastmod>2020-05-27T15:08:05.413Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/machine-learning/</loc>
+        <lastmod>2020-05-27T15:08:05.413Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/python/</loc>
+        <lastmod>2020-05-27T15:08:05.413Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/hexo/create/</loc>
+        <lastmod>2020-05-27T15:06:50.743Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/tuple-unpacking/</loc>
         <lastmod>2020-05-27T15:03:27.909Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -73,20 +108,6 @@
     <url>
         <loc>https://cds0804.github/categories/python/os/</loc>
         <lastmod>2020-05-22T01:41:21.099Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/machine-learning/CNN/</loc>
-        <lastmod>2020-05-20T06:01:56.551Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/machine-learning/</loc>
-        <lastmod>2020-05-20T06:01:56.551Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -192,20 +213,6 @@
     <url>
         <loc>https://cds0804.github/categories/hexo/adsense/</loc>
         <lastmod>2020-05-04T05:48:01.355Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/hexo/</loc>
-        <lastmod>2020-05-04T05:48:01.355Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/hexo/create/</loc>
-        <lastmod>2020-04-26T14:56:39.676Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

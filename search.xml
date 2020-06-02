@@ -256,8 +256,8 @@
 <li><h2 id="Convolution-합성곱"><a href="#Convolution-합성곱" class="headerlink" title="Convolution(합성곱)"></a>Convolution(합성곱)</h2></li>
 <li>채널(Channel)<ul>
 <li>이미지 픽셀 1개 = 하나의 실수(scalar)</li>
-<li>컬러사진: 3차원 * 높이 150 * 길이 250 = shape(150<em>250</em>3)</li>
-<li>흑백사진: 1차원 * 높이 150 * 길이 250 = shape(150<em>250</em>3)</li>
+<li>컬러사진: 3차원 * 높이 150 * 길이 250 = shape(150 * 250 * 3)</li>
+<li>흑백사진: 1차원 * 높이 150 * 길이 250 = shape(150 * 250 * 1)</li>
 </ul>
 </li>
 <li>필터(Filter, kernel)<ul>
@@ -912,8 +912,8 @@
         <category>branch</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>github</tag>
+        <tag>git</tag>
         <tag>branch</tag>
       </tags>
   </entry>
@@ -954,8 +954,8 @@
         <category>sourcetree</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>github</tag>
+        <tag>git</tag>
         <tag>sourcetree</tag>
       </tags>
   </entry>
@@ -1807,8 +1807,8 @@
         <category>concept</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>github</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -1953,7 +1953,7 @@
   </entry>
   <entry>
     <title>Hexo 블로그 만들기</title>
-    <url>/2020/04/05/Hexo%20create/</url>
+    <url>/2020/04/05/Hexo-create/</url>
     <content><![CDATA[<p>안녕하세요!<br>hexo 블로그 만드는 방법입니다. </p>
 <p>hexo 블로그 생성전 아래 2가지를 먼저 설치해야 합니다. </p>
 <ol>
@@ -2070,6 +2070,40 @@
       </categories>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo_deploy_contents</title>
+    <url>/2020/04/03/Hexo-deploy-contents/</url>
+    <content><![CDATA[<p>※ 저는 Visual Studio Code를 이용합니다.  </p>
+<p>그럼, 내가 쓴 글이 블로그에 어떻게 올라가는지 제가 아는 내용을 최대한 자세히 설명 드리겠습니다 :)</p>
+<p>hexo 블로그에 post 올리기</p>
+<ol>
+<li>우선 터미널을 실행하고 </li>
+<li>hexo를 만들었던 폴더로 이동하여</li>
+<li>포스트 파일을 생성하는 명령어를 아래와 같이 입력합니다. </li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new layout title</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>생성된  파일로 들어가서 </li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hexo에 글을 쓰고 사이트에 반영하기</span><br><span class="line">---</span><br><span class="line">위처럼 제목을 적으셨으면 아래줄에 내용을 입력하면 됩니다. </span><br><span class="line"></span><br><span class="line">1번 내용</span><br><span class="line">2번 내용 등</span><br><span class="line">주석을 적을 때는 &#96;###&#96;을 사용하여 적으시면 됩니다.</span><br></pre></td></tr></table></figure>
+
+<p>올릴 내용이 준비되었다면 아래와 같이 4가지 단계를 거쳐 블로그에 내용을 올리시면 됩니다. </p>
+<p>1번: 헥소에 변화를 주겠다고 얘기한다.<br>2번: 헥소에 내용을 반영하겠다고 얘기한다.<br>3번: 헥소에 반영된 내용을 확인하겠다고 얘기한다. 수정이 필요하면 수정을 진행한다. 수정이 완료되면 아래 4번을 통해 내용을 공개하겠다고 얘기한다.<br>4번: 블로그에 내용을 게시하겠다고 얘기한다.</p>
+<h3 id="터미널-창으로-가셔서-표시-다음을-따라-치세요"><a href="#터미널-창으로-가셔서-표시-다음을-따라-치세요" class="headerlink" title="터미널 창으로 가셔서 $ 표시 다음을 따라 치세요."></a>터미널 창으로 가셔서 $ 표시 다음을 따라 치세요.</h3><h3 id="1-hexo-clean"><a href="#1-hexo-clean" class="headerlink" title="1. $ hexo clean"></a>1. $ hexo clean</h3><h3 id="2-hexo-generate"><a href="#2-hexo-generate" class="headerlink" title="2. $ hexo generate"></a>2. $ hexo generate</h3><h3 id="3-hexo-server"><a href="#3-hexo-server" class="headerlink" title="3. $ hexo server"></a>3. $ hexo server</h3><h3 id="4-hexo-deploy"><a href="#4-hexo-deploy" class="headerlink" title="4. $ hexo deploy"></a>4. $ hexo deploy</h3><h3 id="추가적인-내용은-지속적으로-편집하도록-하겠습니다"><a href="#추가적인-내용은-지속적으로-편집하도록-하겠습니다" class="headerlink" title="추가적인 내용은 지속적으로 편집하도록 하겠습니다."></a>추가적인 내용은 지속적으로 편집하도록 하겠습니다.</h3>]]></content>
+      <categories>
+        <category>hexo</category>
+        <category>post</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>블로그</tag>
+        <tag>next</tag>
+        <tag>github</tag>
+        <tag>github.io</tag>
+        <tag>theme</tag>
       </tags>
   </entry>
   <entry>
