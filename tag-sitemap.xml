@@ -3,6 +3,48 @@
 
 
     <url>
+        <loc>https://cds0804.github/tags/cosine/</loc>
+        <lastmod>2020-06-09T02:58:56.886Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/math/</loc>
+        <lastmod>2020-06-09T02:58:56.886Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/iTerm/</loc>
+        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/mac/</loc>
+        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/terminal-command/</loc>
+        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/terminal/</loc>
+        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/tags/theme/</loc>
         <lastmod>2020-06-02T10:36:40.645Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -187,34 +229,6 @@
     <url>
         <loc>https://cds0804.github/tags/tmux/</loc>
         <lastmod>2020-05-09T14:54:30.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/terminal/</loc>
-        <lastmod>2020-05-09T14:54:30.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/iTerm/</loc>
-        <lastmod>2020-05-08T07:39:17.223Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/mac/</loc>
-        <lastmod>2020-05-08T07:39:17.223Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/terminal-command/</loc>
-        <lastmod>2020-05-08T07:39:17.223Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
