@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-06-09T02:58:56.886Z</updated>
+  <updated>2020-06-10T08:21:31.111Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -15,6 +15,45 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>naive bayes classifier</title>
+    <link href="https://cds0804.github/2020/06/10/ML_naive_bayes_classifier/"/>
+    <id>https://cds0804.github/2020/06/10/ML_naive_bayes_classifier/</id>
+    <published>2020-06-10T06:58:42.000Z</published>
+    <updated>2020-06-10T08:21:31.111Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Naive bayes classifier</strong></p><ul><li>독립(설명)변수 x간의 상호 독립을 가정</li><li>계산이 간단해짐</li><li>샘플이 많지 않더라도 계산과 모델링이 가능함</li><li>간단한 모델임에도 퍼포먼스는 준수함</li></ul><p><strong>수학적 개념 이해 - 조건부 확률</strong></p><ul><li>B가 주어졌을 때 사건 A가 일어날 확률</li><li>어떤 B라는 자료가 주어졌을 때 A가 일어날 확률</li><li>주어진 set을 사전확률이라고 함</li></ul><p><strong>Naive bayes classifier 종류</strong></p><ul><li>Gaussian naive bayes classifier</li><li>설명변수가 연속형인 경우</li><li>Multinoial naive bayes classifier</li><li>설명변수가 범주형인 경우</li><li>Bernoulli naive bayes classifier</li><li>설명변수가 이분형인 경우</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;Naive bayes classifier&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;독립(설명)변수 x간의 상호 독립을 가정&lt;/li&gt;
+&lt;li&gt;계산이 간단해짐&lt;/li&gt;
+&lt;li&gt;샘플이 많지 않더라도 계산과 모델링이 가능함&lt;/li&gt;
+&lt;li&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://cds0804.github/categories/python/"/>
+    
+      <category term="ML" scheme="https://cds0804.github/categories/python/ML/"/>
+    
+      <category term="naive bayes classifier" scheme="https://cds0804.github/categories/python/ML/naive-bayes-classifier/"/>
+    
+    
+      <category term="python" scheme="https://cds0804.github/tags/python/"/>
+    
+      <category term="ML" scheme="https://cds0804.github/tags/ML/"/>
+    
+      <category term="naive_bayes_classifier" scheme="https://cds0804.github/tags/naive-bayes-classifier/"/>
+    
+  </entry>
   
   <entry>
     <title>cosine 유사도</title>
@@ -221,10 +260,10 @@
   
   <entry>
     <title>machine_learning CNN</title>
-    <link href="https://cds0804.github/2020/05/17/machine_learning_cnn/"/>
-    <id>https://cds0804.github/2020/05/17/machine_learning_cnn/</id>
+    <link href="https://cds0804.github/2020/05/17/ML_CNN/"/>
+    <id>https://cds0804.github/2020/05/17/ML_CNN/</id>
     <published>2020-05-16T15:36:07.000Z</published>
-    <updated>2020-05-27T15:08:05.413Z</updated>
+    <updated>2020-06-10T07:06:17.183Z</updated>
     
     <content type="html"><![CDATA[<p><strong>C.N.N</strong></p><ul><li>Convolutional Neural Network </li><li>이미지 공간의 정보를 유지한 상태로 학습이 가능한 모델</li></ul><p><strong>CNN의 주요 용어 정리</strong></p><ul><li><h2 id="Convolution-합성곱"><a href="#Convolution-합성곱" class="headerlink" title="Convolution(합성곱)"></a>Convolution(합성곱)</h2></li><li>채널(Channel)<ul><li>이미지 픽셀 1개 = 하나의 실수(scalar)</li><li>컬러사진: 3차원 * 높이 150 * 길이 250 = shape(150 * 250 * 3)</li><li>흑백사진: 1차원 * 높이 150 * 길이 250 = shape(150 * 250 * 1)</li></ul></li><li>필터(Filter, kernel)<ul><li>1개의 filter = 1개의 feature map</li><li>convolution layer에 n개의 filter필터가 적용된다면 출력데이터는 n개의 채널을 갖습니다. </li></ul></li><li>커널(Kernel)</li><li>스트라이드(Strid)<ul><li>필터가 순회하는 지정된 간격</li></ul></li><li>패딩(Padding)<ul><li>Padding을 통해서 Convolution 레이어의 출력 데이터의 사이즈를 조절하는 기능이 외에, 외각을 “0”값으로 둘러싸는 특징으로 부터 인공 신경망이 이미지의 외각을 인식하는 학습 효과도 있습니다.</li></ul></li><li>피처 맵(Feature Map)</li><li>액티베이션 맵(Activation Map)</li><li>풀링(Pooling) 레이어<ul><li>일반적으로 Pooing 크기와 Stride를 같은 크기로 설정하여 모든 원소가 한 번씩 처리 되도록 설정합니다.</li><li>CNN에서는 주로 Max Pooling을 사용합니다.</li></ul></li></ul><p><strong>2.1 Convolution 레이어 출력 데이터 크기 산정</strong></p><ul><li>입력 데이터 높이: H</li><li>입력 데이터 폭: W</li><li>필터 높이: FH</li><li>필터 폭: FW</li><li>Strid 크기: S</li><li>패딩 사이즈: P<br>\begin{align}<br>OutputHeight &amp; = OH = \frac{(H + 2P - FH)}{S} + 1 \<br>OutputWeight &amp; = OW = \frac{(W + 2P - FW)}{S} + 1<br>\end{align}</li><li>만약 Pooling 사이즈가 (3, 3)이라면 위 식의 결과는 자연수이고 3의 배수여야 합니다. 이 조건을 만족하도록 Filter의 크기, Stride의 간격, Pooling 크기 및 패딩 크기를 조절해야 합니다.</li></ul><p><strong>2.2 Pooling 레이어 출력 데이터 크기 산정</strong></p><ul><li><p>일반적인 Pooling 사이즈는 정사각형입니다.</p></li><li><p>Pooling 사이즈를 Stride 같은 크기로 만들어서, 모든 요소가 한번씩 Pooling되도록 만듭니다. </p></li><li><p>입력 데이터의 행 크기와 열 크기는 Pooling 사이즈의 배수(나누어 떨어지는 수)여야 합니다.</p></li><li><p>결과적으로 Pooling 레이어의 출력 데이터의 크기는 행과 열의 크기를 Pooling 사이즈로 나눈 몫입니다.</p></li><li><p>Pooling 크기가 (2, 2) 라면 출력 데이터 크기는 입력 데이터의 행과 열 크기를 2로 나눈 몫입니다. pooling 크기가 (3, 3)이라면 입력데이터의 행과 크기를 3으로 나눈 몫이 됩니다.</p></li><li><p>CNN을 구성하면서 Filter, Stride, Padding을 조절하여 특징 추출(Feature Extraction) 부분의 입력과 출력 크기를 계산하고 맞추는 작업이 중요합니다. </p></li></ul><blockquote><p><a href="http://taewan.kim/post/cnn/">자료 출처</a></p></blockquote><p><strong>케라스 CNN model 중간 저장</strong></p><blockquote><p><a href="https://teddylee777.github.io/tensorflow/keras-%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98-vol-03">자료 출처</a></p></blockquote>]]></content>
     
@@ -670,36 +709,6 @@
       <category term="project" scheme="https://cds0804.github/tags/project/"/>
     
       <category term="LinearRegression" scheme="https://cds0804.github/tags/LinearRegression/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>favicon</title>
-    <link href="https://cds0804.github/2020/04/25/favicon/"/>
-    <id>https://cds0804.github/2020/04/25/favicon/</id>
-    <published>2020-04-25T08:17:23.000Z</published>
-    <updated>2020-05-04T05:50:05.753Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>favicon</strong></p><blockquote><p><a href="'https://pngtree.com/">favicon 출처</a></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;favicon&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;&#39;https://pngtree.com/&quot;&gt;favicon 출처&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="favicon" scheme="https://cds0804.github/categories/favicon/"/>
-    
-    
-      <category term="favicon" scheme="https://cds0804.github/tags/favicon/"/>
     
   </entry>
   

@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>naive bayes classifier</title>
+    <url>/2020/06/10/ML_naive_bayes_classifier/</url>
+    <content><![CDATA[<p><strong>Naive bayes classifier</strong></p>
+<ul>
+<li>독립(설명)변수 x간의 상호 독립을 가정</li>
+<li>계산이 간단해짐</li>
+<li>샘플이 많지 않더라도 계산과 모델링이 가능함</li>
+<li>간단한 모델임에도 퍼포먼스는 준수함</li>
+</ul>
+<p><strong>수학적 개념 이해 - 조건부 확률</strong></p>
+<ul>
+<li>B가 주어졌을 때 사건 A가 일어날 확률</li>
+<li>어떤 B라는 자료가 주어졌을 때 A가 일어날 확률</li>
+<li>주어진 set을 사전확률이라고 함</li>
+</ul>
+<p><strong>Naive bayes classifier 종류</strong></p>
+<ul>
+<li>Gaussian naive bayes classifier</li>
+<li>설명변수가 연속형인 경우</li>
+<li>Multinoial naive bayes classifier</li>
+<li>설명변수가 범주형인 경우</li>
+<li>Bernoulli naive bayes classifier</li>
+<li>설명변수가 이분형인 경우</li>
+</ul>
+]]></content>
+      <categories>
+        <category>python</category>
+        <category>ML</category>
+        <category>naive bayes classifier</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>ML</tag>
+        <tag>naive_bayes_classifier</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>cosine 유사도</title>
     <url>/2020/06/09/cosine_similarity/</url>
     <content><![CDATA[<p><strong>코사인 유사도(cosine similarity)</strong></p>
@@ -278,7 +315,7 @@
   </entry>
   <entry>
     <title>machine_learning CNN</title>
-    <url>/2020/05/17/machine_learning_cnn/</url>
+    <url>/2020/05/17/ML_CNN/</url>
     <content><![CDATA[<p><strong>C.N.N</strong></p>
 <ul>
 <li>Convolutional Neural Network </li>
