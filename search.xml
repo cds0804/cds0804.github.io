@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>naive bayes classifier</title>
-    <url>/2020/06/10/ML_naive_bayes_classifier/</url>
-    <content><![CDATA[<p><strong>Naive bayes classifier</strong></p>
-<ul>
-<li>독립(설명)변수 x간의 상호 독립을 가정</li>
-<li>계산이 간단해짐</li>
-<li>샘플이 많지 않더라도 계산과 모델링이 가능함</li>
-<li>간단한 모델임에도 퍼포먼스는 준수함</li>
-</ul>
-<p><strong>수학적 개념 이해 - 조건부 확률</strong></p>
-<ul>
-<li>B가 주어졌을 때 사건 A가 일어날 확률</li>
-<li>어떤 B라는 자료가 주어졌을 때 A가 일어날 확률</li>
-<li>주어진 set을 사전확률이라고 함</li>
-</ul>
-<p><strong>Naive bayes classifier 종류</strong></p>
-<ul>
-<li>Gaussian naive bayes classifier</li>
-<li>설명변수가 연속형인 경우</li>
-<li>Multinoial naive bayes classifier</li>
-<li>설명변수가 범주형인 경우</li>
-<li>Bernoulli naive bayes classifier</li>
-<li>설명변수가 이분형인 경우</li>
-</ul>
-]]></content>
-      <categories>
-        <category>python</category>
-        <category>ML</category>
-        <category>naive bayes classifier</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>ML</tag>
-        <tag>naive_bayes_classifier</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>cosine 유사도</title>
     <url>/2020/06/09/cosine_similarity/</url>
     <content><![CDATA[<p><strong>코사인 유사도(cosine similarity)</strong></p>
@@ -68,6 +31,64 @@
       <tags>
         <tag>math</tag>
         <tag>cosine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>sql과 database</title>
+    <url>/2020/06/09/sql_01/</url>
+    <content><![CDATA[<p><strong>SQL</strong></p>
+<ul>
+<li>정형 데이터로 만들어진 관계형 데이터베이스를 조작하는 언어</li>
+</ul>
+<p><strong>데이터베이스</strong></p>
+<ul>
+<li>데이터 = 기록 정보</li>
+<li>데이터를 모아둔 것</li>
+</ul>
+<p><strong>데이터의 형태</strong></p>
+<ol>
+<li>정형 데이터(structured data)</li>
+</ol>
+<ul>
+<li>틀이 잡혀있는 체계화된 데이터</li>
+<li>높은 안정성, 유연하지 못한 구조</li>
+<li>금융, 제조 등 대부분 기업의 업무용 데이터 베이스</li>
+</ul>
+<ol start="2">
+<li>비정형 데이터(unstructured data)</li>
+</ol>
+<ul>
+<li>클이 잡혀있지 않고 사전 정의가 없는 데이터</li>
+<li>다양하고 방대한 양의 데이터</li>
+<li>별도의 분석 처리 기술이 필요</li>
+<li>텍스트, 이미지, 음원 데이터, 빅데이터 등</li>
+</ul>
+<p><strong>관계형 데이터베이스</strong></p>
+<ul>
+<li>컬럼과 로우를 갖는 2차원 테이블</li>
+<li>오라클, DB2, MysQL, MS SQL Server 등</li>
+</ul>
+<p><strong>계층형 데이터베이스</strong></p>
+<ul>
+<li>로컬 pc의 폴더와 파일 형식</li>
+<li>기업용 데이터베이스에는 거의 사용되지 않음</li>
+</ul>
+<p><strong>XML 데이터베이스</strong></p>
+<ul>
+<li>W3W(World Wide Web Consortium)의 XML 표준 문서 구조를 계층형 트리 형태로 저장하거나 관리</li>
+<li>XQuery라는 언어를 사용</li>
+</ul>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch01/01/03/">자료출처</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>data shape</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+        <tag>data shape</tag>
       </tags>
   </entry>
   <entry>

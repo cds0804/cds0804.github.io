@@ -3,6 +3,20 @@
 
 
     <url>
+        <loc>https://cds0804.github/tags/data-shape/</loc>
+        <lastmod>2020-06-11T11:15:08.372Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/sql/</loc>
+        <lastmod>2020-06-11T11:15:08.372Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/tags/machine-learning/</loc>
         <lastmod>2020-06-10T08:26:04.877Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -19,20 +33,6 @@
     <url>
         <loc>https://cds0804.github/tags/python/</loc>
         <lastmod>2020-06-10T08:26:04.877Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/naive-bayes-classifier/</loc>
-        <lastmod>2020-06-10T08:21:31.111Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/ML/</loc>
-        <lastmod>2020-06-10T08:21:31.111Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
