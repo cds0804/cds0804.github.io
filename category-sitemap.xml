@@ -8,6 +8,27 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/python/machine-learning/CNN/</loc>
+        <lastmod>2020-06-10T08:26:04.877Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/machine-learning/</loc>
+        <lastmod>2020-06-10T08:26:04.877Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/python/</loc>
+        <lastmod>2020-06-10T08:26:04.877Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/python/ML/naive-bayes-classifier/</loc>
         <lastmod>2020-06-10T08:21:31.111Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,27 +38,6 @@
     <url>
         <loc>https://cds0804.github/categories/python/ML/</loc>
         <lastmod>2020-06-10T08:21:31.111Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/</loc>
-        <lastmod>2020-06-10T08:21:31.111Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/machine-learning/CNN/</loc>
-        <lastmod>2020-06-10T07:06:17.183Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/python/machine-learning/</loc>
-        <lastmod>2020-06-10T07:06:17.183Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

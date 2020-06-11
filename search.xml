@@ -323,7 +323,10 @@
 </ul>
 <p><strong>CNN의 주요 용어 정리</strong></p>
 <ul>
-<li><h2 id="Convolution-합성곱"><a href="#Convolution-합성곱" class="headerlink" title="Convolution(합성곱)"></a>Convolution(합성곱)</h2></li>
+<li>Convolution(합성곱)<ul>
+<li>원본 이미지와 필터의 곱</li>
+</ul>
+</li>
 <li>채널(Channel)<ul>
 <li>이미지 픽셀 1개 = 하나의 실수(scalar)</li>
 <li>컬러사진: 3차원 * 높이 150 * 길이 250 = shape(150 * 250 * 3)</li>
