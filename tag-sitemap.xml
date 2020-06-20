@@ -3,14 +3,35 @@
 
 
     <url>
-        <loc>https://cds0804.github/tags/data-shape/</loc>
-        <lastmod>2020-06-11T11:15:08.372Z</lastmod>
+        <loc>https://cds0804.github/tags/LinearRegression/</loc>
+        <lastmod>2020-06-20T22:06:59.902Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/project/</loc>
+        <lastmod>2020-06-20T22:06:59.902Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/select/</loc>
+        <lastmod>2020-06-20T22:02:45.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/sql/</loc>
+        <lastmod>2020-06-20T22:02:45.540Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/data-shape/</loc>
         <lastmod>2020-06-11T11:15:08.372Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -243,20 +264,6 @@
     <url>
         <loc>https://cds0804.github/tags/tmux/</loc>
         <lastmod>2020-05-09T14:54:30.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/LinearRegression/</loc>
-        <lastmod>2020-05-07T17:34:24.837Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/project/</loc>
-        <lastmod>2020-05-07T17:34:24.837Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

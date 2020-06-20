@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>sql</title>
+    <url>/2020/06/21/sql_select/</url>
+    <content><![CDATA[<p><strong>select 문의 기본 문법</strong></p>
+<ol>
+<li><p>SQL문 작성 규칙<br>1) 대소문자 구별 하지 않음</p>
+<ul>
+<li>명령어 대문자, 나머지 소문자로 작성하길 권장함<br>2) 한줄 또는 여러줄로 작성 가능</li>
+<li>코드 수준에 따른 들여쓰기는 SQL문장의 가독성을 좋게함</li>
+</ul>
+</li>
+<li><p>전체 데이터 조회하기<br>1) employees 테이블의 모든 정보를 출력하세요. </p>
+<ul>
+<li>SELECT *<br>FROM employees;</li>
+</ul>
+<ul>
+<li><code>*</code> : 모든 열 조회</li>
+<li>FROM : ~ 테이블로부터 라는 의미</li>
+</ul>
+</li>
+<li><p>원하는 열만 조회하고 정렬하기<br>2) employees 테이블에서 employees_id, first_name과 last_name을 출력하세요. </p>
+<ul>
+<li>SELECT employees_id, first_name, last_name<br>FROM employees;<br>3) employees 테이블에서 employee_id, first_name, last_name을 출력하고 employee_id를 기준으로 내림차순으로 정렬하세요. </li>
+<li>SELECT employee_id, first_name, last_name<br>FROM employees<br>ORDER BY employee_id DESC;</li>
+</ul>
+<ul>
+<li>ORDER BY 명령문 default : 오름차순 정렬(ASC)</li>
+<li>ORDER BY 열 이름, 열 이름 DESC, 열 이름 ASC 가능</li>
+</ul>
+</li>
+<li><p>중복된 출력 값 제거하기<br>4) employees 테이블에서 중복 값이 생기지 않도록 job_id를 출력하세요. </p>
+<ul>
+<li>SELECT DISTINCT job_id<br>FROM employees;</li>
+</ul>
+<ul>
+<li>DISTINCT 명령어 뒤에 열 이름을 계속 나열하면 순서대로 DISTINCT가 모두 적용됨</li>
+</ul>
+</li>
+<li><p>SQL 문을 효율적으로 작성하기 위해 별칭 사용하기<br>5) employees 테이블에서 employees_id는 ‘사원번호’, first_name은 ‘이름’, last_name은 ‘성’으로 출력하세요. </p>
+<ul>
+<li>SELECT employees_id AS 사원번호, first_name AS 이름, last_name AS 성<br>FROM employees;</li>
+</ul>
+</li>
+<li><p>데이터 값 연결하기<br>6) employees 테이블에서 employees_id를 출력하고 first_name과 last_name을 붙여서 출력하세요. </p>
+<ul>
+<li>SELECT employees_id, first_name||last_name<br>FROM employess;</li>
+</ul>
+<p>6-1) employees 테이블에서 employee_id를 출력하고, first_name과 last_name을 붙여서 출력하되 가운데 한 칸을 띄워주세요. 다음 열에는 email을 출력하되 @company.com 문구를 붙여서 출력하세요. </p>
+<ul>
+<li>SELECT employee_id, first_name||’ ‘||last_name, email||@company.com<br>FROM employees;</li>
+</ul>
+</li>
+<li><p>산술 처리하기 : 데이터 값끼리 계산<br>7) employees 테이블에서 employee_id, salary, salary에 500을 더한 값, 100을 뺀 값, 10%를 추가해서 2로 나눈 값을 출력하세요.</p>
+<ul>
+<li>SELECT employee_id, salary, salary+500, salary-100, (salary<em>1.1)/2<br>FROM employees;<br>7-1) employees에서 employee_id를 ‘사원번호’, salary를 ‘급여’, salary+500을 ‘추가급여’, salary-100을 ‘인하급여’, (salary</em>1.1)/2를 ‘조정급여’로 출력하세요. </li>
+<li>SELECT employee_id AS 사원번호,<pre><code>salary AS 급여,
+salary+500 AS 추가급여,
+salary-100 AS 인하급여,
+(salary*1.1)/2 AS 조정급여</code></pre>FROM employees;</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch03/01/">자료출처</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>select</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+        <tag>select</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>cosine 유사도</title>
     <url>/2020/06/09/cosine_similarity/</url>
     <content><![CDATA[<p><strong>코사인 유사도(cosine similarity)</strong></p>
@@ -1166,7 +1241,7 @@
 <blockquote>
 <p><a href="https://nbviewer.jupyter.org/github/HowardHowonYu/usedcar_regression_project/blob/howard/howard/used_car_regression_final.ipynb">Linear Regression project UsedCar price</a></p>
 </blockquote>
-<p><strong>선형회귀분석에 사용한 코드 정리</strong></p>
+<p><strong>선형회귀분석에 사용한 코드| 정리</strong></p>
 <ol>
 <li><p>패키지 모듈</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns</span><br><span class="line"><span class="keyword">import</span> missingno <span class="keyword">as</span> msno</span><br><span class="line"><span class="keyword">import</span> matplotlib <span class="keyword">as</span> mpl</span><br><span class="line"><span class="keyword">import</span> matplotlib.pylab <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> statsmodels.api <span class="keyword">as</span> sm</span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split</span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> r2_score</span><br><span class="line"><span class="keyword">from</span> scipy <span class="keyword">import</span> stats</span><br><span class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> linear_model</span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> mean_squared_error</span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> cross_val_score</span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> KFold</span><br><span class="line"><span class="comment"># 컬럼 display 제한 상향</span></span><br><span class="line">pd.set_option(<span class="string">'display.max_columns'</span>, <span class="number">-1</span>)</span><br><span class="line"><span class="comment"># 지수 표기법 해제</span></span><br><span class="line">pd.options.display.float_format = <span class="string">'&#123;:.7f&#125;'</span>.format</span><br></pre></td></tr></table></figure></li>

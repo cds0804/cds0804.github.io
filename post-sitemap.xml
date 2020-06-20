@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/25/project-LinearRegression/</loc>
+        <lastmod>2020-06-20T22:06:59.902Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/06/21/sql_select/</loc>
+        <lastmod>2020-06-20T22:02:45.540Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/06/09/sql_01/</loc>
         <lastmod>2020-06-11T11:15:08.372Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -146,14 +162,6 @@
     <url>
         <loc>https://cds0804.github/2020/05/08/AWS%20server_tmux/</loc>
         <lastmod>2020-05-09T14:54:30.899Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/25/project-LinearRegression/</loc>
-        <lastmod>2020-05-07T17:34:24.837Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
