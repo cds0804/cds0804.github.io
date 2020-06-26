@@ -8,24 +8,32 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/05/10/python_function/</loc>
+        <lastmod>2020-06-26T09:12:30.472Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/06/21/sql_select_02/</loc>
+        <lastmod>2020-06-21T13:17:01.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/06/09/sql_database_01/</loc>
+        <lastmod>2020-06-20T22:21:28.506Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/04/25/project-LinearRegression/</loc>
         <lastmod>2020-06-20T22:06:59.902Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/06/21/sql_select/</loc>
-        <lastmod>2020-06-20T22:02:45.540Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/06/09/sql_01/</loc>
-        <lastmod>2020-06-11T11:15:08.372Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -130,14 +138,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/17/Hexo-visited-count/</loc>
         <lastmod>2020-05-16T15:36:51.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/05/10/python_function/</loc>
-        <lastmod>2020-05-13T13:32:34.547Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
