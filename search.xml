@@ -5,61 +5,50 @@
     <url>/2020/06/21/sql_select_02/</url>
     <content><![CDATA[<p><strong>select 문의 기본 문법</strong></p>
 <ol>
-<li><p>SQL문 작성 규칙<br>1) 대소문자 구별 하지 않음</p>
+<li><p>SQL문 작성 규칙</p>
+<p>(1) 대소문자 구별 하지 않음</p>
 <ul>
-<li>명령어 대문자, 나머지 소문자로 작성하길 권장함<br>2) 한줄 또는 여러줄로 작성 가능</li>
+<li>명령어 대문자, 나머지 소문자로 작성하길 권장함</li>
+</ul>
+<p>(2) 한줄 또는 여러줄로 작성 가능</p>
+<ul>
 <li>코드 수준에 따른 들여쓰기는 SQL문장의 가독성을 좋게함</li>
 </ul>
 </li>
-<li><p>전체 데이터 조회하기<br>1) employees 테이블의 모든 정보를 출력하세요. </p>
-<ul>
-<li>SELECT *<br>FROM employees;</li>
-</ul>
+<li><p>전체 데이터 조회하기</p>
+<p>(1) employees 테이블의 모든 정보를 출력하세요.</p>
+<p>SELECT *<br> FROM employees;</p>
 <ul>
 <li><code>*</code> : 모든 열 조회</li>
 <li>FROM : ~ 테이블로부터 라는 의미</li>
 </ul>
 </li>
-<li><p>원하는 열만 조회하고 정렬하기<br>1) employees 테이블에서 employees_id, first_name과 last_name을 출력하세요. </p>
-<ul>
-<li>SELECT employees_id, first_name, last_name<br>FROM employees;<br>2) employees 테이블에서 employee_id, first_name, last_name을 출력하고 employee_id를 기준으로 내림차순으로 정렬하세요. </li>
-<li>SELECT employee_id, first_name, last_name<br>FROM employees<br>ORDER BY employee_id DESC;</li>
-</ul>
+<li><p>원하는 열만 조회하고 정렬하기<br>(1) employees 테이블에서 employees_id, first_name과 last_name을 출력하세요.</p>
+<p>SELECT employees_id, first_name, last_name<br> FROM employees;</p>
+<p>(2) employees 테이블에서 employee_id, first_name, last_name을 출력하고 employee_id를 기준으로 내림차순으로 정렬하세요.</p>
+<p>SELECT employee_id, first_name, last_name<br>FROM employees<br> ORDER BY employee_id DESC;</p>
 <ul>
 <li>ORDER BY 명령문 default : 오름차순 정렬(ASC)</li>
 <li>ORDER BY 열 이름, 열 이름 DESC, 열 이름 ASC 가능</li>
 </ul>
 </li>
-<li><p>중복된 출력 값 제거하기<br>1) employees 테이블에서 중복 값이 생기지 않도록 job_id를 출력하세요. </p>
-<ul>
-<li>SELECT DISTINCT job_id<br>FROM employees;</li>
-</ul>
+<li><p>중복된 출력 값 제거하기</p>
+<p>(1) employees 테이블에서 중복 값이 생기지 않도록 job_id를 출력하세요.<br>SELECT DISTINCT job_id<br> FROM employees;</p>
 <ul>
 <li>DISTINCT 명령어 뒤에 열 이름을 계속 나열하면 순서대로 DISTINCT가 모두 적용됨</li>
 </ul>
 </li>
-<li><p>SQL 문을 효율적으로 작성하기 위해 별칭 사용하기<br>1) employees 테이블에서 employees_id는 ‘사원번호’, first_name은 ‘이름’, last_name은 ‘성’으로 출력하세요. </p>
-<ul>
-<li>SELECT employees_id AS 사원번호, first_name AS 이름, last_name AS 성<br>FROM employees;</li>
-</ul>
+<li><p>SQL 문을 효율적으로 작성하기 위해 별칭 사용하기<br>(1) employees 테이블에서 employees_id는 ‘사원번호’, first_name은 ‘이름’, last_name은 ‘성’으로 출력하세요.</p>
+<p>SELECT employees_id AS 사원번호, first_name AS 이름, last_name AS 성<br> FROM employees;</p>
 </li>
-<li><p>데이터 값 연결하기<br>1) employees 테이블에서 employees_id를 출력하고 first_name과 last_name을 붙여서 출력하세요. </p>
-<ul>
-<li>SELECT employees_id, first_name||last_name<br>FROM employess;</li>
-</ul>
-<p>1-1) employees 테이블에서 employee_id를 출력하고, first_name과 last_name을 붙여서 출력하되 가운데 한 칸을 띄워주세요. 다음 열에는 email을 출력하되 @company.com 문구를 붙여서 출력하세요. </p>
-<ul>
-<li>SELECT employee_id, first_name||’ ‘||last_name, email||@company.com<br>FROM employees;</li>
-</ul>
+<li><p>데이터 값 연결하기<br>(1) employees 테이블에서 employees_id를 출력하고 first_name과 last_name을 붙여서 출력하세요.</p>
+<p>SELECT employees_id, first_name||last_name<br> FROM employess;</p>
+<p>(2) employees 테이블에서 employee_id를 출력하고, first_name과 last_name을 붙여서 출력하되 가운데 한 칸을 띄워주세요. 다음 열에는 email을 출력하되 @company.com 문구를 붙여서 출력하세요.</p>
+<p>SELECT employee_id, first_name||’ ‘||last_name, email||@company.com<br> FROM employees;</p>
 </li>
-<li><p>산술 처리하기 : 데이터 값끼리 계산<br>1) employees 테이블에서 employee_id, salary, salary에 500을 더한 값, 100을 뺀 값, 10%를 추가해서 2로 나눈 값을 출력하세요.</p>
-<ul>
-<li>SELECT employee_id, salary, salary+500, salary-100, (salary<em>1.1)/2<br>FROM employees;<br>1-1) employees에서 employee_id를 ‘사원번호’, salary를 ‘급여’, salary+500을 ‘추가급여’, salary-100을 ‘인하급여’, (salary</em>1.1)/2를 ‘조정급여’로 출력하세요. </li>
-<li>SELECT employee_id AS 사원번호,<pre><code>salary AS 급여,
-salary+500 AS 추가급여,
-salary-100 AS 인하급여,
-(salary*1.1)/2 AS 조정급여</code></pre>FROM employees;</li>
-</ul>
+<li><p>산술 처리하기 : 데이터 값끼리 계산<br>(1) employees 테이블에서 employee_id, salary, salary에 500을 더한 값, 100을 뺀 값, 10%를 추가해서 2로 나눈 값을 출력하세요.</p>
+<p>SELECT employee_id, salary, salary+500, salary-100, (salary<em>1.1)/2<br> FROM employees;<br>(2) employees에서 employee_id를 ‘사원번호’, salary를 ‘급여’, salary+500을 ‘추가급여’, salary-100을 ‘인하급여’, (salary</em>1.1)/2를 ‘조정급여’로 출력하세요.</p>
+<p>SELECT employee_id AS 사원번호,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary AS 급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary+500 AS 추가급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary-100 AS 인하급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (salary*1.1)/2 AS 조정급여<br> FROM employees;</p>
 </li>
 </ol>
 <blockquote>
