@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/04/15/terminal-basic-command/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/06/21/sql_select_02/</loc>
         <lastmod>2020-07-01T19:52:03.736Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -50,14 +58,6 @@
     <url>
         <loc>https://cds0804.github/2020/06/09/cosine_similarity/</loc>
         <lastmod>2020-06-09T02:58:56.886Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/15/terminal-basic-command/</loc>
-        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

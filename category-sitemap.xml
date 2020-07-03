@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/categories/terminal/command/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/terminal/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/categories/sql/select/</loc>
         <lastmod>2020-07-01T19:52:03.736Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -80,20 +94,6 @@
     <url>
         <loc>https://cds0804.github/categories/math/</loc>
         <lastmod>2020-06-09T02:58:56.886Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/terminal/command/</loc>
-        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/terminal/</loc>
-        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

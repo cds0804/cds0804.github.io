@@ -3,6 +3,34 @@
 
 
     <url>
+        <loc>https://cds0804.github/tags/iTerm/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/mac/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/terminal-command/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/terminal/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://cds0804.github/tags/select/</loc>
         <lastmod>2020-07-01T19:52:03.736Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -75,34 +103,6 @@
     <url>
         <loc>https://cds0804.github/tags/math/</loc>
         <lastmod>2020-06-09T02:58:56.886Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/iTerm/</loc>
-        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/mac/</loc>
-        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/terminal-command/</loc>
-        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/terminal/</loc>
-        <lastmod>2020-06-09T02:39:13.928Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
