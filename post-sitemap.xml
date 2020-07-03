@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/04/15/terminal-basic-command/</loc>
-        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
+        <loc>https://cds0804.github/2020/06/21/sql_where_01/</loc>
+        <lastmod>2020-07-03T11:26:34.039Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,23 @@
 
     <url>
         <loc>https://cds0804.github/2020/06/21/sql_select_02/</loc>
-        <lastmod>2020-07-01T19:52:03.736Z</lastmod>
+        <lastmod>2020-07-03T11:26:32.813Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/07/02/sql_where_02/</loc>
+        <lastmod>2020-07-03T11:26:30.048Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/04/15/terminal-basic-command/</loc>
+        <lastmod>2020-07-03T10:44:16.537Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

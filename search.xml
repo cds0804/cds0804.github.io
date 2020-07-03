@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>sql where 조건절 02</title>
+    <url>/2020/07/02/sql_where_02/</url>
+    <content><![CDATA[<p><strong>WHRER 조건 절을 활용한 데이터 검색 02</strong></p>
+<ol start="3">
+<li>논리 연산자 : 조건 논리를 계속 연결하기</li>
+</ol>
+<ul>
+<li>AND(교집합) : 앞의 조건과 뒤의 조건을 동시에 만족해야 한다.</li>
+<li>OR(합집합) : 앞의 조건과 뒤의 조건 중 한쪽이라도 참이면 참이다.</li>
+<li>NOT : 뒤의 조건에 대해 반대 결과를 반환한다.</li>
+</ul>
+<p>(1) employees 테이블에서 salary가 4000을 초과하면서 job_id가 IT_PROG인 값을 조회하세요.</p>
+<p>SELECT *<br>FROM employees<br>WHERE salary &gt; 4000<br>AND job_id = ‘IT_PROG’;</p>
+<p>(2) employees 테이블에서 salary가 4000을 초과하면서, job_id가 IT_PROG거나 FI_ACCOUNT인 경우를 조회하세요.</p>
+<p>SELECT *<br>FROM employees<br>WHERE salary &gt; 4000<br>AND job_id = ‘IT_PROG’<br>OR job_id = ‘FI_ACCOUNT’;</p>
+<ol start="4">
+<li>부정 연산자의 종류</li>
+</ol>
+<ul>
+<li>부정 비교</li>
+</ul>
+<ul>
+<li>!= : 같지 않다.</li>
+<li>&lt;&gt; : 같지 않다(ISO 표준).</li>
+<li>NOT 열 이름 = : ~와 같지 않다.</li>
+<li>NOT 열 이름 &gt; : ~보다 크지 않다.</li>
+</ul>
+<ul>
+<li>부정 SQL</li>
+</ul>
+<ul>
+<li>NOT BETWEEN a AND b : a와 b 사이에 값이 없다.</li>
+<li>NOT IN (list) : list 값과 일치하지 않는다.</li>
+<li>IS NOT NULL : null 값을 갖지 않는다.</li>
+</ul>
+<p>(1) employees 테이블에서 employee_id가 105가 아닌 직원을 조회해보세요.</p>
+<p>SELECT *<br>FROM employees<br>WHERE employee_id &lt;&gt; 105;</p>
+<p>(2) employees 테이블에서 manager_id가 null 값이 아닌 직원을 조회해 보세요.</p>
+<p>SELECT *<br>FROM employees<br>WHERE manager_id IS NOT NULL;</p>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch03/02/01/">자료출처: 모두의 SQL</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>where</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+        <tag>where</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>sql where 조건절 01</title>
+    <url>/2020/06/21/sql_where_01/</url>
+    <content><![CDATA[<p><strong>WHERE 조건 절을 활용한 데이터 검색 01</strong></p>
+<ul>
+<li>사용자가 원하는 데이터를 조회할 때 사용하는 것이 where절</li>
+<li>‘어디에서 어떻게’ 가져올지 정함</li>
+</ul>
+<p><strong>데이터가 조회되는 논리 순서</strong></p>
+<ul>
+<li>참조하려는 테이블로부터 (FROM)</li>
+<li>해당 조건식으로 (WHERE)</li>
+<li>열을 선택(SELECT)하여 조회합니다.</li>
+</ul>
+<p><strong>연산자 우선순위</strong></p>
+<ul>
+<li>괄호 &gt; 부정 연산 &gt; 비교 연산 &gt; SQL 연산 순으로 처리</li>
+<li>논리 연산자는 NOT, AND, OR 순으로 처리</li>
+</ul>
+<ol>
+<li><p>비교 연산자 : 비교 조회 조건 주기</p>
+<ul>
+<li>등호 연산자 =</li>
+</ul>
+<p>(1) employee_id가 100인 직원 정보를 출력하세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE employee_id = 100;</p>
+<p>(2) employees 테이블에서 first_name이 David인 직원 정보를 출력하세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE first_name = ‘David’;</p>
+<p>(3) employees 테이블에서 employee_id가 105이상인 직원 정보를 출력하세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE employee_id &gt;= 105;</p>
+</li>
+<li><p>SQL 연산자 : 조회 조건 확장하기</p>
+<ul>
+<li>BETWEEN a AND b : a와 b 사이에 값이 있다.(a, b를 포함)</li>
+<li>IN(list) : list 중 어느 값이라도 일치한다. 여러개의 값을 지정할 수 있다.</li>
+<li>LIKE’비교 문자’ : 비교 문자와 형태가 일치한다(%, _ 사용)</li>
+<li>IS NULL : null 값을 갖는다.</li>
+</ul>
+<p>(1) employees 테이블에서 salary가 10000 이상이고, 20000 이하인 직원 정보를 출력하세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE salary BETWEEN 10000 AND 20000;</p>
+<p>(2) employees 테이블에서 salary가 10000, 17000, 24000인 직원 정보를 출력하세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE salary IN (10000, 17000, 24000);</p>
+<p>(3) employees 테이블에서 job_id 값이 AD를 포함하는 모든(%) 데이터를 조회하세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE job_id LIKE ‘AD%’;</p>
+<p>(4) employees 테이블에서 AD를 포함하면서 AD 뒤에 따라오는 문자열이 3자리인 데이터 값을 갖는 직원 정보를 조회하세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE job_id LIKE ‘AD___‘;</p>
+<p>(5) employees 테이블에서 manager_id가 null 값인 직원 정보를 출력해 보세요.</p>
+<p>SELECT *<br> FROM employees<br> WHERE manager_id IS NULL;</p>
+</li>
+</ol>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch03/02/02/">자료출처: 모두의 SQL</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>where</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+        <tag>where</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>sql</title>
     <url>/2020/06/21/sql_select_02/</url>
     <content><![CDATA[<p><strong>select 문의 기본 문법</strong></p>

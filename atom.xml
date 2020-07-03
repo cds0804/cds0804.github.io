@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-07-01T19:52:03.736Z</updated>
+  <updated>2020-07-03T11:26:30.048Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -17,11 +17,81 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>sql where 조건절 02</title>
+    <link href="https://cds0804.github/2020/07/02/sql_where_02/"/>
+    <id>https://cds0804.github/2020/07/02/sql_where_02/</id>
+    <published>2020-07-01T19:26:06.000Z</published>
+    <updated>2020-07-03T11:26:30.048Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>WHRER 조건 절을 활용한 데이터 검색 02</strong></p><ol start="3"><li>논리 연산자 : 조건 논리를 계속 연결하기</li></ol><ul><li>AND(교집합) : 앞의 조건과 뒤의 조건을 동시에 만족해야 한다.</li><li>OR(합집합) : 앞의 조건과 뒤의 조건 중 한쪽이라도 참이면 참이다.</li><li>NOT : 뒤의 조건에 대해 반대 결과를 반환한다.</li></ul><p>(1) employees 테이블에서 salary가 4000을 초과하면서 job_id가 IT_PROG인 값을 조회하세요.</p><p>SELECT *<br>FROM employees<br>WHERE salary &gt; 4000<br>AND job_id = ‘IT_PROG’;</p><p>(2) employees 테이블에서 salary가 4000을 초과하면서, job_id가 IT_PROG거나 FI_ACCOUNT인 경우를 조회하세요.</p><p>SELECT *<br>FROM employees<br>WHERE salary &gt; 4000<br>AND job_id = ‘IT_PROG’<br>OR job_id = ‘FI_ACCOUNT’;</p><ol start="4"><li>부정 연산자의 종류</li></ol><ul><li>부정 비교</li></ul><ul><li>!= : 같지 않다.</li><li>&lt;&gt; : 같지 않다(ISO 표준).</li><li>NOT 열 이름 = : ~와 같지 않다.</li><li>NOT 열 이름 &gt; : ~보다 크지 않다.</li></ul><ul><li>부정 SQL</li></ul><ul><li>NOT BETWEEN a AND b : a와 b 사이에 값이 없다.</li><li>NOT IN (list) : list 값과 일치하지 않는다.</li><li>IS NOT NULL : null 값을 갖지 않는다.</li></ul><p>(1) employees 테이블에서 employee_id가 105가 아닌 직원을 조회해보세요.</p><p>SELECT *<br>FROM employees<br>WHERE employee_id &lt;&gt; 105;</p><p>(2) employees 테이블에서 manager_id가 null 값이 아닌 직원을 조회해 보세요.</p><p>SELECT *<br>FROM employees<br>WHERE manager_id IS NOT NULL;</p><blockquote><p><a href="https://thebook.io/006977/ch03/02/01/">자료출처: 모두의 SQL</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;WHRER 조건 절을 활용한 데이터 검색 02&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;논리 연산자 : 조건 논리를 계속 연결하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;AND(교집합) : 앞의 조건과 뒤의 조건을 동시
+      
+    
+    </summary>
+    
+    
+      <category term="sql" scheme="https://cds0804.github/categories/sql/"/>
+    
+      <category term="where" scheme="https://cds0804.github/categories/sql/where/"/>
+    
+    
+      <category term="sql" scheme="https://cds0804.github/tags/sql/"/>
+    
+      <category term="where" scheme="https://cds0804.github/tags/where/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sql where 조건절 01</title>
+    <link href="https://cds0804.github/2020/06/21/sql_where_01/"/>
+    <id>https://cds0804.github/2020/06/21/sql_where_01/</id>
+    <published>2020-06-20T22:15:40.000Z</published>
+    <updated>2020-07-03T11:26:34.039Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>WHERE 조건 절을 활용한 데이터 검색 01</strong></p><ul><li>사용자가 원하는 데이터를 조회할 때 사용하는 것이 where절</li><li>‘어디에서 어떻게’ 가져올지 정함</li></ul><p><strong>데이터가 조회되는 논리 순서</strong></p><ul><li>참조하려는 테이블로부터 (FROM)</li><li>해당 조건식으로 (WHERE)</li><li>열을 선택(SELECT)하여 조회합니다.</li></ul><p><strong>연산자 우선순위</strong></p><ul><li>괄호 &gt; 부정 연산 &gt; 비교 연산 &gt; SQL 연산 순으로 처리</li><li>논리 연산자는 NOT, AND, OR 순으로 처리</li></ul><ol><li><p>비교 연산자 : 비교 조회 조건 주기</p><ul><li>등호 연산자 =</li></ul><p>(1) employee_id가 100인 직원 정보를 출력하세요.</p><p>SELECT *<br> FROM employees<br> WHERE employee_id = 100;</p><p>(2) employees 테이블에서 first_name이 David인 직원 정보를 출력하세요.</p><p>SELECT *<br> FROM employees<br> WHERE first_name = ‘David’;</p><p>(3) employees 테이블에서 employee_id가 105이상인 직원 정보를 출력하세요.</p><p>SELECT *<br> FROM employees<br> WHERE employee_id &gt;= 105;</p></li><li><p>SQL 연산자 : 조회 조건 확장하기</p><ul><li>BETWEEN a AND b : a와 b 사이에 값이 있다.(a, b를 포함)</li><li>IN(list) : list 중 어느 값이라도 일치한다. 여러개의 값을 지정할 수 있다.</li><li>LIKE’비교 문자’ : 비교 문자와 형태가 일치한다(%, _ 사용)</li><li>IS NULL : null 값을 갖는다.</li></ul><p>(1) employees 테이블에서 salary가 10000 이상이고, 20000 이하인 직원 정보를 출력하세요.</p><p>SELECT *<br> FROM employees<br> WHERE salary BETWEEN 10000 AND 20000;</p><p>(2) employees 테이블에서 salary가 10000, 17000, 24000인 직원 정보를 출력하세요.</p><p>SELECT *<br> FROM employees<br> WHERE salary IN (10000, 17000, 24000);</p><p>(3) employees 테이블에서 job_id 값이 AD를 포함하는 모든(%) 데이터를 조회하세요.</p><p>SELECT *<br> FROM employees<br> WHERE job_id LIKE ‘AD%’;</p><p>(4) employees 테이블에서 AD를 포함하면서 AD 뒤에 따라오는 문자열이 3자리인 데이터 값을 갖는 직원 정보를 조회하세요.</p><p>SELECT *<br> FROM employees<br> WHERE job_id LIKE ‘AD___‘;</p><p>(5) employees 테이블에서 manager_id가 null 값인 직원 정보를 출력해 보세요.</p><p>SELECT *<br> FROM employees<br> WHERE manager_id IS NULL;</p></li></ol><blockquote><p><a href="https://thebook.io/006977/ch03/02/02/">자료출처: 모두의 SQL</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;WHERE 조건 절을 활용한 데이터 검색 01&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자가 원하는 데이터를 조회할 때 사용하는 것이 where절&lt;/li&gt;
+&lt;li&gt;‘어디에서 어떻게’ 가져올지 정함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;str
+      
+    
+    </summary>
+    
+    
+      <category term="sql" scheme="https://cds0804.github/categories/sql/"/>
+    
+      <category term="where" scheme="https://cds0804.github/categories/sql/where/"/>
+    
+    
+      <category term="sql" scheme="https://cds0804.github/tags/sql/"/>
+    
+      <category term="where" scheme="https://cds0804.github/tags/where/"/>
+    
+  </entry>
+  
+  <entry>
     <title>sql</title>
     <link href="https://cds0804.github/2020/06/21/sql_select_02/"/>
     <id>https://cds0804.github/2020/06/21/sql_select_02/</id>
     <published>2020-06-20T21:09:10.000Z</published>
-    <updated>2020-07-01T19:52:03.736Z</updated>
+    <updated>2020-07-03T11:26:32.813Z</updated>
     
     <content type="html"><![CDATA[<p><strong>select 문의 기본 문법</strong></p><ol><li><p>SQL문 작성 규칙</p><p>(1) 대소문자 구별 하지 않음</p><ul><li>명령어 대문자, 나머지 소문자로 작성하길 권장함</li></ul><p>(2) 한줄 또는 여러줄로 작성 가능</p><ul><li>코드 수준에 따른 들여쓰기는 SQL문장의 가독성을 좋게함</li></ul></li><li><p>전체 데이터 조회하기</p><p>(1) employees 테이블의 모든 정보를 출력하세요.</p><p>SELECT *<br> FROM employees;</p><ul><li><code>*</code> : 모든 열 조회</li><li>FROM : ~ 테이블로부터 라는 의미</li></ul></li><li><p>원하는 열만 조회하고 정렬하기<br>(1) employees 테이블에서 employees_id, first_name과 last_name을 출력하세요.</p><p>SELECT employees_id, first_name, last_name<br> FROM employees;</p><p>(2) employees 테이블에서 employee_id, first_name, last_name을 출력하고 employee_id를 기준으로 내림차순으로 정렬하세요.</p><p>SELECT employee_id, first_name, last_name<br>FROM employees<br> ORDER BY employee_id DESC;</p><ul><li>ORDER BY 명령문 default : 오름차순 정렬(ASC)</li><li>ORDER BY 열 이름, 열 이름 DESC, 열 이름 ASC 가능</li></ul></li><li><p>중복된 출력 값 제거하기</p><p>(1) employees 테이블에서 중복 값이 생기지 않도록 job_id를 출력하세요.<br>SELECT DISTINCT job_id<br> FROM employees;</p><ul><li>DISTINCT 명령어 뒤에 열 이름을 계속 나열하면 순서대로 DISTINCT가 모두 적용됨</li></ul></li><li><p>SQL 문을 효율적으로 작성하기 위해 별칭 사용하기<br>(1) employees 테이블에서 employees_id는 ‘사원번호’, first_name은 ‘이름’, last_name은 ‘성’으로 출력하세요.</p><p>SELECT employees_id AS 사원번호, first_name AS 이름, last_name AS 성<br> FROM employees;</p></li><li><p>데이터 값 연결하기<br>(1) employees 테이블에서 employees_id를 출력하고 first_name과 last_name을 붙여서 출력하세요.</p><p>SELECT employees_id, first_name||last_name<br> FROM employess;</p><p>(2) employees 테이블에서 employee_id를 출력하고, first_name과 last_name을 붙여서 출력하되 가운데 한 칸을 띄워주세요. 다음 열에는 email을 출력하되 @company.com 문구를 붙여서 출력하세요.</p><p>SELECT employee_id, first_name||’ ‘||last_name, email||@company.com<br> FROM employees;</p></li><li><p>산술 처리하기 : 데이터 값끼리 계산<br>(1) employees 테이블에서 employee_id, salary, salary에 500을 더한 값, 100을 뺀 값, 10%를 추가해서 2로 나눈 값을 출력하세요.</p><p>SELECT employee_id, salary, salary+500, salary-100, (salary<em>1.1)/2<br> FROM employees;<br>(2) employees에서 employee_id를 ‘사원번호’, salary를 ‘급여’, salary+500을 ‘추가급여’, salary-100을 ‘인하급여’, (salary</em>1.1)/2를 ‘조정급여’로 출력하세요.</p><p>SELECT employee_id AS 사원번호,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary AS 급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary+500 AS 추가급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary-100 AS 인하급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (salary*1.1)/2 AS 조정급여<br> FROM employees;</p></li></ol><blockquote><p><a href="https://thebook.io/006977/ch03/01/">자료출처: 모두의 SQL</a></p></blockquote>]]></content>
     
@@ -645,71 +715,6 @@
       <category term="icarus" scheme="https://cds0804.github/tags/icarus/"/>
     
       <category term="adsense" scheme="https://cds0804.github/tags/adsense/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cheatsheet</title>
-    <link href="https://cds0804.github/2020/04/29/cheatsheet/"/>
-    <id>https://cds0804.github/2020/04/29/cheatsheet/</id>
-    <published>2020-04-29T06:24:12.000Z</published>
-    <updated>2020-05-05T08:05:40.516Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>나만의 cheatsheet 정리</strong></p><p><strong>math</strong></p><blockquote><p><a href="https://datascienceschool.net/view-notebook/04358acdcf3347fc989c4cfc0ef6121c/">김도형의 데이터 사이언스 스쿨 - 수학편</a></p></blockquote><p><strong>pandas</strong></p><blockquote><p><a href="https://www.journaldev.com/23365/python-string-to-datetime-strptime">pandas 날짜 데이터</a><br><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf">pandas cheatsheet</a><br><a href="https://dataitgirls2.github.io/10minutes2pandas/">pandas 10분 완성</a><br><a href="https://www.kaggle.com/grroverpr/pandas-cheatsheet">kaggle pandas cheatsheet</a></p></blockquote><p><strong>seaborn</strong></p><blockquote><p><a href="https://www.interactivechaos.com/sites/default/files/data/seaborn_cheat_sheet.pdf">seaborn cheatsheet</a></p></blockquote><p><strong>데이터 분석가 인터뷰 용어 정리</strong></p><blockquote><p><a href="https://yamalab.tistory.com/78?category=711359">인터뷰 용어 정리</a></p></blockquote><p><strong>git 내용 정리</strong></p><blockquote><p><a href="https://www.inflearn.com/course/git-and-github/lecture/14171">인프런 무료강좌 git과 github</a><br><a href="https://learngitbranching.js.org/?locale=ko">learning_git</a></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;나만의 cheatsheet 정리&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;math&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://datascienceschool.net/view-notebook/
-      
-    
-    </summary>
-    
-    
-      <category term="cheatsheet" scheme="https://cds0804.github/categories/cheatsheet/"/>
-    
-    
-      <category term="cheatsheet" scheme="https://cds0804.github/tags/cheatsheet/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo profile 변경하기</title>
-    <link href="https://cds0804.github/2020/04/25/Hexo-profile/"/>
-    <id>https://cds0804.github/2020/04/25/Hexo-profile/</id>
-    <published>2020-04-25T14:43:05.000Z</published>
-    <updated>2020-04-25T15:44:16.133Z</updated>
-    
-    <content type="html"><![CDATA[<p>안녕하세요, Hexo Icarus theme의 프로필 사진을 변경하는 방법에 대해 알아보겠습니다. </p><ol><li><p>아래와 같이 터미널에서 source 폴더 안에 img 폴더를 만든 후 img 폴더 안에 이미지 사진을 올리고 아래와 같이 작성하면 됩니다. </p></li><li><p>파일이름 대소문자를 구분한다고 하니 동일하게 진행하셔야 이미지가 보입니다. </p></li><li><p><strong>![문자 사이에 공간이 없어야 합니다]</strong> 즉, 대쉬를 이용해서 문자와 문자 사이에 공간을 없애야 정상적으로 작동합니다. </p></li><li><p>upload까지 약 3~4분 정도 소요되니 참고하시길 바랍니다.  </p></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir img</span><br></pre></td></tr></table></figure><ol><li>Hexo 프로필 사진 변경<br><img src="/img/hexo-icarus-profile-avata.jpg" alt="hexo-icarus-profile-avata"></li></ol><ol start="2"><li>Hexo 프로필 아래 twitter 아이콘 제거하기<br><img src="/img/hexo-icarus-twitter.png" alt="hexo-icarus-twitter.png"></li></ol><ol start="3"><li>Hexo 블로그에 이미지 올리기<br><img src="/img/hexo-icarus-image-upload.png" alt="img 폴더를 만들고 그 안에 이미지를 추가한다"></li></ol><blockquote><p>출처: <a href="https://github.com/ppoffice/hexo-theme-icarus/wiki/Theme">이카루스 테마 페이지</a></p></blockquote><hr/>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;안녕하세요, Hexo Icarus theme의 프로필 사진을 변경하는 방법에 대해 알아보겠습니다. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;아래와 같이 터미널에서 source 폴더 안에 img 폴더를 만든 후 img 폴더 안에 이미지 사진을 올리고 아래와 
-      
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://cds0804.github/categories/hexo/"/>
-    
-      <category term="profile" scheme="https://cds0804.github/categories/hexo/profile/"/>
-    
-    
-      <category term="hexo" scheme="https://cds0804.github/tags/hexo/"/>
-    
-      <category term="icarus" scheme="https://cds0804.github/tags/icarus/"/>
-    
-      <category term="profile" scheme="https://cds0804.github/tags/profile/"/>
-    
-      <category term="logo" scheme="https://cds0804.github/tags/logo/"/>
     
   </entry>
   
