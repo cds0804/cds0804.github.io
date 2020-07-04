@@ -8,8 +8,8 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/06/21/sql_where_01/</loc>
-        <lastmod>2020-07-03T11:26:34.039Z</lastmod>
+        <loc>https://cds0804.github/2020/07/03/sql_str_type_function/</loc>
+        <lastmod>2020-07-04T02:22:27.327Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,15 @@
 
     <url>
         <loc>https://cds0804.github/2020/06/21/sql_select_02/</loc>
-        <lastmod>2020-07-03T11:26:32.813Z</lastmod>
+        <lastmod>2020-07-04T01:20:55.882Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/06/21/sql_where_01/</loc>
+        <lastmod>2020-07-03T11:26:34.039Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -210,14 +218,6 @@
     <url>
         <loc>https://cds0804.github/2020/04/29/cheatsheet/</loc>
         <lastmod>2020-05-05T08:05:40.516Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/04/25/favicon/</loc>
-        <lastmod>2020-05-04T05:50:05.753Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

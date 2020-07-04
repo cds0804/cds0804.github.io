@@ -3,22 +3,29 @@
 
 
     <url>
-        <loc>https://cds0804.github/tags/where/</loc>
-        <lastmod>2020-07-03T11:26:34.039Z</lastmod>
+        <loc>https://cds0804.github/tags/sql/</loc>
+        <lastmod>2020-07-04T02:22:27.327Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://cds0804.github/tags/sql/</loc>
-        <lastmod>2020-07-03T11:26:34.039Z</lastmod>
+        <loc>https://cds0804.github/tags/function/</loc>
+        <lastmod>2020-07-04T02:22:27.327Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/tags/select/</loc>
-        <lastmod>2020-07-03T11:26:32.813Z</lastmod>
+        <lastmod>2020-07-04T01:20:55.882Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/tags/where/</loc>
+        <lastmod>2020-07-03T11:26:34.039Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -47,13 +54,6 @@
     <url>
         <loc>https://cds0804.github/tags/terminal/</loc>
         <lastmod>2020-07-03T10:44:16.537Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/function/</loc>
-        <lastmod>2020-06-26T09:12:30.472Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -299,13 +299,6 @@
     <url>
         <loc>https://cds0804.github/tags/cheatsheet/</loc>
         <lastmod>2020-05-05T08:05:40.516Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/tags/favicon/</loc>
-        <lastmod>2020-05-04T05:50:05.753Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

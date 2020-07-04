@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>sql string type function</title>
+    <url>/2020/07/03/sql_str_type_function/</url>
+    <content><![CDATA[<p><strong>함수란?</strong></p>
+<ul>
+<li>미리 정의된 기능을 통해 데이터를 좀 더 편리하게 조작할 수 있도록 해줍니다.</li>
+<li>단일 행 함수 : 한번에 하나의 데이터를 처리하는 함수</li>
+<li>그룹 함수 : 여러 건의 데이터를 동시에 처리하는 함수</li>
+</ul>
+<p><strong>1. 문자 타입 함수</strong></p>
+<p>(1) 문자함수의 종류</p>
+<ul>
+<li>LOWER : 값을 소문자로 변환한다.</li>
+<li>UPPER : 값을 대문자로 변환한다.</li>
+<li>INITCAP : 첫 번째 글자만 대문자로 변환한다.</li>
+<li>SUBSTR : 문자열 중 일부분을 선택한다.</li>
+<li>REPLACE : 특정 문자열을 찾아 바꾼다.</li>
+<li>CONCAT : 두 문자여릉ㄹ 연결한다(|| 연산자와 같다).</li>
+<li>LENGTH : 문자열의 길이를 구한다.</li>
+<li>INSTR : 명명된 문자의 위치를 구한다.</li>
+<li>LPAD : 왼쪽부터 특정 문자로 자리를 채운다.</li>
+<li>RPAD : 오른쪽부터 특정 문자로 자리를 채운다.</li>
+<li>LTRIM : 주어진 문자열의 왼쪽 문자를 지운다.</li>
+<li>RTRIM : 주어진 문자열의 오른쪽 문자를 지운다.</li>
+</ul>
+<p><strong>2. LOWER, UPPER, INITCAP : 데이터 값을 대소문자로 변환하기</strong></p>
+<p>(1) employees 테이블에서 last_name을 소문자와 대문자로 각각 출력하고, email의 첫 번째 문자는 대문자로 출력하세요.</p>
+<p>SELECT last_name,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOWER(last_name) LOWER적용,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UPPER(last_name) UPPER적용,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;email,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INITCAP(email) INITCAP적용<br>FROM employees;</p>
+<p><strong>3. SUBSTR : 지정한 길이만큼 문자열 추출하기</strong></p>
+<ul>
+<li>SUBSTR(‘문자열’ or 열 이름, 시작위치, 길이)</li>
+</ul>
+<p>(1) employees 테이블에서 job_id 데이터 값의 첫째 자리부터 시작해서 두 개의 문자를 출력하세요.</p>
+<p>SELECT job_id, SUBSTR(job_id, 1, 2) 적용결과<br>FROM employees;</p>
+<p><strong>4. REPLACE : 특정 문자를 찾아 바꾸기</strong></p>
+<ul>
+<li>REPLACE(‘문자열’ or 열 이름, ‘바꾸려는 문자열’, ‘바뀔 문자열’)</li>
+</ul>
+<p>(1) employees 테이블에서 job_id 문자열 값이 ACCOUNT면 ACCNT로 출력하세요.</p>
+<p>SELECT job_id, REPLACE(job_id, ‘ACCOUNT’, ‘ACCNT’)<br>FROM employees;</p>
+<p><strong>5. LPAD, RPAD : 특정 문자로 자릿수 채우기</strong></p>
+<ul>
+<li>LPAD(‘문자열’ or 열 이름, 만들어질 자릿수, ‘채워질 문자’)</li>
+</ul>
+<p>(1) employees 테이블에서 first_name에 대해 12자리의 문자열 자리를 만들되 first_name의 데이터 값이 12자리보다 작으면 왼쪽에서부터 *를 채워서 출력하세요.</p>
+<p>SELECT first_name, LPAD(first_name, 12, ‘*‘) LPAD적용결과<br>FROM employees;</p>
+<p><strong>6. LTRIM, RTRIM : 특정 문자 삭제하기</strong></p>
+<ul>
+<li>LTRIM(‘문자열’ or 열 이름, ‘삭제할 문자’)</li>
+</ul>
+<p>(1) employees 테이블에서 job_id의 데이터 값에 대해 왼쪽 방향부터 ‘F’문자를 만나면 삭제하고 또 오른쪽 방향부터 ‘T’문자를 만나면 삭제해 보세요.</p>
+<p>SELECT job_id,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LTRIM(job_id, ‘F’) LTRIM적용결과,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RTRIM(job_id, ‘T’) RTRIM적용결과<br>FROM employees;</p>
+<p><strong>7. TRIM : 공백 제거하기</strong></p>
+<ul>
+<li>TRIM(‘문자열’ or 열 이름)</li>
+</ul>
+<p>SELECT ‘start’||TRIM(‘ - space - ‘)||’end’ 제거된_공백<br>FROM dual;</p>
+<ul>
+<li>dual 테이블 : dummy라는 하나의 열과 하나의 ‘X’테이블 값을 갖고 있는 테이블</li>
+<li>임의의 값을 알고자 하거나 특정 테이블을 참고하지 않아도 될 때 유용함</li>
+<li>앞의 예처럼, 단순히 지정 문자를 출력하거나 오늘의 날짜를 알고 싶을 때 사용</li>
+</ul>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch04/02/01/">자료출처: 모두의 SQL</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>function</category>
+      </categories>
+      <tags>
+        <tag>function</tag>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>sql where 조건절 02</title>
     <url>/2020/07/02/sql_where_02/</url>
     <content><![CDATA[<p><strong>WHRER 조건 절을 활용한 데이터 검색 02</strong></p>
@@ -133,7 +208,7 @@
 </li>
 <li><p>전체 데이터 조회하기</p>
 <p>(1) employees 테이블의 모든 정보를 출력하세요.</p>
-<p>SELECT *<br> FROM employees;</p>
+<p>SELECT *<br>FROM employees;</p>
 <ul>
 <li><code>*</code> : 모든 열 조회</li>
 <li>FROM : ~ 테이블로부터 라는 의미</li>
@@ -160,10 +235,10 @@
 <li><p>데이터 값 연결하기<br>(1) employees 테이블에서 employees_id를 출력하고 first_name과 last_name을 붙여서 출력하세요.</p>
 <p>SELECT employees_id, first_name||last_name<br> FROM employess;</p>
 <p>(2) employees 테이블에서 employee_id를 출력하고, first_name과 last_name을 붙여서 출력하되 가운데 한 칸을 띄워주세요. 다음 열에는 email을 출력하되 @company.com 문구를 붙여서 출력하세요.</p>
-<p>SELECT employee_id, first_name||’ ‘||last_name, email||@company.com<br> FROM employees;</p>
+<p>SELECT employee_id, first_name||’ ‘||last_name, email||@company.com<br>FROM employees;</p>
 </li>
 <li><p>산술 처리하기 : 데이터 값끼리 계산<br>(1) employees 테이블에서 employee_id, salary, salary에 500을 더한 값, 100을 뺀 값, 10%를 추가해서 2로 나눈 값을 출력하세요.</p>
-<p>SELECT employee_id, salary, salary+500, salary-100, (salary<em>1.1)/2<br> FROM employees;<br>(2) employees에서 employee_id를 ‘사원번호’, salary를 ‘급여’, salary+500을 ‘추가급여’, salary-100을 ‘인하급여’, (salary</em>1.1)/2를 ‘조정급여’로 출력하세요.</p>
+<p>SELECT employee_id, salary, salary+500, salary-100, (salary<em>1.1)/2<br>FROM employees;<br>(2) employees에서 employee_id를 ‘사원번호’, salary를 ‘급여’, salary+500을 ‘추가급여’, salary-100을 ‘인하급여’, (salary</em>1.1)/2를 ‘조정급여’로 출력하세요.</p>
 <p>SELECT employee_id AS 사원번호,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary AS 급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary+500 AS 추가급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary-100 AS 인하급여,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (salary*1.1)/2 AS 조정급여<br> FROM employees;</p>
 </li>
 </ol>
@@ -1569,21 +1644,6 @@
       <tags>
         <tag>project</tag>
         <tag>LinearRegression</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>favicon</title>
-    <url>/2020/04/25/favicon/</url>
-    <content><![CDATA[<p><strong>favicon</strong></p>
-<blockquote>
-<p><a href="'https://pngtree.com/">favicon 출처</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>favicon</category>
-      </categories>
-      <tags>
-        <tag>favicon</tag>
       </tags>
   </entry>
   <entry>
