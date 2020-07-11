@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>sql number type function</title>
+    <url>/2020/07/04/sql06_number_type_function/</url>
+    <content><![CDATA[<p><strong>1. 숫자 타입 함수</strong><br>(1) 숫자 함수의 종류</p>
+<ul>
+<li>ROUND : 숫자를 반올림한다. 0이 소숫점 첫째 자리다.</li>
+<li>TRUNC : 숫자를 절삭한다. 0이 소수점 첫째 자리다.</li>
+<li>MOD : 나누기 후 나머지를 구한다.</li>
+<li>CEIL : 숫자를 정수로 올림한다.</li>
+<li>FLOOR : 숫자를 정수로 내림한다.</li>
+<li>SIGN : 양수(1), 음수(-1), 0인지를 구분하여 출력한다.</li>
+<li>POWER : 거듭제곱을 출력한다.</li>
+<li>SQRT : 제곱근을 출력한다.</li>
+</ul>
+<p><strong>2. ROUND : 숫자 반올림하기</strong></p>
+<ul>
+<li>ROUND(숫자 or 열 이름, 반올림할 자리 값)</li>
+</ul>
+<p>(1) employees 테이블에서 salary를 30일로 나눈 후 나눈 값의 소숫점 첫째자리, 소수점 둘째 자리, 정수 첫째 자리에서 반올림한 값을 출력하세요.</p>
+<p>SELECT salary, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary/30 일급,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROUND(salary/30, 0) 적용결과0,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROUND (salary/30, 1) 적용결과1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROUND(salary/30, -1) 적용결과MINUS1<br>FROM &nbsp;&nbsp; employees;</p>
+<p><strong>3. TRUNC:숫자 절삭하기</strong></p>
+<ul>
+<li>TRUNC(숫자 or 열 이름, 절삭할 자리 값)</li>
+</ul>
+<p>(1) employees 테이블에서 salary를 30일로 나누고 나눈 값의 소수점 첫째 자리, 소수점 둘째 자리, 정수 첫째 자리에서 절삭하여 출력하세요.</p>
+<p>SELECT salary<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; salary/30 일급,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC(salary/30, 0) 적용결과0,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC (salary/30, 1) 적용결과1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC (salary/30, -1) 적용결과MINUS1<br>FROM employees;</p>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch04/02/02/">자료출처: 모두의 SQL</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>function</category>
+      </categories>
+      <tags>
+        <tag>function</tag>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>sql string type function</title>
-    <url>/2020/07/03/sql_str_type_function/</url>
+    <url>/2020/07/03/sql05_str_type_function/</url>
     <content><![CDATA[<p><strong>함수란?</strong></p>
 <ul>
 <li>미리 정의된 기능을 통해 데이터를 좀 더 편리하게 조작할 수 있도록 해줍니다.</li>
@@ -10,7 +49,7 @@
 <li>그룹 함수 : 여러 건의 데이터를 동시에 처리하는 함수</li>
 </ul>
 <p><strong>1. 문자 타입 함수</strong></p>
-<p>(1) 문자함수의 종류</p>
+<p>(1) 문자 함수의 종류</p>
 <ul>
 <li>LOWER : 값을 소문자로 변환한다.</li>
 <li>UPPER : 값을 대문자로 변환한다.</li>
@@ -77,7 +116,7 @@
   </entry>
   <entry>
     <title>sql where 조건절 02</title>
-    <url>/2020/07/02/sql_where_02/</url>
+    <url>/2020/07/02/sql04_where_02/</url>
     <content><![CDATA[<p><strong>WHRER 조건 절을 활용한 데이터 검색 02</strong></p>
 <ol start="3">
 <li>논리 연산자 : 조건 논리를 계속 연결하기</li>
@@ -92,11 +131,12 @@
 <p>(2) employees 테이블에서 salary가 4000을 초과하면서, job_id가 IT_PROG거나 FI_ACCOUNT인 경우를 조회하세요.</p>
 <p>SELECT *<br>FROM employees<br>WHERE salary &gt; 4000<br>AND job_id = ‘IT_PROG’<br>OR job_id = ‘FI_ACCOUNT’;</p>
 <ol start="4">
-<li>부정 연산자의 종류</li>
-</ol>
+<li><p>부정 연산자의 종류</p>
 <ul>
 <li>부정 비교</li>
 </ul>
+</li>
+</ol>
 <ul>
 <li>!= : 같지 않다.</li>
 <li>&lt;&gt; : 같지 않다(ISO 표준).</li>
@@ -130,7 +170,7 @@
   </entry>
   <entry>
     <title>sql where 조건절 01</title>
-    <url>/2020/06/21/sql_where_01/</url>
+    <url>/2020/06/21/sql03_where_01/</url>
     <content><![CDATA[<p><strong>WHERE 조건 절을 활용한 데이터 검색 01</strong></p>
 <ul>
 <li>사용자가 원하는 데이터를 조회할 때 사용하는 것이 where절</li>
@@ -193,7 +233,7 @@
   </entry>
   <entry>
     <title>sql</title>
-    <url>/2020/06/21/sql_select_02/</url>
+    <url>/2020/06/21/sql02_select/</url>
     <content><![CDATA[<p><strong>select 문의 기본 문법</strong></p>
 <ol>
 <li><p>SQL문 작성 규칙</p>
@@ -290,7 +330,7 @@
   </entry>
   <entry>
     <title>sql과 database</title>
-    <url>/2020/06/09/sql_database_01/</url>
+    <url>/2020/06/09/sql01_database/</url>
     <content><![CDATA[<p><strong>SQL</strong></p>
 <ul>
 <li>정형 데이터로 만들어진 관계형 데이터베이스를 조작하는 언어</li>

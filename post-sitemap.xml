@@ -8,32 +8,48 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/07/03/sql_str_type_function/</loc>
-        <lastmod>2020-07-04T02:22:27.327Z</lastmod>
+        <loc>https://cds0804.github/2020/07/04/sql06_number_type_function/</loc>
+        <lastmod>2020-07-11T13:05:45.832Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/06/21/sql_select_02/</loc>
-        <lastmod>2020-07-04T01:20:55.882Z</lastmod>
+        <loc>https://cds0804.github/2020/07/03/sql05_str_type_function/</loc>
+        <lastmod>2020-07-11T13:03:31.822Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/06/21/sql_where_01/</loc>
-        <lastmod>2020-07-03T11:26:34.039Z</lastmod>
+        <loc>https://cds0804.github/2020/07/02/sql04_where_02/</loc>
+        <lastmod>2020-07-11T13:03:15.278Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/07/02/sql_where_02/</loc>
-        <lastmod>2020-07-03T11:26:30.048Z</lastmod>
+        <loc>https://cds0804.github/2020/06/21/sql03_where_01/</loc>
+        <lastmod>2020-07-11T13:03:04.869Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/06/09/sql01_database/</loc>
+        <lastmod>2020-07-11T13:02:48.075Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/06/21/sql02_select/</loc>
+        <lastmod>2020-07-11T13:02:38.918Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -50,14 +66,6 @@
     <url>
         <loc>https://cds0804.github/2020/05/10/python_function/</loc>
         <lastmod>2020-06-26T09:12:30.472Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/06/09/sql_database_01/</loc>
-        <lastmod>2020-06-20T22:21:28.506Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
