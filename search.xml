@@ -1,6 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>date type function</title>
+    <url>/2020/07/11/sql07_date_type/</url>
+    <content><![CDATA[<p><strong>1. 날짜 타입 함수</strong></p>
+<ul>
+<li>Date + Number : 날짜에 일수를 더함, Date 값을 반환</li>
+<li>Date - Number : 날짜에 일수를 뺌, Date 값을 반환</li>
+<li>Date - Date : 날짜에서 날짜를 뺌, 일수를 반환</li>
+<li>Date + Number / 24 : 날짜에 시간을 더할 때는 시간을 24로 나눠서 날짜에 더함, Date 값을 반환</li>
+</ul>
+<p>(1) 오늘 날짜와 시간, 오늘날짜에서 1을 더한 값, 1을 뺀 값, 2017년 12월 2일에서 2017년 12월 1일을 뺀 값, 오늘 날짜에서 13시간을 더한 값 출력하기</p>
+<ul>
+<li>TO_CHAR : 문자 변환 함수, SYSDATE의 시간까지 출력하기 위해 사용함</li>
+<li>SYSDATE : 시스템의 현재 날짜와 시간을 반환하는 함수</li>
+</ul>
+<p>SELECT TO_CHAR(SYSDATE, ‘YY/MM/DD/HH24:MI’) 오늘날짜,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE + 1 더하기1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE - 1 빼기1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_DATE(‘20171202’)-TO_DATE(‘20171201’) 날짜빼기,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE + 13/24 시간더하기<br>FROM DUAL;</p>
+<table>
+<thead>
+<tr>
+<th>날짜 함수</th>
+<th>설명</th>
+<th>예</th>
+<th>결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>MONTHS_BETWEEN</td>
+<td>두 날짜 사이의 월수를 계산</td>
+<td>MONTHS_BETWEEN(SYSDATE, HIRE_DATE)</td>
+<td>171.758</td>
+</tr>
+<tr>
+<td>ADD_MONTHS</td>
+<td>월을 날짜에 더함</td>
+<td>ADD_MONTHS(HIRE_DATE, 5)</td>
+<td>03/11/17</td>
+</tr>
+<tr>
+<td>NEXT_DAY</td>
+<td>명시된 날짜부터 돌아오는 요일에 대한 날짜를 출력(SUNDAY:1, MONDAY:2, …)</td>
+<td>NEXT_DAY(HIRE_DATE, 1)</td>
+<td>03/06/22</td>
+</tr>
+<tr>
+<td>LAST_DAY</td>
+<td>월의 마지막 날을 계산</td>
+<td>LAST_DAY(HIRE_DATE)</td>
+<td>03/06/30</td>
+</tr>
+<tr>
+<td>ROUND</td>
+<td>날짜를 가장 가까운 연도 또는 월로 반올림(YEAR or MONTH)</td>
+<td>ROUND(HIRE_DATE, ‘MONTH’)</td>
+<td>03/07/01</td>
+</tr>
+<tr>
+<td>TRUNC</td>
+<td>날짜를 가장 가까운 연도 또는 월로 절삭(YEAR or MONTH)</td>
+<td>TRUNC(HIRE_DATE, ‘MONTH’)</td>
+<td>03/06/01</td>
+</tr>
+</tbody></table>
+<p><strong>2. MONTHS_BETWEEN : 두 날짜 사이의 개월 수 계산하기</strong></p>
+<ul>
+<li>MONTHS_BETWEEN(날짜, 날짜)</li>
+</ul>
+<p>(1) employees 테이블에서 department_id가 100인 직원에 대해 오늘 날짜, hire_date, 오늘 날짜와 hire_date 사이의 개월 수를 출력하세요. </p>
+<p>SELECT SYSDATE, hire_date, MONTHS_BETWEEN(SYSDATE, hire_date) 적용결과<br>FROM employees<br>WHERE department_id = 100;</p>
+<p><strong>3. ADD_MONTHS : 월에 날짜 더하기</strong></p>
+<ul>
+<li>ADD_MONTHS(날짜, 숫자)</li>
+</ul>
+<p>(1) employees 테이블에서 employee_iod가 100과 106 사이인 직원의 hire_date에 3개월을 더한 값, hire_date에 3개월을 뺀 값을 출력하세요. </p>
+<p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ADD_MONTHS(hire_date, 3) 더하기_적용결과,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADD_MONTHS(hire_date, -3) 빼기_적용결과<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p>
+<p><strong>4. NEXT_DAY : 돌아오는 요일의 날짜 계산하기</strong></p>
+<ul>
+<li>NEXT_DAY(날짜, ‘요일’ or 숫자)</li>
+</ul>
+<p>(1) employees 테이블에서 employee_id가 100과 106 사이인 직원의 hire_date에서 가장 가까운 금요일의 날짜가 언제인지 문자로 지정해서 출력하고, 숫자로도 지정해서 출력하세요.</p>
+<p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT_DAY(hire_date, ‘금요일’) 적용결과_문자지정,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT_DYA(hire_date, 6) 적용결과_숫자지정<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p>
+<p><strong>5. LAST_DAY : 돌아오는 월의 마지막 날짜 계산하기</strong></p>
+<ul>
+<li>LAST_DAY(날짜)</li>
+</ul>
+<p>(1) employees 테이블에서 employee_id가 100과 106 사이인 직원의 hire_date를 기준으로 해당 월의 마지막 날짜를 출력해 보세요. </p>
+<p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LAST_DAY(hire_day)<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p>
+<p><strong>6. ROUND, TRUNC : 날짜를 반올림하거나 절삭하기</strong></p>
+<ul>
+<li>ROUND or TRUNC(날짜, 지정 값)</li>
+</ul>
+<p>(1) employees 테이블에서<br>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROUND(hire_date, ‘MONTH’) 적용결과_ROUND_M, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUND(hire_date, ‘YEAR) 적용결과_ROUND_Y,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC(hire_date, ‘MONTH’) 적용결과_TRUNC_M,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC(hire_date, ‘YEAR’) 적용결과_TRUNC_Y<br>FROM employees<br>WHERE employee_id BTWEEN 100 AND 106;</p>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch04/02/03/">자료출처: 모두의 SQL</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>function</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+        <tag>function</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>sql number type function</title>
     <url>/2020/07/04/sql06_number_type_function/</url>
     <content><![CDATA[<p><strong>1. 숫자 타입 함수</strong><br>(1) 숫자 함수의 종류</p>
@@ -35,8 +139,8 @@
         <category>function</category>
       </categories>
       <tags>
-        <tag>function</tag>
         <tag>sql</tag>
+        <tag>function</tag>
       </tags>
   </entry>
   <entry>
@@ -110,8 +214,8 @@
         <category>function</category>
       </categories>
       <tags>
-        <tag>function</tag>
         <tag>sql</tag>
+        <tag>function</tag>
       </tags>
   </entry>
   <entry>

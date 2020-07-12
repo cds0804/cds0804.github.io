@@ -1,31 +1,99 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.0"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>tmux - 안녕하세요!! 목표는 1인분!</title><meta description="tmux(터미널 멀티플렉서) 실행, session name : dss 1$ tmux new -s dss  새로운 세션을 dss란 이름으로 만든다는 뜻  세션 종료 1$ exit  세션 목록보기 1$ tmux ls  세션 접속 1$ tmux attach -t dss  윈도우 생성 1$  ctrl + b, c  윈도우 이동 1$   ctrl + b, 0-9"><meta property="og:type" content="blog"><meta property="og:title" content="tmux"><meta property="og:url" content="https://cds0804.github/"><meta property="og:site_name" content="안녕하세요!! 목표는 1인분!"><meta property="og:description" content="tmux(터미널 멀티플렉서) 실행, session name : dss 1$ tmux new -s dss  새로운 세션을 dss란 이름으로 만든다는 뜻  세션 종료 1$ exit  세션 목록보기 1$ tmux ls  세션 접속 1$ tmux attach -t dss  윈도우 생성 1$  ctrl + b, c  윈도우 이동 1$   ctrl + b, 0-9"><meta property="og:locale" content="en_US"><meta property="article:published_time" content="2020-05-08T07:45:02.000Z"><meta property="article:modified_time" content="2020-05-09T14:54:30.899Z"><meta property="article:author" content="David Cho"><meta property="article:tag" content="terminal"><meta property="article:tag" content="tmux"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://cds0804.github/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://cds0804.github/2020/05/08/AWS%20server_tmux/"},"headline":"안녕하세요!! 목표는 1인분!","image":["https://cds0804.github/img/og_image.png"],"datePublished":"2020-05-08T07:45:02.000Z","dateModified":"2020-05-09T14:54:30.899Z","author":{"@type":"Person","name":"David Cho"},"description":"tmux(터미널 멀티플렉서) 실행, session name : dss 1$ tmux new -s dss  새로운 세션을 dss란 이름으로 만든다는 뜻  세션 종료 1$ exit  세션 목록보기 1$ tmux ls  세션 접속 1$ tmux attach -t dss  윈도우 생성 1$  ctrl + b, c  윈도우 이동 1$   ctrl + b, 0-9"}</script><link rel="canonical" href="https://cds0804.github/2020/05/08/AWS%20server_tmux/"><link rel="icon" href="/img/logo.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="/css/default.css"><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script data-ad-client="ca-pub-7673970395963294" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml">
-</head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="안녕하세요!! 목표는 1인분!" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/cds0804"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-05-08T07:45:02.000Z" title="2020-05-08T07:45:02.000Z">2020-05-08</time><span class="level-item"><a class="link-muted" href="/categories/terminal/">terminal</a><span> / </span><a class="link-muted" href="/categories/terminal/tmux/">tmux</a></span><span class="level-item">a few seconds read (About 85 words)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span> visits</span></div></div><h1 class="title is-3 is-size-4-mobile">tmux</h1><div class="content"><p><strong>tmux(터미널 멀티플렉서) 실행, session name : dss</strong></p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tmux new -s dss</span><br></pre></td></tr></table></figure>
+<html lang="en"><head><meta charset="utf-8"><meta name="generator" content="Hexo 4.2.0"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>date type function - 안녕하세요!! 목표는 1인분!</title><meta description="1. 날짜 타입 함수  Date + Number : 날짜에 일수를 더함, Date 값을 반환 Date - Number : 날짜에 일수를 뺌, Date 값을 반환 Date - Date : 날짜에서 날짜를 뺌, 일수를 반환 Date + Number &amp;#x2F; 24 : 날짜에 시간을 더할 때는 시간을 24로 나눠서 날짜에 더함, Date 값을 반환  (1) 오늘 날짜와"><meta property="og:type" content="blog"><meta property="og:title" content="date type function"><meta property="og:url" content="https://cds0804.github/"><meta property="og:site_name" content="안녕하세요!! 목표는 1인분!"><meta property="og:description" content="1. 날짜 타입 함수  Date + Number : 날짜에 일수를 더함, Date 값을 반환 Date - Number : 날짜에 일수를 뺌, Date 값을 반환 Date - Date : 날짜에서 날짜를 뺌, 일수를 반환 Date + Number &amp;#x2F; 24 : 날짜에 시간을 더할 때는 시간을 24로 나눠서 날짜에 더함, Date 값을 반환  (1) 오늘 날짜와"><meta property="og:locale" content="en_US"><meta property="article:published_time" content="2020-07-11T13:00:55.000Z"><meta property="article:modified_time" content="2020-07-12T01:12:06.715Z"><meta property="article:author" content="David Cho"><meta property="article:tag" content="sql"><meta property="article:tag" content="function"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://cds0804.github/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://cds0804.github/2020/07/11/sql07_date_type/"},"headline":"안녕하세요!! 목표는 1인분!","image":["https://cds0804.github/img/og_image.png"],"datePublished":"2020-07-11T13:00:55.000Z","dateModified":"2020-07-12T01:12:06.715Z","author":{"@type":"Person","name":"David Cho"},"description":"1. 날짜 타입 함수  Date + Number : 날짜에 일수를 더함, Date 값을 반환 Date - Number : 날짜에 일수를 뺌, Date 값을 반환 Date - Date : 날짜에서 날짜를 뺌, 일수를 반환 Date + Number &#x2F; 24 : 날짜에 시간을 더할 때는 시간을 24로 나눠서 날짜에 더함, Date 값을 반환  (1) 오늘 날짜와"}</script><link rel="canonical" href="https://cds0804.github/2020/07/11/sql07_date_type/"><link rel="icon" href="/img/logo.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="/css/default.css"><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><script data-ad-client="ca-pub-7673970395963294" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><link rel="alternate" href="/atom.xml" title="안녕하세요!! 목표는 1인분!" type="application/atom+xml">
+</head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="안녕하세요!! 목표는 1인분!" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/cds0804"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta size-small is-uppercase level is-mobile"><div class="level-left"><time class="level-item" dateTime="2020-07-11T13:00:55.000Z" title="2020-07-11T13:00:55.000Z">2020-07-11</time><span class="level-item"><a class="link-muted" href="/categories/sql/">sql</a><span> / </span><a class="link-muted" href="/categories/sql/function/">function</a></span><span class="level-item">7 minutes read (About 984 words)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span> visits</span></div></div><h1 class="title is-3 is-size-4-mobile">date type function</h1><div class="content"><p><strong>1. 날짜 타입 함수</strong></p>
 <ul>
-<li>새로운 세션을 dss란 이름으로 만든다는 뜻</li>
+<li>Date + Number : 날짜에 일수를 더함, Date 값을 반환</li>
+<li>Date - Number : 날짜에 일수를 뺌, Date 값을 반환</li>
+<li>Date - Date : 날짜에서 날짜를 뺌, 일수를 반환</li>
+<li>Date + Number / 24 : 날짜에 시간을 더할 때는 시간을 24로 나눠서 날짜에 더함, Date 값을 반환</li>
 </ul>
-<p><strong>세션 종료</strong></p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>세션 목록보기</strong></p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tmux ls</span><br></pre></td></tr></table></figure>
-
-<p><strong>세션 접속</strong></p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tmux attach -t dss</span><br></pre></td></tr></table></figure>
-
-<p><strong>윈도우 생성</strong></p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  ctrl + b, c</span><br></pre></td></tr></table></figure>
-
-<p><strong>윈도우 이동</strong></p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$   ctrl + b, 0-9</span><br></pre></td></tr></table></figure>
-
-<p><strong>윈도우 종료</strong></p>
-<figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$   ctrl + b, &amp;</span><br></pre></td></tr></table></figure>
-
-</div><div class="article-tags size-small is-uppercase mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/terminal/">terminal</a><a class="link-muted mr-2" rel="tag" href="/tags/tmux/">tmux</a></div><div class="notification is-danger">You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.</div></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/05/08/AWS_server_mysql_query/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">mysql query</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/05/05/git-branch/"><span class="level-item">git branch, git checkout, git merge</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">Comments</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
-            this.page.url = 'https://cds0804.github/2020/05/08/AWS%20server_tmux/';
-            this.page.identifier = '2020/05/08/AWS server_tmux/';
+<p>(1) 오늘 날짜와 시간, 오늘날짜에서 1을 더한 값, 1을 뺀 값, 2017년 12월 2일에서 2017년 12월 1일을 뺀 값, 오늘 날짜에서 13시간을 더한 값 출력하기</p>
+<ul>
+<li>TO_CHAR : 문자 변환 함수, SYSDATE의 시간까지 출력하기 위해 사용함</li>
+<li>SYSDATE : 시스템의 현재 날짜와 시간을 반환하는 함수</li>
+</ul>
+<p>SELECT TO_CHAR(SYSDATE, ‘YY/MM/DD/HH24:MI’) 오늘날짜,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE + 1 더하기1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE - 1 빼기1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_DATE(‘20171202’)-TO_DATE(‘20171201’) 날짜빼기,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE + 13/24 시간더하기<br>FROM DUAL;</p>
+<table>
+<thead>
+<tr>
+<th>날짜 함수</th>
+<th>설명</th>
+<th>예</th>
+<th>결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>MONTHS_BETWEEN</td>
+<td>두 날짜 사이의 월수를 계산</td>
+<td>MONTHS_BETWEEN(SYSDATE, HIRE_DATE)</td>
+<td>171.758</td>
+</tr>
+<tr>
+<td>ADD_MONTHS</td>
+<td>월을 날짜에 더함</td>
+<td>ADD_MONTHS(HIRE_DATE, 5)</td>
+<td>03/11/17</td>
+</tr>
+<tr>
+<td>NEXT_DAY</td>
+<td>명시된 날짜부터 돌아오는 요일에 대한 날짜를 출력(SUNDAY:1, MONDAY:2, …)</td>
+<td>NEXT_DAY(HIRE_DATE, 1)</td>
+<td>03/06/22</td>
+</tr>
+<tr>
+<td>LAST_DAY</td>
+<td>월의 마지막 날을 계산</td>
+<td>LAST_DAY(HIRE_DATE)</td>
+<td>03/06/30</td>
+</tr>
+<tr>
+<td>ROUND</td>
+<td>날짜를 가장 가까운 연도 또는 월로 반올림(YEAR or MONTH)</td>
+<td>ROUND(HIRE_DATE, ‘MONTH’)</td>
+<td>03/07/01</td>
+</tr>
+<tr>
+<td>TRUNC</td>
+<td>날짜를 가장 가까운 연도 또는 월로 절삭(YEAR or MONTH)</td>
+<td>TRUNC(HIRE_DATE, ‘MONTH’)</td>
+<td>03/06/01</td>
+</tr>
+</tbody></table>
+<p><strong>2. MONTHS_BETWEEN : 두 날짜 사이의 개월 수 계산하기</strong></p>
+<ul>
+<li>MONTHS_BETWEEN(날짜, 날짜)</li>
+</ul>
+<p>(1) employees 테이블에서 department_id가 100인 직원에 대해 오늘 날짜, hire_date, 오늘 날짜와 hire_date 사이의 개월 수를 출력하세요. </p>
+<p>SELECT SYSDATE, hire_date, MONTHS_BETWEEN(SYSDATE, hire_date) 적용결과<br>FROM employees<br>WHERE department_id = 100;</p>
+<p><strong>3. ADD_MONTHS : 월에 날짜 더하기</strong></p>
+<ul>
+<li>ADD_MONTHS(날짜, 숫자)</li>
+</ul>
+<p>(1) employees 테이블에서 employee_iod가 100과 106 사이인 직원의 hire_date에 3개월을 더한 값, hire_date에 3개월을 뺀 값을 출력하세요. </p>
+<p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ADD_MONTHS(hire_date, 3) 더하기_적용결과,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADD_MONTHS(hire_date, -3) 빼기_적용결과<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p>
+<p><strong>4. NEXT_DAY : 돌아오는 요일의 날짜 계산하기</strong></p>
+<ul>
+<li>NEXT_DAY(날짜, ‘요일’ or 숫자)</li>
+</ul>
+<p>(1) employees 테이블에서 employee_id가 100과 106 사이인 직원의 hire_date에서 가장 가까운 금요일의 날짜가 언제인지 문자로 지정해서 출력하고, 숫자로도 지정해서 출력하세요.</p>
+<p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT_DAY(hire_date, ‘금요일’) 적용결과_문자지정,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT_DYA(hire_date, 6) 적용결과_숫자지정<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p>
+<p><strong>5. LAST_DAY : 돌아오는 월의 마지막 날짜 계산하기</strong></p>
+<ul>
+<li>LAST_DAY(날짜)</li>
+</ul>
+<p>(1) employees 테이블에서 employee_id가 100과 106 사이인 직원의 hire_date를 기준으로 해당 월의 마지막 날짜를 출력해 보세요. </p>
+<p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LAST_DAY(hire_day)<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p>
+<p><strong>6. ROUND, TRUNC : 날짜를 반올림하거나 절삭하기</strong></p>
+<ul>
+<li>ROUND or TRUNC(날짜, 지정 값)</li>
+</ul>
+<p>(1) employees 테이블에서<br>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROUND(hire_date, ‘MONTH’) 적용결과_ROUND_M, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUND(hire_date, ‘YEAR) 적용결과_ROUND_Y,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC(hire_date, ‘MONTH’) 적용결과_TRUNC_M,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC(hire_date, ‘YEAR’) 적용결과_TRUNC_Y<br>FROM employees<br>WHERE employee_id BTWEEN 100 AND 106;</p>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch04/02/03/">자료출처: 모두의 SQL</a></p>
+</blockquote>
+</div><div class="article-tags size-small is-uppercase mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/sql/">sql</a><a class="link-muted mr-2" rel="tag" href="/tags/function/">function</a></div><div class="notification is-danger">You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.</div></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/07/04/sql06_number_type_function/"><span class="level-item">sql number type function</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">Comments</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://cds0804.github/2020/07/11/sql07_date_type/';
+            this.page.identifier = '2020/07/11/sql07_date_type/';
         };
         (function() {
             var d = document, s = d.createElement('script');  

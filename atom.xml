@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cds0804.github/"/>
-  <updated>2020-07-11T13:05:45.832Z</updated>
+  <updated>2020-07-12T01:12:06.715Z</updated>
   <id>https://cds0804.github/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>date type function</title>
+    <link href="https://cds0804.github/2020/07/11/sql07_date_type/"/>
+    <id>https://cds0804.github/2020/07/11/sql07_date_type/</id>
+    <published>2020-07-11T13:00:55.000Z</published>
+    <updated>2020-07-12T01:12:06.715Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>1. 날짜 타입 함수</strong></p><ul><li>Date + Number : 날짜에 일수를 더함, Date 값을 반환</li><li>Date - Number : 날짜에 일수를 뺌, Date 값을 반환</li><li>Date - Date : 날짜에서 날짜를 뺌, 일수를 반환</li><li>Date + Number / 24 : 날짜에 시간을 더할 때는 시간을 24로 나눠서 날짜에 더함, Date 값을 반환</li></ul><p>(1) 오늘 날짜와 시간, 오늘날짜에서 1을 더한 값, 1을 뺀 값, 2017년 12월 2일에서 2017년 12월 1일을 뺀 값, 오늘 날짜에서 13시간을 더한 값 출력하기</p><ul><li>TO_CHAR : 문자 변환 함수, SYSDATE의 시간까지 출력하기 위해 사용함</li><li>SYSDATE : 시스템의 현재 날짜와 시간을 반환하는 함수</li></ul><p>SELECT TO_CHAR(SYSDATE, ‘YY/MM/DD/HH24:MI’) 오늘날짜,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE + 1 더하기1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE - 1 빼기1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_DATE(‘20171202’)-TO_DATE(‘20171201’) 날짜빼기,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SYSDATE + 13/24 시간더하기<br>FROM DUAL;</p><table><thead><tr><th>날짜 함수</th><th>설명</th><th>예</th><th>결과</th></tr></thead><tbody><tr><td>MONTHS_BETWEEN</td><td>두 날짜 사이의 월수를 계산</td><td>MONTHS_BETWEEN(SYSDATE, HIRE_DATE)</td><td>171.758</td></tr><tr><td>ADD_MONTHS</td><td>월을 날짜에 더함</td><td>ADD_MONTHS(HIRE_DATE, 5)</td><td>03/11/17</td></tr><tr><td>NEXT_DAY</td><td>명시된 날짜부터 돌아오는 요일에 대한 날짜를 출력(SUNDAY:1, MONDAY:2, …)</td><td>NEXT_DAY(HIRE_DATE, 1)</td><td>03/06/22</td></tr><tr><td>LAST_DAY</td><td>월의 마지막 날을 계산</td><td>LAST_DAY(HIRE_DATE)</td><td>03/06/30</td></tr><tr><td>ROUND</td><td>날짜를 가장 가까운 연도 또는 월로 반올림(YEAR or MONTH)</td><td>ROUND(HIRE_DATE, ‘MONTH’)</td><td>03/07/01</td></tr><tr><td>TRUNC</td><td>날짜를 가장 가까운 연도 또는 월로 절삭(YEAR or MONTH)</td><td>TRUNC(HIRE_DATE, ‘MONTH’)</td><td>03/06/01</td></tr></tbody></table><p><strong>2. MONTHS_BETWEEN : 두 날짜 사이의 개월 수 계산하기</strong></p><ul><li>MONTHS_BETWEEN(날짜, 날짜)</li></ul><p>(1) employees 테이블에서 department_id가 100인 직원에 대해 오늘 날짜, hire_date, 오늘 날짜와 hire_date 사이의 개월 수를 출력하세요. </p><p>SELECT SYSDATE, hire_date, MONTHS_BETWEEN(SYSDATE, hire_date) 적용결과<br>FROM employees<br>WHERE department_id = 100;</p><p><strong>3. ADD_MONTHS : 월에 날짜 더하기</strong></p><ul><li>ADD_MONTHS(날짜, 숫자)</li></ul><p>(1) employees 테이블에서 employee_iod가 100과 106 사이인 직원의 hire_date에 3개월을 더한 값, hire_date에 3개월을 뺀 값을 출력하세요. </p><p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ADD_MONTHS(hire_date, 3) 더하기_적용결과,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADD_MONTHS(hire_date, -3) 빼기_적용결과<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p><p><strong>4. NEXT_DAY : 돌아오는 요일의 날짜 계산하기</strong></p><ul><li>NEXT_DAY(날짜, ‘요일’ or 숫자)</li></ul><p>(1) employees 테이블에서 employee_id가 100과 106 사이인 직원의 hire_date에서 가장 가까운 금요일의 날짜가 언제인지 문자로 지정해서 출력하고, 숫자로도 지정해서 출력하세요.</p><p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT_DAY(hire_date, ‘금요일’) 적용결과_문자지정,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT_DYA(hire_date, 6) 적용결과_숫자지정<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p><p><strong>5. LAST_DAY : 돌아오는 월의 마지막 날짜 계산하기</strong></p><ul><li>LAST_DAY(날짜)</li></ul><p>(1) employees 테이블에서 employee_id가 100과 106 사이인 직원의 hire_date를 기준으로 해당 월의 마지막 날짜를 출력해 보세요. </p><p>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LAST_DAY(hire_day)<br>FROM employees<br>WHERE employee_id BETWEEN 100 AND 106;</p><p><strong>6. ROUND, TRUNC : 날짜를 반올림하거나 절삭하기</strong></p><ul><li>ROUND or TRUNC(날짜, 지정 값)</li></ul><p>(1) employees 테이블에서<br>SELECT hire_date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROUND(hire_date, ‘MONTH’) 적용결과_ROUND_M, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROUND(hire_date, ‘YEAR) 적용결과_ROUND_Y,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC(hire_date, ‘MONTH’) 적용결과_TRUNC_M,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRUNC(hire_date, ‘YEAR’) 적용결과_TRUNC_Y<br>FROM employees<br>WHERE employee_id BTWEEN 100 AND 106;</p><blockquote><p><a href="https://thebook.io/006977/ch04/02/03/">자료출처: 모두의 SQL</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;1. 날짜 타입 함수&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Date + Number : 날짜에 일수를 더함, Date 값을 반환&lt;/li&gt;
+&lt;li&gt;Date - Number : 날짜에 일수를 뺌, Date 값을 반환&lt;/li&gt;
+&lt;li&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="sql" scheme="https://cds0804.github/categories/sql/"/>
+    
+      <category term="function" scheme="https://cds0804.github/categories/sql/function/"/>
+    
+    
+      <category term="sql" scheme="https://cds0804.github/tags/sql/"/>
+    
+      <category term="function" scheme="https://cds0804.github/tags/function/"/>
+    
+  </entry>
   
   <entry>
     <title>sql number type function</title>
@@ -43,9 +77,9 @@
       <category term="function" scheme="https://cds0804.github/categories/sql/function/"/>
     
     
-      <category term="function" scheme="https://cds0804.github/tags/function/"/>
-    
       <category term="sql" scheme="https://cds0804.github/tags/sql/"/>
+    
+      <category term="function" scheme="https://cds0804.github/tags/function/"/>
     
   </entry>
   
@@ -77,9 +111,9 @@
       <category term="function" scheme="https://cds0804.github/categories/sql/function/"/>
     
     
-      <category term="function" scheme="https://cds0804.github/tags/function/"/>
-    
       <category term="sql" scheme="https://cds0804.github/tags/sql/"/>
+    
+      <category term="function" scheme="https://cds0804.github/tags/function/"/>
     
   </entry>
   
@@ -678,40 +712,6 @@
       <category term="terminal" scheme="https://cds0804.github/tags/terminal/"/>
     
       <category term="tmux" scheme="https://cds0804.github/tags/tmux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git branch, git checkout, git merge</title>
-    <link href="https://cds0804.github/2020/05/05/git-branch/"/>
-    <id>https://cds0804.github/2020/05/05/git-branch/</id>
-    <published>2020-05-05T07:32:38.000Z</published>
-    <updated>2020-05-05T11:49:06.366Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>git 3번째 내용 git branch</strong></p><blockquote><p><a href="https://www.inflearn.com/course/git-and-github/lecture/14171">인프런 무료강좌 git과 github</a></p></blockquote><p><strong>병합하기 1</strong></p><ul><li>헤드 브랜치에 변경사항이 없고</li><li>병합 대상 브랜치가 헤드로부터 시작된 경우</li><li>아주 쉽게 병합 가능 = Fast-forward</li></ul><p><strong>병합하기 2</strong></p><ul><li>헤드 브랜치에 추가적인 커밋이 생기는 경우</li><li>진짜 변합이 필요합니다. </li><li>충돌이 나면 충돌난 부분을 확인한 후 해결하면 됩니다. </li></ul><p><strong>soucetree에서 git branch</strong></p><ul><li>branch : 기존 내용을 유지한 체 새로운 내용을 추가하고 싶을 때 사용합니다. </li><li>checkout : 특정 브랜치(혹은 커밋)으로 돌아가고 싶을 때 사용합니다. </li><li>sourcetree의 checkout : 브랜치 이름을 더블 클릭하여 체크아웃합니다. </li><li>master : 고객에게 전달해야 하는 내용이 들어있습니다. </li><li>branch : 개발을 진행하는 내용이 들어있습니다. </li><li>merge : 하나의 브랜치를 현재 브랜치와 합치는 거을 병합(merge)라고 합니다. </li><li>head branch : 현재 작업중인 브랜치</li></ul><p><a href="https://learngitbranching.js.org/?locale=ko">learn_git_branch</a></p><p><strong>git에서 bugFix라는 branch 만들기</strong></p><ol><li><p>터미널 명령어 : git branch 새로만들 브랜치 이름 </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch bugFix</span><br></pre></td></tr></table></figure></li><li><p>git checkout bugFix 라는 명령어로 bugFix branch로 이동할 수 있습니다. </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout bugFix</span><br></pre></td></tr></table></figure></li></ol><p>2-1. git checkout master 를 입력하면 master로 돌아갑니다. </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout master</span><br></pre></td></tr></table></figure><ol start="3"><li>Merge : 브랜치와 병합하기</li></ol><ul><li>각 브랜치에서 독립된 커밋이 하나씩 있을 경우, 이 경우는 지금까지 작업한 내용이 나뉘어 담겨있다는 뜻입니다. 이럴 때 두 브랜치를 합칠(merge) 수 있습니다. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge bugFix</span><br></pre></td></tr></table></figure></li></ul><ol><li><p>git branch bugFix </p></li><li><p>git commit</p></li><li><p>git checkout master</p></li><li><p>git commit 을 하면 아래와 같은 그림이 나옵니다.<br><img src="/img/git_merge_bugFix_1.png" alt="git_merge_bugFix_1"></p></li><li><p>git merge bugFix<br><img src="/img/git_merge_bugFix_2.png" alt="git_merge_bugFix_2"></p></li><li><p>git checkout bugFix</p></li><li><p>git merge master<br><img src="/img/git_merge_bugFix_3.png" alt="git_merge_bugFix_3"></p></li></ol><p><strong>틀리거나 이상한 내용이 있으면 알려주세요, 확인 후 수정하겠습니다!</strong></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;git 3번째 내용 git branch&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.inflearn.com/course/git-and-github/lecture/14171&quot;&gt;인프런 무료강
-      
-    
-    </summary>
-    
-    
-      <category term="git" scheme="https://cds0804.github/categories/git/"/>
-    
-      <category term="branch" scheme="https://cds0804.github/categories/git/branch/"/>
-    
-    
-      <category term="github" scheme="https://cds0804.github/tags/github/"/>
-    
-      <category term="git" scheme="https://cds0804.github/tags/git/"/>
-    
-      <category term="branch" scheme="https://cds0804.github/tags/branch/"/>
     
   </entry>
   
