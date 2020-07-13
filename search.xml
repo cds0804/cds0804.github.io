@@ -1,6 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Conversion function</title>
+    <url>/2020/07/12/sql08_conversion_function/</url>
+    <content><![CDATA[<p><strong>1. 변환 함수</strong></p>
+<ul>
+<li>데이터 값의 데이터 타입을 변환할 때 사용</li>
+<li>암시적 변환 : 오라클 데이터베이스 시스템에 의해 자동으로 변환</li>
+<li>명시적 변환 : 사용자에 의해 수동으로 변환</li>
+</ul>
+<p><strong>2. 자동 데이터 타입 변환</strong></p>
+<ul>
+<li>자동 데이터 타입 변환 유형</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>FROM</th>
+<th>TO</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>VARCHAR2 혹은 CHAR</td>
+<td>NUMBER(숫자)</td>
+</tr>
+<tr>
+<td>VARCHAR2 혹은 CHAR</td>
+<td>DATE(날짜)</td>
+</tr>
+<tr>
+<td>NUMBER</td>
+<td>VARCHAR2(문자)</td>
+</tr>
+<tr>
+<td>DATE</td>
+<td>VARCHAR2(문자)</td>
+</tr>
+</tbody></table>
+<p>(1) 자동 베이터 타입 변환 사례</p>
+<p>SELECT 1 + ‘2’<br>FROM DUAL;</p>
+<p><strong>3. 수동 데이터 타입 변환</strong></p>
+<ul>
+<li>수동 데이터 타입 변환 함수</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>함수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TO_CHAR</td>
+<td>숫자, 문자, 날짜 값을 지정 형식의 VARCHAR2 타입으로 변환</td>
+</tr>
+<tr>
+<td>TO_NUMBER</td>
+<td>문자를 숫자 타입으로 변환</td>
+</tr>
+<tr>
+<td>TO_DATE</td>
+<td>날짜를 나타내는 문자열을 지정 형식의 날짜 타입으로 변환</td>
+</tr>
+</tbody></table>
+<p><strong>4. 날짜 및 시간 형식 변환하기</strong></p>
+<ul>
+<li>TO_CHAR</li>
+<li>TO_CHAR(날짜 데이터 타입, ‘지정 형식’)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>지정 형식</th>
+<th>설명</th>
+<th>예</th>
+<th>결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CC</td>
+<td>세기</td>
+<td>TO_CHAR(SYSDATE, ‘CC’)</td>
+<td>21</td>
+</tr>
+<tr>
+<td>YYYY or YYY or YY or Y</td>
+<td>연도</td>
+<td>TO_CHAR(SYSDATE, ‘YYYY’)</td>
+<td>2017, 017, 17, 7</td>
+</tr>
+<tr>
+<td>Y, YYY</td>
+<td>콤마가 있는 연도</td>
+<td>TO_CHAR(SYSDATE, ‘Y, YYY’)</td>
+<td>2,017</td>
+</tr>
+<tr>
+<td>YEAR</td>
+<td>문자로 표현된 연도</td>
+<td>TO_CHAR(SYSDATE, ‘YEAR’)</td>
+<td>TWENTY SEVENTEEN</td>
+</tr>
+<tr>
+<td>BC or AD</td>
+<td>BC/AD 지시자</td>
+<td>TO_CHAR(SYSDATE, ‘AD’</td>
+<td>서기</td>
+</tr>
+<tr>
+<td>Q</td>
+<td>분기</td>
+<td>TO_CHAR(SYSDATE, ‘Q’)</td>
+<td>4</td>
+</tr>
+<tr>
+<td>MM</td>
+<td>두 자리 값의 월</td>
+<td>TO_CHAR(SYSDATE, ‘MM’)</td>
+<td>10월</td>
+</tr>
+<tr>
+<td>MONTH</td>
+<td>아홉 자리를 위해 공백을 추가한 월 이름</td>
+<td>TO_CHAR(SYSDATE, ‘MONTH’)</td>
+<td>10월</td>
+</tr>
+<tr>
+<td>MON</td>
+<td>세 자리의 약어로 된 월 이름(영문 설정일 경우)</td>
+<td>TO_CHAR(SYSDATE, ‘MONTH’)</td>
+<td>10월</td>
+</tr>
+<tr>
+<td>RM</td>
+<td>로마 숫자 월</td>
+<td>TO_CHAR(SYSDATE, ‘RM’)</td>
+<td>X</td>
+</tr>
+<tr>
+<td>WW or W</td>
+<td>연, 월의 주</td>
+<td>TO_CHAR(SYSDATE, ‘WW’)</td>
+<td>40, 1</td>
+</tr>
+<tr>
+<td>DDD or DD or D</td>
+<td>연, 월, 주의 일</td>
+<td>TO_CHAR(SYSDATE, ‘DD’)</td>
+<td>280, 07, 7</td>
+</tr>
+<tr>
+<td>DAY</td>
+<td>아홉 자리를 위해 공백을 추가한 요일 이름</td>
+<td>TO_CHAR(SYSDATE, ‘DAY’)</td>
+<td>토요일</td>
+</tr>
+<tr>
+<td>DY</td>
+<td>세 자리 약어로 된 요일 이름(영문 설정일 경우)</td>
+<td>TO_CHAR(SYSDATE, ‘DY’)</td>
+<td>토</td>
+</tr>
+<tr>
+<td>J</td>
+<td>Julian day, BC 4713년 12월 31일 이후의 요일 수</td>
+<td>TO_CHAR(SYSDATE, ‘J’)</td>
+<td>2459044</td>
+</tr>
+</tbody></table>
+<p>SELECT TO_CHAR(SYSDATE, ‘CC’)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_CHAR(SYSDATE, ‘YYYY’)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_CHAR(SYSDATE, ‘MM’)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_CHAR(SYSDATE, ‘MON’)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_CHAR(SYSDATE, ‘YYYYMMDD’) 응용적용1,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_CHAR(TO_DATE(‘20171008’), ‘YYYYMMDD’) 응용적용2<br>FROM dual;</p>
+<table>
+<thead>
+<tr>
+<th>지정 형식</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AM or PM</td>
+<td>오전 또는 오후 표시</td>
+</tr>
+<tr>
+<td>HH / HH12 or HH24</td>
+<td>시간 표현(1<del>12시 똫는 0</del>23시)</td>
+</tr>
+<tr>
+<td>MI</td>
+<td>분(0~59)</td>
+</tr>
+<tr>
+<td>SS</td>
+<td>초(0~59)</td>
+</tr>
+</tbody></table>
+<p>SELECT TO_CHAR(SYSDATE, ‘HH:MI:SS PM’) 시간형식,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_CHAR(SYSDATE, ‘YYYY/MM/DD HH:MI:SS PM’) 날짜와시간조합<br>FROM dual;</p>
+<table>
+<thead>
+<tr>
+<th>요소</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>/, .,-</td>
+<td>사용문자를 출력 결과에 표현</td>
+</tr>
+<tr>
+<td>“문자”</td>
+<td>큰따옴표 안의 문자를 출력 결과에 표현</td>
+</tr>
+</tbody></table>
+<p>SELECT TO_CHAR(SYSDATE, ‘HH-MI-SS PM’) 시간형식,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TO_CHAR(SYSDATE, ‘ “날짜:” YYYY/MM/DD “시각:” HH:MI:SS PM’) 날짜와시각표현<br>FROM dual;</p>
+<p><strong>5. 숫자 형식 변환하기</strong></p>
+<ul>
+<li>TO_CHAR(숫자 데이터 타입, ‘지정 형식’)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>지정 형식</th>
+<th>설명</th>
+<th>예</th>
+<th>결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>9</td>
+<td>9로 출력 자릿수 지정</td>
+<td>TO_CHAR(salary, ‘99999999’)</td>
+<td>24000(앞에 3칸 띄움)</td>
+</tr>
+<tr>
+<td>0</td>
+<td>자릿수만큼 0을 출력</td>
+<td>TO_CHAR(salary, ‘09999999’)</td>
+<td>00024000</td>
+</tr>
+<tr>
+<td>$</td>
+<td>달러 기호</td>
+<td>TO_CHAR(salary, ‘$9999999’)</td>
+<td>$24,000</td>
+</tr>
+<tr>
+<td>L</td>
+<td>지역 화폐 기호(원)</td>
+<td>TO_CHAR(salary, ‘L9999999’)</td>
+<td>₩24,000</td>
+</tr>
+<tr>
+<td>.</td>
+<td>명시한 위치에 소수점</td>
+<td>TO_CHAR(salary, ‘999999.99’)</td>
+<td>24000.00</td>
+</tr>
+<tr>
+<td>,</td>
+<td>명시한 위치에 쉼표</td>
+<td>TO_CHAR(salary, ‘9,999,999’)</td>
+<td>24,000</td>
+</tr>
+</tbody></table>
+<ul>
+<li>TO_NUMBER(number)</li>
+<li>숫자 타입의 문자열을 숫자 데이터 타입으로 변환하는 함수</li>
+<li>출력 결과 변하지 않음, 데이터 타입만 변함</li>
+</ul>
+<p>SELECT TO_NUMBER(‘123’)<br>FROM dual;</p>
+<ul>
+<li>TO_DATE(문자열, ‘지정 형식’)</li>
+<li>날짜 문자열을 명시된 날짜로 변환하는 함수</li>
+</ul>
+<p>SELECT TO_DATE(‘20200713’, ‘YYMMDD’)<br>FROM dual;</p>
+<blockquote>
+<p><a href="https://thebook.io/006977/ch04/02/04/">자료출처: 모두의 SQL</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>function</category>
+      </categories>
+      <tags>
+        <tag>function</tag>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>date type function</title>
     <url>/2020/07/11/sql07_date_type/</url>
     <content><![CDATA[<p><strong>1. 날짜 타입 함수</strong></p>
@@ -100,8 +385,8 @@
         <category>function</category>
       </categories>
       <tags>
-        <tag>sql</tag>
         <tag>function</tag>
+        <tag>sql</tag>
       </tags>
   </entry>
   <entry>
@@ -139,8 +424,8 @@
         <category>function</category>
       </categories>
       <tags>
-        <tag>sql</tag>
         <tag>function</tag>
+        <tag>sql</tag>
       </tags>
   </entry>
   <entry>
@@ -214,8 +499,8 @@
         <category>function</category>
       </categories>
       <tags>
-        <tag>sql</tag>
         <tag>function</tag>
+        <tag>sql</tag>
       </tags>
   </entry>
   <entry>
@@ -2557,11 +2842,11 @@
         <category>post</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>블로그</tag>
         <tag>next</tag>
         <tag>github</tag>
         <tag>github.io</tag>
+        <tag>hexo</tag>
         <tag>theme</tag>
       </tags>
   </entry>

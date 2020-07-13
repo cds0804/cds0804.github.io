@@ -9,7 +9,15 @@
 
     <url>
         <loc>https://cds0804.github/2020/07/11/sql07_date_type/</loc>
-        <lastmod>2020-07-12T01:12:06.715Z</lastmod>
+        <lastmod>2020-07-13T11:27:35.845Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/07/12/sql08_conversion_function/</loc>
+        <lastmod>2020-07-13T11:27:04.725Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
