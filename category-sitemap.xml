@@ -9,35 +9,35 @@
 
     <url>
         <loc>https://cds0804.github/categories/sql/function/</loc>
-        <lastmod>2020-07-13T11:27:35.845Z</lastmod>
+        <lastmod>2020-07-25T14:01:42.817Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/sql/</loc>
-        <lastmod>2020-07-13T11:27:35.845Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/categories/sql/where/</loc>
-        <lastmod>2020-07-11T13:03:15.278Z</lastmod>
+        <lastmod>2020-07-25T14:01:42.817Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/sql/data-shape/</loc>
-        <lastmod>2020-07-11T13:02:48.075Z</lastmod>
+        <lastmod>2020-07-25T14:01:40.402Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/sql/select/</loc>
-        <lastmod>2020-07-11T13:02:38.918Z</lastmod>
+        <lastmod>2020-07-25T14:01:38.134Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/sql/where/</loc>
+        <lastmod>2020-07-25T14:01:36.052Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
