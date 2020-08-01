@@ -8,15 +8,22 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/categories/sql/function/</loc>
-        <lastmod>2020-07-25T14:01:42.817Z</lastmod>
+        <loc>https://cds0804.github/categories/sql/ERD/</loc>
+        <lastmod>2020-08-01T04:06:58.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://cds0804.github/categories/sql/</loc>
-        <lastmod>2020-07-25T14:01:42.817Z</lastmod>
+        <lastmod>2020-08-01T04:06:58.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/categories/sql/function/</loc>
+        <lastmod>2020-07-25T14:05:24.562Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

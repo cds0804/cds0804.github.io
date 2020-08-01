@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ERD</title>
+    <url>/2020/08/01/sql11_ERD/</url>
+    <content><![CDATA[<p><strong>ERD : 데이터베이스 개체 설계도</strong></p>
+<ul>
+<li>ERD(Entity Relationship Diagram) : 개체(테이블) 간의 관계를 이해하기 쉽게 그림으로 표현한 것으로 데이터를 조작하고 분석하는 기초 자료로 활용됨. 데이터베이스의 설계 도면.</li>
+<li>개체(entity) : 정보를 저장하고 관리하기 위한 집합이자 식별 가능한 것</li>
+</ul>
+<p><strong>기본 키(primary key) : 주민등록번호와 같은 개념</strong></p>
+<ul>
+<li>유일하게 데이터를 구분,</li>
+<li>데이터를 식별하는 ‘식별자’ 역할,</li>
+<li>중복 값을 가질 수 없음(unique),</li>
+<li>null 값을 가질 수 없고,</li>
+<li>변경될 수도 없음</li>
+</ul>
+<p><strong>고유 키(unique key) : email 등</strong></p>
+<ul>
+<li>행에서 유일한 값을 갖는 데이터 값으로 구성된 열,</li>
+<li>중복 값이 없는 유일한 값을 갖음,</li>
+<li>기본 키가 아닌 데이터 값이 존재,</li>
+<li>유니크 값 또는 유니크 키라 부름</li>
+</ul>
+<p><strong>외래 키(foreign key)</strong></p>
+<ul>
+<li>테이블 간에 서로 연결 관계를 정의,</li>
+<li>테이블의 구성 열,</li>
+<li>다른 테이블과 연결을 위한 열</li>
+</ul>
+<p><strong>오라클 데이터베이스의 대표적인 제약조건</strong></p>
+<table>
+<thead>
+<tr>
+<th>제약조건</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>기본 키(primary key)</td>
+<td>UNIQUE + NOT NULL을 만족하며 테이블을 대표하며 각 행을 유일하게 식별하는 값</td>
+</tr>
+<tr>
+<td>외래 키(foreign key)</td>
+<td>열 값이 부모 테이블의 참조 열 값을 반드시 참조, 참조되는 열은 유니크(unique)하거나 기본 키(primary key)임(null 허용 가능)</td>
+</tr>
+<tr>
+<td>고유 키(unique key)</td>
+<td>중복된 값을 허용하지 않음, 유일한 값으로 존재(null 허용 가능)</td>
+</tr>
+<tr>
+<td>NOT NULL</td>
+<td>null 값을 허용하지 않음, 값 입력 필수</td>
+</tr>
+<tr>
+<td>CHECK</td>
+<td>범위나 조건을 설정하여 지정된 값만 허용</td>
+</tr>
+</tbody></table>
+<p><strong>Oracle SQL Daveloper에서 ERD를 확인하는 방법</strong></p>
+<ol>
+<li>메뉴 &gt; Data Modeler &gt; 임포트 &gt; 데이터 딕셔너리 클릭</li>
+<li>접속할 계정 선택 &gt; 다음 클릭</li>
+<li>데이터베이스 선택 &gt; 다음 클릭</li>
+<li>임포트할 객체 선택 &gt; 다음 클릭</li>
+<li>완료 클릭</li>
+</ol>
+<blockquote>
+<p>사각형 : 개체(테이블), 테이블의 이름과 어떤 속성(열)을 가지고 있는지 표현<br>개체간의 관계 : 점선, 실선으로 표현된 화살표 모양의 선<br>관계 차수 : 1:1, 1:N, M:N 등<br>화살표 방향 : 어느 쪽에 속하는지를 나타냄<br>1 : 관계를 맺는 개체와 하나의 관계를 갖음<br>0 또는 1 : 관계를 맺는 개체와 0이거나 1의 관계를 갖음<br>1 이상 : 관계를 맺는 개체와 1이거나 여러 개의 관계를 갖음<br>0 이상 : 관계를 맺는 개체와 0이거나 여러 개의 관계를 갖음<br>실선 : 필수 관계, 예) A(실선)B, B가 존재하려면 A가 반드시 존재해야 함<br>점선 : 선택적 관계, 예) A(점선)B, B는 A가 없어도 존재</p>
+</blockquote>
+<p><a href="https://thebook.io/006977/ch05/">자료출처: 모두의 SQL</a></p>
+]]></content>
+      <categories>
+        <category>sql</category>
+        <category>ERD</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+        <tag>ERD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>group function</title>
     <url>/2020/07/18/sql10_group_function/</url>
     <content><![CDATA[<p><strong>그룹 함수 : 그룹으로 요약하기</strong></p>
@@ -129,7 +209,7 @@
 </blockquote>
 <p>(1) employees 테이블에서 employees_id가 10 이상인 직원에 대해 job_id별로 그룹화하여 job_id별 총 급여와 job_id별 평균 급여를 구하되, job_id별 총 급여가 30000보다 큰 값만 출력하세요. 출력 결과는 job_id별 총 급여를 기준으로 내림차순 정렬하세요.</p>
 <p>SELECT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; job<em>id 직무, SUM(salary) 직무별</em>총급여, AVG(salary) 직무별<em>평균급여<br>FROM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; employees<br>WHERE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; employee_id &gt;= 10<br>GROUP BY &nbsp;&nbsp;&nbsp;&nbsp; job_id<br>HAVING &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SUM(salary) &gt; 30000<br>ORDER BY &nbsp;&nbsp;&nbsp;&nbsp; 직무별</em>총급여 DESC, 직무별_평균급여;</p>
-<p><a href="https://thebook.io/006977/ch04/02/06/">자료출처: 모두의 SQL</a></p>
+<p><a href="https://thebook.io/006977/ch04/03/">자료출처: 모두의 SQL</a></p>
 ]]></content>
       <categories>
         <category>sql</category>
@@ -656,7 +736,7 @@
 <p><strong>1. 문자 타입 함수</strong></p>
 <p>(1) 문자 함수의 종류</p>
 <blockquote>
-<p>LOWER : 값을 소문자로 변환한다.<br>UPPER : 값을 대문자로 변환한다.<br>INITCAP : 첫 번째 글자만 대문자로 변환한다.<br>SUBSTR : 문자열 중 일부분을 선택한다.<br>REPLACE : 특정 문자열을 찾아 바꾼다.<br>CONCAT : 두 문자여릉ㄹ 연결한다(|| 연산자와 같다).<br>LENGTH : 문자열의 길이를 구한다.<br>INSTR : 명명된 문자의 위치를 구한다.<br>LPAD : 왼쪽부터 특정 문자로 자리를 채운다.<br>RPAD : 오른쪽부터 특정 문자로 자리를 채운다.<br>LTRIM : 주어진 문자열의 왼쪽 문자를 지운다.<br>RTRIM : 주어진 문자열의 오른쪽 문자를 지운다.\</p>
+<p>LOWER : 값을 소문자로 변환한다.<br>UPPER : 값을 대문자로 변환한다.<br>INITCAP : 첫 번째 글자만 대문자로 변환한다.<br>SUBSTR : 문자열 중 일부분을 선택한다.<br>REPLACE : 특정 문자열을 찾아 바꾼다.<br>CONCAT : 두 문자여릉ㄹ 연결한다(|| 연산자와 같다).<br>LENGTH : 문자열의 길이를 구한다.<br>INSTR : 명명된 문자의 위치를 구한다.<br>LPAD : 왼쪽부터 특정 문자로 자리를 채운다.<br>RPAD : 오른쪽부터 특정 문자로 자리를 채운다.<br>LTRIM : 주어진 문자열의 왼쪽 문자를 지운다.<br>RTRIM : 주어진 문자열의 오른쪽 문자를 지운다.</p>
 </blockquote>
 <p><strong>2. LOWER, UPPER, INITCAP : 데이터 값을 대소문자로 변환하기</strong></p>
 <p>(1) employees 테이블에서 last_name을 소문자와 대문자로 각각 출력하고, email의 첫 번째 문자는 대문자로 출력하세요.</p>

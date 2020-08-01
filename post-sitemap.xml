@@ -8,6 +8,30 @@
     </url>
 
     <url>
+        <loc>https://cds0804.github/2020/08/01/sql11_ERD/</loc>
+        <lastmod>2020-08-01T04:06:58.240Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/07/03/sql05_str_type_function/</loc>
+        <lastmod>2020-07-25T14:05:24.562Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://cds0804.github/2020/07/18/sql10_group_function/</loc>
+        <lastmod>2020-07-25T14:04:21.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://cds0804.github/2020/07/13/sql09_general_function/</loc>
         <lastmod>2020-07-25T14:01:42.817Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -48,14 +72,6 @@
     </url>
 
     <url>
-        <loc>https://cds0804.github/2020/07/03/sql05_str_type_function/</loc>
-        <lastmod>2020-07-25T14:01:31.456Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://cds0804.github/2020/07/04/sql06_number_type_function/</loc>
         <lastmod>2020-07-25T14:01:29.146Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -74,14 +90,6 @@
     <url>
         <loc>https://cds0804.github/2020/07/11/sql07_date_type/</loc>
         <lastmod>2020-07-25T14:01:22.783Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://cds0804.github/2020/07/18/sql10_group_function/</loc>
-        <lastmod>2020-07-25T13:57:52.376Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
