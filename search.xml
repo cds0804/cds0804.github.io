@@ -3577,7 +3577,7 @@
 <html>
     <head>
         <title>BeautifulSoup test</title>
-    <link rel="alternate" href="/atom.xml" title="안녕하세요~! 인공지능 공부중입니다~!" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="인공지능 공부중입니다~!" type="application/atom+xml">
 </head>
     <bocy>
         <div id='upper' class='test'>
